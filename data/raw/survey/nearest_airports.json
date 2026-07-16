@@ -1,0 +1,2434 @@
+{
+ "einsiedeln": {
+  "name_ja": "アインジーデルン",
+  "nearest": {
+   "iata": "ZRH",
+   "name": "Zürich Airport",
+   "type": "large_airport",
+   "country": "CH",
+   "distance_km": 39.6
+  },
+  "nearest_large": {
+   "iata": "ZRH",
+   "name": "Zürich Airport",
+   "country": "CH",
+   "distance_km": 39.6
+  }
+ },
+ "assisi": {
+  "name_ja": "アッシジ",
+  "nearest": {
+   "iata": "PEG",
+   "name": "Perugia San Francesco d'Assisi – Umbria International Airport",
+   "type": "large_airport",
+   "country": "IT",
+   "distance_km": 8.7
+  },
+  "nearest_large": {
+   "iata": "PEG",
+   "name": "Perugia San Francesco d'Assisi – Umbria International Airport",
+   "country": "IT",
+   "distance_km": 8.7
+  }
+ },
+ "alnwick": {
+  "name_ja": "アニック",
+  "nearest": {
+   "iata": "NCL",
+   "name": "Newcastle International Airport",
+   "type": "large_airport",
+   "country": "GB",
+   "distance_km": 41.8
+  },
+  "nearest_large": {
+   "iata": "NCL",
+   "name": "Newcastle International Airport",
+   "country": "GB",
+   "distance_km": 41.8
+  }
+ },
+ "aveiro": {
+  "name_ja": "アベイロ",
+  "nearest": {
+   "iata": "VSE",
+   "name": "Aerodromo Goncalves Lobato (Viseu Airport)",
+   "type": "medium_airport",
+   "country": "PT",
+   "distance_km": 65.3
+  },
+  "nearest_large": {
+   "iata": "OPO",
+   "name": "Francisco de Sá Carneiro Airport",
+   "country": "PT",
+   "distance_km": 67.8
+  }
+ },
+ "amsterdam": {
+  "name_ja": "アムステルダム",
+  "nearest": {
+   "iata": "AMS",
+   "name": "Amsterdam Airport Schiphol",
+   "type": "large_airport",
+   "country": "NL",
+   "distance_km": 10.4
+  },
+  "nearest_large": {
+   "iata": "AMS",
+   "name": "Amsterdam Airport Schiphol",
+   "country": "NL",
+   "distance_km": 10.4
+  }
+ },
+ "alberobello": {
+  "name_ja": "アルベロベッロ",
+  "nearest": {
+   "iata": "BRI",
+   "name": "Bari Karol Wojtyła International Airport",
+   "type": "large_airport",
+   "country": "IT",
+   "distance_km": 56.2
+  },
+  "nearest_large": {
+   "iata": "BRI",
+   "name": "Bari Karol Wojtyła International Airport",
+   "country": "IT",
+   "distance_km": 56.2
+  }
+ },
+ "arromanches-les-bains": {
+  "name_ja": "アロマンシュ",
+  "nearest": {
+   "iata": "CFR",
+   "name": "Caen Carpiquet airport",
+   "type": "medium_airport",
+   "country": "FR",
+   "distance_km": 21.8
+  },
+  "nearest_large": {
+   "iata": "BVA",
+   "name": "Beauvais-Tillé airport",
+   "country": "FR",
+   "distance_km": 198.3
+  }
+ },
+ "angers": {
+  "name_ja": "アンジェ",
+  "nearest": {
+   "iata": "LME",
+   "name": "Le Mans-Arnage Airport",
+   "type": "medium_airport",
+   "country": "FR",
+   "distance_km": 77.5
+  },
+  "nearest_large": {
+   "iata": "ORY",
+   "name": "Paris-Orly Airport",
+   "country": "FR",
+   "distance_km": 257.6
+  }
+ },
+ "amboise": {
+  "name_ja": "アンボワーズ",
+  "nearest": {
+   "iata": "TUF",
+   "name": "Tours Val de Loire Airport",
+   "type": "medium_airport",
+   "country": "FR",
+   "distance_km": 19.3
+  },
+  "nearest_large": {
+   "iata": "ORY",
+   "name": "Paris-Orly Airport",
+   "country": "FR",
+   "distance_km": 178.7
+  }
+ },
+ "inverness": {
+  "name_ja": "インバネス",
+  "nearest": {
+   "iata": "INV",
+   "name": "Inverness Airport",
+   "type": "medium_airport",
+   "country": "GB",
+   "distance_km": 12.5
+  },
+  "nearest_large": {
+   "iata": "ABZ",
+   "name": "Aberdeen International Airport",
+   "country": "GB",
+   "distance_km": 125.7
+  }
+ },
+ "windsor": {
+  "name_ja": "ウィンザー",
+  "nearest": {
+   "iata": "LHR",
+   "name": "London Heathrow Airport",
+   "type": "large_airport",
+   "country": "GB",
+   "distance_km": 9.8
+  },
+  "nearest_large": {
+   "iata": "LHR",
+   "name": "London Heathrow Airport",
+   "country": "GB",
+   "distance_km": 9.8
+  }
+ },
+ "vienna": {
+  "name_ja": "ウィーン",
+  "nearest": {
+   "iata": "VIE",
+   "name": "Vienna International Airport",
+   "type": "large_airport",
+   "country": "AT",
+   "distance_km": 18.2
+  },
+  "nearest_large": {
+   "iata": "VIE",
+   "name": "Vienna International Airport",
+   "country": "AT",
+   "distance_km": 18.2
+  }
+ },
+ "edinburgh": {
+  "name_ja": "エディンバラ",
+  "nearest": {
+   "iata": "EDI",
+   "name": "Edinburgh Airport",
+   "type": "large_airport",
+   "country": "GB",
+   "distance_km": 11.4
+  },
+  "nearest_large": {
+   "iata": "EDI",
+   "name": "Edinburgh Airport",
+   "country": "GB",
+   "distance_km": 11.4
+  }
+ },
+ "evora": {
+  "name_ja": "エボラ",
+  "nearest": {
+   "iata": "BJZ",
+   "name": "Badajoz Airport",
+   "type": "medium_airport",
+   "country": "ES",
+   "distance_km": 100.6
+  },
+  "nearest_large": {
+   "iata": "LIS",
+   "name": "Lisbon Humberto Delgado Airport",
+   "country": "PT",
+   "distance_km": 109.2
+  }
+ },
+ "oslo": {
+  "name_ja": "オスロ",
+  "nearest": {
+   "iata": "OSL",
+   "name": "Oslo-Gardermoen International Airport",
+   "type": "large_airport",
+   "country": "NO",
+   "distance_km": 37.1
+  },
+  "nearest_large": {
+   "iata": "OSL",
+   "name": "Oslo-Gardermoen International Airport",
+   "country": "NO",
+   "distance_km": 37.1
+  }
+ },
+ "oxford": {
+  "name_ja": "オックスフォード",
+  "nearest": {
+   "iata": "LTN",
+   "name": "London Luton Airport",
+   "type": "large_airport",
+   "country": "GB",
+   "distance_km": 62.6
+  },
+  "nearest_large": {
+   "iata": "LTN",
+   "name": "London Luton Airport",
+   "country": "GB",
+   "distance_km": 62.6
+  }
+ },
+ "opatija": {
+  "name_ja": "オパティア",
+  "nearest": {
+   "iata": "RJK",
+   "name": "Rijeka Airport",
+   "type": "large_airport",
+   "country": "HR",
+   "distance_km": 24.5
+  },
+  "nearest_large": {
+   "iata": "RJK",
+   "name": "Rijeka Airport",
+   "country": "HR",
+   "distance_km": 24.5
+  }
+ },
+ "obidos": {
+  "name_ja": "オビドス",
+  "nearest": {
+   "iata": "LIS",
+   "name": "Lisbon Humberto Delgado Airport",
+   "type": "large_airport",
+   "country": "PT",
+   "distance_km": 64.6
+  },
+  "nearest_large": {
+   "iata": "LIS",
+   "name": "Lisbon Humberto Delgado Airport",
+   "country": "PT",
+   "distance_km": 64.6
+  }
+ },
+ "orta-san-giulio": {
+  "name_ja": "オルタ・サン・ジュリオ",
+  "nearest": {
+   "iata": "MXP",
+   "name": "Milan Malpensa International Airport",
+   "type": "large_airport",
+   "country": "IT",
+   "distance_km": 31.7
+  },
+  "nearest_large": {
+   "iata": "MXP",
+   "name": "Milan Malpensa International Airport",
+   "country": "IT",
+   "distance_km": 31.7
+  }
+ },
+ "orebro": {
+  "name_ja": "オレブロ",
+  "nearest": {
+   "iata": "ORB",
+   "name": "Örebro Airport",
+   "type": "medium_airport",
+   "country": "SE",
+   "distance_km": 10.2
+  },
+  "nearest_large": {
+   "iata": "VST",
+   "name": "Stockholm Västerås Airport",
+   "country": "SE",
+   "distance_km": 88.8
+  }
+ },
+ "odense": {
+  "name_ja": "オーデンセ",
+  "nearest": {
+   "iata": "ODE",
+   "name": "Odense Hans Christian Andersen Airport",
+   "type": "large_airport",
+   "country": "DK",
+   "distance_km": 9.1
+  },
+  "nearest_large": {
+   "iata": "ODE",
+   "name": "Odense Hans Christian Andersen Airport",
+   "country": "DK",
+   "distance_km": 9.1
+  }
+ },
+ "aarhus": {
+  "name_ja": "オーフス",
+  "nearest": {
+   "iata": "AAR",
+   "name": "Aarhus Airport",
+   "type": "large_airport",
+   "country": "DK",
+   "distance_km": 30.1
+  },
+  "nearest_large": {
+   "iata": "AAR",
+   "name": "Aarhus Airport",
+   "country": "DK",
+   "distance_km": 30.1
+  }
+ },
+ "calais": {
+  "name_ja": "カレー",
+  "nearest": {
+   "iata": "OST",
+   "name": "Ostend-Bruges International Airport",
+   "type": "large_airport",
+   "country": "BE",
+   "distance_km": 76.5
+  },
+  "nearest_large": {
+   "iata": "OST",
+   "name": "Ostend-Bruges International Airport",
+   "country": "BE",
+   "distance_km": 76.5
+  }
+ },
+ "cambados": {
+  "name_ja": "カンバードス",
+  "nearest": {
+   "iata": "VGO",
+   "name": "Vigo Airport",
+   "type": "medium_airport",
+   "country": "ES",
+   "distance_km": 35.2
+  },
+  "nearest_large": {
+   "iata": "SCQ",
+   "name": "Santiago-Rosalía de Castro Airport",
+   "country": "ES",
+   "distance_km": 53.4
+  }
+ },
+ "caen": {
+  "name_ja": "カーン",
+  "nearest": {
+   "iata": "CFR",
+   "name": "Caen Carpiquet airport",
+   "type": "medium_airport",
+   "country": "FR",
+   "distance_km": 6.7
+  },
+  "nearest_large": {
+   "iata": "BVA",
+   "name": "Beauvais-Tillé airport",
+   "country": "FR",
+   "distance_km": 182.0
+  }
+ },
+ "kristiansand": {
+  "name_ja": "クリスチャンサン",
+  "nearest": {
+   "iata": "KRS",
+   "name": "Kristiansand Airport",
+   "type": "large_airport",
+   "country": "NO",
+   "distance_km": 8.3
+  },
+  "nearest_large": {
+   "iata": "KRS",
+   "name": "Kristiansand Airport",
+   "country": "NO",
+   "distance_km": 8.3
+  }
+ },
+ "glasgow": {
+  "name_ja": "グラスゴー",
+  "nearest": {
+   "iata": "GLA",
+   "name": "Glasgow Airport",
+   "type": "large_airport",
+   "country": "GB",
+   "distance_km": 11.5
+  },
+  "nearest_large": {
+   "iata": "GLA",
+   "name": "Glasgow Airport",
+   "country": "GB",
+   "distance_km": 11.5
+  }
+ },
+ "granada": {
+  "name_ja": "グラナダ",
+  "nearest": {
+   "iata": "GRX",
+   "name": "F.G.L. Airport Granada-Jaén Airport",
+   "type": "medium_airport",
+   "country": "ES",
+   "distance_km": 15.8
+  },
+  "nearest_large": {
+   "iata": "AGP",
+   "name": "Málaga-Costa del Sol Airport",
+   "country": "ES",
+   "distance_km": 97.4
+  }
+ },
+ "gruyeres": {
+  "name_ja": "グリュイエール",
+  "nearest": {
+   "iata": "BRN",
+   "name": "Bern Airport",
+   "type": "medium_airport",
+   "country": "CH",
+   "distance_km": 48.5
+  },
+  "nearest_large": {
+   "iata": "GVA",
+   "name": "Geneva International Airport",
+   "country": "CH",
+   "distance_km": 83.9
+  }
+ },
+ "cologne": {
+  "name_ja": "ケルン",
+  "nearest": {
+   "iata": "CGN",
+   "name": "Cologne Bonn Airport",
+   "type": "large_airport",
+   "country": "DE",
+   "distance_km": 15.5
+  },
+  "nearest_large": {
+   "iata": "CGN",
+   "name": "Cologne Bonn Airport",
+   "country": "DE",
+   "distance_km": 15.5
+  }
+ },
+ "coimbra": {
+  "name_ja": "コインブラ",
+  "nearest": {
+   "iata": "VSE",
+   "name": "Aerodromo Goncalves Lobato (Viseu Airport)",
+   "type": "medium_airport",
+   "country": "PT",
+   "distance_km": 73.2
+  },
+  "nearest_large": {
+   "iata": "OPO",
+   "name": "Francisco de Sá Carneiro Airport",
+   "country": "PT",
+   "distance_km": 117.3
+  }
+ },
+ "copenhagen": {
+  "name_ja": "コペンハーゲン",
+  "nearest": {
+   "iata": "CPH",
+   "name": "Copenhagen Kastrup Airport",
+   "type": "large_airport",
+   "country": "DK",
+   "distance_km": 8.5
+  },
+  "nearest_large": {
+   "iata": "CPH",
+   "name": "Copenhagen Kastrup Airport",
+   "country": "DK",
+   "distance_km": 8.5
+  }
+ },
+ "cordoba": {
+  "name_ja": "コルドバ",
+  "nearest": {
+   "iata": "ODB",
+   "name": "Córdoba Airport",
+   "type": "medium_airport",
+   "country": "ES",
+   "distance_km": 8.1
+  },
+  "nearest_large": {
+   "iata": "SVQ",
+   "name": "Seville Airport",
+   "country": "ES",
+   "distance_km": 111.2
+  }
+ },
+ "consuegra": {
+  "name_ja": "コンスエグラ",
+  "nearest": {
+   "iata": "MAD",
+   "name": "Adolfo Suárez Madrid–Barajas Airport",
+   "type": "large_airport",
+   "country": "ES",
+   "distance_km": 114.7
+  },
+  "nearest_large": {
+   "iata": "MAD",
+   "name": "Adolfo Suárez Madrid–Barajas Airport",
+   "country": "ES",
+   "distance_km": 114.7
+  }
+ },
+ "sarajevo": {
+  "name_ja": "サラエボ",
+  "nearest": {
+   "iata": "SJJ",
+   "name": "Sarajevo International Airport",
+   "type": "large_airport",
+   "country": "BA",
+   "distance_km": 7.4
+  },
+  "nearest_large": {
+   "iata": "SJJ",
+   "name": "Sarajevo International Airport",
+   "country": "BA",
+   "distance_km": 7.4
+  }
+ },
+ "zaragoza": {
+  "name_ja": "サラゴサ",
+  "nearest": {
+   "iata": "ZAZ",
+   "name": "Zaragoza Airport",
+   "type": "large_airport",
+   "country": "ES",
+   "distance_km": 13.3
+  },
+  "nearest_large": {
+   "iata": "ZAZ",
+   "name": "Zaragoza Airport",
+   "country": "ES",
+   "distance_km": 13.3
+  }
+ },
+ "san-gimignano": {
+  "name_ja": "サンジミニャーノ",
+  "nearest": {
+   "iata": "FLR",
+   "name": "Florence Airport, Peretola",
+   "type": "large_airport",
+   "country": "IT",
+   "distance_km": 40.0
+  },
+  "nearest_large": {
+   "iata": "FLR",
+   "name": "Florence Airport, Peretola",
+   "country": "IT",
+   "distance_km": 40.0
+  }
+ },
+ "san-sebastian": {
+  "name_ja": "サンセバスチャン",
+  "nearest": {
+   "iata": "EAS",
+   "name": "San Sebastián Airport",
+   "type": "medium_airport",
+   "country": "ES",
+   "distance_km": 15.8
+  },
+  "nearest_large": {
+   "iata": "BIO",
+   "name": "Bilbao Airport",
+   "country": "ES",
+   "distance_km": 75.3
+  }
+ },
+ "santiago-de-compostela": {
+  "name_ja": "サンチャゴ・デ・コンポステーラ",
+  "nearest": {
+   "iata": "SCQ",
+   "name": "Santiago-Rosalía de Castro Airport",
+   "type": "large_airport",
+   "country": "ES",
+   "distance_km": 9.7
+  },
+  "nearest_large": {
+   "iata": "SCQ",
+   "name": "Santiago-Rosalía de Castro Airport",
+   "country": "ES",
+   "distance_km": 9.7
+  }
+ },
+ "saint-malo": {
+  "name_ja": "サンマロ",
+  "nearest": {
+   "iata": "DNR",
+   "name": "Dinard Pleurtuit Saint-Malo airport",
+   "type": "medium_airport",
+   "country": "FR",
+   "distance_km": 7.9
+  },
+  "nearest_large": {
+   "iata": "BES",
+   "name": "Brest Bretagne airport",
+   "country": "FR",
+   "distance_km": 177.5
+  }
+ },
+ "zagreb": {
+  "name_ja": "ザグレブ",
+  "nearest": {
+   "iata": "ZAG",
+   "name": "Zagreb Franjo Tuđman International Airport",
+   "type": "large_airport",
+   "country": "HR",
+   "distance_km": 10.5
+  },
+  "nearest_large": {
+   "iata": "ZAG",
+   "name": "Zagreb Franjo Tuđman International Airport",
+   "country": "HR",
+   "distance_km": 10.5
+  }
+ },
+ "salzburg": {
+  "name_ja": "ザルツブルク",
+  "nearest": {
+   "iata": "SZG",
+   "name": "Salzburg Airport",
+   "type": "large_airport",
+   "country": "AT",
+   "distance_km": 3.1
+  },
+  "nearest_large": {
+   "iata": "SZG",
+   "name": "Salzburg Airport",
+   "country": "AT",
+   "distance_km": 3.1
+  }
+ },
+ "sankt-goar": {
+  "name_ja": "ザンクトゴア",
+  "nearest": {
+   "iata": "HHN",
+   "name": "Frankfurt-Hahn Airport",
+   "type": "large_airport",
+   "country": "DE",
+   "distance_km": 39.6
+  },
+  "nearest_large": {
+   "iata": "HHN",
+   "name": "Frankfurt-Hahn Airport",
+   "country": "DE",
+   "distance_km": 39.6
+  }
+ },
+ "zaanse-schans": {
+  "name_ja": "ザーンスカンス",
+  "nearest": {
+   "iata": "AMS",
+   "name": "Amsterdam Airport Schiphol",
+   "type": "large_airport",
+   "country": "NL",
+   "distance_km": 18.7
+  },
+  "nearest_large": {
+   "iata": "AMS",
+   "name": "Amsterdam Airport Schiphol",
+   "country": "NL",
+   "distance_km": 18.7
+  }
+ },
+ "chamonix-mont-blanc": {
+  "name_ja": "シャモニー",
+  "nearest": {
+   "iata": "NCY",
+   "name": "Annecy Meythet airport",
+   "type": "medium_airport",
+   "country": "FR",
+   "distance_km": 59.6
+  },
+  "nearest_large": {
+   "iata": "GVA",
+   "name": "Geneva International Airport",
+   "country": "CH",
+   "distance_km": 68.3
+  }
+ },
+ "chartres": {
+  "name_ja": "シャルトル",
+  "nearest": {
+   "iata": "ORY",
+   "name": "Paris-Orly Airport",
+   "type": "large_airport",
+   "country": "FR",
+   "distance_km": 71.3
+  },
+  "nearest_large": {
+   "iata": "ORY",
+   "name": "Paris-Orly Airport",
+   "country": "FR",
+   "distance_km": 71.3
+  }
+ },
+ "chateau-de-chambord": {
+  "name_ja": "シャンボール",
+  "nearest": {
+   "iata": "TUF",
+   "name": "Tours Val de Loire Airport",
+   "type": "medium_airport",
+   "country": "FR",
+   "distance_km": 62.7
+  },
+  "nearest_large": {
+   "iata": "ORY",
+   "name": "Paris-Orly Airport",
+   "country": "FR",
+   "distance_km": 138.6
+  }
+ },
+ "chateau-de-chenonceau": {
+  "name_ja": "シュノンソー",
+  "nearest": {
+   "iata": "TUF",
+   "name": "Tours Val de Loire Airport",
+   "type": "medium_airport",
+   "country": "FR",
+   "distance_km": 28.4
+  },
+  "nearest_large": {
+   "iata": "ORY",
+   "name": "Paris-Orly Airport",
+   "country": "FR",
+   "distance_km": 183.2
+  }
+ },
+ "chillon-castle": {
+  "name_ja": "シヨン城",
+  "nearest": {
+   "iata": "GVA",
+   "name": "Geneva International Airport",
+   "type": "large_airport",
+   "country": "CH",
+   "distance_km": 65.8
+  },
+  "nearest_large": {
+   "iata": "GVA",
+   "name": "Geneva International Airport",
+   "country": "CH",
+   "distance_km": 65.8
+  }
+ },
+ "sirmione": {
+  "name_ja": "シルミオーネ",
+  "nearest": {
+   "iata": "VBS",
+   "name": "Brescia Gabriele d'Annunzio Airport",
+   "type": "medium_airport",
+   "country": "IT",
+   "distance_km": 22.0
+  },
+  "nearest_large": {
+   "iata": "VRN",
+   "name": "Verona Villafranca Valerio Catullo Airport",
+   "country": "IT",
+   "distance_km": 23.5
+  }
+ },
+ "geneva": {
+  "name_ja": "ジュネーブ",
+  "nearest": {
+   "iata": "GVA",
+   "name": "Geneva International Airport",
+   "type": "large_airport",
+   "country": "CH",
+   "distance_km": 5.3
+  },
+  "nearest_large": {
+   "iata": "GVA",
+   "name": "Geneva International Airport",
+   "country": "CH",
+   "distance_km": 5.3
+  }
+ },
+ "stavanger": {
+  "name_ja": "スタバンゲル",
+  "nearest": {
+   "iata": "SVG",
+   "name": "Stavanger Airport, Sola",
+   "type": "large_airport",
+   "country": "NO",
+   "distance_km": 11.7
+  },
+  "nearest_large": {
+   "iata": "SVG",
+   "name": "Stavanger Airport, Sola",
+   "country": "NO",
+   "distance_km": 11.7
+  }
+ },
+ "stow-on-the-wold": {
+  "name_ja": "ストウ・オン・ザ・ウォルド",
+  "nearest": {
+   "iata": "BHX",
+   "name": "Birmingham Airport",
+   "type": "large_airport",
+   "country": "GB",
+   "distance_km": 58.3
+  },
+  "nearest_large": {
+   "iata": "BHX",
+   "name": "Birmingham Airport",
+   "country": "GB",
+   "distance_km": 58.3
+  }
+ },
+ "stockholm": {
+  "name_ja": "ストックホルム",
+  "nearest": {
+   "iata": "BMA",
+   "name": "Stockholm-Bromma Airport",
+   "type": "medium_airport",
+   "country": "SE",
+   "distance_km": 7.7
+  },
+  "nearest_large": {
+   "iata": "ARN",
+   "name": "Stockholm-Arlanda Airport",
+   "country": "SE",
+   "distance_km": 36.3
+  }
+ },
+ "strasbourg": {
+  "name_ja": "ストラスブール",
+  "nearest": {
+   "iata": "SXB",
+   "name": "Strasbourg Airport",
+   "type": "large_airport",
+   "country": "FR",
+   "distance_km": 9.9
+  },
+  "nearest_large": {
+   "iata": "SXB",
+   "name": "Strasbourg Airport",
+   "country": "FR",
+   "distance_km": 9.9
+  }
+ },
+ "stratford-upon-avon": {
+  "name_ja": "ストラットフォード·アポン·エイボン",
+  "nearest": {
+   "iata": "BHX",
+   "name": "Birmingham Airport",
+   "type": "large_airport",
+   "country": "GB",
+   "distance_km": 29.2
+  },
+  "nearest_large": {
+   "iata": "BHX",
+   "name": "Birmingham Airport",
+   "country": "GB",
+   "distance_km": 29.2
+  }
+ },
+ "stresa": {
+  "name_ja": "ストレーザ",
+  "nearest": {
+   "iata": "LUG",
+   "name": "Lugano Airport",
+   "type": "medium_airport",
+   "country": "CH",
+   "distance_km": 31.7
+  },
+  "nearest_large": {
+   "iata": "MXP",
+   "name": "Milan Malpensa International Airport",
+   "country": "IT",
+   "distance_km": 31.7
+  }
+ },
+ "ston": {
+  "name_ja": "ストン",
+  "nearest": {
+   "iata": "OMO",
+   "name": "Mostar International Airport",
+   "type": "large_airport",
+   "country": "BA",
+   "distance_km": 51.3
+  },
+  "nearest_large": {
+   "iata": "OMO",
+   "name": "Mostar International Airport",
+   "country": "BA",
+   "distance_km": 51.3
+  }
+ },
+ "stonehenge": {
+  "name_ja": "ストーンヘンジ",
+  "nearest": {
+   "iata": "SOU",
+   "name": "Southampton Airport",
+   "type": "medium_airport",
+   "country": "GB",
+   "distance_km": 41.5
+  },
+  "nearest_large": {
+   "iata": "BRS",
+   "name": "Bristol Airport",
+   "country": "GB",
+   "distance_km": 65.9
+  }
+ },
+ "split": {
+  "name_ja": "スプリット",
+  "nearest": {
+   "iata": "SPU",
+   "name": "Split Saint Jerome Airport",
+   "type": "large_airport",
+   "country": "HR",
+   "distance_km": 11.9
+  },
+  "nearest_large": {
+   "iata": "SPU",
+   "name": "Split Saint Jerome Airport",
+   "country": "HR",
+   "distance_km": 11.9
+  }
+ },
+ "seville": {
+  "name_ja": "セビリア",
+  "nearest": {
+   "iata": "SVQ",
+   "name": "Seville Airport",
+   "type": "large_airport",
+   "country": "ES",
+   "distance_km": 9.6
+  },
+  "nearest_large": {
+   "iata": "SVQ",
+   "name": "Seville Airport",
+   "country": "ES",
+   "distance_km": 9.6
+  }
+ },
+ "sognefjord": {
+  "name_ja": "ソグネフィヨルド",
+  "nearest": {
+   "iata": "FRO",
+   "name": "Florø Airport",
+   "type": "medium_airport",
+   "country": "NO",
+   "distance_km": 54.3
+  },
+  "nearest_large": {
+   "iata": "BGO",
+   "name": "Bergen Airport, Flesland",
+   "country": "NO",
+   "distance_km": 89.7
+  }
+ },
+ "salisbury": {
+  "name_ja": "ソールズベリー",
+  "nearest": {
+   "iata": "BOH",
+   "name": "Bournemouth Airport",
+   "type": "medium_airport",
+   "country": "GB",
+   "distance_km": 32.8
+  },
+  "nearest_large": {
+   "iata": "BRS",
+   "name": "Bristol Airport",
+   "country": "GB",
+   "distance_km": 72.8
+  }
+ },
+ "durham": {
+  "name_ja": "ダラム",
+  "nearest": {
+   "iata": "NCL",
+   "name": "Newcastle International Airport",
+   "type": "large_airport",
+   "country": "GB",
+   "distance_km": 29.4
+  },
+  "nearest_large": {
+   "iata": "NCL",
+   "name": "Newcastle International Airport",
+   "country": "GB",
+   "distance_km": 29.4
+  }
+ },
+ "cesky-krumlov": {
+  "name_ja": "チェスキー・クルムロフ",
+  "nearest": {
+   "iata": "JCL",
+   "name": "České Budějovice South Bohemian Airport",
+   "type": "large_airport",
+   "country": "CZ",
+   "distance_km": 17.4
+  },
+  "nearest_large": {
+   "iata": "JCL",
+   "name": "České Budějovice South Bohemian Airport",
+   "country": "CZ",
+   "distance_km": 17.4
+  }
+ },
+ "zurich": {
+  "name_ja": "チューリッヒ",
+  "nearest": {
+   "iata": "ZRH",
+   "name": "Zürich Airport",
+   "type": "large_airport",
+   "country": "CH",
+   "distance_km": 9.3
+  },
+  "nearest_large": {
+   "iata": "ZRH",
+   "name": "Zürich Airport",
+   "country": "CH",
+   "distance_km": 9.3
+  }
+ },
+ "zermatt": {
+  "name_ja": "ツェルマット",
+  "nearest": {
+   "iata": "MXP",
+   "name": "Milan Malpensa International Airport",
+   "type": "large_airport",
+   "country": "IT",
+   "distance_km": 87.5
+  },
+  "nearest_large": {
+   "iata": "MXP",
+   "name": "Milan Malpensa International Airport",
+   "country": "IT",
+   "distance_km": 87.5
+  }
+ },
+ "dinan": {
+  "name_ja": "ディナン",
+  "nearest": {
+   "iata": "DNR",
+   "name": "Dinard Pleurtuit Saint-Malo airport",
+   "type": "medium_airport",
+   "country": "FR",
+   "distance_km": 14.9
+  },
+  "nearest_large": {
+   "iata": "BES",
+   "name": "Brest Bretagne airport",
+   "country": "FR",
+   "distance_km": 174.7
+  }
+ },
+ "tours": {
+  "name_ja": "トゥール",
+  "nearest": {
+   "iata": "TUF",
+   "name": "Tours Val de Loire Airport",
+   "type": "medium_airport",
+   "country": "FR",
+   "distance_km": 5.3
+  },
+  "nearest_large": {
+   "iata": "ORY",
+   "name": "Paris-Orly Airport",
+   "country": "FR",
+   "distance_km": 193.7
+  }
+ },
+ "trani": {
+  "name_ja": "トラー二",
+  "nearest": {
+   "iata": "BRI",
+   "name": "Bari Karol Wojtyła International Airport",
+   "type": "large_airport",
+   "country": "IT",
+   "distance_km": 32.1
+  },
+  "nearest_large": {
+   "iata": "BRI",
+   "name": "Bari Karol Wojtyła International Airport",
+   "country": "IT",
+   "distance_km": 32.1
+  }
+ },
+ "dubrovnik": {
+  "name_ja": "ドブロブニク",
+  "nearest": {
+   "iata": "DBV",
+   "name": "Dubrovnik Ruđer Bošković Airport",
+   "type": "large_airport",
+   "country": "HR",
+   "distance_km": 15.5
+  },
+  "nearest_large": {
+   "iata": "DBV",
+   "name": "Dubrovnik Ruđer Bošković Airport",
+   "country": "HR",
+   "distance_km": 15.5
+  }
+ },
+ "domodossola": {
+  "name_ja": "ドモドッソラ",
+  "nearest": {
+   "iata": "LUG",
+   "name": "Lugano Airport",
+   "type": "medium_airport",
+   "country": "CH",
+   "distance_km": 49.4
+  },
+  "nearest_large": {
+   "iata": "MXP",
+   "name": "Milan Malpensa International Airport",
+   "country": "IT",
+   "distance_km": 63.7
+  }
+ },
+ "nazare": {
+  "name_ja": "ナザレ",
+  "nearest": {
+   "iata": "LIS",
+   "name": "Lisbon Humberto Delgado Airport",
+   "type": "large_airport",
+   "country": "PT",
+   "distance_km": 91.2
+  },
+  "nearest_large": {
+   "iata": "LIS",
+   "name": "Lisbon Humberto Delgado Airport",
+   "country": "PT",
+   "distance_km": 91.2
+  }
+ },
+ "naples": {
+  "name_ja": "ナポリ",
+  "nearest": {
+   "iata": "NAP",
+   "name": "Naples International Airport",
+   "type": "large_airport",
+   "country": "IT",
+   "distance_km": 6.6
+  },
+  "nearest_large": {
+   "iata": "NAP",
+   "name": "Naples International Airport",
+   "country": "IT",
+   "distance_km": 6.6
+  }
+ },
+ "naantali": {
+  "name_ja": "ナーンタリ",
+  "nearest": {
+   "iata": "TKU",
+   "name": "Turku Airport",
+   "type": "large_airport",
+   "country": "FI",
+   "distance_km": 13.9
+  },
+  "nearest_large": {
+   "iata": "TKU",
+   "name": "Turku Airport",
+   "country": "FI",
+   "distance_km": 13.9
+  }
+ },
+ "nuremberg": {
+  "name_ja": "ニュルンベルク",
+  "nearest": {
+   "iata": "NUE",
+   "name": "Nuremberg Airport",
+   "type": "large_airport",
+   "country": "DE",
+   "distance_km": 5.0
+  },
+  "nearest_large": {
+   "iata": "NUE",
+   "name": "Nuremberg Airport",
+   "country": "DE",
+   "distance_km": 5.0
+  }
+ },
+ "loch-ness": {
+  "name_ja": "ネス湖",
+  "nearest": {
+   "iata": "INV",
+   "name": "Inverness Airport",
+   "type": "medium_airport",
+   "country": "GB",
+   "distance_km": 36.2
+  },
+  "nearest_large": {
+   "iata": "ABZ",
+   "name": "Aberdeen International Airport",
+   "country": "GB",
+   "distance_km": 135.9
+  }
+ },
+ "nerja": {
+  "name_ja": "ネルハ",
+  "nearest": {
+   "iata": "GRX",
+   "name": "F.G.L. Airport Granada-Jaén Airport",
+   "type": "medium_airport",
+   "country": "ES",
+   "distance_km": 50.0
+  },
+  "nearest_large": {
+   "iata": "AGP",
+   "name": "Málaga-Costa del Sol Airport",
+   "country": "ES",
+   "distance_km": 55.9
+  }
+ },
+ "nottingham": {
+  "name_ja": "ノッティンガム",
+  "nearest": {
+   "iata": "EMA",
+   "name": "East Midlands Airport",
+   "type": "large_airport",
+   "country": "GB",
+   "distance_km": 18.3
+  },
+  "nearest_large": {
+   "iata": "EMA",
+   "name": "East Midlands Airport",
+   "country": "GB",
+   "distance_km": 18.3
+  }
+ },
+ "heidelberg": {
+  "name_ja": "ハイデルベルク",
+  "nearest": {
+   "iata": "MHG",
+   "name": "Mannheim-City Airport",
+   "type": "medium_airport",
+   "country": "DE",
+   "distance_km": 15.7
+  },
+  "nearest_large": {
+   "iata": "FRA",
+   "name": "Frankfurt Main Airport",
+   "country": "DE",
+   "distance_km": 69.2
+  }
+ },
+ "bibury": {
+  "name_ja": "バイブリー",
+  "nearest": {
+   "iata": "BRS",
+   "name": "Bristol Airport",
+   "type": "large_airport",
+   "country": "GB",
+   "distance_km": 74.0
+  },
+  "nearest_large": {
+   "iata": "BRS",
+   "name": "Bristol Airport",
+   "country": "GB",
+   "distance_km": 74.0
+  }
+ },
+ "bayonne": {
+  "name_ja": "バイヨンヌ",
+  "nearest": {
+   "iata": "BIQ",
+   "name": "Biarritz Pays Basque airport",
+   "type": "medium_airport",
+   "country": "FR",
+   "distance_km": 4.6
+  },
+  "nearest_large": {
+   "iata": "BIO",
+   "name": "Bilbao Airport",
+   "country": "ES",
+   "distance_km": 117.8
+  }
+ },
+ "batalha": {
+  "name_ja": "バターリャ",
+  "nearest": {
+   "iata": "LIS",
+   "name": "Lisbon Humberto Delgado Airport",
+   "type": "large_airport",
+   "country": "PT",
+   "distance_km": 100.4
+  },
+  "nearest_large": {
+   "iata": "LIS",
+   "name": "Lisbon Humberto Delgado Airport",
+   "country": "PT",
+   "distance_km": 100.4
+  }
+ },
+ "banja-luka": {
+  "name_ja": "バニャルカ",
+  "nearest": {
+   "iata": "BNX",
+   "name": "Banja Luka International Airport",
+   "type": "large_airport",
+   "country": "BA",
+   "distance_km": 20.5
+  },
+  "nearest_large": {
+   "iata": "BNX",
+   "name": "Banja Luka International Airport",
+   "country": "BA",
+   "distance_km": 20.5
+  }
+ },
+ "barcelona": {
+  "name_ja": "バルセロナ",
+  "nearest": {
+   "iata": "BCN",
+   "name": "Josep Tarradellas Barcelona-El Prat Airport",
+   "type": "large_airport",
+   "country": "ES",
+   "distance_km": 12.6
+  },
+  "nearest_large": {
+   "iata": "BCN",
+   "name": "Josep Tarradellas Barcelona-El Prat Airport",
+   "country": "ES",
+   "distance_km": 12.6
+  }
+ },
+ "valencia": {
+  "name_ja": "バレンシア",
+  "nearest": {
+   "iata": "VLC",
+   "name": "Valencia Airport",
+   "type": "large_airport",
+   "country": "ES",
+   "distance_km": 9.2
+  },
+  "nearest_large": {
+   "iata": "VLC",
+   "name": "Valencia Airport",
+   "country": "ES",
+   "distance_km": 9.2
+  }
+ },
+ "bath": {
+  "name_ja": "バース",
+  "nearest": {
+   "iata": "BRS",
+   "name": "Bristol Airport",
+   "type": "large_airport",
+   "country": "GB",
+   "distance_km": 24.8
+  },
+  "nearest_large": {
+   "iata": "BRS",
+   "name": "Bristol Airport",
+   "country": "GB",
+   "distance_km": 24.8
+  }
+ },
+ "birmingham": {
+  "name_ja": "バーミンガム",
+  "nearest": {
+   "iata": "BHX",
+   "name": "Birmingham Airport",
+   "type": "large_airport",
+   "country": "GB",
+   "distance_km": 10.9
+  },
+  "nearest_large": {
+   "iata": "BHX",
+   "name": "Birmingham Airport",
+   "country": "GB",
+   "distance_km": 10.9
+  }
+ },
+ "paris": {
+  "name_ja": "パリ",
+  "nearest": {
+   "iata": "LBG",
+   "name": "Paris-Le Bourget International Airport",
+   "type": "large_airport",
+   "country": "FR",
+   "distance_km": 13.3
+  },
+  "nearest_large": {
+   "iata": "LBG",
+   "name": "Paris-Le Bourget International Airport",
+   "country": "FR",
+   "distance_km": 13.3
+  }
+ },
+ "pamplona": {
+  "name_ja": "パンプローナ",
+  "nearest": {
+   "iata": "PNA",
+   "name": "Pamplona Airport",
+   "type": "medium_airport",
+   "country": "ES",
+   "distance_km": 5.2
+  },
+  "nearest_large": {
+   "iata": "BIO",
+   "name": "Bilbao Airport",
+   "country": "ES",
+   "distance_km": 115.7
+  }
+ },
+ "vitoria-gasteiz": {
+  "name_ja": "ビトリア",
+  "nearest": {
+   "iata": "VIT",
+   "name": "Vitoria Airport",
+   "type": "medium_airport",
+   "country": "ES",
+   "distance_km": 5.8
+  },
+  "nearest_large": {
+   "iata": "BIO",
+   "name": "Bilbao Airport",
+   "country": "ES",
+   "distance_km": 54.1
+  }
+ },
+ "wurzburg": {
+  "name_ja": "ビュルツブルク",
+  "nearest": {
+   "iata": "NUE",
+   "name": "Nuremberg Airport",
+   "type": "large_airport",
+   "country": "DE",
+   "distance_km": 89.0
+  },
+  "nearest_large": {
+   "iata": "NUE",
+   "name": "Nuremberg Airport",
+   "country": "DE",
+   "distance_km": 89.0
+  }
+ },
+ "chateau-de-villandry": {
+  "name_ja": "ビランドリー",
+  "nearest": {
+   "iata": "TUF",
+   "name": "Tours Val de Loire Airport",
+   "type": "medium_airport",
+   "country": "FR",
+   "distance_km": 19.0
+  },
+  "nearest_large": {
+   "iata": "ORY",
+   "name": "Paris-Orly Airport",
+   "country": "FR",
+   "distance_km": 206.5
+  }
+ },
+ "bilbao": {
+  "name_ja": "ビルバオ",
+  "nearest": {
+   "iata": "BIO",
+   "name": "Bilbao Airport",
+   "type": "large_airport",
+   "country": "ES",
+   "distance_km": 4.7
+  },
+  "nearest_large": {
+   "iata": "BIO",
+   "name": "Bilbao Airport",
+   "country": "ES",
+   "distance_km": 4.7
+  }
+ },
+ "pisa": {
+  "name_ja": "ピサ",
+  "nearest": {
+   "iata": "PSA",
+   "name": "Pisa International Airport",
+   "type": "large_airport",
+   "country": "IT",
+   "distance_km": 3.7
+  },
+  "nearest_large": {
+   "iata": "PSA",
+   "name": "Pisa International Airport",
+   "country": "IT",
+   "distance_km": 3.7
+  }
+ },
+ "florence": {
+  "name_ja": "フィレンツェ",
+  "nearest": {
+   "iata": "FLR",
+   "name": "Florence Airport, Peretola",
+   "type": "large_airport",
+   "country": "IT",
+   "distance_km": 5.8
+  },
+  "nearest_large": {
+   "iata": "FLR",
+   "name": "Florence Airport, Peretola",
+   "country": "IT",
+   "distance_km": 5.8
+  }
+ },
+ "fort-augustus": {
+  "name_ja": "フォート・オーガスタス",
+  "nearest": {
+   "iata": "INV",
+   "name": "Inverness Airport",
+   "type": "medium_airport",
+   "country": "GB",
+   "distance_km": 58.4
+  },
+  "nearest_large": {
+   "iata": "GLA",
+   "name": "Glasgow Airport",
+   "country": "GB",
+   "distance_km": 142.2
+  }
+ },
+ "fougeres": {
+  "name_ja": "フジェール",
+  "nearest": {
+   "iata": "RNS",
+   "name": "Rennes-Saint-Jacques Airport",
+   "type": "medium_airport",
+   "country": "FR",
+   "distance_km": 50.5
+  },
+  "nearest_large": {
+   "iata": "BES",
+   "name": "Brest Bretagne airport",
+   "country": "FR",
+   "distance_km": 237.8
+  }
+ },
+ "frankfurt-am-main": {
+  "name_ja": "フランクフルト",
+  "nearest": {
+   "iata": "FRA",
+   "name": "Frankfurt Main Airport",
+   "type": "large_airport",
+   "country": "DE",
+   "distance_km": 12.8
+  },
+  "nearest_large": {
+   "iata": "FRA",
+   "name": "Frankfurt Main Airport",
+   "country": "DE",
+   "distance_km": 12.8
+  }
+ },
+ "bouillon": {
+  "name_ja": "ブイヨン",
+  "nearest": {
+   "iata": "LUX",
+   "name": "Luxembourg-Findel International Airport",
+   "type": "large_airport",
+   "country": "LU",
+   "distance_km": 84.4
+  },
+  "nearest_large": {
+   "iata": "LUX",
+   "name": "Luxembourg-Findel International Airport",
+   "country": "LU",
+   "distance_km": 84.4
+  }
+ },
+ "budapest": {
+  "name_ja": "ブダペスト",
+  "nearest": {
+   "iata": "BUD",
+   "name": "Budapest Liszt Ferenc International Airport",
+   "type": "large_airport",
+   "country": "HU",
+   "distance_km": 18.3
+  },
+  "nearest_large": {
+   "iata": "BUD",
+   "name": "Budapest Liszt Ferenc International Airport",
+   "country": "HU",
+   "distance_km": 18.3
+  }
+ },
+ "braga": {
+  "name_ja": "ブラガ",
+  "nearest": {
+   "iata": "OPO",
+   "name": "Francisco de Sá Carneiro Airport",
+   "type": "large_airport",
+   "country": "PT",
+   "distance_km": 38.6
+  },
+  "nearest_large": {
+   "iata": "OPO",
+   "name": "Francisco de Sá Carneiro Airport",
+   "country": "PT",
+   "distance_km": 38.6
+  }
+ },
+ "bratislava": {
+  "name_ja": "ブラチスラバ",
+  "nearest": {
+   "iata": "BTS",
+   "name": "M. R. Štefánik Airport",
+   "type": "large_airport",
+   "country": "SK",
+   "distance_km": 7.9
+  },
+  "nearest_large": {
+   "iata": "BTS",
+   "name": "M. R. Štefánik Airport",
+   "country": "SK",
+   "distance_km": 7.9
+  }
+ },
+ "brussels": {
+  "name_ja": "ブリュッセル",
+  "nearest": {
+   "iata": "BRU",
+   "name": "Brussels Airport",
+   "type": "large_airport",
+   "country": "BE",
+   "distance_km": 11.1
+  },
+  "nearest_large": {
+   "iata": "BRU",
+   "name": "Brussels Airport",
+   "country": "BE",
+   "distance_km": 11.1
+  }
+ },
+ "brig-glis": {
+  "name_ja": "ブリーク",
+  "nearest": {
+   "iata": "BRN",
+   "name": "Bern Airport",
+   "type": "medium_airport",
+   "country": "CH",
+   "distance_km": 76.1
+  },
+  "nearest_large": {
+   "iata": "MXP",
+   "name": "Milan Malpensa International Airport",
+   "country": "IT",
+   "distance_km": 95.3
+  }
+ },
+ "burgos": {
+  "name_ja": "ブルゴス",
+  "nearest": {
+   "iata": "VIT",
+   "name": "Vitoria Airport",
+   "type": "medium_airport",
+   "country": "ES",
+   "distance_km": 100.0
+  },
+  "nearest_large": {
+   "iata": "BIO",
+   "name": "Bilbao Airport",
+   "country": "ES",
+   "distance_km": 124.7
+  }
+ },
+ "bruges": {
+  "name_ja": "ブルージュ",
+  "nearest": {
+   "iata": "OST",
+   "name": "Ostend-Bruges International Airport",
+   "type": "large_airport",
+   "country": "BE",
+   "distance_km": 24.4
+  },
+  "nearest_large": {
+   "iata": "OST",
+   "name": "Ostend-Bruges International Airport",
+   "country": "BE",
+   "distance_km": 24.4
+  }
+ },
+ "bled": {
+  "name_ja": "ブレッド",
+  "nearest": {
+   "iata": "LJU",
+   "name": "Ljubljana Jože Pučnik Airport",
+   "type": "large_airport",
+   "country": "SI",
+   "distance_km": 30.9
+  },
+  "nearest_large": {
+   "iata": "LJU",
+   "name": "Ljubljana Jože Pučnik Airport",
+   "country": "SI",
+   "distance_km": 30.9
+  }
+ },
+ "prague": {
+  "name_ja": "プラハ",
+  "nearest": {
+   "iata": "PRG",
+   "name": "Václav Havel Airport Prague",
+   "type": "large_airport",
+   "country": "CZ",
+   "distance_km": 11.6
+  },
+  "nearest_large": {
+   "iata": "PRG",
+   "name": "Václav Havel Airport Prague",
+   "country": "CZ",
+   "distance_km": 11.6
+  }
+ },
+ "plitvice-lakes-national-park": {
+  "name_ja": "プリトビチェ",
+  "nearest": {
+   "iata": "ZAD",
+   "name": "Zadar Airport",
+   "type": "large_airport",
+   "country": "HR",
+   "distance_km": 89.6
+  },
+  "nearest_large": {
+   "iata": "ZAD",
+   "name": "Zadar Airport",
+   "country": "HR",
+   "distance_km": 89.6
+  }
+ },
+ "helsinki": {
+  "name_ja": "ヘルシンキ",
+  "nearest": {
+   "iata": "HEL",
+   "name": "Helsinki Vantaa Airport",
+   "type": "large_airport",
+   "country": "FI",
+   "distance_km": 16.5
+  },
+  "nearest_large": {
+   "iata": "HEL",
+   "name": "Helsinki Vantaa Airport",
+   "country": "FI",
+   "distance_km": 16.5
+  }
+ },
+ "helsingr": {
+  "name_ja": "ヘルシンゲル",
+  "nearest": {
+   "iata": "AGH",
+   "name": "Ängelholm-Helsingborg Airport",
+   "type": "medium_airport",
+   "country": "SE",
+   "distance_km": 32.4
+  },
+  "nearest_large": {
+   "iata": "CPH",
+   "name": "Copenhagen Kastrup Airport",
+   "country": "DK",
+   "distance_km": 46.6
+  }
+ },
+ "venice": {
+  "name_ja": "ベネチア",
+  "nearest": {
+   "iata": "VCE",
+   "name": "Venice Marco Polo Airport",
+   "type": "large_airport",
+   "country": "IT",
+   "distance_km": 7.5
+  },
+  "nearest_large": {
+   "iata": "VCE",
+   "name": "Venice Marco Polo Airport",
+   "country": "IT",
+   "distance_km": 7.5
+  }
+ },
+ "benevento": {
+  "name_ja": "ベネベント",
+  "nearest": {
+   "iata": "NAP",
+   "name": "Naples International Airport",
+   "type": "large_airport",
+   "country": "IT",
+   "distance_km": 49.6
+  },
+  "nearest_large": {
+   "iata": "NAP",
+   "name": "Naples International Airport",
+   "country": "IT",
+   "distance_km": 49.6
+  }
+ },
+ "bergen": {
+  "name_ja": "ベルゲン",
+  "nearest": {
+   "iata": "BGO",
+   "name": "Bergen Airport, Flesland",
+   "type": "large_airport",
+   "country": "NO",
+   "distance_km": 12.4
+  },
+  "nearest_large": {
+   "iata": "BGO",
+   "name": "Bergen Airport, Flesland",
+   "country": "NO",
+   "distance_km": 12.4
+  }
+ },
+ "bern": {
+  "name_ja": "ベルン",
+  "nearest": {
+   "iata": "BRN",
+   "name": "Bern Airport",
+   "type": "medium_airport",
+   "country": "CH",
+   "distance_km": 5.5
+  },
+  "nearest_large": {
+   "iata": "BSL",
+   "name": "EuroAirport Basel–Mulhouse–Freiburg",
+   "country": "FR",
+   "distance_km": 72.8
+  }
+ },
+ "verona": {
+  "name_ja": "ベローナ",
+  "nearest": {
+   "iata": "VRN",
+   "name": "Verona Villafranca Valerio Catullo Airport",
+   "type": "large_airport",
+   "country": "IT",
+   "distance_km": 9.6
+  },
+  "nearest_large": {
+   "iata": "VRN",
+   "name": "Verona Villafranca Valerio Catullo Airport",
+   "country": "IT",
+   "distance_km": 9.6
+  }
+ },
+ "peniscola": {
+  "name_ja": "ペニスコラ",
+  "nearest": {
+   "iata": "CDT",
+   "name": "Castellón-Costa Azahar Airport",
+   "type": "medium_airport",
+   "country": "ES",
+   "distance_km": 32.5
+  },
+  "nearest_large": {
+   "iata": "REU",
+   "name": "Reus Airport",
+   "country": "ES",
+   "distance_km": 108.7
+  }
+ },
+ "hawkshead": {
+  "name_ja": "ホークスヘッド",
+  "nearest": {
+   "iata": "MME",
+   "name": "Teesside International Airport",
+   "type": "medium_airport",
+   "country": "GB",
+   "distance_km": 102.6
+  },
+  "nearest_large": {
+   "iata": "LBA",
+   "name": "Leeds Bradford Airport",
+   "country": "GB",
+   "distance_km": 104.0
+  }
+ },
+ "postojna": {
+  "name_ja": "ポストイナ",
+  "nearest": {
+   "iata": "LJU",
+   "name": "Ljubljana Jože Pučnik Airport",
+   "type": "large_airport",
+   "country": "SI",
+   "distance_km": 53.4
+  },
+  "nearest_large": {
+   "iata": "LJU",
+   "name": "Ljubljana Jože Pučnik Airport",
+   "country": "SI",
+   "distance_km": 53.4
+  }
+ },
+ "porto": {
+  "name_ja": "ポルト",
+  "nearest": {
+   "iata": "OPO",
+   "name": "Francisco de Sá Carneiro Airport",
+   "type": "large_airport",
+   "country": "PT",
+   "distance_km": 12.4
+  },
+  "nearest_large": {
+   "iata": "OPO",
+   "name": "Francisco de Sá Carneiro Airport",
+   "country": "PT",
+   "distance_km": 12.4
+  }
+ },
+ "pompeii": {
+  "name_ja": "ポンペイ",
+  "nearest": {
+   "iata": "NAP",
+   "name": "Naples International Airport",
+   "type": "large_airport",
+   "country": "IT",
+   "distance_km": 22.5
+  },
+  "nearest_large": {
+   "iata": "NAP",
+   "name": "Naples International Airport",
+   "country": "IT",
+   "distance_km": 22.5
+  }
+ },
+ "matera": {
+  "name_ja": "マテーラ",
+  "nearest": {
+   "iata": "BRI",
+   "name": "Bari Karol Wojtyła International Airport",
+   "type": "large_airport",
+   "country": "IT",
+   "distance_km": 54.2
+  },
+  "nearest_large": {
+   "iata": "BRI",
+   "name": "Bari Karol Wojtyła International Airport",
+   "country": "IT",
+   "distance_km": 54.2
+  }
+ },
+ "madrid": {
+  "name_ja": "マドリード",
+  "nearest": {
+   "iata": "MAD",
+   "name": "Adolfo Suárez Madrid–Barajas Airport",
+   "type": "large_airport",
+   "country": "ES",
+   "distance_km": 14.0
+  },
+  "nearest_large": {
+   "iata": "MAD",
+   "name": "Adolfo Suárez Madrid–Barajas Airport",
+   "country": "ES",
+   "distance_km": 14.0
+  }
+ },
+ "malaga": {
+  "name_ja": "マラガ",
+  "nearest": {
+   "iata": "AGP",
+   "name": "Málaga-Costa del Sol Airport",
+   "type": "large_airport",
+   "country": "ES",
+   "distance_km": 8.7
+  },
+  "nearest_large": {
+   "iata": "AGP",
+   "name": "Málaga-Costa del Sol Airport",
+   "country": "ES",
+   "distance_km": 8.7
+  }
+ },
+ "maribor": {
+  "name_ja": "マリボル",
+  "nearest": {
+   "iata": "MBX",
+   "name": "Maribor Edvard Rusjan Airport",
+   "type": "medium_airport",
+   "country": "SI",
+   "distance_km": 8.8
+  },
+  "nearest_large": {
+   "iata": "GRZ",
+   "name": "Graz Airport",
+   "country": "AT",
+   "distance_km": 51.2
+  }
+ },
+ "martigny": {
+  "name_ja": "マルティニ",
+  "nearest": {
+   "iata": "GVA",
+   "name": "Geneva International Airport",
+   "type": "large_airport",
+   "country": "CH",
+   "distance_km": 75.8
+  },
+  "nearest_large": {
+   "iata": "GVA",
+   "name": "Geneva International Airport",
+   "country": "CH",
+   "distance_km": 75.8
+  }
+ },
+ "munich": {
+  "name_ja": "ミュンヘン",
+  "nearest": {
+   "iata": "MUC",
+   "name": "Munich Airport",
+   "type": "large_airport",
+   "country": "DE",
+   "distance_km": 28.7
+  },
+  "nearest_large": {
+   "iata": "MUC",
+   "name": "Munich Airport",
+   "country": "DE",
+   "distance_km": 28.7
+  }
+ },
+ "milan": {
+  "name_ja": "ミラノ",
+  "nearest": {
+   "iata": "LIN",
+   "name": "Milano Linate Airport",
+   "type": "large_airport",
+   "country": "IT",
+   "distance_km": 7.2
+  },
+  "nearest_large": {
+   "iata": "LIN",
+   "name": "Milano Linate Airport",
+   "country": "IT",
+   "distance_km": 7.2
+  }
+ },
+ "merida": {
+  "name_ja": "メリダ",
+  "nearest": {
+   "iata": "BJZ",
+   "name": "Badajoz Airport",
+   "type": "medium_airport",
+   "country": "ES",
+   "distance_km": 42.3
+  },
+  "nearest_large": {
+   "iata": "SVQ",
+   "name": "Seville Airport",
+   "country": "ES",
+   "distance_km": 170.9
+  }
+ },
+ "mostar": {
+  "name_ja": "モスタル",
+  "nearest": {
+   "iata": "OMO",
+   "name": "Mostar International Airport",
+   "type": "large_airport",
+   "country": "BA",
+   "distance_km": 7.5
+  },
+  "nearest_large": {
+   "iata": "OMO",
+   "name": "Mostar International Airport",
+   "country": "BA",
+   "distance_km": 7.5
+  }
+ },
+ "mont-saint-michel": {
+  "name_ja": "モンサンミッシェル",
+  "nearest": {
+   "iata": "DNR",
+   "name": "Dinard Pleurtuit Saint-Malo airport",
+   "type": "medium_airport",
+   "country": "FR",
+   "distance_km": 42.2
+  },
+  "nearest_large": {
+   "iata": "BES",
+   "name": "Brest Bretagne airport",
+   "country": "FR",
+   "distance_km": 215.1
+  }
+ },
+ "montserrat": {
+  "name_ja": "モンセラット",
+  "nearest": {
+   "iata": "BCN",
+   "name": "Josep Tarradellas Barcelona-El Prat Airport",
+   "type": "large_airport",
+   "country": "ES",
+   "distance_km": 38.6
+  },
+  "nearest_large": {
+   "iata": "BCN",
+   "name": "Josep Tarradellas Barcelona-El Prat Airport",
+   "country": "ES",
+   "distance_km": 38.6
+  }
+ },
+ "jajce": {
+  "name_ja": "ヤイツェ",
+  "nearest": {
+   "iata": "BNX",
+   "name": "Banja Luka International Airport",
+   "type": "large_airport",
+   "country": "BA",
+   "distance_km": 66.9
+  },
+  "nearest_large": {
+   "iata": "BNX",
+   "name": "Banja Luka International Airport",
+   "country": "BA",
+   "distance_km": 66.9
+  }
+ },
+ "york": {
+  "name_ja": "ヨーク",
+  "nearest": {
+   "iata": "LBA",
+   "name": "Leeds Bradford Airport",
+   "type": "large_airport",
+   "country": "GB",
+   "distance_km": 39.0
+  },
+  "nearest_large": {
+   "iata": "LBA",
+   "name": "Leeds Bradford Airport",
+   "country": "GB",
+   "distance_km": 39.0
+  }
+ },
+ "lancaster": {
+  "name_ja": "ランカスター",
+  "nearest": {
+   "iata": "LBA",
+   "name": "Leeds Bradford Airport",
+   "type": "large_airport",
+   "country": "GB",
+   "distance_km": 77.3
+  },
+  "nearest_large": {
+   "iata": "LBA",
+   "name": "Leeds Bradford Airport",
+   "country": "GB",
+   "distance_km": 77.3
+  }
+ },
+ "reims": {
+  "name_ja": "ランス",
+  "nearest": {
+   "iata": "XCR",
+   "name": "Chalons Vatry airport",
+   "type": "medium_airport",
+   "country": "FR",
+   "distance_km": 56.2
+  },
+  "nearest_large": {
+   "iata": "CDG",
+   "name": "Charles de Gaulle International Airport",
+   "country": "FR",
+   "distance_km": 111.0
+  }
+ },
+ "lisbon": {
+  "name_ja": "リスボン",
+  "nearest": {
+   "iata": "LIS",
+   "name": "Lisbon Humberto Delgado Airport",
+   "type": "large_airport",
+   "country": "PT",
+   "distance_km": 8.2
+  },
+  "nearest_large": {
+   "iata": "LIS",
+   "name": "Lisbon Humberto Delgado Airport",
+   "country": "PT",
+   "distance_km": 8.2
+  }
+ },
+ "lichfield": {
+  "name_ja": "リッチフィールド",
+  "nearest": {
+   "iata": "BHX",
+   "name": "Birmingham Airport",
+   "type": "large_airport",
+   "country": "GB",
+   "distance_km": 25.8
+  },
+  "nearest_large": {
+   "iata": "BHX",
+   "name": "Birmingham Airport",
+   "country": "GB",
+   "distance_km": 25.8
+  }
+ },
+ "ljubljana": {
+  "name_ja": "リュブリアナ",
+  "nearest": {
+   "iata": "LJU",
+   "name": "Ljubljana Jože Pučnik Airport",
+   "type": "large_airport",
+   "country": "SI",
+   "distance_km": 19.5
+  },
+  "nearest_large": {
+   "iata": "LJU",
+   "name": "Ljubljana Jože Pučnik Airport",
+   "country": "SI",
+   "distance_km": 19.5
+  }
+ },
+ "rudesheim-am-rhein": {
+  "name_ja": "リューデスハイム",
+  "nearest": {
+   "iata": "FRA",
+   "name": "Frankfurt Main Airport",
+   "type": "large_airport",
+   "country": "DE",
+   "distance_km": 45.7
+  },
+  "nearest_large": {
+   "iata": "FRA",
+   "name": "Frankfurt Main Airport",
+   "country": "DE",
+   "distance_km": 45.7
+  }
+ },
+ "lugano": {
+  "name_ja": "ルガーノ",
+  "nearest": {
+   "iata": "LUG",
+   "name": "Lugano Airport",
+   "type": "medium_airport",
+   "country": "CH",
+   "distance_km": 4.1
+  },
+  "nearest_large": {
+   "iata": "MXP",
+   "name": "Milan Malpensa International Airport",
+   "country": "IT",
+   "distance_km": 46.0
+  }
+ },
+ "luxembourg-city": {
+  "name_ja": "ルクセンブルク",
+  "nearest": {
+   "iata": "LUX",
+   "name": "Luxembourg-Findel International Airport",
+   "type": "large_airport",
+   "country": "LU",
+   "distance_km": 6.0
+  },
+  "nearest_large": {
+   "iata": "LUX",
+   "name": "Luxembourg-Findel International Airport",
+   "country": "LU",
+   "distance_km": 6.0
+  }
+ },
+ "rouen": {
+  "name_ja": "ルーアン",
+  "nearest": {
+   "iata": "DOL",
+   "name": "Deauville Normandie airport",
+   "type": "medium_airport",
+   "country": "FR",
+   "distance_km": 69.1
+  },
+  "nearest_large": {
+   "iata": "BVA",
+   "name": "Beauvais-Tillé airport",
+   "country": "FR",
+   "distance_km": 73.0
+  }
+ },
+ "levanto": {
+  "name_ja": "レバント",
+  "nearest": {
+   "iata": "GOA",
+   "name": "Genoa Cristoforo Colombo Airport",
+   "type": "large_airport",
+   "country": "IT",
+   "distance_km": 67.1
+  },
+  "nearest_large": {
+   "iata": "GOA",
+   "name": "Genoa Cristoforo Colombo Airport",
+   "country": "IT",
+   "distance_km": 67.1
+  }
+ },
+ "rennes": {
+  "name_ja": "レンヌ",
+  "nearest": {
+   "iata": "RNS",
+   "name": "Rennes-Saint-Jacques Airport",
+   "type": "medium_airport",
+   "country": "FR",
+   "distance_km": 6.4
+  },
+  "nearest_large": {
+   "iata": "BES",
+   "name": "Brest Bretagne airport",
+   "country": "FR",
+   "distance_km": 205.9
+  }
+ },
+ "roncesvalles": {
+  "name_ja": "ロンセスバジェス",
+  "nearest": {
+   "iata": "PNA",
+   "name": "Pamplona Airport",
+   "type": "medium_airport",
+   "country": "ES",
+   "distance_km": 37.6
+  },
+  "nearest_large": {
+   "iata": "BIO",
+   "name": "Bilbao Airport",
+   "country": "ES",
+   "distance_km": 133.2
+  }
+ },
+ "ronda": {
+  "name_ja": "ロンダ",
+  "nearest": {
+   "iata": "AGP",
+   "name": "Málaga-Costa del Sol Airport",
+   "type": "large_airport",
+   "country": "ES",
+   "distance_km": 59.7
+  },
+  "nearest_large": {
+   "iata": "AGP",
+   "name": "Málaga-Costa del Sol Airport",
+   "country": "ES",
+   "distance_km": 59.7
+  }
+ },
+ "london": {
+  "name_ja": "ロンドン",
+  "nearest": {
+   "iata": "LCY",
+   "name": "London City Airport",
+   "type": "medium_airport",
+   "country": "GB",
+   "distance_km": 12.7
+  },
+  "nearest_large": {
+   "iata": "LHR",
+   "name": "London Heathrow Airport",
+   "country": "GB",
+   "distance_km": 23.4
+  }
+ },
+ "rothenburg-ob-der-tauber": {
+  "name_ja": "ローテンブルク",
+  "nearest": {
+   "iata": "NUE",
+   "name": "Nuremberg Airport",
+   "type": "large_airport",
+   "country": "DE",
+   "distance_km": 66.4
+  },
+  "nearest_large": {
+   "iata": "NUE",
+   "name": "Nuremberg Airport",
+   "country": "DE",
+   "distance_km": 66.4
+  }
+ },
+ "rome": {
+  "name_ja": "ローマ",
+  "nearest": {
+   "iata": "CIA",
+   "name": "Ciampino–G. B. Pastine International Airport",
+   "type": "large_airport",
+   "country": "IT",
+   "distance_km": 14.0
+  },
+  "nearest_large": {
+   "iata": "CIA",
+   "name": "Ciampino–G. B. Pastine International Airport",
+   "country": "IT",
+   "distance_km": 14.0
+  }
+ },
+ "vernazza": {
+  "name_ja": "ヴェルナッツァ",
+  "nearest": {
+   "iata": "GOA",
+   "name": "Genoa Cristoforo Colombo Airport",
+   "type": "large_airport",
+   "country": "IT",
+   "distance_km": 73.8
+  },
+  "nearest_large": {
+   "iata": "GOA",
+   "name": "Genoa Cristoforo Colombo Airport",
+   "country": "IT",
+   "distance_km": 73.8
+  }
+ }
+}

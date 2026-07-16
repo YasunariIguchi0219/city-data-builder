@@ -1,0 +1,762 @@
+{
+ "Q68950": {
+  "jawiki": null,
+  "enwiki": "Einsiedeln",
+  "n_sitelinks": 54
+ },
+ "Q20103": {
+  "jawiki": "アッシジ",
+  "enwiki": "Assisi",
+  "n_sitelinks": 99
+ },
+ "Q1002826": {
+  "jawiki": "アニック",
+  "enwiki": "Alnwick",
+  "n_sitelinks": 39
+ },
+ "Q485581": {
+  "jawiki": "アヴェイロ",
+  "enwiki": "Aveiro, Portugal",
+  "n_sitelinks": 83
+ },
+ "Q727": {
+  "jawiki": "アムステルダム",
+  "enwiki": "Amsterdam",
+  "n_sitelinks": 281
+ },
+ "Q51812": {
+  "jawiki": "アルベロベッロ",
+  "enwiki": "Alberobello",
+  "n_sitelinks": 81
+ },
+ "Q212620": {
+  "jawiki": "アロマンシュ＝レ＝バン",
+  "enwiki": "Arromanches-les-Bains",
+  "n_sitelinks": 61
+ },
+ "Q38380": {
+  "jawiki": "アンジェ",
+  "enwiki": "Angers",
+  "n_sitelinks": 123
+ },
+ "Q205116": {
+  "jawiki": "アンボワーズ",
+  "enwiki": "Amboise",
+  "n_sitelinks": 65
+ },
+ "Q160493": {
+  "jawiki": "インヴァネス",
+  "enwiki": "Inverness",
+  "n_sitelinks": 90
+ },
+ "Q464955": {
+  "jawiki": "ウィンザー (イングランド)",
+  "enwiki": "Windsor, Berkshire",
+  "n_sitelinks": 67
+ },
+ "Q1741": {
+  "jawiki": "ウィーン",
+  "enwiki": "Vienna",
+  "n_sitelinks": 288
+ },
+ "Q23436": {
+  "jawiki": "エディンバラ",
+  "enwiki": "Edinburgh",
+  "n_sitelinks": 192
+ },
+ "Q179948": {
+  "jawiki": "エヴォラ",
+  "enwiki": "Évora",
+  "n_sitelinks": 79
+ },
+ "Q585": {
+  "jawiki": "オスロ",
+  "enwiki": "Oslo",
+  "n_sitelinks": 242
+ },
+ "Q34217": {
+  "jawiki": "オックスフォード",
+  "enwiki": "Oxford",
+  "n_sitelinks": 149
+ },
+ "Q223353": {
+  "jawiki": "オパティヤ",
+  "enwiki": "Opatija",
+  "n_sitelinks": 54
+ },
+ "Q275862": {
+  "jawiki": null,
+  "enwiki": "Óbidos, Portugal",
+  "n_sitelinks": 49
+ },
+ "Q22536": {
+  "jawiki": "オルタ・サン・ジューリオ",
+  "enwiki": "Orta San Giulio",
+  "n_sitelinks": 63
+ },
+ "Q25732": {
+  "jawiki": "エレブルー",
+  "enwiki": "Örebro",
+  "n_sitelinks": 103
+ },
+ "Q25331": {
+  "jawiki": "オーデンセ",
+  "enwiki": "Odense",
+  "n_sitelinks": 115
+ },
+ "Q25319": {
+  "jawiki": "オーフス",
+  "enwiki": "Aarhus",
+  "n_sitelinks": 127
+ },
+ "Q6454": {
+  "jawiki": "カレー (フランス)",
+  "enwiki": "Calais",
+  "n_sitelinks": 117
+ },
+ "Q24013870": {
+  "jawiki": null,
+  "enwiki": null,
+  "n_sitelinks": 3
+ },
+ "Q41185": {
+  "jawiki": "カーン",
+  "enwiki": "Caen",
+  "n_sitelinks": 117
+ },
+ "Q2415": {
+  "jawiki": "クリスチャンサン",
+  "enwiki": "Kristiansand",
+  "n_sitelinks": 87
+ },
+ "Q4093": {
+  "jawiki": "グラスゴー",
+  "enwiki": "Glasgow",
+  "n_sitelinks": 174
+ },
+ "Q8810": {
+  "jawiki": "グラナダ",
+  "enwiki": "Granada",
+  "n_sitelinks": 151
+ },
+ "Q69600": {
+  "jawiki": null,
+  "enwiki": "Gruyères",
+  "n_sitelinks": 50
+ },
+ "Q365": {
+  "jawiki": "ケルン",
+  "enwiki": "Cologne",
+  "n_sitelinks": 189
+ },
+ "Q45412": {
+  "jawiki": "コインブラ",
+  "enwiki": "Coimbra",
+  "n_sitelinks": 106
+ },
+ "Q1748": {
+  "jawiki": "コペンハーゲン",
+  "enwiki": "Copenhagen",
+  "n_sitelinks": 244
+ },
+ "Q5818": {
+  "jawiki": "コルドバ (スペイン)",
+  "enwiki": "Córdoba, Spain",
+  "n_sitelinks": 140
+ },
+ "Q919046": {
+  "jawiki": "コンスエグラ",
+  "enwiki": "Consuegra",
+  "n_sitelinks": 43
+ },
+ "Q11194": {
+  "jawiki": "サラエヴォ",
+  "enwiki": "Sarajevo",
+  "n_sitelinks": 217
+ },
+ "Q10305": {
+  "jawiki": "サラゴサ",
+  "enwiki": "Zaragoza",
+  "n_sitelinks": 152
+ },
+ "Q91413": {
+  "jawiki": "サン・ジミニャーノ",
+  "enwiki": "San Gimignano",
+  "n_sitelinks": 96
+ },
+ "Q10313": {
+  "jawiki": "サン・セバスティアン",
+  "enwiki": "San Sebastián",
+  "n_sitelinks": 115
+ },
+ "Q14314": {
+  "jawiki": "サンティアゴ・デ・コンポステーラ",
+  "enwiki": "Santiago de Compostela",
+  "n_sitelinks": 149
+ },
+ "Q163108": {
+  "jawiki": "サン・マロ",
+  "enwiki": "Saint-Malo",
+  "n_sitelinks": 92
+ },
+ "Q1435": {
+  "jawiki": "ザグレブ",
+  "enwiki": "Zagreb",
+  "n_sitelinks": 216
+ },
+ "Q34713": {
+  "jawiki": "ザルツブルク",
+  "enwiki": "Salzburg",
+  "n_sitelinks": 159
+ },
+ "Q186037": {
+  "jawiki": "ザンクト・ゴアー",
+  "enwiki": "Sankt Goar",
+  "n_sitelinks": 42
+ },
+ "Q136661": {
+  "jawiki": null,
+  "enwiki": "Zaanse Schans",
+  "n_sitelinks": 27
+ },
+ "Q83236": {
+  "jawiki": "シャモニー＝モン＝ブラン",
+  "enwiki": "Chamonix",
+  "n_sitelinks": 104
+ },
+ "Q130272": {
+  "jawiki": "シャルトル",
+  "enwiki": "Chartres",
+  "n_sitelinks": 103
+ },
+ "Q205367": {
+  "jawiki": "シャンボール城",
+  "enwiki": "Château de Chambord",
+  "n_sitelinks": 55
+ },
+ "Q193215": {
+  "jawiki": "シュノンソー城",
+  "enwiki": "Château de Chenonceau",
+  "n_sitelinks": 46
+ },
+ "Q372647": {
+  "jawiki": "シヨン城",
+  "enwiki": "Chillon Castle",
+  "n_sitelinks": 48
+ },
+ "Q112019": {
+  "jawiki": "シルミオーネ",
+  "enwiki": "Sirmione",
+  "n_sitelinks": 70
+ },
+ "Q71": {
+  "jawiki": "ジュネーヴ",
+  "enwiki": "Geneva",
+  "n_sitelinks": 199
+ },
+ "Q26772333": {
+  "jawiki": null,
+  "enwiki": null,
+  "n_sitelinks": 8
+ },
+ "Q33125737": {
+  "jawiki": null,
+  "enwiki": null,
+  "n_sitelinks": 1
+ },
+ "Q1754": {
+  "jawiki": "ストックホルム",
+  "enwiki": "Stockholm",
+  "n_sitelinks": 275
+ },
+ "Q6602": {
+  "jawiki": "ストラスブール",
+  "enwiki": "Strasbourg",
+  "n_sitelinks": 191
+ },
+ "Q189288": {
+  "jawiki": "ストラトフォード＝アポン＝エイヴォン",
+  "enwiki": "Stratford-upon-Avon",
+  "n_sitelinks": 81
+ },
+ "Q23700": {
+  "jawiki": "ストレーザ",
+  "enwiki": "Stresa",
+  "n_sitelinks": 71
+ },
+ "Q428227": {
+  "jawiki": "ストン",
+  "enwiki": "Ston",
+  "n_sitelinks": 38
+ },
+ "Q39671": {
+  "jawiki": "ストーンヘンジ",
+  "enwiki": "Stonehenge",
+  "n_sitelinks": 135
+ },
+ "Q1663": {
+  "jawiki": "スプリト",
+  "enwiki": "Split, Croatia",
+  "n_sitelinks": 115
+ },
+ "Q8717": {
+  "jawiki": "セビリア",
+  "enwiki": "Seville",
+  "n_sitelinks": 179
+ },
+ "Q208495": {
+  "jawiki": "ソグネ・フィヨルド",
+  "enwiki": "Sognefjord",
+  "n_sitelinks": 50
+ },
+ "Q160642": {
+  "jawiki": "ソールズベリー",
+  "enwiki": "Salisbury",
+  "n_sitelinks": 89
+ },
+ "Q179815": {
+  "jawiki": "ダラム",
+  "enwiki": "Durham, England",
+  "n_sitelinks": 86
+ },
+ "Q188082": {
+  "jawiki": "チェスキー・クルムロフ",
+  "enwiki": "Český Krumlov",
+  "n_sitelinks": 80
+ },
+ "Q72": {
+  "jawiki": "チューリッヒ",
+  "enwiki": "Zurich",
+  "n_sitelinks": 197
+ },
+ "Q27494": {
+  "jawiki": "ツェルマット",
+  "enwiki": "Zermatt",
+  "n_sitelinks": 69
+ },
+ "Q201311": {
+  "jawiki": "ディナン (フランス)",
+  "enwiki": "Dinan",
+  "n_sitelinks": 69
+ },
+ "Q288": {
+  "jawiki": "トゥール (アンドル＝エ＝ロワール県)",
+  "enwiki": "Tours",
+  "n_sitelinks": 116
+ },
+ "Q13495": {
+  "jawiki": "トラーニ",
+  "enwiki": "Trani",
+  "n_sitelinks": 84
+ },
+ "Q1722": {
+  "jawiki": "ドゥブロヴニク",
+  "enwiki": "Dubrovnik",
+  "n_sitelinks": 123
+ },
+ "Q23325": {
+  "jawiki": "ドモドッソラ",
+  "enwiki": "Domodossola",
+  "n_sitelinks": 70
+ },
+ "Q497179": {
+  "jawiki": "ナザレ (ポルトガル)",
+  "enwiki": "Nazaré, Portugal",
+  "n_sitelinks": 48
+ },
+ "Q2634": {
+  "jawiki": "ナポリ",
+  "enwiki": "Naples",
+  "n_sitelinks": 205
+ },
+ "Q503862": {
+  "jawiki": "ナーンタリ",
+  "enwiki": "Naantali",
+  "n_sitelinks": 49
+ },
+ "Q2090": {
+  "jawiki": "ニュルンベルク",
+  "enwiki": "Nuremberg",
+  "n_sitelinks": 156
+ },
+ "Q49650": {
+  "jawiki": "ネス湖",
+  "enwiki": "Loch Ness",
+  "n_sitelinks": 78
+ },
+ "Q13149": {
+  "jawiki": "ネルハ",
+  "enwiki": "Nerja",
+  "n_sitelinks": 63
+ },
+ "Q41262": {
+  "jawiki": "ノッティンガム",
+  "enwiki": "Nottingham",
+  "n_sitelinks": 121
+ },
+ "Q2966": {
+  "jawiki": "ハイデルベルク",
+  "enwiki": "Heidelberg",
+  "n_sitelinks": 144
+ },
+ "Q856722": {
+  "jawiki": "バイブリー",
+  "enwiki": "Bibury",
+  "n_sitelinks": 26
+ },
+ "Q134674": {
+  "jawiki": "バイヨンヌ",
+  "enwiki": "Bayonne",
+  "n_sitelinks": 94
+ },
+ "Q810715": {
+  "jawiki": "バターリャ",
+  "enwiki": "Batalha, Portugal",
+  "n_sitelinks": 41
+ },
+ "Q131127": {
+  "jawiki": "バニャ・ルカ",
+  "enwiki": "Banja Luka",
+  "n_sitelinks": 96
+ },
+ "Q1492": {
+  "jawiki": "バルセロナ",
+  "enwiki": "Barcelona",
+  "n_sitelinks": 245
+ },
+ "Q8818": {
+  "jawiki": "バレンシア (スペイン)",
+  "enwiki": "Valencia",
+  "n_sitelinks": 169
+ },
+ "Q22889": {
+  "jawiki": "バース (イングランド)",
+  "enwiki": "Bath, Somerset",
+  "n_sitelinks": 110
+ },
+ "Q2256": {
+  "jawiki": "バーミンガム",
+  "enwiki": "Birmingham",
+  "n_sitelinks": 163
+ },
+ "Q90": {
+  "jawiki": "パリ",
+  "enwiki": "Paris",
+  "n_sitelinks": 361
+ },
+ "Q10282": {
+  "jawiki": "パンプローナ",
+  "enwiki": "Pamplona",
+  "n_sitelinks": 109
+ },
+ "Q14318": {
+  "jawiki": "ビトリア＝ガステイス",
+  "enwiki": "Vitoria-Gasteiz",
+  "n_sitelinks": 114
+ },
+ "Q2999": {
+  "jawiki": "ヴュルツブルク",
+  "enwiki": "Würzburg",
+  "n_sitelinks": 120
+ },
+ "Q477613": {
+  "jawiki": "ヴィランドリー城",
+  "enwiki": "Château de Villandry",
+  "n_sitelinks": 31
+ },
+ "Q8692": {
+  "jawiki": "ビルバオ",
+  "enwiki": "Bilbao",
+  "n_sitelinks": 149
+ },
+ "Q13375": {
+  "jawiki": "ピサ",
+  "enwiki": "Pisa",
+  "n_sitelinks": 155
+ },
+ "Q2044": {
+  "jawiki": "フィレンツェ",
+  "enwiki": "Florence",
+  "n_sitelinks": 210
+ },
+ "Q1012033": {
+  "jawiki": "フォート・オーガスタス",
+  "enwiki": "Fort Augustus",
+  "n_sitelinks": 24
+ },
+ "Q4043": {
+  "jawiki": "フージェール",
+  "enwiki": "Fougères",
+  "n_sitelinks": 74
+ },
+ "Q1794": {
+  "jawiki": "フランクフルト・アム・マイン",
+  "enwiki": "Frankfurt",
+  "n_sitelinks": 212
+ },
+ "Q217216": {
+  "jawiki": "ブイヨン (ベルギー)",
+  "enwiki": "Bouillon, Belgium",
+  "n_sitelinks": 52
+ },
+ "Q1781": {
+  "jawiki": "ブダペスト",
+  "enwiki": "Budapest",
+  "n_sitelinks": 258
+ },
+ "Q83247": {
+  "jawiki": "ブラガ",
+  "enwiki": "Braga",
+  "n_sitelinks": 104
+ },
+ "Q1780": {
+  "jawiki": "ブラチスラヴァ",
+  "enwiki": "Bratislava",
+  "n_sitelinks": 224
+ },
+ "Q239": {
+  "jawiki": "ブリュッセル市",
+  "enwiki": "City of Brussels",
+  "n_sitelinks": 239
+ },
+ "Q15583": {
+  "jawiki": "ブリーク",
+  "enwiki": "Brig-Glis",
+  "n_sitelinks": 57
+ },
+ "Q9580": {
+  "jawiki": "ブルゴス",
+  "enwiki": "Burgos",
+  "n_sitelinks": 105
+ },
+ "Q12994": {
+  "jawiki": "ブルッヘ",
+  "enwiki": "Bruges",
+  "n_sitelinks": 119
+ },
+ "Q202852": {
+  "jawiki": "ブレッド",
+  "enwiki": "Bled",
+  "n_sitelinks": 67
+ },
+ "Q1085": {
+  "jawiki": "プラハ",
+  "enwiki": "Prague",
+  "n_sitelinks": 265
+ },
+ "Q189849": {
+  "jawiki": "プリトヴィツェ湖群国立公園",
+  "enwiki": "Plitvice Lakes National Park",
+  "n_sitelinks": 70
+ },
+ "Q1757": {
+  "jawiki": "ヘルシンキ",
+  "enwiki": "Helsinki",
+  "n_sitelinks": 291
+ },
+ "Q26881": {
+  "jawiki": "ヘルシンゲル",
+  "enwiki": "Helsingør",
+  "n_sitelinks": 82
+ },
+ "Q641": {
+  "jawiki": "ヴェネツィア",
+  "enwiki": "Venice",
+  "n_sitelinks": 227
+ },
+ "Q13437": {
+  "jawiki": "ベネヴェント",
+  "enwiki": "Benevento",
+  "n_sitelinks": 94
+ },
+ "Q26793": {
+  "jawiki": "ベルゲン",
+  "enwiki": "Bergen",
+  "n_sitelinks": 145
+ },
+ "Q70": {
+  "jawiki": "ベルン",
+  "enwiki": "Bern",
+  "n_sitelinks": 205
+ },
+ "Q2028": {
+  "jawiki": "ヴェローナ",
+  "enwiki": "Verona",
+  "n_sitelinks": 141
+ },
+ "Q845424": {
+  "jawiki": "ペニスコラ",
+  "enwiki": "Peniscola",
+  "n_sitelinks": 47
+ },
+ "Q691544": {
+  "jawiki": null,
+  "enwiki": "Hawkshead",
+  "n_sitelinks": 19
+ },
+ "Q15901": {
+  "jawiki": null,
+  "enwiki": "Postojna",
+  "n_sitelinks": 58
+ },
+ "Q36433": {
+  "jawiki": "ポルト",
+  "enwiki": "Porto",
+  "n_sitelinks": 137
+ },
+ "Q43332": {
+  "jawiki": "ポンペイ",
+  "enwiki": "Pompeii",
+  "n_sitelinks": 122
+ },
+ "Q13616": {
+  "jawiki": "マテーラ",
+  "enwiki": "Matera",
+  "n_sitelinks": 103
+ },
+ "Q2807": {
+  "jawiki": "マドリード",
+  "enwiki": "Madrid",
+  "n_sitelinks": 303
+ },
+ "Q8851": {
+  "jawiki": "マラガ",
+  "enwiki": "Málaga",
+  "n_sitelinks": 147
+ },
+ "Q1010": {
+  "jawiki": "マリボル",
+  "enwiki": "Maribor",
+  "n_sitelinks": 104
+ },
+ "Q68956": {
+  "jawiki": "マルティニー",
+  "enwiki": "Martigny",
+  "n_sitelinks": 66
+ },
+ "Q1726": {
+  "jawiki": "ミュンヘン",
+  "enwiki": "Munich",
+  "n_sitelinks": 240
+ },
+ "Q490": {
+  "jawiki": "ミラノ",
+  "enwiki": "Milan",
+  "n_sitelinks": 225
+ },
+ "Q14323": {
+  "jawiki": "メリダ (スペイン)",
+  "enwiki": "Mérida, Spain",
+  "n_sitelinks": 102
+ },
+ "Q93347": {
+  "jawiki": "モスタル",
+  "enwiki": "Mostar",
+  "n_sitelinks": 103
+ },
+ "Q20892": {
+  "jawiki": "ル・モン＝サン＝ミシェル",
+  "enwiki": "Mont-Saint-Michel",
+  "n_sitelinks": 95
+ },
+ "Q771935": {
+  "jawiki": null,
+  "enwiki": "Santa Maria de Montserrat Abbey",
+  "n_sitelinks": 38
+ },
+ "Q258429": {
+  "jawiki": "ヤイツェ",
+  "enwiki": "Jajce",
+  "n_sitelinks": 46
+ },
+ "Q42462": {
+  "jawiki": "ヨーク (イングランド)",
+  "enwiki": "York",
+  "n_sitelinks": 128
+ },
+ "Q168052": {
+  "jawiki": null,
+  "enwiki": "City of Lancaster",
+  "n_sitelinks": 28
+ },
+ "Q41876": {
+  "jawiki": "ランス (マルヌ県)",
+  "enwiki": "Reims",
+  "n_sitelinks": 123
+ },
+ "Q597": {
+  "jawiki": "リスボン",
+  "enwiki": "Lisbon",
+  "n_sitelinks": 265
+ },
+ "Q1823259": {
+  "jawiki": null,
+  "enwiki": "Lichfield District",
+  "n_sitelinks": 17
+ },
+ "Q437": {
+  "jawiki": "リュブリャナ",
+  "enwiki": "Ljubljana",
+  "n_sitelinks": 203
+ },
+ "Q628118": {
+  "jawiki": "リューデスハイム・アム・ライン",
+  "enwiki": "Rüdesheim am Rhein",
+  "n_sitelinks": 50
+ },
+ "Q7024": {
+  "jawiki": "ルガーノ",
+  "enwiki": "Lugano",
+  "n_sitelinks": 118
+ },
+ "Q1842": {
+  "jawiki": "ルクセンブルク市",
+  "enwiki": "Luxembourg City",
+  "n_sitelinks": 174
+ },
+ "Q30974": {
+  "jawiki": "ルーアン",
+  "enwiki": "Rouen",
+  "n_sitelinks": 154
+ },
+ "Q254139": {
+  "jawiki": "レヴァント (イタリア)",
+  "enwiki": "Levanto, Liguria",
+  "n_sitelinks": 59
+ },
+ "Q647": {
+  "jawiki": "レンヌ",
+  "enwiki": "Rennes",
+  "n_sitelinks": 139
+ },
+ "Q917891": {
+  "jawiki": "ロンセスバーリェス",
+  "enwiki": "Roncesvalles",
+  "n_sitelinks": 45
+ },
+ "Q13153": {
+  "jawiki": "ロンダ (スペイン)",
+  "enwiki": "Ronda",
+  "n_sitelinks": 80
+ },
+ "Q84": {
+  "jawiki": "ロンドン",
+  "enwiki": "London",
+  "n_sitelinks": 354
+ },
+ "Q153494": {
+  "jawiki": "ローテンブルク・オプ・デア・タウバー",
+  "enwiki": "Rothenburg ob der Tauber",
+  "n_sitelinks": 71
+ },
+ "Q220": {
+  "jawiki": "ローマ",
+  "enwiki": "Rome",
+  "n_sitelinks": 339
+ },
+ "Q270328": {
+  "jawiki": "ヴェルナッツァ",
+  "enwiki": "Vernazza",
+  "n_sitelinks": 62
+ }
+}
