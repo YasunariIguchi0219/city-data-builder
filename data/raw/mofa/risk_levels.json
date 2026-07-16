@@ -1,0 +1,112 @@
+{
+ "retrieved_at": "2026-07-16",
+ "source": "https://www.ezairyu.mofa.go.jp/opendata/country/<code>.xml",
+ "semantics": "国内に存在する危険情報の最大レベル（0=発出なし）。粒度は国単位",
+ "levels": {
+  "AT": {
+   "country_ja": "オーストリア",
+   "mofa_code": "0043",
+   "risk_level": 0
+  },
+  "BA": {
+   "country_ja": "ボスニア・ヘルツェゴビナ",
+   "mofa_code": "0387",
+   "risk_level": 1
+  },
+  "BE": {
+   "country_ja": "ベルギー",
+   "mofa_code": "0032",
+   "risk_level": 0
+  },
+  "CH": {
+   "country_ja": "スイス",
+   "mofa_code": "0041",
+   "risk_level": 0
+  },
+  "CZ": {
+   "country_ja": "チェコ",
+   "mofa_code": "0420",
+   "risk_level": 0
+  },
+  "DE": {
+   "country_ja": "ドイツ",
+   "mofa_code": "0049",
+   "risk_level": 0
+  },
+  "DK": {
+   "country_ja": "デンマーク",
+   "mofa_code": "0045",
+   "risk_level": 0
+  },
+  "ES": {
+   "country_ja": "スペイン",
+   "mofa_code": "0034",
+   "risk_level": 0
+  },
+  "FI": {
+   "country_ja": "フィンランド",
+   "mofa_code": "0358",
+   "risk_level": 0
+  },
+  "FR": {
+   "country_ja": "フランス",
+   "mofa_code": "0033",
+   "risk_level": 0
+  },
+  "GB": {
+   "country_ja": "イギリス",
+   "mofa_code": "0044",
+   "risk_level": 0
+  },
+  "HR": {
+   "country_ja": "クロアチア",
+   "mofa_code": "0385",
+   "risk_level": 1
+  },
+  "HU": {
+   "country_ja": "ハンガリー",
+   "mofa_code": "0036",
+   "risk_level": 0
+  },
+  "IT": {
+   "country_ja": "イタリア",
+   "mofa_code": "0039",
+   "risk_level": 0
+  },
+  "LU": {
+   "country_ja": "ルクセンブルク",
+   "mofa_code": "0352",
+   "risk_level": 0
+  },
+  "NL": {
+   "country_ja": "オランダ",
+   "mofa_code": "0031",
+   "risk_level": 0
+  },
+  "NO": {
+   "country_ja": "ノルウェー",
+   "mofa_code": "0047",
+   "risk_level": 0
+  },
+  "PT": {
+   "country_ja": "ポルトガル",
+   "mofa_code": "0351",
+   "risk_level": 0
+  },
+  "SE": {
+   "country_ja": "スウェーデン",
+   "mofa_code": "0046",
+   "risk_level": 0
+  },
+  "SI": {
+   "country_ja": "スロベニア",
+   "mofa_code": "0386",
+   "risk_level": 0
+  },
+  "SK": {
+   "country_ja": "スロバキア",
+   "mofa_code": "0421",
+   "risk_level": 0
+  }
+ }
+}

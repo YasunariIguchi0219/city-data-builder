@@ -13,7 +13,7 @@
 | 0. 名寄せ | 154件にQID・座標・種別を付与 | ✅ 完了（全件暫定承認） | [docs/phase0/](docs/phase0/)、`data/master/places_master.json` |
 | 1. 調査 | データソースの取得可否・カバー率・ライセンス | ✅ 完了（承認待ち） | [docs/phase1/](docs/phase1/) |
 | 2. 設計 | スキーマ＋質問回答→指標マッピング | ✅ 完了（承認済み） | [docs/phase2/](docs/phase2/)、[schema/](schema/)、`data/output/samples/` |
-| 3. 作成 | 154件の統一フォーマットデータ | 🔄 進行中 | docs/phase3/、data/output/ |
+| 3. 作成 | 154件の統一フォーマットデータ | ✅ 一次完成（POI=OSM版） | [docs/phase3/](docs/phase3/)、[data/output/places.json](data/output/places.json) |
 
 ## フォルダ構成
 

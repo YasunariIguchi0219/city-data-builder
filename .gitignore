@@ -2,6 +2,17 @@
 __pycache__/
 *.pyc
 
+# シークレット（APIトークン等）。コミット禁止。テンプレートは .env.example
+.env
+
 # data/raw/ の方針: スクリプトで再取得可能な大容量ダウンロード物はgit管理しない
-# （小さな加工済みデータ・APIキャッシュは管理する）。取得方法は各スクリプト参照。
+# （小さな加工済みデータ・APIキャッシュ・取得に時間のかかる成果は管理する）。
+# 取得方法は各スクリプト参照。
 data/raw/survey/ourairports_airports.csv
+# ERA5生データ（17MB×2。climate_era5.py fetch で再取得可。抽出結果 climate_monthly.json は管理）
+data/raw/era5/era5_monthly_europe.nc
+data/raw/era5/unzipped/
+# 外務省の国別XML（計40MB超・随時更新。mofa_safety.py で再取得可。
+# 抽出結果 risk_levels.json と国コード表 country_codes.xlsx は管理）
+data/raw/mofa/*.xml
+data/raw/mofa/index.html

@@ -4,7 +4,10 @@ version = "0.1.0"
 description = "接客AI（β版）向け 都市提案ロジック用データの整備（154都市・観光地）"
 requires-python = ">=3.13"
 dependencies = [
+    "cdsapi>=0.7.7",
     "jsonschema>=4.26.0",
+    "netcdf4>=1.7.4",
+    "openpyxl>=3.1.5",
 ]
 
 [dependency-groups]
