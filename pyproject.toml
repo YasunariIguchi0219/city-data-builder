@@ -3,7 +3,9 @@ name = "city-data-builder"
 version = "0.1.0"
 description = "接客AI（β版）向け 都市提案ロジック用データの整備（154都市・観光地）"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "jsonschema>=4.26.0",
+]
 
 [dependency-groups]
 dev = []

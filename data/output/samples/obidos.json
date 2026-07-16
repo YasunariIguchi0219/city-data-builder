@@ -1,0 +1,201 @@
+{
+  "identity": {
+    "id": "obidos",
+    "name_ja": "オビドス",
+    "name_en": "Óbidos",
+    "qid": "Q275862",
+    "country": "PT",
+    "country_ja": "ポルトガル",
+    "type": "town_village",
+    "lat": 39.36195,
+    "lon": -9.15713,
+    "base_place_id": null,
+    "endpoints": null,
+    "note": "ブラジルにも同名地あり。ポルトガルと同定"
+  },
+  "geography": {
+    "population": 11689,
+    "population_date": "2011-06-30",
+    "elevation_m": 49.0,
+    "coastal": null,
+    "_meta": {
+      "source": "wikidata",
+      "license": "CC0-1.0",
+      "attribution": null,
+      "retrieved_at": "2026-07-16"
+    }
+  },
+  "poi": null,
+  "osm_features": null,
+  "heritage": {
+    "whs_onsite": [],
+    "whs_within_30km": 1,
+    "_meta": {
+      "source": "wikidata",
+      "license": "CC0-1.0",
+      "attribution": null,
+      "retrieved_at": "2026-07-16"
+    }
+  },
+  "climate": {
+    "monthly": [
+      {
+        "month": 1,
+        "temp_mean_c": 12.4,
+        "precip_mm": 137.0,
+        "sunshine_h": 216.7,
+        "humidity_pct": 85.9
+      },
+      {
+        "month": 2,
+        "temp_mean_c": 13.6,
+        "precip_mm": 111.4,
+        "sunshine_h": 236.4,
+        "humidity_pct": 81.7
+      },
+      {
+        "month": 3,
+        "temp_mean_c": 13.3,
+        "precip_mm": 178.3,
+        "sunshine_h": 282.3,
+        "humidity_pct": 79.1
+      },
+      {
+        "month": 4,
+        "temp_mean_c": 15.9,
+        "precip_mm": 28.6,
+        "sunshine_h": 335.1,
+        "humidity_pct": 72.9
+      },
+      {
+        "month": 5,
+        "temp_mean_c": 16.3,
+        "precip_mm": 26.3,
+        "sunshine_h": 383.7,
+        "humidity_pct": 74.6
+      },
+      {
+        "month": 6,
+        "temp_mean_c": 18.2,
+        "precip_mm": 112.5,
+        "sunshine_h": 351.8,
+        "humidity_pct": 79.4
+      },
+      {
+        "month": 7,
+        "temp_mean_c": 19.9,
+        "precip_mm": 11.8,
+        "sunshine_h": 385.2,
+        "humidity_pct": 80.9
+      },
+      {
+        "month": 8,
+        "temp_mean_c": 19.9,
+        "precip_mm": 3.4,
+        "sunshine_h": 355.6,
+        "humidity_pct": 82.5
+      },
+      {
+        "month": 9,
+        "temp_mean_c": 18.8,
+        "precip_mm": 23.6,
+        "sunshine_h": 325.4,
+        "humidity_pct": 73.7
+      },
+      {
+        "month": 10,
+        "temp_mean_c": 17.9,
+        "precip_mm": 135.4,
+        "sunshine_h": 245.9,
+        "humidity_pct": 84.4
+      },
+      {
+        "month": 11,
+        "temp_mean_c": 15.6,
+        "precip_mm": 79.0,
+        "sunshine_h": 230.7,
+        "humidity_pct": 83.1
+      },
+      {
+        "month": 12,
+        "temp_mean_c": 11.2,
+        "precip_mm": 23.9,
+        "sunshine_h": 253.6,
+        "humidity_pct": 77.8
+      }
+    ],
+    "reference_period": "2024",
+    "_meta": {
+      "source": "era5",
+      "license": "Copernicus-Products-Licence",
+      "attribution": "Generated using Copernicus Climate Change Service information 2026",
+      "retrieved_at": "2026-07-16"
+    }
+  },
+  "access": {
+    "nearest_airport": {
+      "iata": "LIS",
+      "name": "Lisbon Humberto Delgado Airport",
+      "type": "large_airport",
+      "country": "PT",
+      "distance_km": 64.6
+    },
+    "nearest_large_airport": {
+      "iata": "LIS",
+      "name": "Lisbon Humberto Delgado Airport",
+      "country": "PT",
+      "distance_km": 64.6,
+      "type": "large_airport"
+    },
+    "nearest_hub_place_id": "lisbon",
+    "nearest_hub_distance_km": 72.7,
+    "_meta": {
+      "source": "ourairports",
+      "license": "Public-Domain",
+      "attribution": null,
+      "retrieved_at": "2026-07-16"
+    }
+  },
+  "recognition": {
+    "wikipedia_views_ja_year": null,
+    "wikipedia_views_en_year": 89820,
+    "wikipedia_sitelinks": 49,
+    "views_year": "2025",
+    "nights_spent_nuts2": null,
+    "_meta": {
+      "source": "wikimedia_pageviews",
+      "license": "CC0-1.0",
+      "attribution": null,
+      "retrieved_at": "2026-07-16"
+    }
+  },
+  "safety": null,
+  "indicators": {
+    "seasonal_comfort": {
+      "value": [
+        70,
+        77,
+        70,
+        94,
+        95,
+        77,
+        98,
+        99,
+        95,
+        73,
+        83,
+        95
+      ],
+      "cohort": null,
+      "depends_on": [
+        "era5"
+      ],
+      "formula": "月別: 0.5*快適帯(8-27C台形) + 0.3*(1-降水/150mm) + 0.2*min(日照/250h,1)"
+    }
+  },
+  "meta": {
+    "schema_version": "0.2.0-draft",
+    "generated_at": "2026-07-16",
+    "notes": "フェーズ2設計レビュー用サンプル。poi/osm_features/safetyはフェーズ3で取得（null）。気候は2024年単年の暫定値（本番はERA5平年値に置換）。コホート正規化が必要な指標（food_scene等）は全件データ作成後に算出。"
+  }
+}

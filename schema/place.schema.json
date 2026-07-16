@@ -1,0 +1,240 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jtb.example/city-data-builder/place.schema.json",
+  "title": "place",
+  "description": "都市提案ロジック用データ：1地点のレコード（設計書: docs/phase2/schema-design.md）",
+  "type": "object",
+  "required": ["identity", "meta"],
+  "additionalProperties": false,
+  "properties": {
+    "identity": {
+      "type": "object",
+      "required": ["id", "name_ja", "name_en", "type"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+        "name_ja": {"type": "string"},
+        "name_en": {"type": "string"},
+        "qid": {"type": ["string", "null"], "pattern": "^Q[0-9]+$"},
+        "country": {"type": ["string", "null"], "pattern": "^[A-Z]{2}$"},
+        "country_ja": {"type": ["string", "null"]},
+        "type": {"enum": ["city", "town_village", "single_poi", "natural_feature", "route"]},
+        "lat": {"type": ["number", "null"], "minimum": -90, "maximum": 90},
+        "lon": {"type": ["number", "null"], "minimum": -180, "maximum": 180},
+        "base_place_id": {"type": ["string", "null"]},
+        "endpoints": {"type": ["array", "null"], "items": {"type": "string"}},
+        "note": {"type": ["string", "null"]}
+      }
+    },
+    "geography": {
+      "anyOf": [{"type": "null"}, {
+        "type": "object",
+        "required": ["_meta"],
+        "additionalProperties": false,
+        "properties": {
+          "population": {"type": ["integer", "null"], "minimum": 0},
+          "population_date": {"type": ["string", "null"]},
+          "elevation_m": {"type": ["number", "null"]},
+          "coastal": {"type": ["boolean", "null"]},
+          "_meta": {"$ref": "#/$defs/blockMeta"}
+        }
+      }]
+    },
+    "poi": {
+      "anyOf": [{"type": "null"}, {
+        "type": "object",
+        "required": ["_meta"],
+        "additionalProperties": false,
+        "properties": {
+          "radius_km": {"type": "number"},
+          "dining_5km": {"type": ["integer", "null"], "minimum": 0},
+          "dining_categories_5km": {"type": ["integer", "null"], "minimum": 0},
+          "culture_5km": {"type": ["integer", "null"], "minimum": 0},
+          "nightlife_5km": {"type": ["integer", "null"], "minimum": 0},
+          "shopping_5km": {"type": ["integer", "null"], "minimum": 0},
+          "wellness_5km": {"type": ["integer", "null"], "minimum": 0},
+          "lodging_5km": {"type": ["integer", "null"], "minimum": 0},
+          "dining_1km": {"type": ["integer", "null"], "minimum": 0},
+          "culture_1km": {"type": ["integer", "null"], "minimum": 0},
+          "shopping_1km": {"type": ["integer", "null"], "minimum": 0},
+          "_meta": {"$ref": "#/$defs/blockMeta"}
+        }
+      }]
+    },
+    "osm_features": {
+      "$comment": "OSM(ODbL)由来データの隔離ブロック。他ソースの値を混入させないこと（設計書§1原則4）",
+      "anyOf": [{"type": "null"}, {
+        "type": "object",
+        "required": ["_meta"],
+        "additionalProperties": false,
+        "properties": {
+          "viewpoints_5km": {"type": ["integer", "null"], "minimum": 0},
+          "peaks_10km": {"type": ["integer", "null"], "minimum": 0},
+          "lakes_10km": {"type": ["integer", "null"], "minimum": 0},
+          "coastline_10km": {"type": ["boolean", "null"]},
+          "protected_areas_10km": {"type": ["integer", "null"], "minimum": 0},
+          "hiking_routes_10km": {"type": ["integer", "null"], "minimum": 0},
+          "ski_marina_10km": {"type": ["integer", "null"], "minimum": 0},
+          "parks_gardens_5km": {"type": ["integer", "null"], "minimum": 0},
+          "pedestrian_area_1km": {"type": ["boolean", "null"]},
+          "_meta": {"$ref": "#/$defs/blockMeta"}
+        }
+      }]
+    },
+    "heritage": {
+      "anyOf": [{"type": "null"}, {
+        "type": "object",
+        "required": ["_meta"],
+        "additionalProperties": false,
+        "properties": {
+          "whs_onsite": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["qid", "label", "distance_km"],
+              "additionalProperties": false,
+              "properties": {
+                "qid": {"type": "string", "pattern": "^Q[0-9]+$"},
+                "label": {"type": "string"},
+                "distance_km": {"type": "number", "minimum": 0}
+              }
+            }
+          },
+          "whs_within_30km": {"type": ["integer", "null"], "minimum": 0},
+          "_meta": {"$ref": "#/$defs/blockMeta"}
+        }
+      }]
+    },
+    "climate": {
+      "anyOf": [{"type": "null"}, {
+        "type": "object",
+        "required": ["monthly", "reference_period", "_meta"],
+        "additionalProperties": false,
+        "properties": {
+          "monthly": {
+            "type": "array",
+            "minItems": 12,
+            "maxItems": 12,
+            "items": {
+              "type": "object",
+              "required": ["month", "temp_mean_c", "precip_mm", "sunshine_h", "humidity_pct"],
+              "additionalProperties": false,
+              "properties": {
+                "month": {"type": "integer", "minimum": 1, "maximum": 12},
+                "temp_mean_c": {"type": ["number", "null"]},
+                "precip_mm": {"type": ["number", "null"], "minimum": 0},
+                "sunshine_h": {"type": ["number", "null"], "minimum": 0},
+                "humidity_pct": {"type": ["number", "null"], "minimum": 0, "maximum": 100}
+              }
+            }
+          },
+          "reference_period": {"type": "string"},
+          "_meta": {"$ref": "#/$defs/blockMeta"}
+        }
+      }]
+    },
+    "access": {
+      "anyOf": [{"type": "null"}, {
+        "type": "object",
+        "required": ["_meta"],
+        "additionalProperties": false,
+        "properties": {
+          "nearest_airport": {"$ref": "#/$defs/airport"},
+          "nearest_large_airport": {"$ref": "#/$defs/airport"},
+          "nearest_hub_place_id": {"type": ["string", "null"]},
+          "nearest_hub_distance_km": {"type": ["number", "null"], "minimum": 0},
+          "_meta": {"$ref": "#/$defs/blockMeta"}
+        }
+      }]
+    },
+    "recognition": {
+      "anyOf": [{"type": "null"}, {
+        "type": "object",
+        "required": ["_meta"],
+        "additionalProperties": false,
+        "properties": {
+          "wikipedia_views_ja_year": {"type": ["integer", "null"], "minimum": 0},
+          "wikipedia_views_en_year": {"type": ["integer", "null"], "minimum": 0},
+          "wikipedia_sitelinks": {"type": ["integer", "null"], "minimum": 0},
+          "views_year": {"type": ["string", "null"]},
+          "nights_spent_nuts2": {"type": ["integer", "null"], "minimum": 0},
+          "_meta": {"$ref": "#/$defs/blockMeta"}
+        }
+      }]
+    },
+    "safety": {
+      "anyOf": [{"type": "null"}, {
+        "type": "object",
+        "required": ["granularity", "_meta"],
+        "additionalProperties": false,
+        "properties": {
+          "mofa_risk_level": {"type": ["integer", "null"], "minimum": 0, "maximum": 4},
+          "granularity": {"enum": ["country", "region"]},
+          "_meta": {"$ref": "#/$defs/blockMeta"}
+        }
+      }]
+    },
+    "indicators": {
+      "anyOf": [{"type": "null"}, {
+        "type": "object",
+        "additionalProperties": {
+          "type": "object",
+          "required": ["value", "depends_on"],
+          "additionalProperties": false,
+          "properties": {
+            "value": {
+              "anyOf": [
+                {"type": "number"},
+                {"type": "null"},
+                {"type": "array", "items": {"type": ["number", "null"]}, "minItems": 12, "maxItems": 12}
+              ]
+            },
+            "cohort": {"type": ["string", "null"]},
+            "depends_on": {
+              "type": "array",
+              "items": {"enum": ["wikidata", "fsq_os_places", "osm", "era5", "ourairports", "wikimedia_pageviews", "eurostat", "mofa", "computed"]}
+            },
+            "formula": {"type": ["string", "null"]}
+          }
+        }
+      }]
+    },
+    "meta": {
+      "type": "object",
+      "required": ["schema_version", "generated_at"],
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {"type": "string"},
+        "generated_at": {"type": "string"},
+        "notes": {"type": ["string", "null"]}
+      }
+    }
+  },
+  "$defs": {
+    "blockMeta": {
+      "type": "object",
+      "required": ["source", "license", "retrieved_at"],
+      "additionalProperties": false,
+      "properties": {
+        "source": {"enum": ["wikidata", "fsq_os_places", "osm", "era5", "ourairports", "wikimedia_pageviews", "eurostat", "mofa", "computed"]},
+        "license": {"type": "string"},
+        "attribution": {"type": ["string", "null"]},
+        "retrieved_at": {"type": "string"}
+      }
+    },
+    "airport": {
+      "anyOf": [{"type": "null"}, {
+        "type": "object",
+        "required": ["iata", "name", "distance_km"],
+        "additionalProperties": false,
+        "properties": {
+          "iata": {"type": ["string", "null"]},
+          "name": {"type": "string"},
+          "type": {"type": ["string", "null"]},
+          "country": {"type": ["string", "null"]},
+          "distance_km": {"type": "number", "minimum": 0}
+        }
+      }]
+    }
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "identity": {
+    "id": "paris",
+    "name_ja": "パリ",
+    "name_en": "Paris",
+    "qid": "Q90",
+    "country": "FR",
+    "country_ja": "フランス",
+    "type": "city",
+    "lat": 48.85667,
+    "lon": 2.35222,
+    "base_place_id": null,
+    "endpoints": null,
+    "note": null
+  },
+  "geography": {
+    "population": 2103778,
+    "population_date": "2023-01-01",
+    "elevation_m": 28.0,
+    "coastal": null,
+    "_meta": {
+      "source": "wikidata",
+      "license": "CC0-1.0",
+      "attribution": null,
+      "retrieved_at": "2026-07-16"
+    }
+  },
+  "poi": null,
+  "osm_features": null,
+  "heritage": {
+    "whs_onsite": [
+      {
+        "qid": "Q2233532",
+        "label": "パリのセーヌ河岸",
+        "distance_km": 0.9
+      }
+    ],
+    "whs_within_30km": 5,
+    "_meta": {
+      "source": "wikidata",
+      "license": "CC0-1.0",
+      "attribution": null,
+      "retrieved_at": "2026-07-16"
+    }
+  },
+  "climate": {
+    "monthly": [
+      {
+        "month": 1,
+        "temp_mean_c": 3.9,
+        "precip_mm": 65.0,
+        "sunshine_h": 130.3,
+        "humidity_pct": 82.8
+      },
+      {
+        "month": 2,
+        "temp_mean_c": 8.7,
+        "precip_mm": 106.6,
+        "sunshine_h": 77.7,
+        "humidity_pct": 85.1
+      },
+      {
+        "month": 3,
+        "temp_mean_c": 9.0,
+        "precip_mm": 104.7,
+        "sunshine_h": 207.3,
+        "humidity_pct": 81.2
+      },
+      {
+        "month": 4,
+        "temp_mean_c": 11.1,
+        "precip_mm": 88.2,
+        "sunshine_h": 278.3,
+        "humidity_pct": 74.9
+      },
+      {
+        "month": 5,
+        "temp_mean_c": 14.5,
+        "precip_mm": 126.9,
+        "sunshine_h": 305.3,
+        "humidity_pct": 79.7
+      },
+      {
+        "month": 6,
+        "temp_mean_c": 16.5,
+        "precip_mm": 103.6,
+        "sunshine_h": 332.0,
+        "humidity_pct": 74.8
+      },
+      {
+        "month": 7,
+        "temp_mean_c": 19.8,
+        "precip_mm": 63.2,
+        "sunshine_h": 335.4,
+        "humidity_pct": 69.9
+      },
+      {
+        "month": 8,
+        "temp_mean_c": 20.5,
+        "precip_mm": 134.9,
+        "sunshine_h": 318.0,
+        "humidity_pct": 71.1
+      },
+      {
+        "month": 9,
+        "temp_mean_c": 15.6,
+        "precip_mm": 127.9,
+        "sunshine_h": 225.1,
+        "humidity_pct": 78.9
+      },
+      {
+        "month": 10,
+        "temp_mean_c": 13.3,
+        "precip_mm": 117.9,
+        "sunshine_h": 159.7,
+        "humidity_pct": 86.3
+      },
+      {
+        "month": 11,
+        "temp_mean_c": 8.3,
+        "precip_mm": 57.6,
+        "sunshine_h": 105.2,
+        "humidity_pct": 86.1
+      },
+      {
+        "month": 12,
+        "temp_mean_c": 6.0,
+        "precip_mm": 55.6,
+        "sunshine_h": 68.5,
+        "humidity_pct": 88.0
+      }
+    ],
+    "reference_period": "2024",
+    "_meta": {
+      "source": "era5",
+      "license": "Copernicus-Products-Licence",
+      "attribution": "Generated using Copernicus Climate Change Service information 2026",
+      "retrieved_at": "2026-07-16"
+    }
+  },
+  "access": {
+    "nearest_airport": {
+      "iata": "LBG",
+      "name": "Paris-Le Bourget International Airport",
+      "type": "large_airport",
+      "country": "FR",
+      "distance_km": 13.3
+    },
+    "nearest_large_airport": {
+      "iata": "LBG",
+      "name": "Paris-Le Bourget International Airport",
+      "country": "FR",
+      "distance_km": 13.3,
+      "type": "large_airport"
+    },
+    "nearest_hub_place_id": "rouen",
+    "nearest_hub_distance_km": 111.9,
+    "_meta": {
+      "source": "ourairports",
+      "license": "Public-Domain",
+      "attribution": null,
+      "retrieved_at": "2026-07-16"
+    }
+  },
+  "recognition": {
+    "wikipedia_views_ja_year": 121717,
+    "wikipedia_views_en_year": 1897607,
+    "wikipedia_sitelinks": 361,
+    "views_year": "2025",
+    "nights_spent_nuts2": null,
+    "_meta": {
+      "source": "wikimedia_pageviews",
+      "license": "CC0-1.0",
+      "attribution": null,
+      "retrieved_at": "2026-07-16"
+    }
+  },
+  "safety": null,
+  "indicators": {
+    "seasonal_comfort": {
+      "value": [
+        57,
+        65,
+        76,
+        82,
+        75,
+        79,
+        87,
+        73,
+        72,
+        69,
+        77,
+        64
+      ],
+      "cohort": null,
+      "depends_on": [
+        "era5"
+      ],
+      "formula": "月別: 0.5*快適帯(8-27C台形) + 0.3*(1-降水/150mm) + 0.2*min(日照/250h,1)"
+    }
+  },
+  "meta": {
+    "schema_version": "0.2.0-draft",
+    "generated_at": "2026-07-16",
+    "notes": "フェーズ2設計レビュー用サンプル。poi/osm_features/safetyはフェーズ3で取得（null）。気候は2024年単年の暫定値（本番はERA5平年値に置換）。コホート正規化が必要な指標（food_scene等）は全件データ作成後に算出。"
+  }
+}
