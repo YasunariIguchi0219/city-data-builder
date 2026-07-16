@@ -1,0 +1,2433 @@
+{
+ "Einsiedeln|CH": {
+  "qid": "Q68950",
+  "label_en": "Einsiedeln",
+  "label_ja": "アインジーデルン",
+  "label_local": null,
+  "description_en": "municipality in the canton of Schwyz in Switzerland",
+  "lat": 47.12778,
+  "lon": 8.74306,
+  "population": 15550,
+  "population_date": "2017-12-31",
+  "instance_of": [
+   "Q70208",
+   "Q54935504"
+  ]
+ },
+ "Assisi|IT": {
+  "qid": "Q20103",
+  "label_en": "Assisi",
+  "label_ja": "アッシジ",
+  "label_local": null,
+  "description_en": "Italian commune in Umbria",
+  "lat": 43.07081,
+  "lon": 12.615,
+  "population": 27605,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q747074"
+  ]
+ },
+ "Alnwick|GB": {
+  "qid": "Q1002826",
+  "label_en": "Alnwick",
+  "label_ja": "アニック",
+  "label_local": null,
+  "description_en": "market town in north Northumberland, England",
+  "lat": 55.4134,
+  "lon": -1.70691,
+  "population": 8583,
+  "population_date": "2021-00-00",
+  "instance_of": [
+   "Q1115575",
+   "Q1357964",
+   "Q18511725"
+  ]
+ },
+ "Aveiro|PT": {
+  "qid": "Q485581",
+  "label_en": "Aveiro",
+  "label_ja": "アヴェイロ",
+  "label_local": null,
+  "description_en": "municipality in Portugal",
+  "lat": 40.63889,
+  "lon": -8.65528,
+  "population": 78450,
+  "population_date": "2011-00-00",
+  "instance_of": [
+   "Q13217644"
+  ]
+ },
+ "Amsterdam|NL": {
+  "qid": "Q727",
+  "label_en": "Amsterdam",
+  "label_ja": "アムステルダム",
+  "label_local": null,
+  "description_en": "capital and most populous city of the Netherlands",
+  "lat": 52.36667,
+  "lon": 4.88333,
+  "population": 921468,
+  "population_date": "2023-01-00",
+  "instance_of": [
+   "Q515",
+   "Q13539802",
+   "Q1549591",
+   "Q2264924",
+   "Q1852859",
+   "Q1392581"
+  ]
+ },
+ "Alberobello|IT": {
+  "qid": "Q51812",
+  "label_en": "Alberobello",
+  "label_ja": "アルベロベッロ",
+  "label_local": null,
+  "description_en": "Italian comune",
+  "lat": 40.78406,
+  "lon": 17.23746,
+  "population": 10177,
+  "population_date": "2024-01-01",
+  "instance_of": [
+   "Q747074"
+  ]
+ },
+ "Arromanches-les-Bains|FR": {
+  "qid": "Q212620",
+  "label_en": "Arromanches-les-Bains",
+  "label_ja": "アロマンシュ＝レ＝バン",
+  "label_local": null,
+  "description_en": "commune in Calvados, France",
+  "lat": 49.33917,
+  "lon": -0.6225,
+  "population": 413,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q484170"
+  ]
+ },
+ "Angers|FR": {
+  "qid": "Q38380",
+  "label_en": "Angers",
+  "label_ja": "アンジェ",
+  "label_local": null,
+  "description_en": "commune in Maine-et-Loire, Pays de la Loire, France",
+  "lat": 47.47278,
+  "lon": -0.55556,
+  "population": 159022,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q484170",
+   "Q1549591",
+   "Q515"
+  ]
+ },
+ "Amboise|FR": {
+  "qid": "Q205116",
+  "label_en": "Amboise",
+  "label_ja": "アンボワーズ",
+  "label_local": null,
+  "description_en": "commune in Indre-et-Loire, France",
+  "lat": 47.41139,
+  "lon": 0.9825,
+  "population": 12937,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q484170"
+  ]
+ },
+ "Inverness|GB": {
+  "qid": "Q160493",
+  "label_en": "Inverness",
+  "label_ja": "インヴァネス",
+  "label_local": null,
+  "description_en": "city in the Highlands of Scotland, United Kingdom",
+  "lat": 57.48389,
+  "lon": -4.22583,
+  "population": 47380,
+  "population_date": "2018-00-00",
+  "instance_of": [
+   "Q515",
+   "Q6489113"
+  ]
+ },
+ "Windsor|GB": {
+  "qid": "Q42646",
+  "label_en": "Windsor Castle",
+  "label_ja": "ウィンザー城",
+  "label_local": null,
+  "description_en": "royal residence at Windsor in Berkshire, England, UK",
+  "lat": 51.48389,
+  "lon": -0.60444,
+  "population": null,
+  "population_date": null,
+  "instance_of": [
+   "Q53536964",
+   "Q1343246",
+   "Q23413",
+   "Q16560",
+   "Q2087181",
+   "Q131986827"
+  ]
+ },
+ "Vienna|AT": {
+  "qid": "Q1741",
+  "label_en": "Vienna",
+  "label_ja": "ウィーン",
+  "label_local": null,
+  "description_en": "capital of and state in Austria",
+  "lat": 48.20833,
+  "lon": 16.3725,
+  "population": 2028289,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q257391",
+   "Q262882",
+   "Q261543",
+   "Q200250",
+   "Q171441",
+   "Q133442"
+  ]
+ },
+ "Edinburgh|GB": {
+  "qid": "Q23436",
+  "label_en": "Edinburgh",
+  "label_ja": "エディンバラ",
+  "label_local": null,
+  "description_en": "capital city of Scotland, UK",
+  "lat": 55.95333,
+  "lon": -3.18917,
+  "population": 488050,
+  "population_date": "2016-00-00",
+  "instance_of": [
+   "Q515",
+   "Q1187811",
+   "Q202435",
+   "Q104630835",
+   "Q1549591"
+  ]
+ },
+ "Évora|PT": {
+  "qid": "Q179948",
+  "label_en": "Évora",
+  "label_ja": "エヴォラ",
+  "label_local": null,
+  "description_en": "municipality in Portugal",
+  "lat": 38.5725,
+  "lon": -7.90722,
+  "population": 53577,
+  "population_date": "2021-00-00",
+  "instance_of": [
+   "Q13217644"
+  ]
+ },
+ "Oslo|NO": {
+  "qid": "Q585",
+  "label_en": "Oslo",
+  "label_ja": "オスロ",
+  "label_local": null,
+  "description_en": "capital city of Norway",
+  "lat": 59.91333,
+  "lon": 10.73889,
+  "population": 717710,
+  "population_date": "2024-01-01",
+  "instance_of": [
+   "Q1549591",
+   "Q1306755",
+   "Q51929311",
+   "Q108178728"
+  ]
+ },
+ "Oxford|GB": {
+  "qid": "Q34433",
+  "label_en": "University of Oxford",
+  "label_ja": "オックスフォード大学",
+  "label_local": null,
+  "description_en": "collegiate research university in Oxford, England",
+  "lat": 51.755,
+  "lon": -1.255,
+  "population": null,
+  "population_date": null,
+  "instance_of": [
+   "Q3354859",
+   "Q5420001",
+   "Q875538",
+   "Q38723",
+   "Q5341295"
+  ]
+ },
+ "Opatija|HR": {
+  "qid": "Q223353",
+  "label_en": "Opatija",
+  "label_ja": "オパティヤ",
+  "label_local": null,
+  "description_en": "town and settlement in Primorje-Gorski Kotar County, Croatia",
+  "lat": 45.33472,
+  "lon": 14.30694,
+  "population": 10619,
+  "population_date": "2021-08-31",
+  "instance_of": [
+   "Q15105893"
+  ]
+ },
+ "Óbidos|PT": {
+  "qid": "Q275862",
+  "label_en": "Óbidos",
+  "label_ja": "オビドゥシュ",
+  "label_local": null,
+  "description_en": "municipality and town of Portugal",
+  "lat": 39.36195,
+  "lon": -9.15713,
+  "population": 11689,
+  "population_date": "2011-06-30",
+  "instance_of": [
+   "Q13217644"
+  ]
+ },
+ "Orta San Giulio|IT": {
+  "qid": "Q22536",
+  "label_en": "Orta San Giulio",
+  "label_ja": "オルタ・サン・ジューリオ",
+  "label_local": null,
+  "description_en": "comune in Piedmont, Italy",
+  "lat": 45.8,
+  "lon": 8.4,
+  "population": 1047,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q747074"
+  ]
+ },
+ "Örebro|SE": {
+  "qid": "Q25732",
+  "label_en": "Örebro",
+  "label_ja": "エレブルー",
+  "label_local": null,
+  "description_en": "urban area in Örebro Municipality, Sweden",
+  "lat": 59.26693,
+  "lon": 15.19652,
+  "population": 128658,
+  "population_date": "2023-12-31",
+  "instance_of": [
+   "Q12813115",
+   "Q1549591"
+  ]
+ },
+ "Odense|DK": {
+  "qid": "Q25331",
+  "label_en": "Odense",
+  "label_ja": "オーデンセ",
+  "label_local": null,
+  "description_en": "main city of the island of Funen, Denmark",
+  "lat": 55.4,
+  "lon": 10.38333,
+  "population": 185480,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q1549591"
+  ]
+ },
+ "Aarhus|DK": {
+  "qid": "Q25319",
+  "label_en": "Aarhus",
+  "label_ja": "オーフス",
+  "label_local": null,
+  "description_en": "city in Central Denmark Region",
+  "lat": 56.15639,
+  "lon": 10.20972,
+  "population": 290598,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q1549591"
+  ]
+ },
+ "Calais|FR": {
+  "qid": "Q6454",
+  "label_en": "Calais",
+  "label_ja": "カレー",
+  "label_local": null,
+  "description_en": "commune in Pas-de-Calais, France",
+  "lat": 50.9475,
+  "lon": 1.85556,
+  "population": 67571,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q484170",
+   "Q515",
+   "Q902814",
+   "Q2202509"
+  ]
+ },
+ "Cambados|ES": {
+  "qid": "Q24013870",
+  "label_en": "Cambados",
+  "label_ja": null,
+  "label_local": null,
+  "description_en": "capital of Cambados Municipality, Spain",
+  "lat": 42.51617,
+  "lon": -8.81456,
+  "population": 6789,
+  "population_date": "2024-00-00",
+  "instance_of": [
+   "Q20541692",
+   "Q121289819"
+  ]
+ },
+ "Caen|FR": {
+  "qid": "Q41185",
+  "label_en": "Caen",
+  "label_ja": "カーン",
+  "label_local": null,
+  "description_en": "commune in Calvados, France",
+  "lat": 49.18139,
+  "lon": -0.36361,
+  "population": 109400,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q484170",
+   "Q1549591"
+  ]
+ },
+ "Kristiansand|NO": {
+  "qid": "Q2415",
+  "label_en": "Kristiansand",
+  "label_ja": "クリスチャンサン",
+  "label_local": null,
+  "description_en": "municipality of Agder county in Southern Norway",
+  "lat": 58.14672,
+  "lon": 7.99561,
+  "population": 119287,
+  "population_date": "2026-01-01",
+  "instance_of": [
+   "Q755707"
+  ]
+ },
+ "Glasgow|GB": {
+  "qid": "Q4093",
+  "label_en": "Glasgow",
+  "label_ja": "グラスゴー",
+  "label_local": null,
+  "description_en": "city in Scotland, United Kingdom",
+  "lat": 55.86111,
+  "lon": -4.25,
+  "population": 626410,
+  "population_date": "2018-00-00",
+  "instance_of": [
+   "Q515",
+   "Q1549591",
+   "Q51929311",
+   "Q202435"
+  ]
+ },
+ "Granada|ES": {
+  "qid": "Q8810",
+  "label_en": "Granada",
+  "label_ja": "グラナダ",
+  "label_local": null,
+  "description_en": "municipality and capital of the province of Granada, Spain",
+  "lat": 37.175,
+  "lon": -3.6,
+  "population": 233975,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q2074737"
+  ]
+ },
+ "Gruyères|CH": {
+  "qid": "Q69600",
+  "label_en": "Gruyères",
+  "label_ja": "グリュイエール",
+  "label_local": null,
+  "description_en": "municipality in the canton of Fribourg, Switzerland",
+  "lat": 46.58361,
+  "lon": 7.08194,
+  "population": 2199,
+  "population_date": "2018-12-31",
+  "instance_of": [
+   "Q3957",
+   "Q70208"
+  ]
+ },
+ "Cologne|DE": {
+  "qid": "Q365",
+  "label_en": "Cologne",
+  "label_ja": "ケルン",
+  "label_local": null,
+  "description_en": "most populous city in North Rhine-Westphalia, Germany",
+  "lat": 50.94222,
+  "lon": 6.95778,
+  "population": 1087353,
+  "population_date": "2023-12-31",
+  "instance_of": [
+   "Q707813",
+   "Q200250",
+   "Q2202509",
+   "Q42744322",
+   "Q1549591",
+   "Q85635630"
+  ]
+ },
+ "Coimbra|PT": {
+  "qid": "Q45412",
+  "label_en": "Coimbra",
+  "label_ja": "コインブラ",
+  "label_local": null,
+  "description_en": "municipality in Portugal",
+  "lat": 40.21111,
+  "lon": -8.42889,
+  "population": 140816,
+  "population_date": "2021-00-00",
+  "instance_of": [
+   "Q13217644"
+  ]
+ },
+ "Copenhagen|DK": {
+  "qid": "Q1748",
+  "label_en": "Copenhagen",
+  "label_ja": "コペンハーゲン",
+  "label_local": null,
+  "description_en": "capital and largest city of Denmark",
+  "lat": 55.67611,
+  "lon": 12.56889,
+  "population": 667099,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q51929311",
+   "Q1392581",
+   "Q515",
+   "Q1549591",
+   "Q108178728"
+  ]
+ },
+ "Córdoba|ES": {
+  "qid": "Q5818",
+  "label_en": "Córdoba",
+  "label_ja": "コルドバ",
+  "label_local": null,
+  "description_en": "municipality in the province of Córdoba, Spain",
+  "lat": 37.89,
+  "lon": -4.78,
+  "population": 323262,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q2074737"
+  ]
+ },
+ "Consuegra|ES": {
+  "qid": "Q919046",
+  "label_en": "Consuegra",
+  "label_ja": "コンスエグラ",
+  "label_local": null,
+  "description_en": "municipality of Spain",
+  "lat": 39.46194,
+  "lon": -3.60639,
+  "population": 9767,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q2074737"
+  ]
+ },
+ "Sarajevo|BA": {
+  "qid": "Q11194",
+  "label_en": "Sarajevo",
+  "label_ja": "サラエヴォ",
+  "label_local": null,
+  "description_en": "capital city of Bosnia and Herzegovina",
+  "lat": 43.85639,
+  "lon": 18.41306,
+  "population": 275524,
+  "population_date": "2013-00-00",
+  "instance_of": [
+   "Q515",
+   "Q1549591",
+   "Q102104752",
+   "Q257391"
+  ]
+ },
+ "Zaragoza|ES": {
+  "qid": "Q10305",
+  "label_en": "Zaragoza",
+  "label_ja": "サラゴサ",
+  "label_local": null,
+  "description_en": "municipality in the autonomous community of Aragon, Spain",
+  "lat": 41.65,
+  "lon": -0.88333,
+  "population": 693091,
+  "population_date": "2025-00-00",
+  "instance_of": [
+   "Q2074737"
+  ]
+ },
+ "San Gimignano|IT": {
+  "qid": "Q91413",
+  "label_en": "San Gimignano",
+  "label_ja": "サン・ジミニャーノ",
+  "label_local": null,
+  "description_en": "Italian comune",
+  "lat": 43.46772,
+  "lon": 11.04322,
+  "population": 7480,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q747074"
+  ]
+ },
+ "San Sebastián|ES": {
+  "qid": "Q10313",
+  "label_en": "San Sebastián",
+  "label_ja": "サン・セバスティアン",
+  "label_local": null,
+  "description_en": "municipality in Basque Country, Spain",
+  "lat": 43.32,
+  "lon": -1.98,
+  "population": 189866,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q2074737"
+  ]
+ },
+ "Santiago de Compostela|ES": {
+  "qid": "Q14314",
+  "label_en": "Santiago de Compostela",
+  "label_ja": "サンティアゴ・デ・コンポステーラ",
+  "label_local": null,
+  "description_en": "municipality of Galicia, Spain",
+  "lat": 42.88333,
+  "lon": -8.53333,
+  "population": 100965,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q2276925"
+  ]
+ },
+ "Saint-Malo|FR": {
+  "qid": "Q163108",
+  "label_en": "Saint-Malo",
+  "label_ja": "サン・マロ",
+  "label_local": null,
+  "description_en": "commune in Ille-et-Vilaine, France",
+  "lat": 48.64944,
+  "lon": -2.02611,
+  "population": 47439,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q484170"
+  ]
+ },
+ "Zagreb|HR": {
+  "qid": "Q1435",
+  "label_en": "Zagreb",
+  "label_ja": "ザグレブ",
+  "label_local": null,
+  "description_en": "capital city of Croatia",
+  "lat": 45.81306,
+  "lon": 15.97722,
+  "population": 767131,
+  "population_date": "2021-08-31",
+  "instance_of": [
+   "Q15105893",
+   "Q1549591",
+   "Q57053"
+  ]
+ },
+ "Salzburg|AT": {
+  "qid": "Q34713",
+  "label_en": "Salzburg",
+  "label_ja": "ザルツブルク",
+  "label_local": null,
+  "description_en": "city in Austria, eponymous capital city of the federal state of Salzburg",
+  "lat": 47.8,
+  "lon": 13.045,
+  "population": 155021,
+  "population_date": "2020-01-01",
+  "instance_of": [
+   "Q1549591",
+   "Q667509",
+   "Q13539802",
+   "Q262882",
+   "Q871419"
+  ]
+ },
+ "Sankt Goar|DE": {
+  "qid": "Q186037",
+  "label_en": "Sankt Goar",
+  "label_ja": "ザンクト・ゴアー",
+  "label_local": null,
+  "description_en": "town on the left bank of the Middle Rhine in the Rhein-Hunsrück-Kreis",
+  "lat": 50.15,
+  "lon": 7.71667,
+  "population": 2913,
+  "population_date": "2023-12-31",
+  "instance_of": [
+   "Q42744322"
+  ]
+ },
+ "Zaanse Schans|NL": {
+  "qid": "Q136661",
+  "label_en": "Zaanse Schans",
+  "label_ja": "ザーンセ・スカンス",
+  "label_local": null,
+  "description_en": "historic neighborhood of Zaandam, Netherlands",
+  "lat": 52.47389,
+  "lon": 4.81639,
+  "population": 100,
+  "population_date": null,
+  "instance_of": [
+   "Q756102",
+   "Q1484611"
+  ]
+ },
+ "Chamonix-Mont-Blanc|FR": {
+  "qid": "Q83236",
+  "label_en": "Chamonix-Mont-Blanc",
+  "label_ja": "シャモニー＝モン＝ブラン",
+  "label_local": null,
+  "description_en": "commune in Haute-Savoie, France",
+  "lat": 45.92222,
+  "lon": 6.86889,
+  "population": 8705,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q484170",
+   "Q902814"
+  ]
+ },
+ "Chartres|FR": {
+  "qid": "Q130272",
+  "label_en": "Chartres",
+  "label_ja": "シャルトル",
+  "label_local": null,
+  "description_en": "commune in Eure-et-Loir, France",
+  "lat": 48.44667,
+  "lon": 1.48833,
+  "population": 38324,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q484170"
+  ]
+ },
+ "Château de Chambord|FR": {
+  "qid": "Q205367",
+  "label_en": "Château de Chambord",
+  "label_ja": "シャンボール城",
+  "label_local": null,
+  "description_en": "castle in Chambord, Centre-Val de Loire, France",
+  "lat": 47.61611,
+  "lon": 1.51722,
+  "population": null,
+  "population_date": null,
+  "instance_of": [
+   "Q751876"
+  ]
+ },
+ "Château de Chenonceau|FR": {
+  "qid": "Q193215",
+  "label_en": "Château de Chenonceau",
+  "label_ja": "シュノンソー城",
+  "label_local": null,
+  "description_en": "castle spanning the River Cher in the Loire Valley, France",
+  "lat": 47.325,
+  "lon": 1.0706,
+  "population": null,
+  "population_date": null,
+  "instance_of": [
+   "Q751876"
+  ]
+ },
+ "Chillon Castle|CH": {
+  "qid": "Q372647",
+  "label_en": "Chillon Castle",
+  "label_ja": "シヨン城",
+  "label_local": null,
+  "description_en": "moated castle in Veytaux in the canton of Vaud, Switzerland",
+  "lat": 46.41417,
+  "lon": 6.9275,
+  "population": null,
+  "population_date": null,
+  "instance_of": [
+   "Q615810",
+   "Q751876",
+   "Q24699794"
+  ]
+ },
+ "Sirmione|IT": {
+  "qid": "Q112019",
+  "label_en": "Sirmione",
+  "label_ja": "シルミオーネ",
+  "label_local": null,
+  "description_en": "Italian comune",
+  "lat": 45.46944,
+  "lon": 10.60611,
+  "population": 8248,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q747074"
+  ]
+ },
+ "Geneva|CH": {
+  "qid": "Q71",
+  "label_en": "Geneva",
+  "label_ja": "ジュネーヴ",
+  "label_local": null,
+  "description_en": "capital of the canton of Geneva, Switzerland",
+  "lat": 46.2,
+  "lon": 6.15,
+  "population": 209061,
+  "population_date": "2024-12-31",
+  "instance_of": [
+   "Q14770218",
+   "Q1187811",
+   "Q54935504",
+   "Q1549591",
+   "Q70208"
+  ]
+ },
+ "Stavanger|NO": {
+  "qid": "Q26772333",
+  "label_en": "Stavanger",
+  "label_ja": null,
+  "label_local": null,
+  "description_en": "city in Stavanger Municipality, Norway",
+  "lat": 58.97005,
+  "lon": 5.73332,
+  "population": 129300,
+  "population_date": "2015-00-00",
+  "instance_of": [
+   "Q515",
+   "Q15092344"
+  ]
+ },
+ "Stow-on-the-Wold|GB": {
+  "qid": "Q33125737",
+  "label_en": "Stow-on-the-Wold",
+  "label_ja": null,
+  "label_local": null,
+  "description_en": "civil parish in Cotswold, Gloucestershire, England",
+  "lat": 51.93,
+  "lon": -1.723,
+  "population": 1901,
+  "population_date": "2021-00-00",
+  "instance_of": [
+   "Q1115575"
+  ]
+ },
+ "Stockholm|SE": {
+  "qid": "Q1754",
+  "label_en": "Stockholm",
+  "label_ja": "ストックホルム",
+  "label_local": null,
+  "description_en": "capital and largest city of Sweden",
+  "lat": 59.32944,
+  "lon": 18.06861,
+  "population": 984748,
+  "population_date": "2022-12-31",
+  "instance_of": [
+   "Q515",
+   "Q1549591",
+   "Q707813",
+   "Q2264924",
+   "Q51929311",
+   "Q108178728"
+  ]
+ },
+ "Strasbourg|FR": {
+  "qid": "Q6602",
+  "label_en": "Strasbourg",
+  "label_ja": "ストラスブール",
+  "label_local": null,
+  "description_en": "capital and largest city of Grand Est, located in the historical region of Alsace",
+  "lat": 48.57333,
+  "lon": 7.75222,
+  "population": 293771,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q484170",
+   "Q1549591",
+   "Q902814",
+   "Q57318",
+   "Q26830017"
+  ]
+ },
+ "Stratford-upon-Avon|GB": {
+  "qid": "Q189288",
+  "label_en": "Stratford-upon-Avon",
+  "label_ja": "ストラトフォード＝アポン＝エイヴォン",
+  "label_local": null,
+  "description_en": "town in Warwickshire, England",
+  "lat": 52.19278,
+  "lon": -1.70639,
+  "population": 30495,
+  "population_date": "2021-03-21",
+  "instance_of": [
+   "Q3957",
+   "Q1115575"
+  ]
+ },
+ "Stresa|IT": {
+  "qid": "Q23700",
+  "label_en": "Stresa",
+  "label_ja": "ストレーザ",
+  "label_local": null,
+  "description_en": "Italian comune",
+  "lat": 45.88361,
+  "lon": 8.53944,
+  "population": 4599,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q747074"
+  ]
+ },
+ "Ston|HR": {
+  "qid": "Q428227",
+  "label_en": "Ston Municipality",
+  "label_ja": "ストン",
+  "label_local": null,
+  "description_en": "municipality in Dubrovnik-Neretva County, Croatia",
+  "lat": 42.83333,
+  "lon": 17.7,
+  "population": 2491,
+  "population_date": "2021-08-31",
+  "instance_of": [
+   "Q57058"
+  ]
+ },
+ "Stonehenge|GB": {
+  "qid": "Q39671",
+  "label_en": "Stonehenge",
+  "label_ja": "ストーンヘンジ",
+  "label_local": null,
+  "description_en": "Neolithic henge monument in Amesbury, Wiltshire, England, UK",
+  "lat": 51.17889,
+  "lon": -1.82611,
+  "population": null,
+  "population_date": null,
+  "instance_of": [
+   "Q935773",
+   "Q4989906",
+   "Q839954",
+   "Q16735822",
+   "Q1035294"
+  ]
+ },
+ "Split|HR": {
+  "qid": "Q1663",
+  "label_en": "Split",
+  "label_ja": "スプリト",
+  "label_local": null,
+  "description_en": "city in Split-Dalmatia County, Croatia",
+  "lat": 43.51,
+  "lon": 16.44,
+  "population": 160577,
+  "population_date": "2021-08-31",
+  "instance_of": [
+   "Q15105893",
+   "Q1549591"
+  ]
+ },
+ "Seville|ES": {
+  "qid": "Q8717",
+  "label_en": "Seville",
+  "label_ja": "セビリア",
+  "label_local": null,
+  "description_en": "municipality of Andalusia, Spain",
+  "lat": 37.38861,
+  "lon": -5.99556,
+  "population": 689423,
+  "population_date": "2025-00-00",
+  "instance_of": [
+   "Q2074737"
+  ]
+ },
+ "Sognefjord|NO": {
+  "qid": "Q208495",
+  "label_en": "Sognefjord",
+  "label_ja": "ソグネ・フィヨルド",
+  "label_local": null,
+  "description_en": "fjord in Norway",
+  "lat": 61.1,
+  "lon": 5.16667,
+  "population": null,
+  "population_date": null,
+  "instance_of": [
+   "Q45776"
+  ]
+ },
+ "Salisbury|GB": {
+  "qid": "Q160642",
+  "label_en": "Salisbury",
+  "label_ja": "ソールズベリー",
+  "label_local": null,
+  "description_en": "cathedral city in Wiltshire, England, United Kingdom",
+  "lat": 51.074,
+  "lon": -1.7936,
+  "population": 45477,
+  "population_date": "2016-00-00",
+  "instance_of": [
+   "Q515",
+   "Q1115575",
+   "Q27104997"
+  ]
+ },
+ "Durham|GB": {
+  "qid": "Q179815",
+  "label_en": "Durham",
+  "label_ja": "ダラム",
+  "label_local": null,
+  "description_en": "city and the county town of County Durham in North East England",
+  "lat": 54.78333,
+  "lon": -1.56667,
+  "population": 48069,
+  "population_date": "2011-00-00",
+  "instance_of": [
+   "Q515",
+   "Q1357964"
+  ]
+ },
+ "Český Krumlov|CZ": {
+  "qid": "Q188082",
+  "label_en": "Český Krumlov",
+  "label_ja": "チェスキー・クルムロフ",
+  "label_local": null,
+  "description_en": "town in the Czech Republic",
+  "lat": 48.81099,
+  "lon": 14.31521,
+  "population": 12797,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q5153359",
+   "Q15978299",
+   "Q8452914",
+   "Q7841907",
+   "Q7819319"
+  ]
+ },
+ "Zurich|CH": {
+  "qid": "Q72",
+  "label_en": "Zurich",
+  "label_ja": "チューリッヒ",
+  "label_local": null,
+  "description_en": "most populous city in Switzerland and capital of the canton of Zurich",
+  "lat": 47.37444,
+  "lon": 8.54111,
+  "population": 452421,
+  "population_date": "2025-12-31",
+  "instance_of": [
+   "Q70208",
+   "Q54935504",
+   "Q14770218",
+   "Q1187811",
+   "Q51929311",
+   "Q1549591"
+  ]
+ },
+ "Zermatt|CH": {
+  "qid": "Q27494",
+  "label_en": "Zermatt",
+  "label_ja": "ツェルマット",
+  "label_local": null,
+  "description_en": "municipality in Visp district, canton of Valais, Switzerland",
+  "lat": 46.0193,
+  "lon": 7.7461,
+  "population": 6023,
+  "population_date": "2023-12-31",
+  "instance_of": [
+   "Q70208",
+   "Q54935504",
+   "Q581830",
+   "Q64953083"
+  ]
+ },
+ "Dinan|FR": {
+  "qid": "Q201311",
+  "label_en": "Dinan",
+  "label_ja": "ディナン",
+  "label_local": null,
+  "description_en": "commune in Côtes-d'Armor, France",
+  "lat": 48.45556,
+  "lon": -2.05028,
+  "population": 14764,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q484170"
+  ]
+ },
+ "Tours|FR": {
+  "qid": "Q288",
+  "label_en": "Tours",
+  "label_ja": "トゥール",
+  "label_local": null,
+  "description_en": "city and commune in Indre-et-Loire, Centre-Val de Loire, France",
+  "lat": 47.39278,
+  "lon": 0.68833,
+  "population": 139259,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q484170",
+   "Q1549591"
+  ]
+ },
+ "Trani|IT": {
+  "qid": "Q13495",
+  "label_en": "Trani",
+  "label_ja": "トラーニ",
+  "label_local": null,
+  "description_en": "comune in Apulia, Italy",
+  "lat": 41.26667,
+  "lon": 16.41667,
+  "population": 54941,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q747074"
+  ]
+ },
+ "Dubrovnik|HR": {
+  "qid": "Q1722",
+  "label_en": "Dubrovnik",
+  "label_ja": "ドゥブロヴニク",
+  "label_local": null,
+  "description_en": "city and settlement in Dubrovnik-Neretva County, Croatia",
+  "lat": 42.64028,
+  "lon": 18.10833,
+  "population": 41562,
+  "population_date": "2021-08-31",
+  "instance_of": [
+   "Q15105893",
+   "Q2264924"
+  ]
+ },
+ "Domodossola|IT": {
+  "qid": "Q23325",
+  "label_en": "Domodossola",
+  "label_ja": "ドモドッソラ",
+  "label_local": null,
+  "description_en": "Italian comune",
+  "lat": 46.11611,
+  "lon": 8.29111,
+  "population": 17709,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q747074"
+  ]
+ },
+ "Nazaré|PT": {
+  "qid": "Q497179",
+  "label_en": "Nazaré",
+  "label_ja": "ナザレ",
+  "label_local": null,
+  "description_en": "municipality in Portugal",
+  "lat": 39.6,
+  "lon": -9.06667,
+  "population": 15158,
+  "population_date": "2011-00-00",
+  "instance_of": [
+   "Q13217644"
+  ]
+ },
+ "Naples|IT": {
+  "qid": "Q2634",
+  "label_en": "Naples",
+  "label_ja": "ナポリ",
+  "label_local": null,
+  "description_en": "capital city of Campania, Italy",
+  "lat": 40.83583,
+  "lon": 14.24861,
+  "population": 913462,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q515",
+   "Q747074",
+   "Q1549591"
+  ]
+ },
+ "Naantali|FI": {
+  "qid": "Q503862",
+  "label_en": "Naantali",
+  "label_ja": "ナーンタリ",
+  "label_local": null,
+  "description_en": "town in the region of Southwest Finland, Finland",
+  "lat": 60.46806,
+  "lon": 22.02639,
+  "population": 19999,
+  "population_date": "2023-12-31",
+  "instance_of": [
+   "Q3957",
+   "Q856076",
+   "Q515"
+  ]
+ },
+ "Nuremberg|DE": {
+  "qid": "Q2090",
+  "label_en": "Nuremberg",
+  "label_ja": "ニュルンベルク",
+  "label_local": null,
+  "description_en": "city in the German state of Bavaria",
+  "lat": 49.45389,
+  "lon": 11.0775,
+  "population": 529508,
+  "population_date": "2024-12-31",
+  "instance_of": [
+   "Q1549591",
+   "Q57318",
+   "Q42744322",
+   "Q85631896"
+  ]
+ },
+ "Loch Ness|GB": {
+  "qid": "Q49650",
+  "label_en": "Loch Ness",
+  "label_ja": "ネス湖",
+  "label_local": null,
+  "description_en": "lake in Highland, Scotland, UK, outflows via Loch Dochfour to the River Ness and Caledonian Canal",
+  "lat": 57.3,
+  "lon": -4.45,
+  "population": null,
+  "population_date": null,
+  "instance_of": [
+   "Q23397"
+  ]
+ },
+ "Nerja|ES": {
+  "qid": "Q13149",
+  "label_en": "Nerja",
+  "label_ja": "ネルハ",
+  "label_local": null,
+  "description_en": "municipality and town in Andalusia, Spain",
+  "lat": 36.74686,
+  "lon": -3.87902,
+  "population": 22132,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q2074737"
+  ]
+ },
+ "Nottingham|GB": {
+  "qid": "Q41262",
+  "label_en": "Nottingham",
+  "label_ja": "ノッティンガム",
+  "label_local": null,
+  "description_en": "city in Nottinghamshire, England, UK",
+  "lat": 52.955,
+  "lon": -1.14917,
+  "population": 289301,
+  "population_date": "2011-00-00",
+  "instance_of": [
+   "Q515",
+   "Q1357964",
+   "Q1549591"
+  ]
+ },
+ "Heidelberg|DE": {
+  "qid": "Q2966",
+  "label_en": "Heidelberg",
+  "label_ja": "ハイデルベルク",
+  "label_local": null,
+  "description_en": "large city in Baden-Württemberg, Germany",
+  "lat": 49.41222,
+  "lon": 8.71,
+  "population": 162960,
+  "population_date": "2023-12-31",
+  "instance_of": [
+   "Q1549591",
+   "Q1180262",
+   "Q1547289",
+   "Q42744322",
+   "Q134626",
+   "Q2327515"
+  ]
+ },
+ "Bibury|GB": {
+  "qid": "Q856722",
+  "label_en": "Bibury",
+  "label_ja": "バイブリー",
+  "label_local": null,
+  "description_en": "village and civil parish in Gloucestershire, England",
+  "lat": 51.758,
+  "lon": -1.832,
+  "population": 581,
+  "population_date": "2021-00-00",
+  "instance_of": [
+   "Q532",
+   "Q1115575"
+  ]
+ },
+ "Bayonne|FR": {
+  "qid": "Q134674",
+  "label_en": "Bayonne",
+  "label_ja": "バイヨンヌ",
+  "label_local": null,
+  "description_en": "commune in Pyrénées-Atlantiques, France",
+  "lat": 43.4925,
+  "lon": -1.47639,
+  "population": 54306,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q484170"
+  ]
+ },
+ "Batalha|PT": {
+  "qid": "Q810715",
+  "label_en": "Batalha",
+  "label_ja": "バターリャ",
+  "label_local": null,
+  "description_en": "municipality of Portugal",
+  "lat": 39.65,
+  "lon": -8.81667,
+  "population": 15805,
+  "population_date": "2011-00-00",
+  "instance_of": [
+   "Q13217644"
+  ]
+ },
+ "Banja Luka|BA": {
+  "qid": "Q131127",
+  "label_en": "Banja Luka",
+  "label_ja": "バニャ・ルカ",
+  "label_local": null,
+  "description_en": "city in Bosnia and Herzegovina",
+  "lat": 44.7725,
+  "lon": 17.1925,
+  "population": 185042,
+  "population_date": "2013-00-00",
+  "instance_of": [
+   "Q57315116",
+   "Q515",
+   "Q1549591"
+  ]
+ },
+ "Barcelona|ES": {
+  "qid": "Q1492",
+  "label_en": "Barcelona",
+  "label_ja": "バルセロナ",
+  "label_local": null,
+  "description_en": "city in Catalonia, Spain",
+  "lat": 41.3825,
+  "lon": 2.17694,
+  "population": 1731649,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q33146843",
+   "Q515"
+  ]
+ },
+ "Valencia|ES": {
+  "qid": "Q8818",
+  "label_en": "Valencia",
+  "label_ja": "バレンシア",
+  "label_local": null,
+  "description_en": "municipality in Spain, capital city of the Valencian Community",
+  "lat": 39.47,
+  "lon": -0.37639,
+  "population": 840792,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q2074737",
+   "Q123754112"
+  ]
+ },
+ "Bath|GB": {
+  "qid": "Q22889",
+  "label_en": "Bath",
+  "label_ja": "バース",
+  "label_local": null,
+  "description_en": "city in Somerset, England, United Kingdom",
+  "lat": 51.38139,
+  "lon": -2.35972,
+  "population": 94092,
+  "population_date": "2021-03-21",
+  "instance_of": [
+   "Q515",
+   "Q7897276",
+   "Q702492",
+   "Q110390579"
+  ]
+ },
+ "Birmingham|GB": {
+  "qid": "Q2256",
+  "label_en": "Birmingham",
+  "label_ja": "バーミンガム",
+  "label_local": null,
+  "description_en": "city in the West Midlands, England",
+  "lat": 52.48,
+  "lon": -1.9025,
+  "population": 1137100,
+  "population_date": "2017-00-00",
+  "instance_of": [
+   "Q200250",
+   "Q515",
+   "Q7897276",
+   "Q1187811",
+   "Q110390579"
+  ]
+ },
+ "Paris|FR": {
+  "qid": "Q90",
+  "label_en": "Paris",
+  "label_ja": "パリ",
+  "label_local": null,
+  "description_en": "capital and most populous city in France",
+  "lat": 48.85667,
+  "lon": 2.35222,
+  "population": 2103778,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q484170",
+   "Q22923920",
+   "Q200250",
+   "Q1200957",
+   "Q208511",
+   "Q174844"
+  ]
+ },
+ "Pamplona|ES": {
+  "qid": "Q10282",
+  "label_en": "Pamplona",
+  "label_ja": "パンプローナ",
+  "label_local": null,
+  "description_en": "municipality in Spain, capital of Navarre and main municipality of the historical Kingdom of Navarre",
+  "lat": 42.81667,
+  "lon": -1.65,
+  "population": 209094,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q2074737"
+  ]
+ },
+ "Vitoria-Gasteiz|ES": {
+  "qid": "Q14318",
+  "label_en": "Vitoria-Gasteiz",
+  "label_ja": "ビトリア＝ガステイス",
+  "label_local": null,
+  "description_en": "municipality of Álava, autonomous community of the Basque Country, Spain",
+  "lat": 42.84667,
+  "lon": -2.67306,
+  "population": 260699,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q2074737"
+  ]
+ },
+ "Würzburg|DE": {
+  "qid": "Q2999",
+  "label_en": "Würzburg",
+  "label_ja": "ヴュルツブルク",
+  "label_local": null,
+  "description_en": "city in the region of Franconia, Northern Bavaria, Germany",
+  "lat": 49.79444,
+  "lon": 9.92944,
+  "population": 132215,
+  "population_date": "2024-12-31",
+  "instance_of": [
+   "Q1549591",
+   "Q253030",
+   "Q1187811",
+   "Q515",
+   "Q42744322",
+   "Q85631896"
+  ]
+ },
+ "Château de Villandry|FR": {
+  "qid": "Q477613",
+  "label_en": "Château de Villandry",
+  "label_ja": "ヴィランドリー城",
+  "label_local": null,
+  "description_en": "French Renaissance castle in the Loire Valley",
+  "lat": 47.34051,
+  "lon": 0.51448,
+  "population": null,
+  "population_date": null,
+  "instance_of": [
+   "Q751876"
+  ]
+ },
+ "Bilbao|ES": {
+  "qid": "Q8692",
+  "label_en": "Bilbao",
+  "label_ja": "ビルバオ",
+  "label_local": null,
+  "description_en": "municipality and city in Spain",
+  "lat": 43.26306,
+  "lon": -2.935,
+  "population": 351124,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q2074737"
+  ]
+ },
+ "Pisa|IT": {
+  "qid": "Q13375",
+  "label_en": "Pisa",
+  "label_ja": "ピサ",
+  "label_local": null,
+  "description_en": "city in Tuscany, Central Italy",
+  "lat": 43.71667,
+  "lon": 10.4,
+  "population": 88737,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q515",
+   "Q747074",
+   "Q1187811",
+   "Q4115680"
+  ]
+ },
+ "Florence|IT": {
+  "qid": "Q2044",
+  "label_en": "Florence",
+  "label_ja": "フィレンツェ",
+  "label_local": null,
+  "description_en": "Italian city and commune, located in Tuscany",
+  "lat": 43.77139,
+  "lon": 11.25417,
+  "population": 360930,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q747074",
+   "Q1549591",
+   "Q5119",
+   "Q4115680"
+  ]
+ },
+ "Fort Augustus|GB": {
+  "qid": "Q1012033",
+  "label_en": "Fort Augustus",
+  "label_ja": "フォート・オーガスタス",
+  "label_local": null,
+  "description_en": "village in Highland, Scotland, UK, at the south end of Loch Ness",
+  "lat": 57.1432,
+  "lon": -4.68066,
+  "population": 660,
+  "population_date": "2016-00-00",
+  "instance_of": [
+   "Q532"
+  ]
+ },
+ "Fougères|FR": {
+  "qid": "Q4043",
+  "label_en": "Fougères",
+  "label_ja": "フージェール",
+  "label_local": null,
+  "description_en": "commune in Ille-et-Vilaine, France",
+  "lat": 48.35167,
+  "lon": -1.2,
+  "population": 20307,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q484170"
+  ]
+ },
+ "Frankfurt am Main|DE": {
+  "qid": "Q1794",
+  "label_en": "Frankfurt am Main",
+  "label_ja": "フランクフルト・アム・マイン",
+  "label_local": null,
+  "description_en": "most populated city of Hesse, Germany",
+  "lat": 50.11056,
+  "lon": 8.68222,
+  "population": 775790,
+  "population_date": "2023-12-31",
+  "instance_of": [
+   "Q1549591",
+   "Q57318",
+   "Q1187811",
+   "Q1066984",
+   "Q1375749",
+   "Q13218276"
+  ]
+ },
+ "Bouillon|BE": {
+  "qid": "Q66311985",
+  "label_en": "Bouillon",
+  "label_ja": null,
+  "label_local": null,
+  "description_en": "section of Bouillon, Belgium",
+  "lat": 49.79556,
+  "lon": 5.06806,
+  "population": null,
+  "population_date": null,
+  "instance_of": [
+   "Q2785216"
+  ]
+ },
+ "Budapest|HU": {
+  "qid": "Q1781",
+  "label_en": "Budapest",
+  "label_ja": "ブダペスト",
+  "label_local": null,
+  "description_en": "capital and largest city of Hungary",
+  "lat": 47.49833,
+  "lon": 19.04083,
+  "population": 1685209,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q13218690",
+   "Q171441",
+   "Q51929311",
+   "Q108178728"
+  ]
+ },
+ "Braga|PT": {
+  "qid": "Q83247",
+  "label_en": "Braga",
+  "label_ja": "ブラガ",
+  "label_local": null,
+  "description_en": "municipality in Portugal",
+  "lat": 41.53333,
+  "lon": -8.41667,
+  "population": 193324,
+  "population_date": "2021-00-00",
+  "instance_of": [
+   "Q13217644"
+  ]
+ },
+ "Bratislava|SK": {
+  "qid": "Q1780",
+  "label_en": "Bratislava",
+  "label_ja": "ブラチスラヴァ",
+  "label_local": null,
+  "description_en": "capital city of Slovakia",
+  "lat": 48.1517,
+  "lon": 17.10931,
+  "population": 480902,
+  "population_date": "2025-12-31",
+  "instance_of": [
+   "Q515",
+   "Q1549591",
+   "Q6784672"
+  ]
+ },
+ "Brussels|BE": {
+  "qid": "Q239",
+  "label_en": "Brussels",
+  "label_ja": "ブリュッセル市",
+  "label_local": null,
+  "description_en": "municipality in the Brussels-Capital Region and capital of Belgium",
+  "lat": 50.84667,
+  "lon": 4.35167,
+  "population": 195546,
+  "population_date": "2024-01-01",
+  "instance_of": [
+   "Q1549591",
+   "Q1375749",
+   "Q493522",
+   "Q257391"
+  ]
+ },
+ "Brig-Glis|CH": {
+  "qid": "Q15583",
+  "label_en": "Brig-Glis",
+  "label_ja": "ブリーク",
+  "label_local": null,
+  "description_en": "municipality in the district of Brig, Canton of Valais, Switzerland",
+  "lat": 46.31592,
+  "lon": 7.98762,
+  "population": 13109,
+  "population_date": "2017-12-31",
+  "instance_of": [
+   "Q70208"
+  ]
+ },
+ "Burgos|ES": {
+  "qid": "Q9580",
+  "label_en": "Burgos",
+  "label_ja": "ブルゴス",
+  "label_local": null,
+  "description_en": "municipality in Castile and Leon, Spain",
+  "lat": 42.34083,
+  "lon": -3.69972,
+  "population": 177402,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q2074737"
+  ]
+ },
+ "Bruges|BE": {
+  "qid": "Q12994",
+  "label_en": "Bruges",
+  "label_ja": "ブルッヘ",
+  "label_local": null,
+  "description_en": "city in West Flanders, Belgium",
+  "lat": 51.20889,
+  "lon": 3.22417,
+  "population": 118509,
+  "population_date": "2022-01-01",
+  "instance_of": [
+   "Q1549591",
+   "Q15273785",
+   "Q493522",
+   "Q515"
+  ]
+ },
+ "Bled|SI": {
+  "qid": "Q202852",
+  "label_en": "Bled",
+  "label_ja": "ブレッド",
+  "label_local": null,
+  "description_en": "place in Upper Carniola, Slovenia",
+  "lat": 46.36833,
+  "lon": 14.11472,
+  "population": 4969,
+  "population_date": "2020-01-01",
+  "instance_of": [
+   "Q515"
+  ]
+ },
+ "Prague|CZ": {
+  "qid": "Q1085",
+  "label_en": "Prague",
+  "label_ja": "プラハ",
+  "label_local": null,
+  "description_en": "capital city of the Czech Republic",
+  "lat": 50.0875,
+  "lon": 14.42139,
+  "population": 1397880,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q15978299",
+   "Q548611",
+   "Q192611",
+   "Q12031379",
+   "Q8452914",
+   "Q171441"
+  ]
+ },
+ "Plitvice Lakes National Park|HR": {
+  "qid": "Q189849",
+  "label_en": "Plitvice Lakes National Park",
+  "label_ja": "プリトヴィツェ湖群国立公園",
+  "label_local": null,
+  "description_en": "national park of Croatia, a UNESCO World Heritage Site",
+  "lat": 44.88045,
+  "lon": 15.61604,
+  "population": null,
+  "population_date": null,
+  "instance_of": [
+   "Q20537078",
+   "Q473972"
+  ]
+ },
+ "Helsinki|FI": {
+  "qid": "Q1757",
+  "label_en": "Helsinki",
+  "label_ja": "ヘルシンキ",
+  "label_local": null,
+  "description_en": "capital and most populous city of Finland",
+  "lat": 60.17083,
+  "lon": 24.9375,
+  "population": 694392,
+  "population_date": "2025-12-31",
+  "instance_of": [
+   "Q515",
+   "Q200250",
+   "Q856076",
+   "Q1549591",
+   "Q2264924"
+  ]
+ },
+ "Helsingør|DK": {
+  "qid": "Q26881",
+  "label_en": "Helsingør",
+  "label_ja": "ヘルシンゲル",
+  "label_local": null,
+  "description_en": "city in Denmark",
+  "lat": 56.036,
+  "lon": 12.6106,
+  "population": 47364,
+  "population_date": "2018-00-00",
+  "instance_of": [
+   "Q515"
+  ]
+ },
+ "Venice|IT": {
+  "qid": "Q641",
+  "label_en": "Venice",
+  "label_ja": "ヴェネツィア",
+  "label_local": null,
+  "description_en": "capital city of Veneto, Italy",
+  "lat": 45.43972,
+  "lon": 12.33194,
+  "population": 250369,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q747074",
+   "Q581830",
+   "Q2264924",
+   "Q515",
+   "Q1549591",
+   "Q4115680"
+  ]
+ },
+ "Benevento|IT": {
+  "qid": "Q13437",
+  "label_en": "Benevento",
+  "label_ja": "ベネヴェント",
+  "label_local": null,
+  "description_en": "Italian comune",
+  "lat": 41.13333,
+  "lon": 14.78333,
+  "population": 56201,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q747074"
+  ]
+ },
+ "Bergen|NO": {
+  "qid": "Q26793",
+  "label_en": "Bergen",
+  "label_ja": "ベルゲン",
+  "label_local": null,
+  "description_en": "Norwegian city in Vestland, Norway",
+  "lat": 60.3925,
+  "lon": 5.32333,
+  "population": 291189,
+  "population_date": "2023-09-30",
+  "instance_of": [
+   "Q515",
+   "Q1549591"
+  ]
+ },
+ "Bern|CH": {
+  "qid": "Q70",
+  "label_en": "Bern",
+  "label_ja": "ベルン",
+  "label_local": null,
+  "description_en": "city in Switzerland, capital of the canton of Bern and de facto capital of Switzerland",
+  "lat": 46.94798,
+  "lon": 7.44743,
+  "population": 136988,
+  "population_date": "2023-12-31",
+  "instance_of": [
+   "Q70208",
+   "Q14770218",
+   "Q537250",
+   "Q1187811",
+   "Q54935504",
+   "Q56061"
+  ]
+ },
+ "Verona|IT": {
+  "qid": "Q2028",
+  "label_en": "Verona",
+  "label_ja": "ヴェローナ",
+  "label_local": null,
+  "description_en": "city in Veneto, northern Italy",
+  "lat": 45.43861,
+  "lon": 10.99278,
+  "population": 255588,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q747074",
+   "Q515",
+   "Q1549591",
+   "Q702492",
+   "Q4115680"
+  ]
+ },
+ "Peñíscola|ES": {
+  "qid": "Q845424",
+  "label_en": "Peníscola",
+  "label_ja": "ペニスコラ",
+  "label_local": null,
+  "description_en": "municipality of Spain",
+  "lat": 40.35847,
+  "lon": 0.40683,
+  "population": 8774,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q2074737",
+   "Q123754112"
+  ]
+ },
+ "Hawkshead|GB": {
+  "qid": "Q691544",
+  "label_en": "Hawkshead",
+  "label_ja": "ホークスヘッド",
+  "label_local": null,
+  "description_en": "village and civil parish in Cumbria, England, UK",
+  "lat": 54.375,
+  "lon": -2.999,
+  "population": 508,
+  "population_date": "2021-00-00",
+  "instance_of": [
+   "Q532",
+   "Q1115575"
+  ]
+ },
+ "Postojna|SI": {
+  "qid": "Q15901",
+  "label_en": "Postojna",
+  "label_ja": "ポストイナ",
+  "label_local": null,
+  "description_en": "city in Slovenia",
+  "lat": 45.77435,
+  "lon": 14.21528,
+  "population": 9605,
+  "population_date": "2020-01-01",
+  "instance_of": [
+   "Q515"
+  ]
+ },
+ "Porto|PT": {
+  "qid": "Q36433",
+  "label_en": "Porto",
+  "label_ja": "ポルト",
+  "label_local": null,
+  "description_en": "municipality in Portugal",
+  "lat": 41.15,
+  "lon": -8.61083,
+  "population": 231800,
+  "population_date": "2021-00-00",
+  "instance_of": [
+   "Q13217644",
+   "Q1549591"
+  ]
+ },
+ "Pompeii|IT": {
+  "qid": "Q43332",
+  "label_en": "Pompeii",
+  "label_ja": "ポンペイ",
+  "label_local": null,
+  "description_en": "ancient Roman city near modern Naples, Italy",
+  "lat": 40.75056,
+  "lon": 14.48972,
+  "population": 0,
+  "population_date": null,
+  "instance_of": [
+   "Q839954",
+   "Q15661340"
+  ]
+ },
+ "Matera|IT": {
+  "qid": "Q13616",
+  "label_en": "Matera",
+  "label_ja": "マテーラ",
+  "label_local": null,
+  "description_en": "Italian comune",
+  "lat": 40.66667,
+  "lon": 16.6,
+  "population": 59685,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q747074"
+  ]
+ },
+ "Madrid|ES": {
+  "qid": "Q2807",
+  "label_en": "Madrid",
+  "label_ja": "マドリード",
+  "label_local": null,
+  "description_en": "capital of Spain",
+  "lat": 40.41694,
+  "lon": -3.70333,
+  "population": 3506730,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q2074737",
+   "Q1200957",
+   "Q200250"
+  ]
+ },
+ "Málaga|ES": {
+  "qid": "Q8851",
+  "label_en": "Málaga",
+  "label_ja": "マラガ",
+  "label_local": null,
+  "description_en": "municipality and capital of the province of Málaga, in Spain",
+  "lat": 36.71667,
+  "lon": -4.41667,
+  "population": 599063,
+  "population_date": "2025-00-00",
+  "instance_of": [
+   "Q2074737",
+   "Q515"
+  ]
+ },
+ "Maribor|SI": {
+  "qid": "Q1010",
+  "label_en": "Maribor",
+  "label_ja": "マリボル",
+  "label_local": null,
+  "description_en": "city in Slovenia",
+  "lat": 46.55,
+  "lon": 15.63333,
+  "population": 114301,
+  "population_date": "2025-00-00",
+  "instance_of": [
+   "Q1549591"
+  ]
+ },
+ "Martigny|CH": {
+  "qid": "Q68956",
+  "label_en": "Martigny",
+  "label_ja": "マルティニー",
+  "label_local": null,
+  "description_en": "municipality in the canton of Valais in Switzerland",
+  "lat": 46.1,
+  "lon": 7.07278,
+  "population": 18301,
+  "population_date": "2018-12-31",
+  "instance_of": [
+   "Q70208",
+   "Q54935504"
+  ]
+ },
+ "Munich|DE": {
+  "qid": "Q1726",
+  "label_en": "Munich",
+  "label_ja": "ミュンヘン",
+  "label_local": null,
+  "description_en": "capital and most populous city of Bavaria, Germany",
+  "lat": 48.1375,
+  "lon": 11.575,
+  "population": 1510378,
+  "population_date": "2023-12-31",
+  "instance_of": [
+   "Q1187811",
+   "Q1549591",
+   "Q1180262",
+   "Q200250",
+   "Q1066984",
+   "Q42744322"
+  ]
+ },
+ "Milan|IT": {
+  "qid": "Q490",
+  "label_en": "Milan",
+  "label_ja": "ミラノ",
+  "label_local": null,
+  "description_en": "Italian commune and capital city of Lombardy",
+  "lat": 45.46694,
+  "lon": 9.19,
+  "population": 1354196,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q515",
+   "Q956214",
+   "Q956214",
+   "Q956214",
+   "Q4115680",
+   "Q1549591"
+  ]
+ },
+ "Mérida|ES": {
+  "qid": "Q14323",
+  "label_en": "Mérida",
+  "label_ja": "メリダ",
+  "label_local": null,
+  "description_en": "municipality in Extremadura, Spain",
+  "lat": 38.91583,
+  "lon": -6.33333,
+  "population": 60225,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q2074737"
+  ]
+ },
+ "Mostar|BA": {
+  "qid": "Q93347",
+  "label_en": "Mostar",
+  "label_ja": "モスタル",
+  "label_local": null,
+  "description_en": "town in Bosnia and Herzegovina",
+  "lat": 43.34361,
+  "lon": 17.8075,
+  "population": 105448,
+  "population_date": "2003-00-00",
+  "instance_of": [
+   "Q3957"
+  ]
+ },
+ "Mont-Saint-Michel|FR": {
+  "qid": "Q20892",
+  "label_en": "Le Mont Saint-Michel",
+  "label_ja": "ル・モン＝サン＝ミシェル",
+  "label_local": null,
+  "description_en": "French commune in the Manche department",
+  "lat": 48.63583,
+  "lon": -1.51028,
+  "population": 23,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q484170",
+   "Q64953083"
+  ]
+ },
+ "Montserrat|ES": {
+  "qid": "Q604539",
+  "label_en": "Montserrat",
+  "label_ja": null,
+  "label_local": null,
+  "description_en": "town in Valencia, Spain",
+  "lat": 39.35789,
+  "lon": -0.60306,
+  "population": 10062,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q2074737",
+   "Q123754112"
+  ]
+ },
+ "Jajce|BA": {
+  "qid": "Q258429",
+  "label_en": "Jajce",
+  "label_ja": "ヤイツェ",
+  "label_local": null,
+  "description_en": "town in Bosnia and Herzegovina",
+  "lat": 44.34025,
+  "lon": 17.25723,
+  "population": 12000,
+  "population_date": "1985-00-00",
+  "instance_of": [
+   "Q3257686",
+   "Q16085106"
+  ]
+ },
+ "York|GB": {
+  "qid": "Q42462",
+  "label_en": "York",
+  "label_ja": "ヨーク",
+  "label_local": null,
+  "description_en": "city in North Yorkshire, England, United Kingdom",
+  "lat": 53.95,
+  "lon": -1.08333,
+  "population": 208400,
+  "population_date": "2016-00-00",
+  "instance_of": [
+   "Q1357964",
+   "Q1549591",
+   "Q7897276",
+   "Q515"
+  ]
+ },
+ "Lancaster|GB": {
+  "qid": "Q168052",
+  "label_en": "Lancaster",
+  "label_ja": "シティ・オブ・ランカスター",
+  "label_local": null,
+  "description_en": "non-metropolitan district with city status in Lancashire, England",
+  "lat": 54.047,
+  "lon": -2.801,
+  "population": 144246,
+  "population_date": "2018-01-01",
+  "instance_of": [
+   "Q21503295",
+   "Q1187580",
+   "Q1006876"
+  ]
+ },
+ "Reims|FR": {
+  "qid": "Q41876",
+  "label_en": "Reims",
+  "label_ja": "ランス",
+  "label_local": null,
+  "description_en": "city in Marne, France",
+  "lat": 49.26528,
+  "lon": 4.02861,
+  "population": 177674,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q484170",
+   "Q1549591"
+  ]
+ },
+ "Lisbon|PT": {
+  "qid": "Q597",
+  "label_en": "Lisbon",
+  "label_ja": "リスボン",
+  "label_local": null,
+  "description_en": "municipality and capital city of Portugal",
+  "lat": 38.70804,
+  "lon": -9.13902,
+  "population": 545796,
+  "population_date": "2021-00-00",
+  "instance_of": [
+   "Q15647906",
+   "Q108178728",
+   "Q129676344"
+  ]
+ },
+ "Lichfield|GB": {
+  "qid": "Q1823259",
+  "label_en": "Lichfield",
+  "label_ja": "リッチフィールド・ディストリクト",
+  "label_local": null,
+  "description_en": "non-metropolitan district in England",
+  "lat": 52.6809,
+  "lon": -1.8276,
+  "population": 108352,
+  "population_date": "2022-00-00",
+  "instance_of": [
+   "Q1187580"
+  ]
+ },
+ "Ljubljana|SI": {
+  "qid": "Q437",
+  "label_en": "Ljubljana",
+  "label_ja": "リュブリャナ",
+  "label_local": null,
+  "description_en": "capital city of Slovenia",
+  "lat": 46.05139,
+  "lon": 14.50611,
+  "population": 284293,
+  "population_date": "2022-01-01",
+  "instance_of": [
+   "Q515",
+   "Q1549591",
+   "Q51929311",
+   "Q108178728"
+  ]
+ },
+ "Rüdesheim am Rhein|DE": {
+  "qid": "Q628118",
+  "label_en": "Rüdesheim am Rhein",
+  "label_ja": "リューデスハイム・アム・ライン",
+  "label_local": null,
+  "description_en": "town in Rheingau-Taunus-Kreis in Hesse, Germany",
+  "lat": 49.97903,
+  "lon": 7.9234,
+  "population": 10180,
+  "population_date": "2023-12-31",
+  "instance_of": [
+   "Q3957",
+   "Q2556234",
+   "Q42744322"
+  ]
+ },
+ "Lugano|CH": {
+  "qid": "Q7024",
+  "label_en": "Lugano",
+  "label_ja": "ルガーノ",
+  "label_local": null,
+  "description_en": "city in the canton of Ticino, Switzerland",
+  "lat": 46.01028,
+  "lon": 8.9625,
+  "population": 63495,
+  "population_date": "2024-12-31",
+  "instance_of": [
+   "Q70208",
+   "Q1187811",
+   "Q54935504",
+   "Q515"
+  ]
+ },
+ "Luxembourg City|LU": {
+  "qid": "Q1842",
+  "label_en": "Luxembourg",
+  "label_ja": "ルクセンブルク市",
+  "label_local": null,
+  "description_en": "capital and largest city of Luxembourg",
+  "lat": 49.61056,
+  "lon": 6.13278,
+  "population": 137696,
+  "population_date": "2026-01-01",
+  "instance_of": [
+   "Q2919801",
+   "Q515",
+   "Q1549591",
+   "Q51929311",
+   "Q5119"
+  ]
+ },
+ "Rouen|FR": {
+  "qid": "Q30974",
+  "label_en": "Rouen",
+  "label_ja": "ルーアン",
+  "label_local": null,
+  "description_en": "commune in Seine-Maritime, France",
+  "lat": 49.44306,
+  "lon": 1.1025,
+  "population": 117662,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q484170",
+   "Q1549591"
+  ]
+ },
+ "Levanto|IT": {
+  "qid": "Q254139",
+  "label_en": "Levanto",
+  "label_ja": "レヴァント",
+  "label_local": null,
+  "description_en": "Italian comune",
+  "lat": 44.16968,
+  "lon": 9.61223,
+  "population": 5140,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q747074"
+  ]
+ },
+ "Rennes|FR": {
+  "qid": "Q647",
+  "label_en": "Rennes",
+  "label_ja": "レンヌ",
+  "label_local": null,
+  "description_en": "capital city of the region of Brittany, France",
+  "lat": 48.11417,
+  "lon": -1.68083,
+  "population": 230890,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q484170",
+   "Q1549591"
+  ]
+ },
+ "Roncesvalles|ES": {
+  "qid": "Q917891",
+  "label_en": "Orreaga-Roncesvalles",
+  "label_ja": "ロンセスバーリェス",
+  "label_local": null,
+  "description_en": "Municipality of Spain",
+  "lat": 43.0085,
+  "lon": -1.3186,
+  "population": 25,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q2074737",
+   "Q3957"
+  ]
+ },
+ "Ronda|ES": {
+  "qid": "Q13153",
+  "label_en": "Ronda",
+  "label_ja": "ロンダ",
+  "label_local": null,
+  "description_en": "City in the Spanish province of Málaga",
+  "lat": 36.73722,
+  "lon": -5.16472,
+  "population": 33671,
+  "population_date": "2025-01-01",
+  "instance_of": [
+   "Q2074737"
+  ]
+ },
+ "London|GB": {
+  "qid": "Q84",
+  "label_en": "London",
+  "label_ja": "ロンドン",
+  "label_local": null,
+  "description_en": "capital and largest city of England and the United Kingdom",
+  "lat": 51.50722,
+  "lon": -0.1275,
+  "population": 8799728,
+  "population_date": "2021-00-00",
+  "instance_of": [
+   "Q200250",
+   "Q1066984",
+   "Q515",
+   "Q208511",
+   "Q174844",
+   "Q51929311"
+  ]
+ },
+ "Rothenburg ob der Tauber|DE": {
+  "qid": "Q153494",
+  "label_en": "Rothenburg ob der Tauber",
+  "label_ja": "ローテンブルク・オプ・デア・タウバー",
+  "label_local": null,
+  "description_en": "town in Germany",
+  "lat": 49.37722,
+  "lon": 10.17889,
+  "population": 11385,
+  "population_date": "2023-12-31",
+  "instance_of": [
+   "Q448801",
+   "Q42744322"
+  ]
+ },
+ "Rome|IT": {
+  "qid": "Q220",
+  "label_en": "Rome",
+  "label_ja": "ローマ",
+  "label_local": null,
+  "description_en": "capital and largest city of Italy",
+  "lat": 41.89306,
+  "lon": 12.48278,
+  "population": 2748109,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q902814",
+   "Q3685476",
+   "Q1200957",
+   "Q200250",
+   "Q51929311",
+   "Q1187811"
+  ]
+ },
+ "Vernazza|IT": {
+  "qid": "Q270328",
+  "label_en": "Vernazza",
+  "label_ja": "ヴェルナッツァ",
+  "label_local": null,
+  "description_en": "comune located in the province of La Spezia, Liguria, northwestern Italy",
+  "lat": 44.13516,
+  "lon": 9.68385,
+  "population": 729,
+  "population_date": "2023-01-01",
+  "instance_of": [
+   "Q747074"
+  ]
+ },
+ "qid:Q464955": {
+  "qid": "Q464955",
+  "label_en": "Windsor",
+  "label_ja": "ウィンザー",
+  "label_local": null,
+  "description_en": "town in the Royal Borough of Windsor and Maidenhead in Berkshire, England",
+  "lat": 51.48333,
+  "lon": -0.6,
+  "population": 32184,
+  "population_date": null,
+  "instance_of": [
+   "Q3957",
+   "Q7897276",
+   "Q562061"
+  ]
+ },
+ "qid:Q34217": {
+  "qid": "Q34217",
+  "label_en": "Oxford",
+  "label_ja": "オックスフォード",
+  "label_local": null,
+  "description_en": "city in Oxfordshire, England",
+  "lat": 51.75194,
+  "lon": -1.25778,
+  "population": 147500,
+  "population_date": "2013-00-00",
+  "instance_of": [
+   "Q1357964",
+   "Q1187811",
+   "Q7897276",
+   "Q515"
+  ]
+ },
+ "qid:Q217216": {
+  "qid": "Q217216",
+  "label_en": null,
+  "label_ja": "ブイヨン",
+  "label_local": null,
+  "description_en": "city in Wallonia, Belgium",
+  "lat": 49.79556,
+  "lon": 5.06806,
+  "population": 5353,
+  "population_date": "2018-01-01",
+  "instance_of": [
+   "Q493522",
+   "Q15273785",
+   "Q3957",
+   "Q902814"
+  ]
+ },
+ "qid:Q771935": {
+  "qid": "Q771935",
+  "label_en": "Santa Maria de Montserrat",
+  "label_ja": "サンタ・マリア・ダ・ムンサラート大修道院付属大聖堂",
+  "label_local": null,
+  "description_en": "abbey",
+  "lat": 41.59319,
+  "lon": 1.83714,
+  "population": null,
+  "population_date": null,
+  "instance_of": [
+   "Q817056"
+  ]
+ }
+}

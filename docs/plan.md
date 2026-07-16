@@ -152,18 +152,21 @@ note.md 3章（旅の醍醐味8種／旅のスタイル5種／旅の時期／旅
 ```
 city-data-builder/
 ├── docs/
-│   ├── note.md                    # 依頼内容（原本）
-│   ├── plan.md                    # 本計画書
-│   ├── 01_data-source-survey.md   # フェーズ1成果物
-│   ├── 02_schema-design.md        # フェーズ2成果物
-│   └── 03_data-quality-report.md  # フェーズ3成果物
+│   ├── note.md                          # 依頼内容（原本）
+│   ├── plan.md                          # 本計画書
+│   ├── 00_master-data-dictionary.md     # マスタのデータ辞書（暫定版。フェーズ2で正式化）
+│   ├── phase0_review.md                 # フェーズ0成果物（同定結果レビュー一覧）
+│   ├── 01_data-source-survey.md         # フェーズ1成果物
+│   ├── 02_schema-design.md              # フェーズ2成果物
+│   └── 03_data-quality-report.md        # フェーズ3成果物
 ├── schema/place.schema.json
 ├── data/
-│   ├── cities.json                # 原本（154件・日本語名）
-│   ├── master/places_master.json  # 名寄せマスタ（QID・座標・type）
-│   ├── raw/                       # ソース別の取得生データ
-│   └── output/places.json         # 最終データ
-└── scripts/                       # 取得・変換・検証スクリプト
+│   ├── cities.json                      # 原本（154件・日本語名）
+│   ├── master/seed_places.json          # 同定案シード（人手作成・レビューで修正）
+│   ├── master/places_master.json        # 名寄せマスタ（QID・座標・type）
+│   ├── raw/                             # ソース別の取得生データ・APIキャッシュ
+│   └── output/places.json               # 最終データ
+└── scripts/                             # 取得・変換・検証スクリプト
 ```
 
 ## 8. 工程とチェックポイント
