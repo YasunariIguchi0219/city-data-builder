@@ -1,7 +1,7 @@
 # 名寄せマスタ データ辞書（暫定版）
 
 - 対象ファイル：`data/master/places_master.json`
-- ステータス：**暫定（フェーズ0時点）**。フェーズ2「データ構造設計」（`docs/02_schema-design.md`）で正式版に置き換える。
+- ステータス：**暫定（フェーズ0時点）**。フェーズ2「データ構造設計」（`docs/phase2/schema-design.md`）で正式版に置き換える。
 - 生成方法：`uv run python scripts/build_master.py`（シード `data/master/seed_places.json` を Wikidata API で検証して生成。再実行可能）
 - 作成日：2026年7月16日
 
@@ -37,7 +37,7 @@
 | `instance_of` | array | 可 | Wikidata P31（instance of）のQID列（最大6件）。Wikidata側の分類。参考・将来の細分類用 |
 | `endpoints` | array | — | **routeのみ**。航路の両端（日本語名） |
 | `note` | string | 可 | 同定に関する人手の補足（シード由来） |
-| `review` | boolean | 不可 | 人によるレビューが必要なエントリはtrue（`docs/phase0_review.md` の要確認一覧に対応） |
+| `review` | boolean | 不可 | 人によるレビューが必要なエントリはtrue（`docs/phase0/review.md` の要確認一覧に対応） |
 
 ## 4. 種別（`type`）の定義 【暫定・フェーズ2で見直し】
 
@@ -59,8 +59,8 @@
 ## 5. 生成・検証の仕組み（再現性）
 
 1. `data/master/seed_places.json` … 人手作成の同定案（154件）。検索語・想定国・種別・レビューフラグを持つ。誤同定が判明した場合は `qid` フィールドでWikidata IDを直接指定（ピン留め）できる。
-2. `scripts/build_master.py` … シードをWikidata APIで検証（想定国と一致し座標を持つ候補を採用）。API応答は `data/raw/phase0/wikidata_cache.json` にキャッシュされ、再実行時は差分のみ照会。
-3. 出力は本マスタと `docs/phase0_review.md`（レビュー用一覧）。
+2. `scripts/build_master.py` … シードをWikidata APIで検証（想定国と一致し座標を持つ候補を採用）。API応答は `data/raw/wikidata/cache.json` にキャッシュされ、再実行時は差分のみ照会。
+3. 出力は本マスタと `docs/phase0/review.md`（レビュー用一覧）。
 
 ### 既知の注意点
 

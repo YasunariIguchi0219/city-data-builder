@@ -1,3 +1,7 @@
 .venv/
 __pycache__/
 *.pyc
+
+# data/raw/ の方針: スクリプトで再取得可能な大容量ダウンロード物はgit管理しない
+# （小さな加工済みデータ・APIキャッシュは管理する）。取得方法は各スクリプト参照。
+data/raw/survey/ourairports_airports.csv

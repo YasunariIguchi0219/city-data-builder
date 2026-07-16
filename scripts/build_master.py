@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """フェーズ0: seed_places.json の同定案を Wikidata API で検証し、
-places_master.json（名寄せマスタ）と phase0_review.md（レビュー用一覧）を生成する。
+places_master.json（名寄せマスタ）と docs/phase0/review.md（レビュー用一覧）を生成する。
 
 - 検索: wbsearchentities（英語ラベル）で候補を取得
 - 検証: 候補の P17（国）がシードの想定国と一致し、P625（座標）を持つ最初の候補を採用
 - 取得: QID / 英語・日本語・現地語ラベル / 座標 / 人口(P1082) / P31(instance of)
 - 分類: settlement は人口10万以上→city、未満・不明→town_village
-- キャッシュ: data/raw/phase0/wikidata_cache.json（再実行時はAPIを叩かない）
+- キャッシュ: data/raw/wikidata/cache.json（再実行時はAPIを叩かない）
 """
 import json
 import re
@@ -19,9 +19,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SEED = ROOT / "data/master/seed_places.json"
-CACHE = ROOT / "data/raw/phase0/wikidata_cache.json"
+CACHE = ROOT / "data/raw/wikidata/cache.json"
 MASTER = ROOT / "data/master/places_master.json"
-REVIEW = ROOT / "docs/phase0_review.md"
+REVIEW = ROOT / "docs/phase0/review.md"
 
 API = "https://www.wikidata.org/w/api.php"
 HEADERS = {"User-Agent": "city-data-builder/0.1 (phase0 master build; internal research)"}
@@ -292,6 +292,10 @@ def write_review(records: list[dict]):
         "# フェーズ0 レビュー：154件の同定結果一覧",
         "",
         "`scripts/build_master.py` により生成。マスタ本体は `data/master/places_master.json`。",
+        "",
+        "> **レビュー結果（2026-07-16）：全件暫定承認。** リストの出所に正解を持つ者がいないため、"
+        "曖昧エントリ（ディナン=仏Dinan、ランス=Reims 等）は本一覧の同定のまま採用する。"
+        "将来ツアー文脈等で正解が判明した場合は `seed_places.json` のQID指定を修正して再生成する。",
         "",
         f"- 件数：{len(records)}件（{counts}）",
         "- 種別：city（人口10万以上）／town_village（それ未満・不明）／single_poi（城・遺跡等の単体スポット）／natural_feature（自然地物）／route（航路）",

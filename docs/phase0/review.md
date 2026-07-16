@@ -2,7 +2,7 @@
 
 `scripts/build_master.py` により生成。マスタ本体は `data/master/places_master.json`。
 
-> **レビュー結果（2026-07-16）：全件暫定承認。** リストの出所に正解を持つ者がいないため、曖昧エントリ（ディナン=仏Dinan、ランス=Reims 等）は本一覧の同定のまま採用する。将来ツアー文脈等で正解が判明した場合は `seed_places.json` のQID指定を修正して再生成する（キャッシュにより数秒で反映可能）。
+> **レビュー結果（2026-07-16）：全件暫定承認。** リストの出所に正解を持つ者がいないため、曖昧エントリ（ディナン=仏Dinan、ランス=Reims 等）は本一覧の同定のまま採用する。将来ツアー文脈等で正解が判明した場合は `seed_places.json` のQID指定を修正して再生成する。
 
 - 件数：154件（city: 76件、natural_feature: 3件、route: 2件、single_poi: 9件、town_village: 64件）
 - 種別：city（人口10万以上）／town_village（それ未満・不明）／single_poi（城・遺跡等の単体スポット）／natural_feature（自然地物）／route（航路）
