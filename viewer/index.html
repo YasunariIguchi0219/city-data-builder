@@ -68,9 +68,24 @@
   .note { color: var(--ink-2); font-size: 12px; margin: -8px 0 14px; }
   .hero { display: flex; gap: 12px; flex-wrap: wrap; margin: 0 0 16px; }
   .hero > * { flex: 1 1 320px; min-width: 280px; margin: 0; }
+  figure.photo { position: relative; }
   figure.photo img {
     display: block; width: 100%; height: 260px;
     object-fit: cover; border-radius: 10px; border: 1px solid var(--border);
+    background: var(--grid);
+  }
+  .pnav {
+    position: absolute; top: 115px; width: 34px; height: 34px; border-radius: 50%;
+    border: none; cursor: pointer; font-size: 20px; line-height: 1;
+    background: rgba(0,0,0,0.45); color: #fff;
+  }
+  .pnav:hover { background: rgba(0,0,0,0.65); }
+  .pnav.prev { left: 8px; }
+  .pnav.next { right: 8px; }
+  .pcount {
+    position: absolute; top: 8px; right: 8px; font-size: 11px;
+    background: rgba(0,0,0,0.45); color: #fff; border-radius: 99px; padding: 1px 8px;
+    font-variant-numeric: tabular-nums;
   }
   figure.photo figcaption, .hero .caption { font-size: 11px; color: var(--muted); margin-top: 4px; }
   iframe.map {
@@ -350,6 +365,24 @@ function climateHelp(c){
     日照時間は日射量からの近似値で、快晴の多い地域では過大になることがあります。
     快適帯(8〜27℃)や重みは暫定値です。</p>`};
 }
+// ---- 画像カルーセル（順送り）----
+const KIND_JA = {main:'代表画像', panorama:'パノラマ', night:'夜景', aerial:'空撮',
+                 winter:'冬景色', collage:'コラージュ'};
+let heroImgs = [], heroIdx = 0;
+function heroShift(d){
+  if (heroImgs.length < 2 && d !== 0) return;
+  heroIdx = (heroIdx + d + heroImgs.length) % heroImgs.length;
+  const im = heroImgs[heroIdx];
+  document.getElementById('hero-img').src = im.image_url;
+  document.getElementById('hero-kind').textContent = KIND_JA[im.kind] || '';
+  document.getElementById('hero-src').href = im.image_source_url;
+  const c = document.getElementById('hero-count');
+  if (c) c.textContent = `${heroIdx + 1} / ${heroImgs.length}`;
+}
+// inline onclick/onerror から呼べるように公開（スクリプト全体が boot() 内のため）
+window.heroShift = heroShift;
+window.heroErr = el => { if (heroImgs.length > 1) heroShift(1); else el.closest('figure').style.display = 'none'; };
+
 function renderDetail(){
   const p = PLACES.find(x=>x.identity.id===state.sel);
   if (!p){ document.getElementById('detail').innerHTML=''; return; }
@@ -369,13 +402,21 @@ function renderDetail(){
   // 代表画像＋地図（横並び）。画像=Wikidata P18/Commons（ライセンスは画像ごと＝出典リンク必須）、
   // 地図=identity.lat/lonからOSM埋め込みを生成（追加データ不要・表示に外部接続が必要）
   const hero = [];
-  if (p.media && p.media.image_url){
+  heroImgs = (p.media && p.media.images) ? p.media.images : [];
+  heroIdx = 0;
+  if (heroImgs.length){
+    const first = heroImgs[0];
+    const multi = heroImgs.length > 1;
     hero.push(`<figure class="photo">
-      <img src="${p.media.image_url}" alt="${esc(id.name_ja)}の代表画像" loading="lazy"
-           onerror="this.closest('figure').style.display='none'">
+      <img id="hero-img" src="${first.image_url}" alt="${esc(id.name_ja)}の画像" loading="lazy"
+           onerror="heroErr(this)">
+      ${multi ? `<button class="pnav prev" onclick="heroShift(-1)" aria-label="前の画像">‹</button>
+                 <button class="pnav next" onclick="heroShift(1)" aria-label="次の画像">›</button>
+                 <span class="pcount" id="hero-count">1 / ${heroImgs.length}</span>` : ''}
       <figcaption>
-        <a href="${p.media.image_source_url}" target="_blank" rel="noopener">画像: Wikimedia Commons（出典・ライセンス）</a>
-        ${jp('media.image_url')}
+        <span id="hero-kind">${KIND_JA[first.kind]||''}</span> ・
+        <a id="hero-src" href="${first.image_source_url}" target="_blank" rel="noopener">画像: Wikimedia Commons（出典・ライセンス）</a>
+        ${jp('media.images[]')}
       </figcaption>
     </figure>`);
   }

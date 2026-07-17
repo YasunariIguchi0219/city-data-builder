@@ -172,16 +172,22 @@ def main():
             record["heritage"] = {"whs_onsite": hd["onsite"], "whs_within_30km": hd["within30"],
                                   "_meta": meta("wikidata", "CC0-1.0")}
 
-            # 代表画像（Wikidata P18 → Wikimedia Commons。画像自体のライセンスは画像ごとに異なる）
-            img = (extras.get(p["qid"]) or {}).get("image")
-            if img:
-                fn = urllib.parse.quote(img.replace(" ", "_"))
+            # 画像群（Wikidataの画像プロパティ → Wikimedia Commons。画像自体のライセンスは画像ごとに異なる）
+            imgs = (extras.get(p["qid"]) or {}).get("images") or []
+            if imgs:
+                items = []
+                for im in imgs:
+                    fn = urllib.parse.quote(im["file"].replace(" ", "_"))
+                    items.append({
+                        "kind": im["kind"],
+                        "commons_file": im["file"],
+                        "image_url": f"https://commons.wikimedia.org/wiki/Special:FilePath/{fn}?width=800",
+                        "image_source_url": f"https://commons.wikimedia.org/wiki/File:{fn}",
+                    })
                 record["media"] = {
-                    "commons_file": img,
-                    "image_url": f"https://commons.wikimedia.org/wiki/Special:FilePath/{fn}?width=800",
-                    "image_source_url": f"https://commons.wikimedia.org/wiki/File:{fn}",
+                    "images": items,
                     "_meta": meta("wikidata", "per-image (Wikimedia Commons)",
-                                  "画像: Wikimedia Commons（ライセンス・作者は出典ページを参照）"),
+                                  "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）"),
                 }
             else:
                 record["media"] = None

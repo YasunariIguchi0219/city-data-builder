@@ -1,610 +1,2196 @@
 {
  "Q68950": {
   "elevation_m": 882.0,
-  "image": "Einsiedeln 2021.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Einsiedeln 2021.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Trachslau, Schweiz (Unsplash).jpg"
+   },
+   {
+    "kind": "winter",
+    "file": "Einsiedeln.ende.2017.jpg"
+   }
+  ]
  },
  "Q20103": {
   "elevation_m": 424.0,
-  "image": "Assisi panorama.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Assisi panorama.jpg"
+   }
+  ]
  },
  "Q1002826": {
   "elevation_m": null,
-  "image": "Alnwick and Alnwick Castle - Northumberland - 140804.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Alnwick and Alnwick Castle - Northumberland - 140804.jpg"
+   }
+  ]
  },
  "Q485581": {
   "elevation_m": 25.0,
-  "image": "Ria de Aveiro.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Ria de Aveiro.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Aveiro.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Edifício Companhia de Seguros Ultramarina (Aveiro, Portugal), circa 1952.jpg"
+   }
+  ]
  },
  "Q727": {
   "elevation_m": -2.0,
-  "image": "Amsterdam Photo 2020 Copernicus Sentinel-2.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Amsterdam Photo 2020 Copernicus Sentinel-2.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Amsterdam airphoto.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Imagen de los canales concéntricos en Ámsterdam.png"
+   },
+   {
+    "kind": "night",
+    "file": "Amsterdam Grachten at night.jpg"
+   }
+  ]
  },
  "Q51812": {
   "elevation_m": 416.0,
-  "image": "Alberobello con il drone.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Alberobello con il drone.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Alberobello BW 2016-10-16 13-10-43.jpg"
+   }
+  ]
  },
  "Q212620": {
   "elevation_m": 0.0,
-  "image": "Arromanches-les-Bains port artificiel Mulberry.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Arromanches-les-Bains port artificiel Mulberry.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Arromanches-les-Bains à marée basse (juillet 2025).JPG"
+   }
+  ]
  },
  "Q38380": {
   "elevation_m": 20.0,
-  "image": "Angers collage.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Angers collage.jpg"
+   }
+  ]
  },
  "Q205116": {
   "elevation_m": 52.0,
-  "image": "F - Amboise 016.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "F - Amboise 016.jpg"
+   }
+  ]
  },
  "Q160493": {
   "elevation_m": null,
-  "image": "Invernessmixed.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Invernessmixed.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Инвернесс.jpg"
+   }
+  ]
  },
  "Q464955": {
   "elevation_m": null,
-  "image": "Windsor - geograph.org.uk - 1098215.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Windsor - geograph.org.uk - 1098215.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Windsor (England)-center.jpg"
+   }
+  ]
  },
  "Q1741": {
   "elevation_m": 151.0,
-  "image": "Wien katedra sw Szczepana widok z wiezy 6.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Wien katedra sw Szczepana widok z wiezy 6.jpg"
+   },
+   {
+    "kind": "panorama",
+    "file": "Wien-Stadtblick S-O.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "2014 Wien 034 (13355717674).jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Wien-Landsat001.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Collage von Wien.jpg"
+   }
+  ]
  },
  "Q23436": {
   "elevation_m": 47.0,
-  "image": "Edinburgh cityscapes - aerial - 2025-04-19 20.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Edinburgh cityscapes - aerial - 2025-04-19 20.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "EdinburghFromCastle.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "00 3331 Edinburgh - Schottland.jpg"
+   },
+   {
+    "kind": "main",
+    "file": ".00 2329 Cityscapes of Edinburgh - Schottland.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "\"00 1426 Calton Hill - Edinburgh, Schottland.jpg"
+   },
+   {
+    "kind": "panorama",
+    "file": "Edinburgh Skyline (15708524145).jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Edinburgh night (2011.10.21).jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "EdinburghMontage.png"
+   }
+  ]
  },
  "Q179948": {
   "elevation_m": 295.0,
-  "image": "Évora - Praça do Giraldo.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Évora - Praça do Giraldo.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Evora-Montage.png"
+   }
+  ]
  },
  "Q585": {
   "elevation_m": 23.0,
-  "image": "View from siloen.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "View from siloen.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Oslo at night.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "14-09-02-oslo-RalfR-236.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Oslo newer montage 2013.png"
+   },
+   {
+    "kind": "panorama",
+    "file": "Oslo center - panorama.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Oslo panorama I.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Oslo 22.jpg"
+   },
+   {
+    "kind": "winter",
+    "file": "Oslo fra slottet 1.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Oslo city in 10 images.jpg"
+   }
+  ]
  },
  "Q34217": {
   "elevation_m": null,
-  "image": "Oxford from Boars Hill.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Oxford from Boars Hill.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "High Street in Oxford by Night 2009 LL.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Oxford Montage 2012.png"
+   }
+  ]
  },
  "Q223353": {
   "elevation_m": 0.0,
-  "image": "Opatija view.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Opatija view.jpg"
+   }
+  ]
  },
  "Q275862": {
   "elevation_m": 49.0,
-  "image": "Óbidos view592.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Óbidos view592.jpg"
+   }
+  ]
  },
  "Q22536": {
   "elevation_m": 294.0,
-  "image": "OrtaSanGiulioAug132024 03.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "OrtaSanGiulioAug132024 03.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Vue d'une ville italienne par le général ROUEN.jpg"
+   }
+  ]
  },
  "Q25732": {
   "elevation_m": 34.0,
-  "image": "Örebro Montage.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Örebro Montage.jpg"
+   }
+  ]
  },
  "Q25331": {
   "elevation_m": 13.0,
-  "image": "Odense rådhus.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Odense rådhus.jpg"
+   }
+  ]
  },
  "Q25319": {
   "elevation_m": 6.0,
-  "image": "Århus city trafikhavn.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Århus city trafikhavn.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Montage of Aarhus - view from city hall, city hall by night, isbjerget, park alle.jpg"
+   }
+  ]
  },
  "Q6454": {
   "elevation_m": 0.0,
-  "image": "Burghers of calais.jpeg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Burghers of calais.jpeg"
+   }
+  ]
  },
  "Q24013870": {
   "elevation_m": null,
-  "image": "Cambados.jpeg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Cambados.jpeg"
+   }
+  ]
  },
  "Q41185": {
   "elevation_m": 8.0,
-  "image": "Clochers de Caen.JPG"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Clochers de Caen.JPG"
+   }
+  ]
  },
  "Q2415": {
   "elevation_m": null,
-  "image": "Kristiansand, Norway.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Kristiansand, Norway.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Vista aérea de Kristiansand.jpg"
+   }
+  ]
  },
  "Q4093": {
   "elevation_m": null,
-  "image": "Glasgow - aerial - 2025-04-17 12.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Glasgow - aerial - 2025-04-17 12.jpg"
+   },
+   {
+    "kind": "panorama",
+    "file": "The Lighthouse - Panorama of Glasgow.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Finnieston Bridge Glasgow at night.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Glasgow, Scotland (5460921673).jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Glasgow Montage.png"
+   }
+  ]
  },
  "Q8810": {
   "elevation_m": 693.0,
-  "image": "\"Der Blick von der Alhambra auf Granada ist einfach atemberaubend\". 01.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "\"Der Blick von der Alhambra auf Granada ist einfach atemberaubend\". 01.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Night view from Alhambra de Granada, Andalusia Spain - Image Picture Photography (14875364721).jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Collage de la ciudad de Granada, Andalucía, España.png"
+   }
+  ]
  },
  "Q69600": {
   "elevation_m": 810.0,
-  "image": "Gruyères et sa cité médiévale.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Gruyères et sa cité médiévale.jpg"
+   }
+  ]
  },
  "Q365": {
   "elevation_m": 59.0,
-  "image": "Stadtbild Köln (50MP).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Stadtbild Köln (50MP).jpg"
+   },
+   {
+    "kind": "panorama",
+    "file": "Cologne - Panoramic Image of the old town at dusk.jpg"
+   },
+   {
+    "kind": "panorama",
+    "file": "Koelnpanorama.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Old town of cologne during the flood in january 2018 (27824836999).jpg"
+   }
+  ]
  },
  "Q45412": {
   "elevation_m": 43.0,
-  "image": "Almedina-CCBY.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Almedina-CCBY.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Coimbra04.JPG"
+   },
+   {
+    "kind": "main",
+    "file": "Coimbra tozu.JPG"
+   }
+  ]
  },
  "Q1748": {
   "elevation_m": 14.0,
-  "image": "Copenhagen - view from Christiansborg castle.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Copenhagen - view from Christiansborg castle.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Copenhagen Collage.jpg"
+   }
+  ]
  },
  "Q5818": {
   "elevation_m": 120.0,
-  "image": "Centro Histórico, 16.9 -- 2023 -- Córdoba, España.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Centro Histórico, 16.9 -- 2023 -- Córdoba, España.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Puente sobre el Guadalquivir de noche con la Mezquita de Córdoba iluminada al fondo.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Córdoba aerial 9.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Collage de la ciudad de Córdoba, Andalucía, España.png"
+   }
+  ]
  },
  "Q919046": {
   "elevation_m": 704.0,
-  "image": "Town of Consuegra - 2013.07 - panoramio.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Town of Consuegra - 2013.07 - panoramio.jpg"
+   }
+  ]
  },
  "Q11194": {
   "elevation_m": 518.0,
-  "image": "Sarajevo City Panorama.JPG"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Sarajevo City Panorama.JPG"
+   },
+   {
+    "kind": "night",
+    "file": "Sarajevo (night).jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Sarajevo SPOT 1050 (croped).jpg"
+   },
+   {
+    "kind": "winter",
+    "file": "View on Sarajevo from Višnjik, 2023.01.23 1.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Sarajevo.jpg"
+   }
+  ]
  },
  "Q10305": {
   "elevation_m": 200.0,
-  "image": "Panorama of Zaragoza from the top of the cathedral (3847901093).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Panorama of Zaragoza from the top of the cathedral (3847901093).jpg"
+   }
+  ]
  },
  "Q91413": {
   "elevation_m": 324.0,
-  "image": "Panorama San Gimignano.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Panorama San Gimignano.jpg"
+   }
+  ]
  },
  "Q10313": {
   "elevation_m": 6.0,
-  "image": "Donostia Igeldotik.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Donostia Igeldotik.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "San Sebastian at night from Monte Urgull.jpg"
+   }
+  ]
  },
  "Q14314": {
   "elevation_m": 260.0,
-  "image": "Santiago de Compostela, Galiza (cropped).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Santiago de Compostela, Galiza (cropped).jpg"
+   }
+  ]
  },
  "Q163108": {
   "elevation_m": 8.0,
-  "image": "Saint-Malo la Tour Bidouane.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Saint-Malo la Tour Bidouane.jpg"
+   },
+   {
+    "kind": "panorama",
+    "file": "Saint-Malo panoramique depuis le Grand Bé.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Saint-Malo by night (16878786496).jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "IMG 2935 StMalo.JPG"
+   }
+  ]
  },
  "Q1435": {
   "elevation_m": 127.0,
-  "image": "Zagreb (29255640143).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Zagreb (29255640143).jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Zagreb-Night-Old-Town-AB 01.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "19-06-16-Zagreb-DJI 0183.jpg"
+   },
+   {
+    "kind": "winter",
+    "file": "Crkva sv. Marka zimi.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Montage of major Zagreb landmarks.jpg"
+   }
+  ]
  },
  "Q34713": {
   "elevation_m": 424.0,
-  "image": "Salzburg Altstadt vom Mönchsberg.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Salzburg Altstadt vom Mönchsberg.jpg"
+   }
+  ]
  },
  "Q186037": {
   "elevation_m": 74.0,
-  "image": "Sankt goarshausen.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Sankt goarshausen.jpg"
+   }
+  ]
  },
  "Q136661": {
   "elevation_m": null,
-  "image": "Z.Schans.JPG"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Z.Schans.JPG"
+   },
+   {
+    "kind": "main",
+    "file": "Zaanse schans - il borgo.jpg"
+   }
+  ]
  },
  "Q83236": {
   "elevation_m": 1030.0,
-  "image": "Chamonix - Arve river.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Chamonix - Arve river.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Chamonix-Mont-Blanc sunrise @ Refuge de Bellachat 01.jpg"
+   }
+  ]
  },
  "Q130272": {
   "elevation_m": 142.0,
-  "image": "France Eure et Loir Chartres Cathedrale nuit 02.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "France Eure et Loir Chartres Cathedrale nuit 02.jpg"
+   }
+  ]
  },
  "Q205367": {
   "elevation_m": null,
-  "image": "France Loir-et-Cher Chambord Chateau 03.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "France Loir-et-Cher Chambord Chateau 03.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "F - Schloss Chambord 017.jpg"
+   }
+  ]
  },
  "Q193215": {
   "elevation_m": null,
-  "image": "Chenonceau-20050320.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Chenonceau-20050320.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Aerial image of Château de Chenonceau (view from the west).jpg"
+   }
+  ]
  },
  "Q372647": {
   "elevation_m": null,
-  "image": "001 Chateau de Chillon and Dents du Midi Photo by Giles Laurent.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "001 Chateau de Chillon and Dents du Midi Photo by Giles Laurent.jpg"
+   }
+  ]
  },
  "Q112019": {
   "elevation_m": 74.0,
-  "image": "Italy - Sirmione.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Italy - Sirmione.jpg"
+   }
+  ]
  },
  "Q71": {
   "elevation_m": null,
-  "image": "Geneva from Mount Salève.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Geneva from Mount Salève.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Views of Geneva.jpg"
+   }
+  ]
  },
  "Q26772333": {
   "elevation_m": null,
-  "image": "Stavanger Sentrum-Airphoto-modf.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Stavanger Sentrum-Airphoto-modf.jpg"
+   }
+  ]
  },
  "Q33125737": {
   "elevation_m": null,
-  "image": null
+  "images": []
  },
  "Q1754": {
   "elevation_m": null,
-  "image": "Stockholm gamlastan etc.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Stockholm gamlastan etc.jpg"
+   },
+   {
+    "kind": "panorama",
+    "file": "Saltsjön 19 juni 2020.jpg"
+   },
+   {
+    "kind": "panorama",
+    "file": "Skeppsbroraden 19 juni 2010.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Kulturhuset, Stockholm.JPG"
+   },
+   {
+    "kind": "collage",
+    "file": "Stockholm Montage.png"
+   },
+   {
+    "kind": "collage",
+    "file": "Stockholm.jpg"
+   }
+  ]
  },
  "Q6602": {
   "elevation_m": 150.0,
-  "image": "Strasburg.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Strasburg.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Strasbourg seen from Esca Tower in 2014.jpg"
+   }
+  ]
  },
  "Q189288": {
   "elevation_m": 72.0,
-  "image": "Shakespeare's Birthplace, Stratford-upon-Avon - Sept 2012.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Shakespeare's Birthplace, Stratford-upon-Avon - Sept 2012.jpg"
+   }
+  ]
  },
  "Q23700": {
   "elevation_m": 207.0,
-  "image": "Stresa Levo.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Stresa Levo.jpg"
+   }
+  ]
  },
  "Q428227": {
   "elevation_m": 8.0,
-  "image": "Aerial image of Ston (view from the southwest).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Aerial image of Ston (view from the southwest).jpg"
+   }
+  ]
  },
  "Q39671": {
   "elevation_m": null,
-  "image": "Stonehenge Total.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Stonehenge Total.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Magical Stonehenge - geograph.org.uk - 1628518.jpg"
+   }
+  ]
  },
  "Q1663": {
   "elevation_m": 0.0,
-  "image": "Ferry Port of Split, Croatia (48693924822).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Ferry Port of Split, Croatia (48693924822).jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Port of Split at night.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Luftbild vom Diokletianpalast in Split, Kroatien (48608754492).jpg"
+   },
+   {
+    "kind": "winter",
+    "file": "Snow in Split.jpg"
+   }
+  ]
  },
  "Q8717": {
   "elevation_m": 18.0,
-  "image": "Sevilla Luft 120308.JPG"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Sevilla Luft 120308.JPG"
+   },
+   {
+    "kind": "aerial",
+    "file": "(Sevilla) Seville, Spain (49104522676) (cropped).jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Collagesevilla.jpg"
+   }
+  ]
  },
  "Q208495": {
   "elevation_m": null,
-  "image": "Sognefjord, Norway.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Sognefjord, Norway.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Adelsteen Normann Sognefjord.jpg"
+   }
+  ]
  },
  "Q160642": {
   "elevation_m": null,
-  "image": "Salisbury Cathedral.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Salisbury Cathedral.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Choristers' Square, Salisbury.JPG"
+   }
+  ]
  },
  "Q179815": {
   "elevation_m": null,
-  "image": "Durham Millburngate Bridge.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Durham Millburngate Bridge.jpg"
+   }
+  ]
  },
  "Q188082": {
   "elevation_m": 492.0,
-  "image": "Český Krumlov, historické jádro.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Český Krumlov, historické jádro.jpg"
+   }
+  ]
  },
  "Q72": {
   "elevation_m": 408.0,
-  "image": "Zuerich Fraumuenster St Peter.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Zuerich Fraumuenster St Peter.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Swiss Zurich Downtown.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Zurich city center.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "ETH Zürich im Abendlicht.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Aerial photograph of Zürich 02.jpg"
+   },
+   {
+    "kind": "winter",
+    "file": "Zürich Winter.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "City of Zürich.jpg"
+   }
+  ]
  },
  "Q27494": {
   "elevation_m": 1624.0,
-  "image": "1 zermatt night 2012.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "1 zermatt night 2012.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "00 106 0604 Zmutt - Zermatt (CH).jpg"
+   }
+  ]
  },
  "Q201311": {
   "elevation_m": 76.0,
-  "image": "Dinan Saint-Sauveur vue des remparts.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Dinan Saint-Sauveur vue des remparts.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Dinan Panorama.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Quaint river town (Unsplash).jpg"
+   }
+  ]
  },
  "Q288": {
   "elevation_m": 56.0,
-  "image": "Morning in September in Tours 18.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Morning in September in Tours 18.jpg"
+   }
+  ]
  },
  "Q13495": {
   "elevation_m": 7.0,
-  "image": "Trani BW 2016-10-14 14-15-24 stitch.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Trani BW 2016-10-14 14-15-24 stitch.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Trani 061.JPG"
+   }
+  ]
  },
  "Q1722": {
   "elevation_m": 10.0,
-  "image": "The walls of the fortress and View of the old city. panorama.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "The walls of the fortress and View of the old city. panorama.jpg"
+   }
+  ]
  },
  "Q23325": {
   "elevation_m": 272.0,
-  "image": "Panorama Domodossola da Monte Calvario.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Panorama Domodossola da Monte Calvario.jpg"
+   }
+  ]
  },
  "Q497179": {
   "elevation_m": null,
-  "image": "La grande plage de Nazaré - panoramio (20).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "La grande plage de Nazaré - panoramio (20).jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Nazaré.jpg"
+   }
+  ]
  },
  "Q2634": {
   "elevation_m": 17.0,
-  "image": "Naples from the Castello Sant Elmo with Abbazia San Martino the port and the Vesuv.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Naples from the Castello Sant Elmo with Abbazia San Martino the port and the Vesuv.jpg"
+   }
+  ]
  },
  "Q503862": {
   "elevation_m": null,
-  "image": "Naantali church.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Naantali church.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Kuvakollaasi Naantalista.jpg"
+   }
+  ]
  },
  "Q2090": {
   "elevation_m": 209.0,
-  "image": "Nuremberg, view from Sinwell Tower 2012.06.16 - panoramio.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Nuremberg, view from Sinwell Tower 2012.06.16 - panoramio.jpg"
+   },
+   {
+    "kind": "panorama",
+    "file": "Nuremberg from Burg 17.04.10.jpg"
+   },
+   {
+    "kind": "panorama",
+    "file": "Nuernberg-pano-winter.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Reformations-Gedächtnis-Kirche, Nuremberg ( 1080095).jpg"
+   },
+   {
+    "kind": "winter",
+    "file": "Nuremberg View Old Town.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Nuremberg Collage.jpg"
+   }
+  ]
  },
  "Q49650": {
   "elevation_m": 16.0,
-  "image": "LochNessUrquhart.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "LochNessUrquhart.jpg"
+   }
+  ]
  },
  "Q13149": {
   "elevation_m": 26.0,
-  "image": "Nerja.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Nerja.jpg"
+   }
+  ]
  },
  "Q41262": {
   "elevation_m": 61.0,
-  "image": "Nottingham skyline.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Nottingham skyline.jpg"
+   }
+  ]
  },
  "Q2966": {
   "elevation_m": 114.0,
-  "image": "Heidelberg corr.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Heidelberg corr.jpg"
+   }
+  ]
  },
  "Q856722": {
   "elevation_m": null,
-  "image": "Arlington Row Bibury.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Arlington Row Bibury.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Swan Hotel Bibury.jpg"
+   }
+  ]
  },
  "Q134674": {
   "elevation_m": 4.0,
-  "image": "Bayonne-Centre historique-20130811.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Bayonne-Centre historique-20130811.jpg"
+   }
+  ]
  },
  "Q810715": {
   "elevation_m": 342.0,
-  "image": "Mosteiro da Batalha (2).JPG"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Mosteiro da Batalha (2).JPG"
+   }
+  ]
  },
  "Q131127": {
   "elevation_m": 163.0,
-  "image": "NKD115 Saborna crkva Hrista spasitelja Banja Luka RS BiH.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "NKD115 Saborna crkva Hrista spasitelja Banja Luka RS BiH.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Panorama Banja Luke.jpg"
+   }
+  ]
  },
  "Q1492": {
   "elevation_m": 9.0,
-  "image": "Aerial view of La Sagrada Familia, Barcelona, Spain (51227006134).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Aerial view of La Sagrada Familia, Barcelona, Spain (51227006134).jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Evening light over Barcelona.jpg"
+   },
+   {
+    "kind": "panorama",
+    "file": "Barcelona. View from Tibidabo.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Barcelona desde El Carmel (1).JPG"
+   },
+   {
+    "kind": "aerial",
+    "file": "Barcelona by Sentinel-2, 2020-05-22.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Barcelona collage.JPG"
+   }
+  ]
  },
  "Q8818": {
   "elevation_m": 15.0,
-  "image": "Vue sur la ville depuis la Tour du Miguelete (8277318710).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Vue sur la ville depuis la Tour du Miguelete (8277318710).jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Collagevalencia.JPG"
+   }
+  ]
  },
  "Q22889": {
   "elevation_m": 132.0,
-  "image": "Bath Somerset 2023 -City- by-RaBoe 055.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Bath Somerset 2023 -City- by-RaBoe 055.jpg"
+   }
+  ]
  },
  "Q2256": {
   "elevation_m": 140.0,
-  "image": "Birmingham-Skyline-from-Edgbaston-crop.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Birmingham-Skyline-from-Edgbaston-crop.jpg"
+   },
+   {
+    "kind": "panorama",
+    "file": "Panorama of Birmingham.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Panorama Birmingham Bullring.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Birmingham by Sentinel-2, 2020-05-29.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "BirminghamMontage.jpg"
+   }
+  ]
  },
  "Q90": {
   "elevation_m": 28.0,
-  "image": "La Tour Eiffel vue de la Tour Saint-Jacques, Paris août 2014 (2).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "La Tour Eiffel vue de la Tour Saint-Jacques, Paris août 2014 (2).jpg"
+   },
+   {
+    "kind": "panorama",
+    "file": "LaDefense pl.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Eiffel Tower from the Tour Montparnasse, 1 May 2012 N2.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Paris Night.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Paris - Orthophotographie - 2018.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Paris montage.jpg"
+   }
+  ]
  },
  "Q10282": {
   "elevation_m": 450.0,
-  "image": "Iruñea Ortoirudia 2021.png"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Iruñea Ortoirudia 2021.png"
+   }
+  ]
  },
  "Q14318": {
   "elevation_m": 525.0,
-  "image": "Gasteiz, Euskal Herria.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Gasteiz, Euskal Herria.jpg"
+   },
+   {
+    "kind": "winter",
+    "file": "Snow in Vitoria-Gasteiz february 2015 enhanced.jpg"
+   }
+  ]
  },
  "Q2999": {
   "elevation_m": 177.0,
-  "image": "Dom R1.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Dom R1.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Marienberg wuerzburg.jpg"
+   }
+  ]
  },
  "Q477613": {
   "elevation_m": null,
-  "image": "Château de Villandry aile droite.JPG"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Château de Villandry aile droite.JPG"
+   },
+   {
+    "kind": "aerial",
+    "file": "Aerial image of Château de Villandry (view from the southeast).jpg"
+   }
+  ]
  },
  "Q8692": {
   "elevation_m": 19.0,
-  "image": "Cityscape - Bilbao, Spain - panoramio (1).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Cityscape - Bilbao, Spain - panoramio (1).jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Bilbao - Planet Imagery.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Collage de Bilbao, País Vasco, España.png"
+   }
+  ]
  },
  "Q13375": {
   "elevation_m": 4.0,
-  "image": "Pisa - veduta dall'aereo 4.JPG"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Pisa - veduta dall'aereo 4.JPG"
+   }
+  ]
  },
  "Q2044": {
   "elevation_m": 50.0,
-  "image": "Panoramica Firenze.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Panoramica Firenze.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Florence, Italy - aerial view.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Collage Firenze.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Florence Collage.png"
+   }
+  ]
  },
  "Q1012033": {
   "elevation_m": null,
-  "image": "2018 07 11 Schottland (39).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "2018 07 11 Schottland (39).jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Eclusas do canal Caledonia (6194580521).jpg"
+   }
+  ]
  },
  "Q4043": {
   "elevation_m": 62.0,
-  "image": "Fougères.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Fougères.jpg"
+   }
+  ]
  },
  "Q1794": {
   "elevation_m": 112.0,
-  "image": "Frankfurter Altstadt mit Skyline 2019 (100MP).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Frankfurter Altstadt mit Skyline 2019 (100MP).jpg"
+   },
+   {
+    "kind": "panorama",
+    "file": "Frankfurt Skyline Pano.Südwest.20130618.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Frankfurt am Main, Germany, March 25, 2018 SkySat.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Frankfurt by Sentinel-2, 2020-07-23.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Frankfurt collage.jpg"
+   }
+  ]
  },
  "Q217216": {
   "elevation_m": 221.0,
-  "image": "Bouillon - Château-fort et cité (1).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Bouillon - Château-fort et cité (1).jpg"
+   }
+  ]
  },
  "Q1781": {
   "elevation_m": 117.0,
-  "image": "Budapest, Hungary (explored) (14995308504).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Budapest, Hungary (explored) (14995308504).jpg"
+   },
+   {
+    "kind": "panorama",
+    "file": "Budapestpanorama2014.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Panoramic view of Budapest 2014.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Budapest és a Duna madártávlatból.jpg"
+   },
+   {
+    "kind": "winter",
+    "file": "Snow covered roofs and listed buildings in Krisztinaváros, 2016 Budapest.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Montage of Budapest.jpg"
+   }
+  ]
  },
  "Q83247": {
   "elevation_m": 215.0,
-  "image": "Arco da porta nova Braga.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Arco da porta nova Braga.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Braga Montage.png"
+   }
+  ]
  },
  "Q1780": {
   "elevation_m": 152.0,
-  "image": "Hlavné Namestie (35096533142).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Hlavné Namestie (35096533142).jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Bratislava Montage.jpg"
+   }
+  ]
  },
  "Q239": {
   "elevation_m": 70.0,
-  "image": "Brussels view from Mont des Arts, Brussels, Belgium (cropped).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Brussels view from Mont des Arts, Brussels, Belgium (cropped).jpg"
+   }
+  ]
  },
  "Q15583": {
   "elevation_m": 691.0,
-  "image": "Glishorn-briglina.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Glishorn-briglina.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Brig Stockalperpalast.JPG"
+   }
+  ]
  },
  "Q9580": {
   "elevation_m": 859.0,
-  "image": "Burgos city view facing south east.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Burgos city view facing south east.jpg"
+   },
+   {
+    "kind": "winter",
+    "file": "Nieva en Burgos.jpg"
+   }
+  ]
  },
  "Q12994": {
   "elevation_m": 2.0,
-  "image": "Brugge-CanalRozenhoedkaai.JPG"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Brugge-CanalRozenhoedkaai.JPG"
+   },
+   {
+    "kind": "night",
+    "file": "22 10 Brügge IMG 9696.jpg"
+   }
+  ]
  },
  "Q202852": {
   "elevation_m": 501.0,
-  "image": "Blejsko jezero.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Blejsko jezero.jpg"
+   }
+  ]
  },
  "Q1085": {
   "elevation_m": 235.0,
-  "image": "Petřín Tower View IMG 3020.JPG"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Petřín Tower View IMG 3020.JPG"
+   },
+   {
+    "kind": "main",
+    "file": "Prague - 50175672531.jpg"
+   },
+   {
+    "kind": "panorama",
+    "file": "Prague panorama.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Podvečerní Praha z Kinského zahrady.JPG"
+   },
+   {
+    "kind": "aerial",
+    "file": "Praha hlavní nádraží 2017-06-25 01.jpg"
+   },
+   {
+    "kind": "winter",
+    "file": "Praha, Petřín, 2021 (30a).jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Prague collage 2018.jpg"
+   }
+  ]
  },
  "Q189849": {
   "elevation_m": null,
-  "image": "Plitvice Lakes National Park (2).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Plitvice Lakes National Park (2).jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Duck on the lake.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Plitvicer Seen 1.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Aerial view of Plitvice Lakes in Croatia (48607790042).jpg"
+   }
+  ]
  },
  "Q1757": {
   "elevation_m": 17.0,
-  "image": "Helsinki Lutheran Cathedral (panoraamanäköala)-2 (säätö).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Helsinki Lutheran Cathedral (panoraamanäköala)-2 (säätö).jpg"
+   },
+   {
+    "kind": "panorama",
+    "file": "Southern Helsinki panorama 2011-06-28 1.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Baltika floatout 20140118.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Aerial photograph of Helsinki downtown.jpg"
+   },
+   {
+    "kind": "winter",
+    "file": "Winter in Helsinki (16253904195).jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "HelsinkiMontage NoEffects.jpg"
+   }
+  ]
  },
  "Q26881": {
   "elevation_m": 8.0,
-  "image": "2512-Elseneur.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "2512-Elseneur.jpg"
+   }
+  ]
  },
  "Q641": {
   "elevation_m": 2.0,
-  "image": "Floating city.tif"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Floating city.tif"
+   }
+  ]
  },
  "Q13437": {
   "elevation_m": 135.0,
-  "image": "Benevento (Panoramic from Taburno).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Benevento (Panoramic from Taburno).jpg"
+   }
+  ]
  },
  "Q26793": {
   "elevation_m": 5.0,
-  "image": "Vista de Bergen desde la montaña Fløyen, Noruega, 2019-09-08, DD 27-31 PAN.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Vista de Bergen desde la montaña Fløyen, Noruega, 2019-09-08, DD 27-31 PAN.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "00 4400 View over the store Lungegårdsvann - Bergen (Norway).jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Bergen night tunliweb.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Aerial of Bergen op Zoom1.jpg"
+   },
+   {
+    "kind": "winter",
+    "file": "View Bergen Floibanen Floyen Winter 2009.JPG"
+   },
+   {
+    "kind": "collage",
+    "file": "BergenComposite.jpg"
+   }
+  ]
  },
  "Q70": {
   "elevation_m": 542.0,
-  "image": "Bern luftaufnahme.png"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Bern luftaufnahme.png"
+   },
+   {
+    "kind": "night",
+    "file": "Bundeshaus in Bern bei Nacht.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Bern aerial view 2009.jpg"
+   },
+   {
+    "kind": "winter",
+    "file": "Bern in Winter 02.JPG"
+   },
+   {
+    "kind": "collage",
+    "file": "City of Berne.jpg"
+   }
+  ]
  },
  "Q2028": {
   "elevation_m": 59.0,
-  "image": "Aerial picture of Verona.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Aerial picture of Verona.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Panorama notturno di Verona.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Collage Verona.jpg"
+   }
+  ]
  },
  "Q845424": {
   "elevation_m": 46.0,
-  "image": "Peniscola plages.JPG"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Peniscola plages.JPG"
+   }
+  ]
  },
  "Q691544": {
   "elevation_m": null,
-  "image": "Ann Tyson's Cottage - geograph.org.uk - 510301.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Ann Tyson's Cottage - geograph.org.uk - 510301.jpg"
+   }
+  ]
  },
  "Q15901": {
   "elevation_m": 554.0,
-  "image": "Postojna panorama2.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Postojna panorama2.jpg"
+   }
+  ]
  },
  "Q36433": {
   "elevation_m": 104.0,
-  "image": "O Porto (visto da Ponte Dom Luis I).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "O Porto (visto da Ponte Dom Luis I).jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Porto collage.jpg"
+   }
+  ]
  },
  "Q43332": {
   "elevation_m": null,
-  "image": "Pompeii (4873744179).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Pompeii (4873744179).jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Aerial image of Pompeii and Mount Vesuvius (view from the southeast).jpg"
+   }
+  ]
  },
  "Q13616": {
   "elevation_m": 401.0,
-  "image": "Cittadimatera1.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Cittadimatera1.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Aerial image of Matera (view from the west).jpg"
+   }
+  ]
  },
  "Q2807": {
   "elevation_m": 663.0,
-  "image": "Madrid (38624991251).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Madrid (38624991251).jpg"
+   },
+   {
+    "kind": "panorama",
+    "file": "Azca-Skyline-271112.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Madrid - Madrid skyline - 140314 195825.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Madrid ESA354454.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "CollageMadrid.jpg"
+   }
+  ]
  },
  "Q8851": {
   "elevation_m": 18.0,
-  "image": "Malaga 2023.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Malaga 2023.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Malaga Night Panorama.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Málaga vista aérea.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Collage de la ciudad de Málaga, Andalucía (España).png"
+   }
+  ]
  },
  "Q1010": {
   "elevation_m": 273.0,
-  "image": "19-03-03-Maribor-RalfR-DJI 0444.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "19-03-03-Maribor-RalfR-DJI 0444.jpg"
+   }
+  ]
  },
  "Q68956": {
   "elevation_m": 471.0,
-  "image": "Martigny rhone valley.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Martigny rhone valley.jpg"
+   }
+  ]
  },
  "Q1726": {
   "elevation_m": 519.0,
-  "image": "Stadtbild München.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Stadtbild München.jpg"
+   },
+   {
+    "kind": "panorama",
+    "file": "Panorama olympiaturm.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Munich (31568903).jpeg"
+   },
+   {
+    "kind": "aerial",
+    "file": "NASA Spaceborne radar image of Munich, Germany - 1994 hi res.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Digitales Orthofoto von München (Bayerische Vermessungsverwaltung).tif"
+   },
+   {
+    "kind": "aerial",
+    "file": "Luftbild München Innenstadt.jpg"
+   },
+   {
+    "kind": "winter",
+    "file": "Vista de Múnich desde Fröttmaning, Alemania, 2013-02-11, DD 01.JPG"
+   },
+   {
+    "kind": "collage",
+    "file": "Munich montage.png"
+   },
+   {
+    "kind": "collage",
+    "file": "Munchen collage.jpg"
+   }
+  ]
  },
  "Q490": {
   "elevation_m": 138.0,
-  "image": "Milano, Duomo with Milan Cathedral and Galleria Vittorio Emanuele II, 2016.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Milano, Duomo with Milan Cathedral and Galleria Vittorio Emanuele II, 2016.jpg"
+   },
+   {
+    "kind": "panorama",
+    "file": "Full Milan skyline from Duomo roof.jpg"
+   },
+   {
+    "kind": "panorama",
+    "file": "Milano banner.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "North Milano WV banner.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Castello Sforzesco da alto.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Milan seen from the ISS in 2015 (iau1510a).jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Milan.Proper.Wikipedia.Image.png"
+   }
+  ]
  },
  "Q14323": {
   "elevation_m": 217.0,
-  "image": "Mérida. Mayor square. Badajoz. Extremadura. Spain (4923902587).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Mérida. Mayor square. Badajoz. Extremadura. Spain (4923902587).jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Collage de Mérida.jpg"
+   }
+  ]
  },
  "Q93347": {
   "elevation_m": 60.0,
-  "image": "Mostar Old Town Panorama 2007.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Mostar Old Town Panorama 2007.jpg"
+   }
+  ]
  },
  "Q20892": {
   "elevation_m": 5.0,
-  "image": "Mont St Michel 3, Brittany, France - July 2011.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Mont St Michel 3, Brittany, France - July 2011.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "MSM sunset 02.JPG"
+   }
+  ]
  },
  "Q771935": {
   "elevation_m": 720.0,
-  "image": "Montserrat Natural Park 4.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Montserrat Natural Park 4.jpg"
+   }
+  ]
  },
  "Q258429": {
   "elevation_m": 450.0,
-  "image": "Grad Jajce.JPG"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Grad Jajce.JPG"
+   }
+  ]
  },
  "Q42462": {
   "elevation_m": 25.0,
-  "image": "York (Aerial view).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "York (Aerial view).jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "York Montage 2022.jpg"
+   }
+  ]
  },
  "Q168052": {
   "elevation_m": null,
-  "image": "City of Lancaster (2).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "City of Lancaster (2).jpg"
+   }
+  ]
  },
  "Q41876": {
   "elevation_m": 93.0,
-  "image": "Collage Reims.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Collage Reims.jpg"
+   }
+  ]
  },
  "Q597": {
   "elevation_m": 100.0,
-  "image": "Lisboa837.png"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Lisboa837.png"
+   },
+   {
+    "kind": "collage",
+    "file": "Lisbon Montage 2020.jpg"
+   }
+  ]
  },
  "Q1823259": {
   "elevation_m": null,
-  "image": null
+  "images": []
  },
  "Q437": {
   "elevation_m": 309.0,
-  "image": "2021-07-28 Ljubljana-0881.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "2021-07-28 Ljubljana-0881.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Ljubljana in the Night (16343737505).png"
+   },
+   {
+    "kind": "aerial",
+    "file": "Center of Ljubljana from Air.jpg"
+   },
+   {
+    "kind": "winter",
+    "file": "Ljubljana under the snow 1.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Ljubljana Montage 2.png"
+   }
+  ]
  },
  "Q628118": {
   "elevation_m": 86.0,
-  "image": "Panoramic View of Rüdesheim am Rhein 20140928 1.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Panoramic View of Rüdesheim am Rhein 20140928 1.jpg"
+   }
+  ]
  },
  "Q7024": {
   "elevation_m": 283.0,
-  "image": "Lugano from Sighignola.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Lugano from Sighignola.jpg"
+   }
+  ]
  },
  "Q1842": {
   "elevation_m": 300.0,
-  "image": "Luxemburg.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Luxemburg.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "City Hall of Luxembourg City 01.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "LUX – Kanton Luxemburg — Gemeinde Luxembourg — Oberstadt — Chemin de la Corniche (Bronzetafel UNESCO-Welterbestätte) 2024-01-27 Mattes.jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Luxembourg City Hall (54540726309).jpg"
+   }
+  ]
  },
  "Q30974": {
   "elevation_m": 10.0,
-  "image": "Rouen mosaique.png"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Rouen mosaique.png"
+   },
+   {
+    "kind": "collage",
+    "file": "Rouen montage.jpg"
+   }
+  ]
  },
  "Q254139": {
   "elevation_m": 3.0,
-  "image": "Levanto-panorama da provinciale1.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Levanto-panorama da provinciale1.jpg"
+   }
+  ]
  },
  "Q647": {
   "elevation_m": 74.0,
-  "image": "Vue sud-ouest de la place du parlement de Bretagne, Rennes, France.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Vue sud-ouest de la place du parlement de Bretagne, Rennes, France.jpg"
+   }
+  ]
  },
  "Q917891": {
   "elevation_m": 923.0,
-  "image": "Orreaga - centre.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Orreaga - centre.jpg"
+   }
+  ]
  },
  "Q13153": {
   "elevation_m": 724.0,
-  "image": "Ronda aerial.jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Ronda aerial.jpg"
+   }
+  ]
  },
  "Q84": {
   "elevation_m": 15.0,
-  "image": "London Skyline (125508655).jpeg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "London Skyline (125508655).jpeg"
+   },
+   {
+    "kind": "panorama",
+    "file": "London (Panorama) (8162135204).jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Panorama of City of London during The Shard’s opening laser show.jpg"
+   },
+   {
+    "kind": "aerial",
+    "file": "Aerial view of London city.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "London Montage 2016.png"
+   }
+  ]
  },
  "Q153494": {
   "elevation_m": 430.0,
-  "image": "Rothenburg BW 4.JPG"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Rothenburg BW 4.JPG"
+   },
+   {
+    "kind": "panorama",
+    "file": "Rothenburg ob der Tauber, Panorama vom Burgtor zum Weißen Turm, Ansicht vom Kalkturm-20160108-001.jpg"
+   }
+  ]
  },
  "Q220": {
   "elevation_m": 21.0,
-  "image": "Rome Skyline (8012016319).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Rome Skyline (8012016319).jpg"
+   },
+   {
+    "kind": "panorama",
+    "file": "View from Stpeters bottomcropped.jpg"
+   },
+   {
+    "kind": "night",
+    "file": "Sant'Angelo bridge, dusk, Rome, Italy.jpg"
+   },
+   {
+    "kind": "collage",
+    "file": "Rome Montage 2017.png"
+   }
+  ]
  },
  "Q270328": {
   "elevation_m": 3.0,
-  "image": "Vernazza, Cinque Terre (panorama).jpg"
+  "images": [
+   {
+    "kind": "main",
+    "file": "Vernazza, Cinque Terre (panorama).jpg"
+   },
+   {
+    "kind": "main",
+    "file": "Cinque Terre (Italy, October 2020) - 38 (50543598656).jpg"
+   }
+  ]
  }
 }
