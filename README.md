@@ -55,8 +55,12 @@
 ```bash
 uv sync                                   # 環境構築（Python 3.13固定）
 uv run python scripts/build_master.py     # マスタ再生成（APIキャッシュにより差分のみ照会）
-uv run python scripts/survey/airports.py  # 例: 最寄り空港の再計算
+uv run python scripts/build_places.py     # 最終データ places.json の再生成（スキーマ検証付き）
+uv run python scripts/build_viewer.py     # ビュワー再生成（places.json 変更後に実行）
 ```
+
+**データを眺めるには**: [data/output/viewer.html](data/output/viewer.html) をブラウザで開く
+（自己完結HTML。サーバー・ネット接続不要。検索／種別・国フィルタ／指標バー／月別気候チャート付き）
 
 - 同定の修正：`data/master/seed_places.json` の該当エントリに `qid` を直接指定 → `build_master.py` を再実行
 - 生成物（`places_master.json`、`docs/phase0/review.md`、`data/raw/wikidata/cache.json`）は手で編集しない
