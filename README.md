@@ -25,10 +25,9 @@
 
 ### 残課題
 
-- Foursquare OS Places の導入検討（Places Portal登録の要否。現状POIはOSM由来で成立）
-- `scenic_nature` 指標の重み調整（旅行知見でのチューニング推奨。品質レポート既知の制約7）
-- Eurostat 宿泊統計の統合（都市→NUTS2対応表が必要）
-- OSM ODbL の法務確認の起票（論点整理は [docs/phase1/license-research.md](docs/phase1/license-research.md) 末尾）
+一覧と詳細は **[docs/phase1/data-source-survey.md §4](docs/phase1/data-source-survey.md)**（提出物側に記載）。
+要点：**本データは将来一般サービスとして公開される可能性があるため、公開判断の前にOSM ODbLの法務確認が必須**（優先度・高）。
+ほかにFoursquare Portal登録の判断、指標の重み調整、Eurostat NUTS2対応表など。
 
 ## セットアップ
 
