@@ -123,6 +123,17 @@ TEMPLATE = r"""<!doctype html>
   details.help .body p:last-child { margin-bottom: 0; }
   details.help table { font-size: 12px; margin: 6px 0; }
   details.help th, details.help td { text-align: left; font-variant-numeric: normal; }
+  .jp {
+    display: none; font: 10.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+    color: var(--muted); background: color-mix(in srgb, var(--ink) 6%, var(--surface));
+    border: 1px solid var(--border); border-radius: 4px; padding: 0 5px; margin-left: 6px;
+    vertical-align: 1px; white-space: nowrap;
+  }
+  body.showpaths .jp { display: inline-block; }
+  .toggle { display: inline-flex; align-items: center; gap: 5px; font-size: 12.5px;
+            color: var(--ink-2); user-select: none; cursor: pointer; padding: 5px 2px; }
+  pre.raw { font-size: 11.5px; overflow-x: auto; background: color-mix(in srgb, var(--ink) 4%, var(--surface));
+            border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; max-height: 420px; overflow-y: auto; }
   .whs li { margin: 2px 0; }
   details summary { cursor: pointer; color: var(--muted); font-size: 12px; }
   #tip {
@@ -146,6 +157,7 @@ TEMPLATE = r"""<!doctype html>
     <input id="q" type="search" placeholder="検索（日本語名・英語名）">
     <select id="ftype"><option value="">種別: すべて</option></select>
     <select id="fcountry"><option value="">国: すべて</option></select>
+    <label class="toggle"><input type="checkbox" id="paths">JSONパスを表示</label>
     <select id="sort">
       <option value="name">並び: 名前順</option>
       <option value="population">並び: 人口</option>
@@ -189,6 +201,7 @@ const IND_BASIS = {
   hidden_gem:'(100 − 認知度) × 充実度ゲート※'};
 const SEQ = ['--seq100','--seq200','--seq300','--seq400','--seq500','--seq600','--seq700'];
 const fmt = n => n == null ? '—' : n.toLocaleString('ja-JP');
+const jp = path => `<code class="jp">${path}</code>`;  // JSONパスチップ（トグルで表示）
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
 /* ---------- 状態と一覧 ---------- */
@@ -328,6 +341,7 @@ function renderDetail(){
       ${esc(id.country_ja||'')} ${id.qid?`・<a href="https://www.wikidata.org/wiki/${id.qid}" target="_blank" rel="noopener">${id.qid}</a>`:''}
       ${id.lat!=null?`・${id.lat.toFixed(3)}, ${id.lon.toFixed(3)}`:''}
       ${id.base_place_id?`・拠点: ${esc((PLACES.find(x=>x.identity.id===id.base_place_id)||{identity:{name_ja:id.base_place_id}}).identity.name_ja)}`:''}
+      ${jp(`places[${PLACES.indexOf(p)}] (identity.id="${id.id}")`)}
     </div>`;
   if (id.note) html += `<div class="note">📝 ${esc(id.note)}</div>`;
   if (id.type === 'route'){
@@ -338,14 +352,14 @@ function renderDetail(){
 
   // スタットタイル
   const tiles = [];
-  if (g && g.population!=null) tiles.push([fmt(g.population), '人口', '']);
-  if (g && g.elevation_m!=null) tiles.push([fmt(Math.round(g.elevation_m)), '標高', 'm']);
-  if (a && a.nearest_airport) tiles.push([a.nearest_airport.distance_km, `最寄り空港 (${esc(a.nearest_airport.iata||'—')})`, 'km']);
-  if (r && r.wikipedia_views_ja_year!=null) tiles.push([fmt(r.wikipedia_views_ja_year), 'ja版閲覧数/年', '']);
-  if (h) tiles.push([h.whs_onsite.length + ' / ' + fmt(h.whs_within_30km), '世界遺産 5km/30km圏', '']);
-  if (sf && sf.mofa_risk_level!=null) tiles.push([sf.mofa_risk_level===0?'レベル0':'レベル'+sf.mofa_risk_level, '危険情報（国単位）', '']);
-  html += `<div class="tiles">` + tiles.map(([v,k,u]) =>
-    `<div class="tile"><div class="v">${v}<span class="u">${u}</span></div><div class="k">${k}</div></div>`).join('') + `</div>
+  if (g && g.population!=null) tiles.push([fmt(g.population), '人口', '', 'geography.population']);
+  if (g && g.elevation_m!=null) tiles.push([fmt(Math.round(g.elevation_m)), '標高', 'm', 'geography.elevation_m']);
+  if (a && a.nearest_airport) tiles.push([a.nearest_airport.distance_km, `最寄り空港 (${esc(a.nearest_airport.iata||'—')})`, 'km', 'access.nearest_airport.distance_km']);
+  if (r && r.wikipedia_views_ja_year!=null) tiles.push([fmt(r.wikipedia_views_ja_year), 'ja版閲覧数/年', '', 'recognition.wikipedia_views_ja_year']);
+  if (h) tiles.push([h.whs_onsite.length + ' / ' + fmt(h.whs_within_30km), '世界遺産 5km/30km圏', '', 'heritage.whs_onsite / .whs_within_30km']);
+  if (sf && sf.mofa_risk_level!=null) tiles.push([sf.mofa_risk_level===0?'レベル0':'レベル'+sf.mofa_risk_level, '危険情報（国単位）', '', 'safety.mofa_risk_level']);
+  html += `<div class="tiles">` + tiles.map(([v,k,u,path]) =>
+    `<div class="tile"><div class="v">${v}<span class="u">${u}</span></div><div class="k">${k}${jp(path)}</div></div>`).join('') + `</div>
     <details class="help"><summary>ℹ️ 上の数値の出所</summary><div class="body">
       <p>人口・標高：${SOURCE_LABEL.wikidata} ／ 最寄り空港：${SOURCE_LABEL.ourairports}（直線距離） ／
       ja版閲覧数：${SOURCE_LABEL.wikimedia_pageviews}・2025年合計 ／ 世界遺産：${SOURCE_LABEL.wikidata}経由。</p>
@@ -357,7 +371,7 @@ function renderDetail(){
   if (ind){
     const bars = Object.entries(IND_JA).filter(([k])=>ind[k] && typeof ind[k].value==='number').map(([k,ja])=>{
       const o = ind[k];
-      return `<div class="lbl" title="${esc(o.formula||'')}"><span>${ja}</span><span class="val">${o.value}</span></div>
+      return `<div class="lbl" title="${esc(o.formula||'')}"><span>${ja}${jp(`indicators.${k}.value`)}</span><span class="val">${o.value}</span></div>
         <div class="track"><div class="fill" style="width:${o.value}%"></div></div>`;
     }).join('');
     if (bars) html += section('指標（同種の地点内での相対位置 0〜100）',
@@ -370,12 +384,12 @@ function renderDetail(){
     const comfort = ind && ind.seasonal_comfort ? ind.seasonal_comfort.value : null;
     html += sectionClimate(c, `
       <div class="cols">
-        <div><div class="chart-title">平均気温 (°C)</div>${monthChart(t,{kind:'line',color:'var(--s1)',unit:'°C'})}</div>
-        <div><div class="chart-title">降水量 (mm/月)</div>${monthChart(pr,{kind:'bar',color:'var(--s2)',unit:'mm',decimals:0})}</div>
+        <div><div class="chart-title">平均気温 (°C)${jp('climate.monthly[].temp_mean_c')}</div>${monthChart(t,{kind:'line',color:'var(--s1)',unit:'°C'})}</div>
+        <div><div class="chart-title">降水量 (mm/月)${jp('climate.monthly[].precip_mm')}</div>${monthChart(pr,{kind:'bar',color:'var(--s2)',unit:'mm',decimals:0})}</div>
       </div>
-      ${comfort?`<div class="chart-title" style="margin-top:10px">旅行快適度（月別 0〜100、枠＝ベスト月）</div>${comfortStrip(comfort)}`:''}
+      ${comfort?`<div class="chart-title" style="margin-top:10px">旅行快適度（月別 0〜100、枠＝ベスト月）${jp('indicators.seasonal_comfort.value[]')}</div>${comfortStrip(comfort)}`:''}
       <details style="margin-top:10px"><summary>数表を表示</summary><table>
-        <tr><th>月</th><th>気温°C</th><th>降水mm</th><th>日照h</th><th>湿度%</th></tr>
+        <tr><th>月${jp('climate.monthly[].month')}</th><th>気温°C${jp('.temp_mean_c')}</th><th>降水mm${jp('.precip_mm')}</th><th>日照h${jp('.sunshine_h')}</th><th>湿度%${jp('.humidity_pct')}</th></tr>
         ${c.monthly.map(m=>`<tr><td>${m.month}月</td><td>${m.temp_mean_c}</td><td>${m.precip_mm}</td>
           <td>${m.sunshine_h}</td><td>${m.humidity_pct}</td></tr>`).join('')}
       </table></details>`);
@@ -385,22 +399,22 @@ function renderDetail(){
   if (poi){
     html += section('周辺施設・自然の数', `<div class="cols"><div><table>
         <tr><th>カテゴリ</th><th>半径5km</th><th>徒歩圏1km</th></tr>
-        <tr><td>飲食店</td><td>${fmt(poi.dining_5km)}</td><td>${fmt(poi.dining_1km)}</td></tr>
-        <tr><td>美術館・劇場</td><td>${fmt(poi.culture_5km)}</td><td>${fmt(poi.culture_1km)}</td></tr>
-        <tr><td>ナイトライフ</td><td>${fmt(poi.nightlife_5km)}</td><td>—</td></tr>
-        <tr><td>商店・市場</td><td>${fmt(poi.shopping_5km)}</td><td>${fmt(poi.shopping_1km)}</td></tr>
-        <tr><td>スパ・浴場</td><td>${fmt(poi.wellness_5km)}</td><td>—</td></tr>
-        <tr><td>宿泊施設</td><td>${fmt(poi.lodging_5km)}</td><td>—</td></tr></table></div>
+        <tr><td>飲食店${jp('poi.dining_5km / _1km')}</td><td>${fmt(poi.dining_5km)}</td><td>${fmt(poi.dining_1km)}</td></tr>
+        <tr><td>美術館・劇場${jp('poi.culture_5km / _1km')}</td><td>${fmt(poi.culture_5km)}</td><td>${fmt(poi.culture_1km)}</td></tr>
+        <tr><td>ナイトライフ${jp('poi.nightlife_5km')}</td><td>${fmt(poi.nightlife_5km)}</td><td>—</td></tr>
+        <tr><td>商店・市場${jp('poi.shopping_5km / _1km')}</td><td>${fmt(poi.shopping_5km)}</td><td>${fmt(poi.shopping_1km)}</td></tr>
+        <tr><td>スパ・浴場${jp('poi.wellness_5km')}</td><td>${fmt(poi.wellness_5km)}</td><td>—</td></tr>
+        <tr><td>宿泊施設${jp('poi.lodging_5km')}</td><td>${fmt(poi.lodging_5km)}</td><td>—</td></tr></table></div>
       <div>${of?`<table>
         <tr><th>自然・景観（OSM由来）</th><th>数</th></tr>
-        <tr><td>展望地点 (5km)</td><td>${fmt(of.viewpoints_5km)}</td></tr>
-        <tr><td>山頂 (10km)</td><td>${fmt(of.peaks_10km)}</td></tr>
-        <tr><td>湖沼 (10km)</td><td>${fmt(of.lakes_10km)}</td></tr>
-        <tr><td>海岸 (10km)</td><td>${of.coastline_10km?'あり':'なし'}</td></tr>
-        <tr><td>自然保護区 (10km)</td><td>${fmt(of.protected_areas_10km)}</td></tr>
-        <tr><td>ハイキングコース (10km)</td><td>${fmt(of.hiking_routes_10km)}</td></tr>
-        <tr><td>公園・庭園 (5km)</td><td>${fmt(of.parks_gardens_5km)}</td></tr>
-        <tr><td>歩行者エリア (1km)</td><td>${of.pedestrian_area_1km?'あり':'なし'}</td></tr></table>`:''}</div></div>`,
+        <tr><td>展望地点 (5km)${jp('osm_features.viewpoints_5km')}</td><td>${fmt(of.viewpoints_5km)}</td></tr>
+        <tr><td>山頂 (10km)${jp('osm_features.peaks_10km')}</td><td>${fmt(of.peaks_10km)}</td></tr>
+        <tr><td>湖沼 (10km)${jp('osm_features.lakes_10km')}</td><td>${fmt(of.lakes_10km)}</td></tr>
+        <tr><td>海岸 (10km)${jp('osm_features.coastline_10km')}</td><td>${of.coastline_10km?'あり':'なし'}</td></tr>
+        <tr><td>自然保護区 (10km)${jp('osm_features.protected_areas_10km')}</td><td>${fmt(of.protected_areas_10km)}</td></tr>
+        <tr><td>ハイキングコース (10km)${jp('osm_features.hiking_routes_10km')}</td><td>${fmt(of.hiking_routes_10km)}</td></tr>
+        <tr><td>公園・庭園 (5km)${jp('osm_features.parks_gardens_5km')}</td><td>${fmt(of.parks_gardens_5km)}</td></tr>
+        <tr><td>歩行者エリア (1km)${jp('osm_features.pedestrian_area_1km')}</td><td>${of.pedestrian_area_1km?'あり':'なし'}</td></tr></table>`:''}</div></div>`,
       SOURCE_LABEL.osm, {q:'この数はどう数えている？', a:`
         <p>地点の代表座標を中心に、<b>半径5km（滞在中に足を伸ばせる圏）と1km（徒歩圏）の円</b>の中にある
         OpenStreetMap登録施設を数えています。行政境界ではなく固定半径なので、
@@ -413,10 +427,10 @@ function renderDetail(){
   // 世界遺産
   if (h && (h.whs_onsite.length || h.whs_within_30km)){
     html += section('世界遺産', `
-      ${h.whs_onsite.length?`<ul class="whs">${h.whs_onsite.map(w=>
-        `<li>${esc(w.label)} <span class="empty">(${w.distance_km}km / <a href="https://www.wikidata.org/wiki/${w.qid}" target="_blank" rel="noopener">${w.qid}</a>)</span></li>`).join('')}</ul>`
+      ${h.whs_onsite.length?`<ul class="whs">${h.whs_onsite.map((w,i)=>
+        `<li>${esc(w.label)} <span class="empty">(${w.distance_km}km / <a href="https://www.wikidata.org/wiki/${w.qid}" target="_blank" rel="noopener">${w.qid}</a>)</span>${jp(`heritage.whs_onsite[${i}]`)}</li>`).join('')}</ul>`
         :'<p class="empty">5km圏内なし</p>'}
-      <p class="empty">30km圏内: ${fmt(h.whs_within_30km)}件</p>`,
+      <p class="empty">30km圏内: ${fmt(h.whs_within_30km)}件${jp('heritage.whs_within_30km')}</p>`,
       SOURCE_LABEL.wikidata, {q:'世界遺産はどう紐付けている？', a:`
         <p>UNESCO公式サイトは商用利用に制約があるため、<b>Wikidataの世界遺産指定（CC0・自由利用可）</b>から
         欧州域内1,000件超を座標つきで取得し、この地点との<b>直線距離</b>で紐付けています。</p>
@@ -429,9 +443,9 @@ function renderDetail(){
     const hub = a.nearest_hub_place_id ? (PLACES.find(x=>x.identity.id===a.nearest_hub_place_id)||{identity:{name_ja:a.nearest_hub_place_id}}).identity.name_ja : null;
     html += section('アクセス', `<table>
       <tr><th></th><th>名称</th><th>距離</th></tr>
-      ${a.nearest_airport?`<tr><td>最寄り空港</td><td>${esc(a.nearest_airport.name)} (${esc(a.nearest_airport.iata||'—')})</td><td>${a.nearest_airport.distance_km}km</td></tr>`:''}
-      ${a.nearest_large_airport?`<tr><td>最寄り大規模空港</td><td>${esc(a.nearest_large_airport.name)} (${esc(a.nearest_large_airport.iata||'—')})</td><td>${a.nearest_large_airport.distance_km}km</td></tr>`:''}
-      ${hub?`<tr><td>最寄りの主要都市（154件中）</td><td>${esc(hub)}</td><td>${a.nearest_hub_distance_km}km</td></tr>`:''}
+      ${a.nearest_airport?`<tr><td>最寄り空港${jp('access.nearest_airport')}</td><td>${esc(a.nearest_airport.name)} (${esc(a.nearest_airport.iata||'—')})</td><td>${a.nearest_airport.distance_km}km</td></tr>`:''}
+      ${a.nearest_large_airport?`<tr><td>最寄り大規模空港${jp('access.nearest_large_airport')}</td><td>${esc(a.nearest_large_airport.name)} (${esc(a.nearest_large_airport.iata||'—')})</td><td>${a.nearest_large_airport.distance_km}km</td></tr>`:''}
+      ${hub?`<tr><td>最寄りの主要都市（154件中）${jp('access.nearest_hub_place_id / _distance_km')}</td><td>${esc(hub)}</td><td>${a.nearest_hub_distance_km}km</td></tr>`:''}
     </table>`,
       `${SOURCE_LABEL.ourairports} ＋ ${SOURCE_LABEL.computed}`, {q:'距離はどう計算している？', a:`
         <p>空港はOurAirports（毎晩更新の空港データベース）のうち<b>定期便のある大・中規模空港（欧州528空港）</b>を対象に、
@@ -439,6 +453,10 @@ function renderDetail(){
         人口10万以上の都市との直線距離です。</p>
         <p>⚠️ 直線距離であり、道路・鉄道での移動時間ではありません（移動時間の整備は将来課題）。</p>`});
   }
+
+  // 生JSON（この地点のレコード全体。出所メタデータ _meta もここで確認できる）
+  html += `<details class="help"><summary>🧾 この地点の生JSONを見る（places[${PLACES.indexOf(p)}]・出所メタデータ _meta 含む）</summary>
+    <pre class="raw">${esc(JSON.stringify(p, null, 2))}</pre></details>`;
   document.getElementById('detail').innerHTML = html;
   bindTips();
 }
@@ -461,6 +479,8 @@ for (const [ev, id, key] of [['input','q','q'],['change','ftype','type'],
                              ['change','fcountry','country'],['change','sort','sort']]){
   document.getElementById(id).addEventListener(ev, e=>{ state[key]=e.target.value; renderList(); });
 }
+document.getElementById('paths').addEventListener('change', e=>
+  document.body.classList.toggle('showpaths', e.target.checked));
 document.getElementById('list').addEventListener('click', e=>{
   const row = e.target.closest('.row[data-id]');
   if (row){ state.sel = row.dataset.id; renderList(); renderDetail(); }
