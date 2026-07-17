@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """フェーズ3: 全地点のWikipedia年間閲覧数（ja/en・2025年）を取得する。
-- 入力: data/raw/survey/wikipedia_sitelinks.json（記事タイトル）
+- 入力: data/raw/wikidata/sitelinks.json（記事タイトル）
 - 出力: data/raw/pageviews/views_2025.json （QID → {ja, en}）
 - 途中保存あり（再実行時は未取得分のみ照会）。約300リクエスト・毎秒1件ペース。
 """
@@ -11,7 +11,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-SITELINKS = ROOT / "data/raw/survey/wikipedia_sitelinks.json"
+SITELINKS = ROOT / "data/raw/wikidata/sitelinks.json"
 OUT = ROOT / "data/raw/pageviews/views_2025.json"
 UA = {"User-Agent": "city-data-builder/0.1 (fetch; batch, sequential)"}
 START, END, YEAR = "2025010100", "2025123100", "2025"

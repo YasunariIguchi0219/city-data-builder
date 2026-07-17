@@ -10,7 +10,7 @@
 | 何を見たい | どこ |
 | --- | --- |
 | **最終データ（154件・統一フォーマット）** | [data/output/places.json](data/output/places.json) |
-| **データを画面で眺める** | [data/output/viewer.html](data/output/viewer.html) をブラウザで開く（サーバー・ネット不要。検索／フィルタ／指標バー／気候チャート。**出所チップ・計算方法の解説・JSONパス表示つき**） |
+| **データを画面で眺める** | [viewer/index.html](viewer/index.html) をブラウザで開く（サーバー・ネット不要。検索／フィルタ／指標バー／気候チャート。**出所チップ・計算方法の解説・JSONパス表示つき**） |
 | データの形式定義 | [schema/place.schema.json](schema/place.schema.json)＋設計書 [docs/phase2/schema-design.md](docs/phase2/schema-design.md) |
 | 品質・既知の制約 | [docs/phase3/data-quality-report.md](docs/phase3/data-quality-report.md) |
 
@@ -40,19 +40,20 @@ cp .env.example .env    # 気候データ(ERA5)を再取得する場合のみ: C
 ## データの再生成（パイプライン）
 
 ```
-fetchスクリプト群 ──→ data/raw/（ソース別生データ） ──→ build_places.py ──→ places.json ──→ build_viewer.py
+scripts/fetch/ ──→ data/raw/（ソース別生データ） ──→ build_places.py ──→ data/output/places.json ──→ build_viewer.py ──→ viewer/index.html
 ```
 
 ```bash
 # 1) 取得（必要なものだけ。生データはdata/raw/に保存され、再実行は差分のみ）
 uv run python scripts/build_master.py           # 名寄せマスタ（Wikidata。キャッシュあり）
 uv run python scripts/fetch/wikidata_extras.py  # 標高
+uv run python scripts/fetch/sitelinks.py        # Wikipedia記事タイトル（閲覧数取得の前提）
 uv run python scripts/fetch/pageviews.py        # Wikipedia閲覧数（約10分・中断再開可）
 uv run python scripts/fetch/mofa_safety.py      # 外務省 危険情報（21カ国）
 uv run python scripts/fetch/osm_poi.py          # OSM POI・自然地物（1〜2時間・中断再開可）
 uv run python scripts/fetch/climate_era5.py fetch && uv run python scripts/fetch/climate_era5.py extract  # 気候（要.env）
-uv run python scripts/survey/airports.py        # 最寄り空港（CSVは自動ダウンロード）
-uv run python scripts/survey/unesco_whs.py      # 世界遺産（Wikidata SPARQL）
+uv run python scripts/fetch/airports.py         # 最寄り空港（CSVは自動ダウンロード）
+uv run python scripts/fetch/unesco_whs.py       # 世界遺産（Wikidata SPARQL）
 
 # 2) 組み立て・検証・可視化
 uv run python scripts/build_places.py           # 全154件を統合し JSON Schema で検証
@@ -75,24 +76,22 @@ uv run python scripts/build_viewer.py           # ビュワーHTML再生成
 │   ├── master/
 │   │   ├── seed_places.json            # 同定シード（人手管理。同定修正はここにQIDを指定）
 │   │   └── places_master.json          # 名寄せマスタ（生成物）
-│   ├── raw/                            # ソース別生データ（下記ポリシー参照）
-│   └── output/
-│       ├── places.json                 # ★最終データ
-│       ├── viewer.html                 # ★ビュワー（自己完結HTML）
-│       └── samples/                    # フェーズ2設計レビュー時のサンプル（旧版）
+│   ├── raw/                            # ソース別生データ（airports/ era5/ mofa/ osm/ pageviews/ wikidata/）
+│   └── output/places.json              # ★最終データ
+├── viewer/index.html                   # ★ビュワー（自己完結HTML・生成物）
 └── scripts/
     ├── build_master.py                 # フェーズ0: 名寄せマスタ生成
-    ├── fetch/                          # フェーズ3: ソース別取得（すべて再実行・中断再開可）
-    ├── survey/                         # フェーズ1: 調査時の実測（空港・世界遺産は本番でも使用）
+    ├── fetch/                          # 本番の取得スクリプト（すべて再実行・中断再開可）
+    ├── survey/                         # フェーズ1調査時の取得テスト（probe_*。本番では未使用）
     ├── build_places.py                 # 統合＋スキーマ検証 → places.json
     ├── quality_report.py               # 品質検証 → 品質レポート
-    ├── build_viewer.py                 # places.json → viewer.html
+    ├── build_viewer.py                 # places.json → viewer/index.html
     └── envfile.py                      # .env ローダー
 ```
 
 ## 運用ルール
 
-- **生成物は手で編集しない**（`places_master.json` / `places.json` / `viewer.html` / `docs/phase0/review.md`。修正はシードやスクリプトに入れて再生成）
+- **生成物は手で編集しない**（`places_master.json` / `places.json` / `viewer/index.html` / `docs/phase0/review.md`。修正はシードやスクリプトに入れて再生成）
 - **data/raw/ のgit管理ポリシー**：スクリプトで再取得できる大容量ダウンロード（ERA5生データ・外務省XML・空港CSV）は管理外＆抽出後にディスクからも削除可。小さな抽出結果・取得に時間のかかる成果（OSMの`poi_counts.json`等）は管理する
 - **シークレット**：`.env`（CDSトークン）はコミット禁止（gitignore済み）。雛形は `.env.example`
 - **ライセンス**：OSM由来データは `poi` / `osm_features` ブロックに分離し `_meta.source="osm"` を明記（ODbL対応。詳細は [docs/phase1/data-source-survey.md](docs/phase1/data-source-survey.md) §2.7）。外部表示時の帰属表示文は各ブロックの `_meta.attribution` にある

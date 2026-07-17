@@ -8,7 +8,7 @@ __pycache__/
 # data/raw/ の方針: スクリプトで再取得可能な大容量ダウンロード物はgit管理しない
 # （小さな加工済みデータ・APIキャッシュ・取得に時間のかかる成果は管理する）。
 # 取得方法は各スクリプト参照。
-data/raw/survey/ourairports_airports.csv
+data/raw/airports/ourairports.csv
 # ERA5生データ（17MB×2。climate_era5.py fetch で再取得可。抽出結果 climate_monthly.json は管理）
 data/raw/era5/era5_monthly_europe.nc
 data/raw/era5/unzipped/

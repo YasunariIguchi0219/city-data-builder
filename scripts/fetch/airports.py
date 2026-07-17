@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """フェーズ1調査: OurAirports データで全地点の最寄り空港を計算する。
-- 入力: data/raw/survey/ourairports_airports.csv（https://davidmegginson.github.io/ourairports-data/airports.csv）
+- 入力: data/raw/airports/ourairports.csv（https://davidmegginson.github.io/ourairports-data/airports.csv）
 - 対象: 定期便のある large_airport / medium_airport
-- 出力: data/raw/survey/nearest_airports.json と距離分布のサマリ表示
+- 出力: data/raw/airports/nearest.json と距離分布のサマリ表示
 """
 import csv
 import json
@@ -11,8 +11,8 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-CSV = ROOT / "data/raw/survey/ourairports_airports.csv"
-OUT = ROOT / "data/raw/survey/nearest_airports.json"
+CSV = ROOT / "data/raw/airports/ourairports.csv"
+OUT = ROOT / "data/raw/airports/nearest.json"
 CSV_URL = "https://davidmegginson.github.io/ourairports-data/airports.csv"  # パブリックドメイン・毎晩更新
 
 

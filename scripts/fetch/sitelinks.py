@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """フェーズ1調査: Wikipedia記事カバー率の実測。
 マスタの全QIDについて Wikidata sitelinks から ja/en 版Wikipedia記事の有無を取得し、
-data/raw/survey/wikipedia_sitelinks.json に保存、カバー率を表示する。
+data/raw/wikidata/sitelinks.json に保存、カバー率を表示する。
 （記事タイトルは後続の Pageviews API 調査（認知度データ）の入力になる）
 """
 import json
@@ -11,7 +11,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # scripts/ を import パスに追加
 from build_master import ROOT, api_get
 
-OUT = ROOT / "data/raw/survey/wikipedia_sitelinks.json"
+OUT = ROOT / "data/raw/wikidata/sitelinks.json"
 
 
 def main():

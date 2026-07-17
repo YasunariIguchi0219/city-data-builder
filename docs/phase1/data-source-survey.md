@@ -3,7 +3,7 @@
 - 調査日：2026年7月16日
 - 対象：note.md 2章のデータソース候補（＋補欠1件）
 - 方法：**カバー率・取得可否は154件のマスタ（`data/master/places_master.json`）に対して実測**。ライセンス・利用条件は公式一次情報を確認（詳細：[license-research.md](license-research.md)）
-- 実測の根拠データ：`data/raw/survey/` 配下、実測スクリプト：`scripts/survey/`
+- 実測の根拠データ：`data/raw/` 配下（ソース別）、実測スクリプト：`scripts/survey/`（取得テスト）および `scripts/fetch/`（本採用分）
 
 ## 0. 採用判定サマリ
 
@@ -63,7 +63,7 @@
 ### 2.3 OurAirports ✅
 
 - **取得内容**：空港の位置・種別（large/medium/small）・IATA/ICAOコード・定期便有無
-- **実測**：欧州の定期便あり空港528件をダウンロードし、**全152地点の最寄り空港と距離を計算済み**（`data/raw/survey/nearest_airports.json`）。距離中央値22km。100km超は4件のみ
+- **実測**：欧州の定期便あり空港528件をダウンロードし、**全152地点の最寄り空港と距離を計算済み**（`data/raw/airports/nearest.json`）。距離中央値22km。100km超は4件のみ
 - **取得方法**：CSV一括ダウンロード（毎晩更新）。取得スクリプト作成済み
 - **商用利用・帰属・再配布**：パブリックドメイン。制約なし
 - **費用**：無料

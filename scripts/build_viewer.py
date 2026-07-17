@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """data/output/places.json を埋め込んだ自己完結HTMLビュワーを生成する。
-出力: data/output/viewer.html（ブラウザで直接開ける。サーバー不要・外部通信なし）
+出力: viewer/index.html（ブラウザで直接開ける。サーバー不要・外部通信なし）
 再生成: uv run python scripts/build_viewer.py
 """
 import json
@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "data/output/places.json"
-OUT = ROOT / "data/output/viewer.html"
+OUT = ROOT / "viewer/index.html"
 
 TEMPLATE = r"""<!doctype html>
 <html lang="ja">

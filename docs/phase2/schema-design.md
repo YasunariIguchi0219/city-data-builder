@@ -3,7 +3,7 @@
 - 作成日：2026年7月16日
 - ステータス：**承認済み（2026-07-16）**。§7の残論点（4〜6）はフェーズ3の中で扱う
 - 形式定義：[schema/place.schema.json](../../schema/place.schema.json)
-- サンプル：`data/output/samples/`（パリ＝大都市／オビドス＝小さな町／シヨン城＝単体スポット）
+- サンプル：フェーズ3完了に伴い全件データ（`data/output/places.json`）へ置き換え済み（設計時は パリ・オビドス・シヨン城 の3件で検証した）
 - 前提：フェーズ1調査の採用判定（[phase1/data-source-survey.md](../phase1/data-source-survey.md)）に従う
 
 ## 1. 設計原則

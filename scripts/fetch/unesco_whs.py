@@ -2,7 +2,7 @@
 """フェーズ1調査: 世界遺産データをWikidata(CC0)から取得し、154地点との近傍マッチングを実測する。
 UNESCO公式(whc.unesco.org)は商用有償＋機械取得不可のため不採用 → Wikidata経由を代替採用
 （経緯: docs/phase1/data-source-survey.md §2.5）。
-出力: data/raw/survey/unesco_whs_wikidata.json（欧州域内の世界遺産・構成資産、座標付き）
+出力: data/raw/wikidata/whs_europe.json（欧州域内の世界遺産・構成資産、座標付き）
 """
 import json
 import math
@@ -11,7 +11,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-OUT = ROOT / "data/raw/survey/unesco_whs_wikidata.json"
+OUT = ROOT / "data/raw/wikidata/whs_europe.json"
 
 SPARQL = """
 SELECT ?site ?siteLabel ?lat ?lon ?countryLabel WHERE {

@@ -4,10 +4,10 @@
 入力（フェッチ済みの生データ。欠けているソースはそのブロックがnullになる）:
 - data/master/places_master.json            … identity/geography基礎（フェーズ0）
 - data/raw/wikidata/extras.json             … 標高（fetch/wikidata_extras.py）
-- data/raw/survey/nearest_airports.json     … 空港（survey/airports.py）
-- data/raw/survey/unesco_whs_wikidata.json  … 世界遺産（survey/unesco_whs.py）
+- data/raw/airports/nearest.json     … 空港（fetch/airports.py）
+- data/raw/wikidata/whs_europe.json  … 世界遺産（fetch/unesco_whs.py）
 - data/raw/pageviews/views_2025.json        … 閲覧数（fetch/pageviews.py）
-- data/raw/survey/wikipedia_sitelinks.json  … sitelinks数
+- data/raw/wikidata/sitelinks.json  … sitelinks数
 - data/raw/mofa/risk_levels.json            … 危険情報（fetch/mofa_safety.py）
 - data/raw/osm/poi_counts.json              … POI・自然地物（fetch/osm_poi.py、ODbL）
 - data/raw/era5/climate_monthly.json        … 月別気候（fetch/climate_era5.py）
@@ -85,10 +85,10 @@ def indicator(value, depends_on, formula, cohort=None):
 def main():
     places = load("data/master/places_master.json")["places"]
     extras = load("data/raw/wikidata/extras.json", {})
-    airports = load("data/raw/survey/nearest_airports.json", {})
-    whs = load("data/raw/survey/unesco_whs_wikidata.json", [])
+    airports = load("data/raw/airports/nearest.json", {})
+    whs = load("data/raw/wikidata/whs_europe.json", [])
     views = load("data/raw/pageviews/views_2025.json", {})
-    sitelinks = load("data/raw/survey/wikipedia_sitelinks.json", {})
+    sitelinks = load("data/raw/wikidata/sitelinks.json", {})
     mofa = (load("data/raw/mofa/risk_levels.json") or {}).get("levels", {})
     osm = load("data/raw/osm/poi_counts.json", {})
     climate_all = (load("data/raw/era5/climate_monthly.json") or {})
