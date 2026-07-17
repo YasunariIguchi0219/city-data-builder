@@ -10,7 +10,7 @@
 | 何を見たい | どこ |
 | --- | --- |
 | **最終データ（154件・統一フォーマット）** | [data/output/places.json](data/output/places.json) |
-| **データを画面で眺める** | `uv run python scripts/serve_viewer.py` を実行（ブラウザが自動で開く。検索／フィルタ／指標バー／気候チャート。**出所チップ・計算方法の解説・JSONパス表示つき**） |
+| **データを画面で眺める** | `uv run python scripts/serve_viewer.py` を実行（ブラウザが自動で開く。**他メンバーへの共有は `--share` 付きで実行**し表示される共有URLを配布。検索／フィルタ／指標バー／気候チャート。**出所チップ・計算方法の解説・JSONパス表示つき**） |
 | データの形式定義 | [schema/place.schema.json](schema/place.schema.json)＋設計書 [docs/phase2/schema-design.md](docs/phase2/schema-design.md) |
 | 品質・既知の制約 | [docs/phase3/data-quality-report.md](docs/phase3/data-quality-report.md) |
 
