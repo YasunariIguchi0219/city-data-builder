@@ -380,10 +380,10 @@ function renderDetail(){
     </figure>`);
   }
   if (id.lat != null){
-    const dLon = 0.05, dLat = 0.03;
+    const dLon = 0.22, dLat = 0.13;  // 引きの初期表示（幅およそ30km。周辺の位置関係が見える縮尺）
     const bbox = `${id.lon - dLon},${id.lat - dLat},${id.lon + dLon},${id.lat + dLat}`;
     const embed = `https://www.openstreetmap.org/export/embed.html?bbox=${bbox}&layer=mapnik&marker=${id.lat},${id.lon}`;
-    const link = `https://www.openstreetmap.org/?mlat=${id.lat}&mlon=${id.lon}#map=13/${id.lat}/${id.lon}`;
+    const link = `https://www.openstreetmap.org/?mlat=${id.lat}&mlon=${id.lon}#map=11/${id.lat}/${id.lon}`;
     hero.push(`<div class="mapbox">
       <iframe class="map" src="${embed}" loading="lazy" title="${esc(id.name_ja)}の地図"></iframe>
       <div class="caption">地図: © OpenStreetMap contributors
