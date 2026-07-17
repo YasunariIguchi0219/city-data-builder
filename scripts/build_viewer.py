@@ -60,7 +60,7 @@ TEMPLATE = r"""<!doctype html>
     font: inherit; color: var(--ink); background: var(--surface);
     border: 1px solid var(--axis); border-radius: 6px; padding: 5px 8px;
   }
-  .controls input { min-width: 220px; }
+  .controls input[type="search"] { min-width: 220px; }
   main { display: flex; gap: 0; align-items: stretch; }
   #list {
     width: 320px; min-width: 260px; max-height: calc(100vh - 92px);
