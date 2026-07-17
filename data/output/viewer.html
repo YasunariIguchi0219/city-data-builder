@@ -118,8 +118,15 @@
     vertical-align: 1px; white-space: nowrap;
   }
   body.showpaths .jp { display: inline-block; }
-  .toggle { display: inline-flex; align-items: center; gap: 5px; font-size: 12.5px;
-            color: var(--ink-2); user-select: none; cursor: pointer; padding: 5px 2px; }
+  .toggle {
+    display: inline-flex; align-items: center; gap: 6px; font-size: 13px;
+    color: var(--ink-2); user-select: none; cursor: pointer;
+    border: 1px solid var(--axis); border-radius: 6px; padding: 5px 10px;
+    background: var(--surface); white-space: nowrap;
+  }
+  .toggle input { margin: 0; width: 14px; height: 14px; accent-color: var(--s1); cursor: pointer; }
+  .toggle:has(input:checked) { border-color: var(--s1);
+    background: color-mix(in srgb, var(--s1) 8%, var(--surface)); color: var(--ink); }
   pre.raw { font-size: 11.5px; overflow-x: auto; background: color-mix(in srgb, var(--ink) 4%, var(--surface));
             border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; max-height: 420px; overflow-y: auto; }
   .whs li { margin: 2px 0; }
@@ -138,14 +145,14 @@
   }
 </style>
 </head>
-<body>
+<body class="showpaths">
 <header>
   <h1>都市データビュワー <span class="sub" id="meta"></span></h1>
   <div class="controls">
     <input id="q" type="search" placeholder="検索（日本語名・英語名）">
     <select id="ftype"><option value="">種別: すべて</option></select>
     <select id="fcountry"><option value="">国: すべて</option></select>
-    <label class="toggle"><input type="checkbox" id="paths">JSONパスを表示</label>
+    <label class="toggle"><input type="checkbox" id="paths" checked>JSONパスを表示</label>
     <select id="sort">
       <option value="name">並び: 名前順</option>
       <option value="population">並び: 人口</option>
