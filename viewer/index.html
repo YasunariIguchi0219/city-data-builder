@@ -66,6 +66,16 @@
   #detail h2 .en { font-size: 14px; color: var(--ink-2); font-weight: 400; margin-left: 10px; }
   .crumb { color: var(--muted); font-size: 12px; margin: 2px 0 14px; }
   .note { color: var(--ink-2); font-size: 12px; margin: -8px 0 14px; }
+  figure.photo { margin: 0 0 16px; }
+  figure.photo img {
+    display: block; width: 100%; max-width: 720px; max-height: 300px;
+    object-fit: cover; border-radius: 10px; border: 1px solid var(--border);
+  }
+  figure.photo figcaption { font-size: 11px; color: var(--muted); margin-top: 4px; }
+  iframe.map {
+    display: block; width: 100%; height: 320px; border: 1px solid var(--border);
+    border-radius: 10px; background: var(--grid);
+  }
   .tiles { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 18px; }
   .tile {
     background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
@@ -354,6 +364,19 @@ function renderDetail(){
       ${jp(`places[${PLACES.indexOf(p)}] (identity.id="${id.id}")`)}
     </div>`;
   if (id.note) html += `<div class="note">📝 ${esc(id.note)}</div>`;
+
+  // 代表画像（Wikidata P18 → Wikimedia Commons。ライセンスは画像ごと＝出典リンク必須）
+  if (p.media && p.media.image_url){
+    html += `<figure class="photo">
+      <img src="${p.media.image_url}" alt="${esc(id.name_ja)}の代表画像" loading="lazy"
+           onerror="this.closest('figure').style.display='none'">
+      <figcaption>
+        <a href="${p.media.image_source_url}" target="_blank" rel="noopener">画像: Wikimedia Commons（出典・ライセンス）</a>
+        ${jp('media.image_url')}
+      </figcaption>
+    </figure>`;
+  }
+
   if (id.type === 'route'){
     html += section('航路', `<p>${(id.endpoints||[]).map(esc).join(' ⇔ ')}</p>
       <p class="empty">航路のため都市向けデータは対象外です。</p>`);
@@ -462,6 +485,20 @@ function renderDetail(){
         地点の座標との<b>直線距離（大圏距離）</b>で最寄りを選んでいます。「最寄りの主要都市」は154件のうち
         人口10万以上の都市との直線距離です。</p>
         <p>⚠️ 直線距離であり、道路・鉄道での移動時間ではありません（移動時間の整備は将来課題）。</p>`});
+  }
+
+  // 地図（追加データ不要: identity.lat/lon からOpenStreetMapの埋め込みを生成。閲覧に外部接続が必要）
+  if (id.lat != null){
+    const dLon = 0.05, dLat = 0.03;
+    const bbox = `${id.lon - dLon},${id.lat - dLat},${id.lon + dLon},${id.lat + dLat}`;
+    const embed = `https://www.openstreetmap.org/export/embed.html?bbox=${bbox}&layer=mapnik&marker=${id.lat},${id.lon}`;
+    const link = `https://www.openstreetmap.org/?mlat=${id.lat}&mlon=${id.lon}#map=13/${id.lat}/${id.lon}`;
+    html += section('地図', `
+      <iframe class="map" src="${embed}" loading="lazy" title="${esc(id.name_ja)}の地図"></iframe>
+      <p class="empty">位置は identity.lat / identity.lon から生成${jp('identity.lat / identity.lon')}
+        ・<a href="${link}" target="_blank" rel="noopener">大きな地図で見る</a>
+        ・表示には外部接続（openstreetmap.org）が必要</p>`,
+      SOURCE_LABEL.osm);
   }
 
   // 生JSON（この地点のレコード全体。出所メタデータ _meta もここで確認できる）

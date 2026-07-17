@@ -17,6 +17,7 @@
 """
 import json
 import math
+import urllib.parse
 from pathlib import Path
 
 import jsonschema
@@ -157,7 +158,7 @@ def main():
 
         if is_route:
             for b in ("geography", "poi", "osm_features", "heritage", "climate",
-                      "access", "recognition", "safety", "indicators"):
+                      "access", "recognition", "safety", "media", "indicators"):
                 record[b] = None
         else:
             elev = (extras.get(p["qid"]) or {}).get("elevation_m")
@@ -170,6 +171,20 @@ def main():
             hd = heritage_detail[pid]
             record["heritage"] = {"whs_onsite": hd["onsite"], "whs_within_30km": hd["within30"],
                                   "_meta": meta("wikidata", "CC0-1.0")}
+
+            # 代表画像（Wikidata P18 → Wikimedia Commons。画像自体のライセンスは画像ごとに異なる）
+            img = (extras.get(p["qid"]) or {}).get("image")
+            if img:
+                fn = urllib.parse.quote(img.replace(" ", "_"))
+                record["media"] = {
+                    "commons_file": img,
+                    "image_url": f"https://commons.wikimedia.org/wiki/Special:FilePath/{fn}?width=800",
+                    "image_source_url": f"https://commons.wikimedia.org/wiki/File:{fn}",
+                    "_meta": meta("wikidata", "per-image (Wikimedia Commons)",
+                                  "画像: Wikimedia Commons（ライセンス・作者は出典ページを参照）"),
+                }
+            else:
+                record["media"] = None
 
             o = osm.get(pid)
             if o:
