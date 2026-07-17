@@ -100,6 +100,17 @@
   .cell.best { outline: 2px solid var(--ink); outline-offset: 1px; }
   .badge { font-size: 11px; border: 1px solid var(--border); border-radius: 99px;
            padding: 1px 9px; color: var(--ink-2); display: inline-flex; gap: 5px; align-items: center; }
+  .src { font-size: 11px; color: var(--muted); font-weight: 400; margin-left: 8px; }
+  details.help { margin: 0 0 10px; }
+  details.help summary { color: var(--s1); font-size: 12px; cursor: pointer; user-select: none; }
+  details.help .body {
+    color: var(--ink-2); font-size: 12.5px; border-radius: 8px; padding: 10px 12px; margin-top: 6px;
+    background: color-mix(in srgb, var(--s1) 6%, var(--surface)); border: 1px solid var(--border);
+  }
+  details.help .body p { margin: 0 0 8px; }
+  details.help .body p:last-child { margin-bottom: 0; }
+  details.help table { font-size: 12px; margin: 6px 0; }
+  details.help th, details.help td { text-align: left; font-variant-numeric: normal; }
   .whs li { margin: 2px 0; }
   details summary { cursor: pointer; color: var(--muted); font-size: 12px; }
   #tip {
@@ -47771,6 +47782,20 @@ const IND_JA = {food_scene:'食の充実', culture_scene:'文化施設', vibranc
   walkability:'散策のしやすさ', scenic_nature:'自然・景観', outdoor_activity:'アクティビティ',
   historic_depth:'歴史の厚み', recognition_jp:'認知度(日本)', hidden_gem:'穴場度'};
 const MONTHS = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
+const SOURCE_LABEL = {wikidata:'Wikidata (CC0)', osm:'OpenStreetMap (ODbL)',
+  era5:'Copernicus ERA5', ourairports:'OurAirports (パブリックドメイン)',
+  wikimedia_pageviews:'Wikimedia Pageviews (CC0)', eurostat:'Eurostat',
+  mofa:'外務省 海外安全情報オープンデータ', computed:'座標からの計算'};
+const IND_BASIS = {
+  food_scene:'半径5kmの飲食店数',
+  culture_scene:'半径5kmの美術館・ギャラリー・劇場数',
+  vibrancy:'半径5kmのバー・パブ・クラブ数',
+  walkability:'徒歩圏1kmの飲食＋文化＋商店数（歩行者エリアがあれば+10点）',
+  scenic_nature:'展望地点 ＋ 山頂×0.5 ＋ 湖×0.5 ＋ 海岸なら+5 ＋ 保護区×0.3',
+  outdoor_activity:'ハイキングコース＋スキー場・マリーナ＋公園・庭園の数',
+  historic_depth:'世界遺産5km圏の件数×2 ＋ 30km圏の件数',
+  recognition_jp:'日本語版Wikipedia記事の年間閲覧数（2025年）',
+  hidden_gem:'(100 − 認知度) × 充実度ゲート※'};
 const SEQ = ['--seq100','--seq200','--seq300','--seq400','--seq500','--seq600','--seq700'];
 const fmt = n => n == null ? '—' : n.toLocaleString('ja-JP');
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -47859,7 +47884,47 @@ function comfortStrip(values){
 }
 
 /* ---------- 詳細 ---------- */
-function section(title, inner){ return inner ? `<section class="card"><h3>${title}</h3>${inner}</section>` : ''; }
+function section(title, inner, src, help){
+  if (!inner) return '';
+  const chip = src ? `<span class="src">出所: ${src}</span>` : '';
+  const helpHtml = help ? `<details class="help"><summary>ℹ️ ${help.q}</summary>
+    <div class="body">${help.a}</div></details>` : '';
+  return `<section class="card"><h3>${title}${chip}</h3>${helpHtml}${inner}</section>`;
+}
+const N_COHORT = PLACES.filter(p=>['city','town_village'].includes(p.identity.type)).length;
+function indicatorHelp(ind){
+  const rows = Object.entries(IND_JA).filter(([k])=>ind[k]).map(([k,ja])=>{
+    const srcs = (ind[k].depends_on||[]).map(s=>SOURCE_LABEL[s]||s).join(' + ');
+    return `<tr><td>${ja}</td><td>${IND_BASIS[k]||esc(ind[k].formula||'')}</td><td>${srcs}</td></tr>`;
+  }).join('');
+  return {q:'この値はどう計算している？', a:`
+    <p><b>値の意味</b>：絶対的な点数ではなく、<b>同種の地点（都市・町村 ${N_COHORT}件）の中での相対位置</b>です。
+    元になる実数で全地点を並べ、最下位=0・中央=50・最上位=100。「80」なら上位20%という意味です。
+    実数のままでは桁が違いすぎて比較できない（パリの飲食1.5万件 vs 村の十数件）ための正規化です。</p>
+    <table><tr><th>指標</th><th>元になる実数</th><th>元データ</th></tr>${rows}</table>
+    <p>※<b>穴場度</b>の充実度ゲート：「飲食・宿泊が下位25%を上回り、かつ文化か自然も上回る」ときだけ有効。
+    単に施設がない場所を穴場と誤判定しないための仕掛けです。</p>
+    <p>⚠️ 重みや係数は暫定値です（調整の際は docs/phase2/schema-design.md §4 を参照。再計算はコマンド一発）。
+    特に「自然・景観」の重みは調整課題として品質レポートに記録済みです。</p>`};
+}
+function sectionClimate(c, inner){
+  return section(`気候（月別・${esc(c.reference_period)}平均）`, inner,
+                 SOURCE_LABEL.era5, climateHelp(c));
+}
+function climateHelp(c){
+  return {q:'気候データの出所と「旅行快適度」の計算方法は？', a:`
+    <p><b>出所</b>：Copernicus ERA5（欧州の気象再解析データ・商用利用可）。
+    ${esc(c.reference_period)}の各月を平均した平年値で、約25km四方のグリッドから
+    この地点に最も近いセルの値を採用しています。</p>
+    <p><b>旅行快適度</b> ＝（ 気温スコア×0.5 ＋ 少雨スコア×0.3 ＋ 日照スコア×0.2 ）× 100<br>
+    ・気温：8〜27℃なら満点。帯から外れるほど減点（10℃外れると0）<br>
+    ・少雨：1 −（月間降水量mm ÷ 150）<br>
+    ・日照：月間日照時間 ÷ 250h（上限1）</p>
+    <p>例：パリの7月＝気温20.5℃(満点)・降水47mm(0.69)・日照350h(満点) → 0.5＋0.21＋0.2 ≒ <b>91点</b></p>
+    <p>⚠️ 山岳の町は周囲の山を含むグリッド平均のため実際の市街より低温に出ます（例：ツェルマットの冬）。
+    日照時間は日射量からの近似値で、快晴の多い地域では過大になることがあります。
+    快適帯(8〜27℃)や重みは暫定値です。</p>`};
+}
 function renderDetail(){
   const p = PLACES.find(x=>x.identity.id===state.sel);
   if (!p){ document.getElementById('detail').innerHTML=''; return; }
@@ -47889,7 +47954,13 @@ function renderDetail(){
   if (h) tiles.push([h.whs_onsite.length + ' / ' + fmt(h.whs_within_30km), '世界遺産 5km/30km圏', '']);
   if (sf && sf.mofa_risk_level!=null) tiles.push([sf.mofa_risk_level===0?'レベル0':'レベル'+sf.mofa_risk_level, '危険情報（国単位）', '']);
   html += `<div class="tiles">` + tiles.map(([v,k,u]) =>
-    `<div class="tile"><div class="v">${v}<span class="u">${u}</span></div><div class="k">${k}</div></div>`).join('') + `</div>`;
+    `<div class="tile"><div class="v">${v}<span class="u">${u}</span></div><div class="k">${k}</div></div>`).join('') + `</div>
+    <details class="help"><summary>ℹ️ 上の数値の出所</summary><div class="body">
+      <p>人口・標高：${SOURCE_LABEL.wikidata} ／ 最寄り空港：${SOURCE_LABEL.ourairports}（直線距離） ／
+      ja版閲覧数：${SOURCE_LABEL.wikimedia_pageviews}・2025年合計 ／ 世界遺産：${SOURCE_LABEL.wikidata}経由。</p>
+      <p><b>危険情報</b>：${SOURCE_LABEL.mofa}。<b>国単位</b>の値（国内のどこかに発出されている危険情報の
+      最大レベル）で、この都市自体のレベルではありません。レベル0＝発出なし。</p>
+    </div></details>`;
 
   // 指標バー
   if (ind){
@@ -47898,14 +47969,15 @@ function renderDetail(){
       return `<div class="lbl" title="${esc(o.formula||'')}"><span>${ja}</span><span class="val">${o.value}</span></div>
         <div class="track"><div class="fill" style="width:${o.value}%"></div></div>`;
     }).join('');
-    if (bars) html += section('指標（同種の地点内での相対位置 0〜100）', `<div class="bars">${bars}</div>`);
+    if (bars) html += section('指標（同種の地点内での相対位置 0〜100）',
+      `<div class="bars">${bars}</div>`, '下記の元データからの計算値', indicatorHelp(ind));
   }
 
   // 気候
   if (c && c.monthly){
     const t = c.monthly.map(m=>m.temp_mean_c), pr = c.monthly.map(m=>m.precip_mm);
     const comfort = ind && ind.seasonal_comfort ? ind.seasonal_comfort.value : null;
-    html += section(`気候（月別・${esc(c.reference_period)}平均）`, `
+    html += sectionClimate(c, `
       <div class="cols">
         <div><div class="chart-title">平均気温 (°C)</div>${monthChart(t,{kind:'line',color:'var(--s1)',unit:'°C'})}</div>
         <div><div class="chart-title">降水量 (mm/月)</div>${monthChart(pr,{kind:'bar',color:'var(--s2)',unit:'mm',decimals:0})}</div>
@@ -47920,7 +47992,7 @@ function renderDetail(){
 
   // POI
   if (poi){
-    html += section('周辺施設の数（OSM由来）', `<div class="cols"><div><table>
+    html += section('周辺施設・自然の数', `<div class="cols"><div><table>
         <tr><th>カテゴリ</th><th>半径5km</th><th>徒歩圏1km</th></tr>
         <tr><td>飲食店</td><td>${fmt(poi.dining_5km)}</td><td>${fmt(poi.dining_1km)}</td></tr>
         <tr><td>美術館・劇場</td><td>${fmt(poi.culture_5km)}</td><td>${fmt(poi.culture_1km)}</td></tr>
@@ -47937,7 +48009,14 @@ function renderDetail(){
         <tr><td>自然保護区 (10km)</td><td>${fmt(of.protected_areas_10km)}</td></tr>
         <tr><td>ハイキングコース (10km)</td><td>${fmt(of.hiking_routes_10km)}</td></tr>
         <tr><td>公園・庭園 (5km)</td><td>${fmt(of.parks_gardens_5km)}</td></tr>
-        <tr><td>歩行者エリア (1km)</td><td>${of.pedestrian_area_1km?'あり':'なし'}</td></tr></table>`:''}</div></div>`);
+        <tr><td>歩行者エリア (1km)</td><td>${of.pedestrian_area_1km?'あり':'なし'}</td></tr></table>`:''}</div></div>`,
+      SOURCE_LABEL.osm, {q:'この数はどう数えている？', a:`
+        <p>地点の代表座標を中心に、<b>半径5km（滞在中に足を伸ばせる圏）と1km（徒歩圏）の円</b>の中にある
+        OpenStreetMap登録施設を数えています。行政境界ではなく固定半径なので、
+        大都市も小さな村も同じ物差しで比較できます。</p>
+        <p>⚠️ OpenStreetMapは有志が登録する地図のため地域によって登録密度に差があり、
+        小さな町では実態より少なく出ることがあります。将来的にFoursquareの商用POIデータでの
+        補強・検証を予定しています。</p>`});
   }
 
   // 世界遺産
@@ -47946,7 +48025,12 @@ function renderDetail(){
       ${h.whs_onsite.length?`<ul class="whs">${h.whs_onsite.map(w=>
         `<li>${esc(w.label)} <span class="empty">(${w.distance_km}km / <a href="https://www.wikidata.org/wiki/${w.qid}" target="_blank" rel="noopener">${w.qid}</a>)</span></li>`).join('')}</ul>`
         :'<p class="empty">5km圏内なし</p>'}
-      <p class="empty">30km圏内: ${fmt(h.whs_within_30km)}件</p>`);
+      <p class="empty">30km圏内: ${fmt(h.whs_within_30km)}件</p>`,
+      SOURCE_LABEL.wikidata, {q:'世界遺産はどう紐付けている？', a:`
+        <p>UNESCO公式サイトは商用利用に制約があるため、<b>Wikidataの世界遺産指定（CC0・自由利用可）</b>から
+        欧州域内1,000件超を座標つきで取得し、この地点との<b>直線距離</b>で紐付けています。</p>
+        <p>5km圏＝その場所自体や市街の遺産、30km圏＝日帰りで行ける圏の目安です。
+        連続遺産の構成資産（例：「ヨーロッパの大温泉保養地群」の各都市）もそれぞれ1件と数えています。</p>`});
   }
 
   // アクセス
@@ -47957,7 +48041,12 @@ function renderDetail(){
       ${a.nearest_airport?`<tr><td>最寄り空港</td><td>${esc(a.nearest_airport.name)} (${esc(a.nearest_airport.iata||'—')})</td><td>${a.nearest_airport.distance_km}km</td></tr>`:''}
       ${a.nearest_large_airport?`<tr><td>最寄り大規模空港</td><td>${esc(a.nearest_large_airport.name)} (${esc(a.nearest_large_airport.iata||'—')})</td><td>${a.nearest_large_airport.distance_km}km</td></tr>`:''}
       ${hub?`<tr><td>最寄りの主要都市（154件中）</td><td>${esc(hub)}</td><td>${a.nearest_hub_distance_km}km</td></tr>`:''}
-    </table>`);
+    </table>`,
+      `${SOURCE_LABEL.ourairports} ＋ ${SOURCE_LABEL.computed}`, {q:'距離はどう計算している？', a:`
+        <p>空港はOurAirports（毎晩更新の空港データベース）のうち<b>定期便のある大・中規模空港（欧州528空港）</b>を対象に、
+        地点の座標との<b>直線距離（大圏距離）</b>で最寄りを選んでいます。「最寄りの主要都市」は154件のうち
+        人口10万以上の都市との直線距離です。</p>
+        <p>⚠️ 直線距離であり、道路・鉄道での移動時間ではありません（移動時間の整備は将来課題）。</p>`});
   }
   document.getElementById('detail').innerHTML = html;
   bindTips();
