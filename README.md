@@ -2,71 +2,103 @@
 
 接客AI（β版）の旅行先提案ロジックで使う、**154件の欧州都市・観光地の客観的事実データ**を調査・設計・作成するプロジェクト。
 
-- 依頼内容（原本）：[docs/note.md](docs/note.md)
-- 計画書：[docs/plan.md](docs/plan.md)
+- 依頼内容（原本）：[docs/note.md](docs/note.md) ／ 計画書：[docs/plan.md](docs/plan.md)
 - 連携先リポジトリ：`global-bm`
+
+## 成果物（まずここから）
+
+| 何を見たい | どこ |
+| --- | --- |
+| **最終データ（154件・統一フォーマット）** | [data/output/places.json](data/output/places.json) |
+| **データを画面で眺める** | [data/output/viewer.html](data/output/viewer.html) をブラウザで開く（サーバー・ネット不要。検索／フィルタ／指標バー／気候チャート。**出所チップ・計算方法の解説・JSONパス表示つき**） |
+| データの形式定義 | [schema/place.schema.json](schema/place.schema.json)＋設計書 [docs/phase2/schema-design.md](docs/phase2/schema-design.md) |
+| 品質・既知の制約 | [docs/phase3/data-quality-report.md](docs/phase3/data-quality-report.md) |
 
 ## 進行状況
 
 | フェーズ | 内容 | 状態 | 成果物 |
 | --- | --- | --- | --- |
 | 0. 名寄せ | 154件にQID・座標・種別を付与 | ✅ 完了（全件暫定承認） | [docs/phase0/](docs/phase0/)、`data/master/places_master.json` |
-| 1. 調査 | データソースの取得可否・カバー率・ライセンス | ✅ 完了（承認待ち） | [docs/phase1/](docs/phase1/) |
-| 2. 設計 | スキーマ＋質問回答→指標マッピング | ✅ 完了（承認済み） | [docs/phase2/](docs/phase2/)、[schema/](schema/)、`data/output/samples/` |
-| 3. 作成 | 154件の統一フォーマットデータ | ✅ 一次完成（POI=OSM版） | [docs/phase3/](docs/phase3/)、[data/output/places.json](data/output/places.json) |
+| 1. 調査 | データソースの取得可否・カバー率・ライセンス | ✅ 完了 | [docs/phase1/](docs/phase1/) |
+| 2. 設計 | スキーマ＋質問回答→指標マッピング | ✅ 完了（承認済み） | [docs/phase2/](docs/phase2/)、[schema/](schema/) |
+| 3. 作成 | 154件の統一フォーマットデータ | ✅ 一次完成（POI=OSM版） | [docs/phase3/](docs/phase3/)、[data/output/](data/output/) |
+
+### 残課題
+
+- Foursquare OS Places の導入検討（Places Portal登録の要否。現状POIはOSM由来で成立）
+- `scenic_nature` 指標の重み調整（旅行知見でのチューニング推奨。品質レポート既知の制約7）
+- Eurostat 宿泊統計の統合（都市→NUTS2対応表が必要）
+- OSM ODbL の法務確認の起票（論点整理は [docs/phase1/license-research.md](docs/phase1/license-research.md) 末尾）
+
+## セットアップ
+
+```bash
+uv sync                 # Python環境の構築（3.13固定・依存はuv.lockで再現）
+cp .env.example .env    # 気候データ(ERA5)を再取得する場合のみ: CDSのトークンを記入
+```
+
+## データの再生成（パイプライン）
+
+```
+fetchスクリプト群 ──→ data/raw/（ソース別生データ） ──→ build_places.py ──→ places.json ──→ build_viewer.py
+```
+
+```bash
+# 1) 取得（必要なものだけ。生データはdata/raw/に保存され、再実行は差分のみ）
+uv run python scripts/build_master.py           # 名寄せマスタ（Wikidata。キャッシュあり）
+uv run python scripts/fetch/wikidata_extras.py  # 標高
+uv run python scripts/fetch/pageviews.py        # Wikipedia閲覧数（約10分・中断再開可）
+uv run python scripts/fetch/mofa_safety.py      # 外務省 危険情報（21カ国）
+uv run python scripts/fetch/osm_poi.py          # OSM POI・自然地物（1〜2時間・中断再開可）
+uv run python scripts/fetch/climate_era5.py fetch && uv run python scripts/fetch/climate_era5.py extract  # 気候（要.env）
+uv run python scripts/survey/airports.py        # 最寄り空港（CSVは自動ダウンロード）
+uv run python scripts/survey/unesco_whs.py      # 世界遺産（Wikidata SPARQL）
+
+# 2) 組み立て・検証・可視化
+uv run python scripts/build_places.py           # 全154件を統合し JSON Schema で検証
+uv run python scripts/quality_report.py         # 品質レポート再生成（妥当性・外れ値チェック）
+uv run python scripts/build_viewer.py           # ビュワーHTML再生成
+```
 
 ## フォルダ構成
 
 ```
 ├── docs/
-│   ├── note.md                     # 依頼内容（原本・編集しない）
-│   ├── plan.md                     # 計画書（全体）
-│   ├── phase0/
-│   │   ├── review.md               # 同定結果レビュー一覧（build_master.py が生成）
-│   │   └── data-dictionary.md      # マスタのデータ辞書（暫定版。フェーズ2で正式化）
-│   ├── phase1/
-│   │   ├── data-source-survey.md   # データソース調査レポート（採用判定）
-│   │   └── license-research.md     # ライセンス一次情報の確認記録（根拠URL付き）
-│   ├── phase2/                     # （今後）スキーマ設計書
-│   └── phase3/                     # （今後）データ品質レポート
+│   ├── note.md / plan.md               # 依頼原本・計画書
+│   ├── phase0/                         # 名寄せ（同定レビュー・データ辞書）
+│   ├── phase1/                         # データソース調査・ライセンス調査（根拠URL付き）
+│   ├── phase2/schema-design.md         # スキーマ設計書（指標の定義・算出式はここ）
+│   └── phase3/data-quality-report.md   # 品質レポート（既知の制約もここ）
+├── schema/place.schema.json            # JSON Schema（形式定義）
 ├── data/
-│   ├── cities.json                 # 原本（154件・日本語名のみ・編集しない）
+│   ├── cities.json                     # 原本（154件・日本語名のみ・編集しない）
 │   ├── master/
-│   │   ├── seed_places.json        # 同定案シード（人手管理。修正はここに）
-│   │   └── places_master.json      # 名寄せマスタ（生成物。直接編集しない）
-│   ├── raw/
-│   │   ├── wikidata/cache.json     # Wikidata APIキャッシュ（生成物）
-│   │   └── survey/                 # フェーズ1実測の根拠データ
-│   └── output/                     # （今後）最終データ
+│   │   ├── seed_places.json            # 同定シード（人手管理。同定修正はここにQIDを指定）
+│   │   └── places_master.json          # 名寄せマスタ（生成物）
+│   ├── raw/                            # ソース別生データ（下記ポリシー参照）
+│   └── output/
+│       ├── places.json                 # ★最終データ
+│       ├── viewer.html                 # ★ビュワー（自己完結HTML）
+│       └── samples/                    # フェーズ2設計レビュー時のサンプル（旧版）
 └── scripts/
-    ├── build_master.py             # シード検証→マスタ＋レビュー一覧を生成
-    └── survey/                     # フェーズ1の実測・取得テスト（すべて再実行可能）
-        ├── wikipedia.py            # Wikipedia記事カバー率（ja 92% / en 98%）
-        ├── airports.py             # 最寄り空港計算（OurAirports、100%）
-        ├── unesco_whs.py           # 世界遺産取得（Wikidata経由）＋近傍マッチング
-        ├── probe_pageviews.py      # 閲覧数APIテスト
-        ├── probe_climate.py        # 気候データテスト（⚠️本番はERA5直接取得）
-        ├── probe_overpass.py       # OSM POI数テスト（本番はGeofabrik推奨）
-        └── probe_eurostat_mofa.py  # 観光統計・外務省オープンデータのテスト
+    ├── build_master.py                 # フェーズ0: 名寄せマスタ生成
+    ├── fetch/                          # フェーズ3: ソース別取得（すべて再実行・中断再開可）
+    ├── survey/                         # フェーズ1: 調査時の実測（空港・世界遺産は本番でも使用）
+    ├── build_places.py                 # 統合＋スキーマ検証 → places.json
+    ├── quality_report.py               # 品質検証 → 品質レポート
+    ├── build_viewer.py                 # places.json → viewer.html
+    └── envfile.py                      # .env ローダー
 ```
 
-## 使い方
+## 運用ルール
 
-```bash
-uv sync                                   # 環境構築（Python 3.13固定）
-uv run python scripts/build_master.py     # マスタ再生成（APIキャッシュにより差分のみ照会）
-uv run python scripts/build_places.py     # 最終データ places.json の再生成（スキーマ検証付き）
-uv run python scripts/build_viewer.py     # ビュワー再生成（places.json 変更後に実行）
-```
-
-**データを眺めるには**: [data/output/viewer.html](data/output/viewer.html) をブラウザで開く
-（自己完結HTML。サーバー・ネット接続不要。検索／種別・国フィルタ／指標バー／月別気候チャート付き）
-
-- 同定の修正：`data/master/seed_places.json` の該当エントリに `qid` を直接指定 → `build_master.py` を再実行
-- 生成物（`places_master.json`、`docs/phase0/review.md`、`data/raw/wikidata/cache.json`）は手で編集しない
+- **生成物は手で編集しない**（`places_master.json` / `places.json` / `viewer.html` / `docs/phase0/review.md`。修正はシードやスクリプトに入れて再生成）
+- **data/raw/ のgit管理ポリシー**：スクリプトで再取得できる大容量ダウンロード（ERA5生データ・外務省XML・空港CSV）は管理外＆抽出後にディスクからも削除可。小さな抽出結果・取得に時間のかかる成果（OSMの`poi_counts.json`等）は管理する
+- **シークレット**：`.env`（CDSトークン）はコミット禁止（gitignore済み）。雛形は `.env.example`
+- **ライセンス**：OSM由来データは `poi` / `osm_features` ブロックに分離し `_meta.source="osm"` を明記（ODbL対応。詳細は [docs/phase1/data-source-survey.md](docs/phase1/data-source-survey.md) §2.7）。外部表示時の帰属表示文は各ブロックの `_meta.attribution` にある
 
 ## データの決めごと（要点）
 
-- 154件は同一スキーマ＋`type` 属性（city / town_village / single_poi / natural_feature / route）。定義は [docs/phase0/data-dictionary.md](docs/phase0/data-dictionary.md)
-- 外部データはWikidata QIDと座標をキーに結合する
-- ライセンス上の扱い（UNESCO不採用・OSM分離設計など）は [docs/phase1/data-source-survey.md](docs/phase1/data-source-survey.md) の採用判定に従う
+- 154件は同一スキーマ＋`type` 属性（city / town_village / single_poi / natural_feature / route）。都市向け項目が該当しない種別は null
+- 外部データとの結合キーは **Wikidata QID＋座標**
+- **事実（Layer 1）と指標（Layer 2）を分離**。指標は「同種の地点内のパーセンタイル 0〜100」で、算出式を `indicators.*.formula`、依存ソースを `depends_on` としてデータ内に保持（OSMがNGになった場合は依存指標だけ機械的に再計算できる）
