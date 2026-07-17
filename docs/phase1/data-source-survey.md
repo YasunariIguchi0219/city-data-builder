@@ -13,10 +13,10 @@
 | 認知度（Wikipedia閲覧数） | Wikimedia Pageviews API | ✅ 採用 | CC0 | 無料 |
 | 空港 | OurAirports | ✅ 採用 | パブリックドメイン | 無料 |
 | 気候（月別気温・降水・日照・湿度） | Copernicus ERA5（CDS直接取得） | ✅ 採用 | Copernicusライセンス（商用可・帰属表示） | 無料 |
-| 〃（代替） | Open-Meteo API | ⚠️ 条件付き | **無料枠は非商用限定**。商用は$29〜99/月 | 有料 |
+| 〃（代替） | Open-Meteo API | ❌ 不採用 | **無料枠は非商用限定**のため本番では未使用（調査時の接続テストのみ。probe_climate.py）。商用プランは$29〜99/月だがERA5直接取得で不要 | — |
 | 世界遺産 | ~~UNESCO公式~~ → Wikidata経由 | 🔄 代替採用 | UNESCO公式は商用有償＋書面許可のため不採用。Wikidata(CC0)で代替 | 無料 |
-| POI（飲食・文化・商業等） | Foursquare OS Places | ✅ 採用（第一候補） | Apache 2.0（混合安全） | 無料 |
-| POI・自然地物・展望地点・歩行者エリア | OpenStreetMap | ⚠️ 条件付き採用 | ODbL（**設計規律＋法務確認が必要**） | 無料 |
+| POI（飲食・文化・商業等） | Foursquare OS Places | 🔷 保留（将来候補） | Apache 2.0（混合安全）だが取得経路に要アカウント・要同意（§2.6の決定参照）。入手できたら差し替え・比較検証 | 無料 |
+| POI・自然地物・展望地点・歩行者エリア | OpenStreetMap | ✅ 採用（現行のPOIソース） | ODbL。分離設計＋帰属表示で運用中（§2.7の決定参照）。法務確認は継続課題 | 無料 |
 | 観光統計（宿泊者数） | Eurostat | ⚠️ 条件付き採用 | CC BY 4.0（一部例外あり） | 無料 |
 | 渡航安全情報 | 外務省オープンデータ | ✅ 採用 | 政府標準利用規約2.0（CC BY互換・商用可） | 無料 |
 | 都市間距離・空港距離 | 自前計算（緯度経度） | ✅ 採用 | 制約なし（座標はCC0由来） | 無料 |
@@ -76,6 +76,7 @@
 - **商用利用**：可。帰属表示必須：「Generated using Copernicus Climate Change Service information [年]」（改変時は「Contains modified …」）
 - **費用**：無料
 - **⚠️ 代替案の注意**：手軽なOpen-Meteo APIは**無料枠が非商用限定**。商用サービスで使うなら$29〜99/月の商用プラン契約が必要。平年値を一度計算して保存する用途ならERA5直接取得（無料・商用可）が合理的
+- **決定（2026-07-16、フェーズ3実施時）**：**ERA5のCDS直接取得で全152地点の気候データを整備済み**（`fetch/climate_era5.py`、`climate._meta.source="era5"`）。**Open-Meteoは本番パイプラインでは一切使用していない**。調査時の接続テスト（`scripts/survey/probe_climate.py`）にのみ登場し、同ファイルに非商用限定の警告を明記してある
 
 ### 2.5 世界遺産：UNESCO公式 ❌ → Wikidata経由 🔄
 
