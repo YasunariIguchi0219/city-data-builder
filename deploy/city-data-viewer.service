@@ -1,0 +1,27 @@
+# 154都市データビュワーの配信サービス（ユーザー単位のsystemdサービス）
+#
+# インストール:
+#   mkdir -p ~/.config/systemd/user
+#   cp deploy/city-data-viewer.service ~/.config/systemd/user/
+#   systemctl --user daemon-reload
+#   systemctl --user enable --now city-data-viewer
+#
+# PC起動時に（ログインしなくても）自動起動させる:
+#   sudo loginctl enable-linger <ユーザー名>
+#
+# 状態確認: systemctl --user status city-data-viewer
+# ログ確認: journalctl --user -u city-data-viewer -f
+
+[Unit]
+Description=city-data-builder viewer (154都市・観光地データビュワー @ :8055)
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/Projects/city-data-builder
+ExecStart=%h/.local/bin/uv run python scripts/serve_viewer.py 8055 --share --no-browser
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
