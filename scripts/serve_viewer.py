@@ -21,8 +21,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
-ALLOWED_FILES = {"/viewer/", "/viewer/index.html", "/data/output/places.json"}
-REDIRECTS = {"": "/viewer/", "/": "/viewer/", "/viewer": "/viewer/"}
+# ルートURLでビュワー本体を返す（リダイレクトなし。/viewer/ でも開ける）
+VIEWER_ALIASES = {"", "/", "/index.html", "/viewer", "/viewer/", "/viewer/index.html"}
+ALLOWED_FILES = {"/data/output/places.json"}
 
 
 class RestrictedHandler(http.server.SimpleHTTPRequestHandler):
@@ -30,14 +31,12 @@ class RestrictedHandler(http.server.SimpleHTTPRequestHandler):
 
     def send_head(self):
         path = self.path.split("?", 1)[0].split("#", 1)[0]
-        if path in REDIRECTS:
-            self.send_response(301)
-            self.send_header("Location", REDIRECTS[path])
-            self.end_headers()
-            return None
+        if path in VIEWER_ALIASES:
+            self.path = "/viewer/index.html"
+            return super().send_head()
         if path not in ALLOWED_FILES:
             # 注意: ステータス行はASCII限定のため英語（このサーバーはビュワーとplaces.jsonのみ配信する）
-            self.send_error(403, "Forbidden", "This server only serves /viewer/ and places.json")
+            self.send_error(403, "Forbidden", "This server only serves the viewer and places.json")
             return None
         return super().send_head()
 
@@ -61,11 +60,11 @@ def main():
     handler = functools.partial(RestrictedHandler, directory=str(ROOT))
     server = http.server.ThreadingHTTPServer((host, port), handler)
 
-    local_url = f"http://localhost:{port}/viewer/"
+    local_url = f"http://localhost:{port}/"
     print(f"ビュワーを配信中: {local_url} （Ctrl+C で終了）")
     if share:
-        print(f"共有URL（同一ネットワークのメンバー向け）: http://{lan_ip()}:{port}/viewer/")
-        print("※配信は /viewer/ と /data/output/places.json のみ。他のパスは403で拒否します")
+        print(f"共有URL（同一ネットワークのメンバー向け）: http://{lan_ip()}:{port}/")
+        print("※配信はビュワーと places.json のみ。他のパスは403で拒否します")
     threading.Timer(0.3, lambda: webbrowser.open(local_url)).start()
     try:
         server.serve_forever()
