@@ -10,7 +10,7 @@
 | 何を見たい | どこ |
 | --- | --- |
 | **最終データ（154件・統一フォーマット）** | [data/output/places.json](data/output/places.json) |
-| **データを画面で眺める** | [viewer/index.html](viewer/index.html) をブラウザで開く（サーバー・ネット不要。検索／フィルタ／指標バー／気候チャート。**出所チップ・計算方法の解説・JSONパス表示つき**） |
+| **データを画面で眺める** | `uv run python scripts/serve_viewer.py` を実行（ブラウザが自動で開く。検索／フィルタ／指標バー／気候チャート。**出所チップ・計算方法の解説・JSONパス表示つき**） |
 | データの形式定義 | [schema/place.schema.json](schema/place.schema.json)＋設計書 [docs/phase2/schema-design.md](docs/phase2/schema-design.md) |
 | 品質・既知の制約 | [docs/phase3/data-quality-report.md](docs/phase3/data-quality-report.md) |
 
@@ -40,7 +40,7 @@ cp .env.example .env    # 気候データ(ERA5)を再取得する場合のみ: C
 ## データの再生成（パイプライン）
 
 ```
-scripts/fetch/ ──→ data/raw/（ソース別生データ） ──→ build_places.py ──→ data/output/places.json ──→ build_viewer.py ──→ viewer/index.html
+scripts/fetch/ ──→ data/raw/（ソース別生データ） ──→ build_places.py ──→ data/output/places.json ←─参照── viewer/index.html
 ```
 
 ```bash
@@ -58,7 +58,6 @@ uv run python scripts/fetch/unesco_whs.py       # 世界遺産（Wikidata SPARQL
 # 2) 組み立て・検証・可視化
 uv run python scripts/build_places.py           # 全154件を統合し JSON Schema で検証
 uv run python scripts/quality_report.py         # 品質レポート再生成（妥当性・外れ値チェック）
-uv run python scripts/build_viewer.py           # ビュワーHTML再生成
 ```
 
 ## フォルダ構成
@@ -78,20 +77,20 @@ uv run python scripts/build_viewer.py           # ビュワーHTML再生成
 │   │   └── places_master.json          # 名寄せマスタ（生成物）
 │   ├── raw/                            # ソース別生データ（airports/ era5/ mofa/ osm/ pageviews/ wikidata/）
 │   └── output/places.json              # ★最終データ
-├── viewer/index.html                   # ★ビュワー（自己完結HTML・生成物）
+├── viewer/index.html                   # ★ビュワー（ソース。places.jsonを参照して表示）
 └── scripts/
     ├── build_master.py                 # フェーズ0: 名寄せマスタ生成
     ├── fetch/                          # 本番の取得スクリプト（すべて再実行・中断再開可）
     ├── survey/                         # フェーズ1調査時の取得テスト（probe_*。本番では未使用）
     ├── build_places.py                 # 統合＋スキーマ検証 → places.json
     ├── quality_report.py               # 品質検証 → 品質レポート
-    ├── build_viewer.py                 # places.json → viewer/index.html
+    ├── serve_viewer.py                 # ビュワーをローカルHTTPで開く（file://はfetch不可のため）
     └── envfile.py                      # .env ローダー
 ```
 
 ## 運用ルール
 
-- **生成物は手で編集しない**（`places_master.json` / `places.json` / `viewer/index.html` / `docs/phase0/review.md`。修正はシードやスクリプトに入れて再生成）
+- **生成物は手で編集しない**（`places_master.json` / `places.json` / `docs/phase0/review.md`。修正はシードやスクリプトに入れて再生成。`viewer/index.html` はソースなので直接編集してよい）
 - **data/raw/ のgit管理ポリシー**：スクリプトで再取得できる大容量ダウンロード（ERA5生データ・外務省XML・空港CSV）は管理外＆抽出後にディスクからも削除可。小さな抽出結果・取得に時間のかかる成果（OSMの`poi_counts.json`等）は管理する
 - **シークレット**：`.env`（CDSトークン）はコミット禁止（gitignore済み）。雛形は `.env.example`
 - **ライセンス**：OSM由来データは `poi` / `osm_features` ブロックに分離し `_meta.source="osm"` を明記（ODbL対応。詳細は [docs/phase1/data-source-survey.md](docs/phase1/data-source-survey.md) §2.7）。外部表示時の帰属表示文は各ブロックの `_meta.attribution` にある
