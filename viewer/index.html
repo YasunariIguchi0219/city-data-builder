@@ -369,6 +369,7 @@ function climateHelp(c){
 const KIND_JA = {main:'代表画像', panorama:'パノラマ', night:'夜景', aerial:'空撮',
                  winter:'冬景色', collage:'コラージュ'};
 let heroImgs = [], heroIdx = 0;
+const heroFailed = new Set();  // 読み込み失敗した画像のindex。全滅したら非表示（オフライン時の無限リクエスト防止）
 function heroShift(d){
   if (heroImgs.length < 2 && d !== 0) return;
   heroIdx = (heroIdx + d + heroImgs.length) % heroImgs.length;
@@ -379,9 +380,17 @@ function heroShift(d){
   const c = document.getElementById('hero-count');
   if (c) c.textContent = `${heroIdx + 1} / ${heroImgs.length}`;
 }
-// inline onclick/onerror から呼べるように公開（スクリプト全体が boot() 内のため）
+// inline onclick/onerror/onload から呼べるように公開（スクリプト全体が boot() 内のため）
 window.heroShift = heroShift;
-window.heroErr = el => { if (heroImgs.length > 1) heroShift(1); else el.closest('figure').style.display = 'none'; };
+window.heroErr = el => {
+  heroFailed.add(heroIdx);
+  if (heroFailed.size >= heroImgs.length){  // 全画像が失敗（オフライン等）→ 諦めて非表示
+    el.closest('figure').style.display = 'none';
+    return;
+  }
+  heroShift(1);
+};
+window.heroOk = () => heroFailed.delete(heroIdx);  // 成功したら失敗記録を解除（回線復帰時に再試行できるように）
 
 function renderDetail(){
   const p = PLACES.find(x=>x.identity.id===state.sel);
@@ -404,12 +413,13 @@ function renderDetail(){
   const hero = [];
   heroImgs = (p.media && p.media.images) ? p.media.images : [];
   heroIdx = 0;
+  heroFailed.clear();
   if (heroImgs.length){
     const first = heroImgs[0];
     const multi = heroImgs.length > 1;
     hero.push(`<figure class="photo">
       <img id="hero-img" src="${first.image_url}" alt="${esc(id.name_ja)}の画像" loading="lazy"
-           onerror="heroErr(this)">
+           onerror="heroErr(this)" onload="heroOk()">
       ${multi ? `<button class="pnav prev" onclick="heroShift(-1)" aria-label="前の画像">‹</button>
                  <button class="pnav next" onclick="heroShift(1)" aria-label="次の画像">›</button>
                  <span class="pcount" id="hero-count">1 / ${heroImgs.length}</span>` : ''}
