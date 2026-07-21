@@ -405,6 +405,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 6,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 14,
      "cohort": "settlement",
@@ -446,13 +454,14 @@
      "formula": "pct(hiking_routes + ski_marina + parks_gardens)"
     },
     "hidden_gem": {
-     "value": 0,
+     "value": 73,
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -889,6 +898,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 55,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 41,
      "cohort": "settlement",
@@ -934,9 +951,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -1366,6 +1384,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 10,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 25,
      "cohort": "settlement",
@@ -1411,9 +1437,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -1855,6 +1882,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 31,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 42,
      "cohort": "settlement",
@@ -1900,9 +1935,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -2361,6 +2397,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 94,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 94,
      "cohort": "settlement",
@@ -2406,9 +2450,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -2838,6 +2883,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 30,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 4,
      "cohort": "settlement",
@@ -2883,9 +2936,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -3321,6 +3375,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 12,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 6,
      "cohort": "settlement",
@@ -3366,9 +3428,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -3798,6 +3861,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 35,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 63,
      "cohort": "settlement",
@@ -3843,9 +3914,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -4275,6 +4347,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 24,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 18,
      "cohort": "settlement",
@@ -4320,9 +4400,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -4758,6 +4839,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 76,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 23,
      "cohort": "settlement",
@@ -4803,9 +4892,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -5241,6 +5331,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 29,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 27,
      "cohort": "settlement",
@@ -5286,9 +5384,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -5736,6 +5835,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 93,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 99,
      "cohort": "settlement",
@@ -5781,9 +5888,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -6261,6 +6369,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 91,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 83,
      "cohort": "settlement",
@@ -6306,9 +6422,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -6750,6 +6867,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 42,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 40,
      "cohort": "settlement",
@@ -6795,9 +6920,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -7278,6 +7404,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 53,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 84,
      "cohort": "settlement",
@@ -7323,9 +7457,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -7767,6 +7902,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 54,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 55,
      "cohort": "settlement",
@@ -7812,9 +7955,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -8231,6 +8375,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 67,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 22,
      "cohort": "settlement",
@@ -8276,9 +8428,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -8695,6 +8848,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 18,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 27,
      "cohort": "settlement",
@@ -8736,13 +8897,14 @@
      "formula": "pct(hiking_routes + ski_marina + parks_gardens)"
     },
     "hidden_gem": {
-     "value": 0,
+     "value": 64,
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -9179,6 +9341,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 27,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 31,
      "cohort": "settlement",
@@ -9220,13 +9390,14 @@
      "formula": "pct(hiking_routes + ski_marina + parks_gardens)"
     },
     "hidden_gem": {
-     "value": 0,
+     "value": 78,
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -9656,6 +9827,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 14,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 37,
      "cohort": "settlement",
@@ -9701,9 +9880,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -10139,6 +10319,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 15,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 58,
      "cohort": "settlement",
@@ -10184,9 +10372,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -10622,6 +10811,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 24,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 71,
      "cohort": "settlement",
@@ -10667,9 +10864,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -11086,6 +11284,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 19,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 24,
      "cohort": "settlement",
@@ -11131,9 +11337,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -11538,6 +11745,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 33,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 19,
      "cohort": "settlement",
@@ -11583,9 +11798,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -12015,6 +12231,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 38,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 67,
      "cohort": "settlement",
@@ -12060,9 +12284,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -12501,6 +12726,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 7,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 43,
      "cohort": "settlement",
@@ -12546,9 +12779,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -13002,6 +13236,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 60,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 76,
      "cohort": "settlement",
@@ -13047,9 +13289,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -13498,6 +13741,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 83,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 68,
      "cohort": "settlement",
@@ -13543,9 +13794,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -13965,6 +14217,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 12,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 22,
      "cohort": "settlement",
@@ -14006,13 +14266,14 @@
      "formula": "pct(hiking_routes + ski_marina + parks_gardens)"
     },
     "hidden_gem": {
-     "value": 0,
+     "value": 77,
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -14453,6 +14714,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 85,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 87,
      "cohort": "settlement",
@@ -14498,9 +14767,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -14953,6 +15223,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 43,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 61,
      "cohort": "settlement",
@@ -14998,9 +15276,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -15436,6 +15715,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 73,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 88,
      "cohort": "settlement",
@@ -15481,9 +15768,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -15943,6 +16231,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 72,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 62,
      "cohort": "settlement",
@@ -15988,9 +16284,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -16421,6 +16718,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 1,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 10,
      "cohort": "settlement",
@@ -16466,9 +16771,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -16924,6 +17230,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 83,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 66,
      "cohort": "settlement",
@@ -16969,9 +17283,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -17420,6 +17735,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 50,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 78,
      "cohort": "settlement",
@@ -17465,9 +17788,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -17904,6 +18228,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 45,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 37,
      "cohort": "settlement",
@@ -17945,13 +18277,14 @@
      "formula": "pct(hiking_routes + ski_marina + parks_gardens)"
     },
     "hidden_gem": {
-     "value": 0,
+     "value": 56,
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -18388,6 +18721,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 73,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 45,
      "cohort": "settlement",
@@ -18433,9 +18774,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -18872,6 +19214,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 70,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 59,
      "cohort": "settlement",
@@ -18917,9 +19267,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -19367,6 +19718,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 58,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 44,
      "cohort": "settlement",
@@ -19412,9 +19771,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -19855,6 +20215,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 82,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 81,
      "cohort": "settlement",
@@ -19900,9 +20268,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -20339,6 +20708,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 77,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 72,
      "cohort": "settlement",
@@ -20384,9 +20761,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -20822,6 +21200,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 32,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 19,
      "cohort": "settlement",
@@ -20863,13 +21249,14 @@
      "formula": "pct(hiking_routes + ski_marina + parks_gardens)"
     },
     "hidden_gem": {
-     "value": 0,
+     "value": 85,
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -21680,6 +22067,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 41,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 15,
      "cohort": "settlement",
@@ -21725,9 +22120,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -22163,6 +22559,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 22,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 42,
      "cohort": "settlement",
@@ -22204,13 +22608,14 @@
      "formula": "pct(hiking_routes + ski_marina + parks_gardens)"
     },
     "hidden_gem": {
-     "value": 0,
+     "value": 61,
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -23795,6 +24200,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 79,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 16,
      "cohort": "settlement",
@@ -23840,9 +24253,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -24281,6 +24695,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 66,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 83,
      "cohort": "settlement",
@@ -24326,9 +24748,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -24735,6 +25158,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 22,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 47,
      "cohort": "settlement",
@@ -24780,9 +25211,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -25171,6 +25603,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 8,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 1,
      "cohort": "settlement",
@@ -25216,9 +25656,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -25678,6 +26119,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 78,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 89,
      "cohort": "settlement",
@@ -25723,9 +26172,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -26192,6 +26642,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 69,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 77,
      "cohort": "settlement",
@@ -26237,9 +26695,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -26669,6 +27128,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 49,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 35,
      "cohort": "settlement",
@@ -26714,9 +27181,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -27147,6 +27615,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 51,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 28,
      "cohort": "settlement",
@@ -27192,9 +27668,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -27624,6 +28101,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 1,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 2,
      "cohort": "settlement",
@@ -27665,13 +28150,14 @@
      "formula": "pct(hiking_routes + ski_marina + parks_gardens)"
     },
     "hidden_gem": {
-     "value": 0,
+     "value": 97,
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -28516,6 +29002,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 81,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 50,
      "cohort": "settlement",
@@ -28561,9 +29055,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -29017,6 +29512,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 88,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 81,
      "cohort": "settlement",
@@ -29062,9 +29565,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -29891,6 +30395,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 17,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 32,
      "cohort": "settlement",
@@ -29932,13 +30444,14 @@
      "formula": "pct(hiking_routes + ski_marina + parks_gardens)"
     },
     "hidden_gem": {
-     "value": 0,
+     "value": 50,
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -30374,6 +30887,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 19,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 29,
      "cohort": "settlement",
@@ -30415,13 +30936,14 @@
      "formula": "pct(hiking_routes + ski_marina + parks_gardens)"
     },
     "hidden_gem": {
-     "value": 0,
+     "value": 46,
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -30857,6 +31379,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 87,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 57,
      "cohort": "settlement",
@@ -30902,9 +31432,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -31360,6 +31891,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 76,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 91,
      "cohort": "settlement",
@@ -31405,9 +31944,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -31846,6 +32386,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 86,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 5,
      "cohort": "settlement",
@@ -31887,13 +32435,14 @@
      "formula": "pct(hiking_routes + ski_marina + parks_gardens)"
     },
     "hidden_gem": {
-     "value": 0,
+     "value": 37,
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -32335,6 +32884,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 27,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 35,
      "cohort": "settlement",
@@ -32380,9 +32937,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -32850,6 +33408,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 52,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 70,
      "cohort": "settlement",
@@ -32895,9 +33461,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -33334,6 +33901,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 11,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 12,
      "cohort": "settlement",
@@ -33379,9 +33954,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -33804,6 +34380,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 63,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 46,
      "cohort": "settlement",
@@ -33849,9 +34433,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -34282,6 +34867,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 13,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 33,
      "cohort": "settlement",
@@ -34323,13 +34916,14 @@
      "formula": "pct(hiking_routes + ski_marina + parks_gardens)"
     },
     "hidden_gem": {
-     "value": 0,
+     "value": 73,
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -34765,6 +35359,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 53,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 7,
      "cohort": "settlement",
@@ -34810,9 +35412,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -35249,6 +35852,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 90,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 82,
      "cohort": "settlement",
@@ -35294,9 +35905,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -35733,6 +36345,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 17,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 26,
      "cohort": "settlement",
@@ -35774,13 +36394,14 @@
      "formula": "pct(hiking_routes + ski_marina + parks_gardens)"
     },
     "hidden_gem": {
-     "value": 0,
+     "value": 77,
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -36240,6 +36861,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 74,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 80,
      "cohort": "settlement",
@@ -36285,9 +36914,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -37087,6 +37717,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 48,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 6,
      "cohort": "settlement",
@@ -37132,9 +37770,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -37564,6 +38203,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 35,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 63,
      "cohort": "settlement",
@@ -37609,9 +38256,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -38041,6 +38689,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 59,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 69,
      "cohort": "settlement",
@@ -38086,9 +38742,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -38524,6 +39181,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 0,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 0,
      "cohort": "settlement",
@@ -38569,9 +39234,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -38988,6 +39654,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 34,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 55,
      "cohort": "settlement",
@@ -39033,9 +39707,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -39471,6 +40146,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 2,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 8,
      "cohort": "settlement",
@@ -39516,9 +40199,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -39956,6 +40640,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 40,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 40,
      "cohort": "settlement",
@@ -40001,9 +40693,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -40480,6 +41173,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 98,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 93,
      "cohort": "settlement",
@@ -40525,9 +41226,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -40970,6 +41672,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 78,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 75,
      "cohort": "settlement",
@@ -41015,9 +41725,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -41463,6 +42174,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 58,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 53,
      "cohort": "settlement",
@@ -41508,9 +42227,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -41951,6 +42671,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 64,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 68,
      "cohort": "settlement",
@@ -41996,9 +42724,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -42464,6 +43193,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 100,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 100,
      "cohort": "settlement",
@@ -42509,9 +43246,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -42942,6 +43680,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 44,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 52,
      "cohort": "settlement",
@@ -42987,9 +43733,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -43426,6 +44173,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 32,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 48,
      "cohort": "settlement",
@@ -43471,9 +44226,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -43915,6 +44671,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 40,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 60,
      "cohort": "settlement",
@@ -43960,9 +44724,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -44780,6 +45545,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 63,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 65,
      "cohort": "settlement",
@@ -44825,9 +45598,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -45264,6 +46038,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 65,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 51,
      "cohort": "settlement",
@@ -45309,9 +46091,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -45771,6 +46554,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 91,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 88,
      "cohort": "settlement",
@@ -45816,9 +46607,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -46254,6 +47046,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 23,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 3,
      "cohort": "settlement",
@@ -46299,9 +47099,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -46731,6 +47532,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 4,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 24,
      "cohort": "settlement",
@@ -46776,9 +47585,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -47219,6 +48029,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 84,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 85,
      "cohort": "settlement",
@@ -47264,9 +48082,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -47698,6 +48517,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 9,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 9,
      "cohort": "settlement",
@@ -47743,9 +48570,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -48221,6 +49049,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 89,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 98,
      "cohort": "settlement",
@@ -48266,9 +49102,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -48710,6 +49547,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 37,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 56,
      "cohort": "settlement",
@@ -48755,9 +49600,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -49193,6 +50039,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 75,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 86,
      "cohort": "settlement",
@@ -49238,9 +50092,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -49675,6 +50530,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 86,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 97,
      "cohort": "settlement",
@@ -49720,9 +50583,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -50161,6 +51025,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 21,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 11,
      "cohort": "settlement",
@@ -50202,13 +51074,14 @@
      "formula": "pct(hiking_routes + ski_marina + parks_gardens)"
     },
     "hidden_gem": {
-     "value": 0,
+     "value": 74,
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -50651,6 +51524,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 56,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 49,
      "cohort": "settlement",
@@ -50696,9 +51577,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -51147,6 +52029,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 71,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 60,
      "cohort": "settlement",
@@ -51192,9 +52082,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -51624,6 +52515,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 65,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 20,
      "cohort": "settlement",
@@ -51665,13 +52564,14 @@
      "formula": "pct(hiking_routes + ski_marina + parks_gardens)"
     },
     "hidden_gem": {
-     "value": 0,
+     "value": 70,
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -52148,6 +53048,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 96,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 96,
      "cohort": "settlement",
@@ -52193,9 +53101,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -53055,6 +53964,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 55,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 90,
      "cohort": "settlement",
@@ -53100,9 +54017,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -53538,6 +54456,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 4,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 32,
      "cohort": "settlement",
@@ -53583,9 +54509,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -54022,6 +54949,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 92,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 79,
      "cohort": "settlement",
@@ -54067,9 +55002,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -54500,6 +55436,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 5,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 38,
      "cohort": "settlement",
@@ -54545,9 +55489,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -55003,6 +55948,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 45,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 78,
      "cohort": "settlement",
@@ -55048,9 +56001,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -55513,6 +56467,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 46,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 73,
      "cohort": "settlement",
@@ -55558,9 +56520,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -56014,6 +56977,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 61,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 64,
      "cohort": "settlement",
@@ -56059,9 +57030,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -56492,6 +57464,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 25,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 12,
      "cohort": "settlement",
@@ -56537,9 +57517,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -56956,6 +57937,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 28,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 21,
      "cohort": "settlement",
@@ -56997,13 +57986,14 @@
      "formula": "pct(hiking_routes + ski_marina + parks_gardens)"
     },
     "hidden_gem": {
-     "value": 0,
+     "value": 88,
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -57420,6 +58410,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 16,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 13,
      "cohort": "settlement",
@@ -57461,13 +58459,14 @@
      "formula": "pct(hiking_routes + ski_marina + parks_gardens)"
     },
     "hidden_gem": {
-     "value": 0,
+     "value": 84,
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -57919,6 +58918,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 95,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 86,
      "cohort": "settlement",
@@ -57964,9 +58971,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -58791,6 +59799,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 68,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 50,
      "cohort": "settlement",
@@ -58836,9 +59852,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -59299,6 +60316,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 97,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 94,
      "cohort": "settlement",
@@ -59344,9 +60369,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -59795,6 +60821,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 80,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 74,
      "cohort": "settlement",
@@ -59840,9 +60874,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -60272,6 +61307,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 29,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 47,
      "cohort": "settlement",
@@ -60317,9 +61360,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -60739,6 +61783,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 14,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 36,
      "cohort": "settlement",
@@ -60780,13 +61832,14 @@
      "formula": "pct(hiking_routes + ski_marina + parks_gardens)"
     },
     "hidden_gem": {
-     "value": 0,
+     "value": 79,
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -61264,6 +62317,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 88,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 96,
      "cohort": "settlement",
@@ -61309,9 +62370,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -61784,6 +62846,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 94,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 91,
      "cohort": "settlement",
@@ -61829,9 +62899,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -62279,6 +63350,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 20,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 14,
      "cohort": "settlement",
@@ -62324,9 +63403,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -62758,6 +63838,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 81,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 45,
      "cohort": "settlement",
@@ -62803,9 +63891,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -63988,6 +65077,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 6,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 17,
      "cohort": "settlement",
@@ -64033,9 +65130,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -64471,6 +65569,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 71,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 53,
      "cohort": "settlement",
@@ -64516,9 +65622,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -64935,6 +66042,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 26,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 39,
      "cohort": "settlement",
@@ -64980,9 +66095,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -65423,6 +66539,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 39,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 54,
      "cohort": "settlement",
@@ -65468,9 +66592,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -65906,6 +67031,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 96,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 92,
      "cohort": "settlement",
@@ -65951,9 +67084,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -66355,6 +67489,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 3,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 17,
      "cohort": "settlement",
@@ -66400,9 +67542,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -66849,6 +67992,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 68,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 73,
      "cohort": "settlement",
@@ -66894,9 +68045,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -67326,6 +68478,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 47,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 29,
      "cohort": "settlement",
@@ -67371,9 +68531,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -67806,6 +68967,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 42,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 58,
      "cohort": "settlement",
@@ -67851,9 +69020,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -68309,6 +69479,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 50,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 65,
      "cohort": "settlement",
@@ -68354,9 +69532,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -68792,6 +69971,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 37,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 76,
      "cohort": "settlement",
@@ -68837,9 +70024,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -69257,6 +70445,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 62,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 9,
      "cohort": "settlement",
@@ -69302,9 +70498,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -69734,6 +70931,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 47,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 71,
      "cohort": "settlement",
@@ -69779,9 +70984,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -70212,6 +71418,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 9,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 4,
      "cohort": "settlement",
@@ -70253,13 +71467,14 @@
      "formula": "pct(hiking_routes + ski_marina + parks_gardens)"
     },
     "hidden_gem": {
-     "value": 0,
+     "value": 90,
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -70690,6 +71905,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 36,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 30,
      "cohort": "settlement",
@@ -70735,9 +71958,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -71202,6 +72426,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 99,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 99,
      "cohort": "settlement",
@@ -71247,9 +72479,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -71685,6 +72918,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 57,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 34,
      "cohort": "settlement",
@@ -71726,13 +72967,14 @@
      "formula": "pct(hiking_routes + ski_marina + parks_gardens)"
     },
     "hidden_gem": {
-     "value": 0,
+     "value": 34,
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -72179,6 +73421,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 99,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 95,
      "cohort": "settlement",
@@ -72224,9 +73474,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [
@@ -72669,6 +73920,14 @@
      ],
      "formula": "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）"
     },
+    "lodging_scene": {
+     "value": 60,
+     "cohort": "settlement",
+     "depends_on": [
+      "osm"
+     ],
+     "formula": "pct(lodging_5km)"
+    },
     "culture_scene": {
      "value": 1,
      "cohort": "settlement",
@@ -72714,9 +73973,10 @@
      "cohort": "settlement",
      "depends_on": [
       "wikimedia_pageviews",
-      "osm"
+      "osm",
+      "wikidata"
      ],
-     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)"
+     "formula": "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超 かつ 文化or自然>P25)"
     },
     "seasonal_comfort": {
      "value": [

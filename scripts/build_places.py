@@ -122,7 +122,7 @@ def main():
     # ---- コホート正規化用の元値を全地点分先に計算 ----
     heritage_detail, raw = {}, {k: {} for k in (
         "heritage", "ja", "en", "dining", "culture", "nightlife", "walk", "scenic",
-        "outdoor", "lodging")}
+        "outdoor", "lodging", "dining_pc", "lodging_pc")}
     for p in places:
         if not p.get("lat"):
             continue
@@ -144,6 +144,11 @@ def main():
             raw["culture"][pid] = o["culture_5km"]
             raw["nightlife"][pid] = o["nightlife_5km"]
             raw["lodging"][pid] = o["lodging_5km"]
+            pop = p.get("population")
+            if pop:
+                # 人口あたり（充実度ゲート用）: 小規模観光地が絶対数のみだと過小評価されるため
+                raw["dining_pc"][pid] = o["dining_5km"] / pop
+                raw["lodging_pc"][pid] = o["lodging_5km"] / pop
             raw["walk"][pid] = o["dining_1km"] + o["culture_1km"] + o["shopping_1km"]
             raw["scenic"][pid] = (o["viewpoints_5km"] + 0.5 * o["peaks_10km"]
                                   + 0.5 * o["lakes_10km"] + (5 if o["coastline_10km"] else 0)
@@ -348,6 +353,8 @@ def main():
                             pct["dining"].get(pid), ["osm"],
                             "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）",
                             "settlement"),
+                        "lodging_scene": indicator(
+                            pct["lodging"].get(pid), ["osm"], "pct(lodging_5km)", "settlement"),
                         "culture_scene": indicator(
                             pct["culture"].get(pid), ["osm"], "pct(culture_5km)", "settlement"),
                         "vibrancy": indicator(
@@ -365,13 +372,17 @@ def main():
                             "pct(hiking_routes + ski_marina + parks_gardens)", "settlement"),
                     })
                     # 穴場: 認知度が低く、かつ最低限の充実度がある（設計書§4.3）
+                    # 飲食・宿泊は絶対数と人口あたりの高い方のパーセンタイルで判定
                     rec = ind["recognition_jp"]["value"]
-                    gate = (min(pct["dining"].get(pid, 0), pct["lodging"].get(pid, 0)) > 25
+                    dine = max(pct["dining"].get(pid, 0), pct["dining_pc"].get(pid, 0))
+                    lodge = max(pct["lodging"].get(pid, 0), pct["lodging_pc"].get(pid, 0))
+                    gate = (min(dine, lodge) > 25
                             and max(pct["culture"].get(pid, 0), pct["scenic"].get(pid, 0)) > 25)
                     ind["hidden_gem"] = indicator(
                         round((100 - rec) * (1 if gate else 0)) if rec is not None else None,
-                        ["wikimedia_pageviews", "osm"],
-                        "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊>P25 かつ 文化or自然>P25)",
+                        ["wikimedia_pageviews", "osm", "wikidata"],
+                        "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超"
+                        " かつ 文化or自然>P25)",
                         "settlement")
                 if monthly:
                     ind["seasonal_comfort"] = indicator(
