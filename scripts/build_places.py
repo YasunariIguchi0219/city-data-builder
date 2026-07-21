@@ -107,6 +107,7 @@ def main():
     mofa = (load("data/raw/mofa/risk_levels.json") or {}).get("levels", {})
     osm = load("data/raw/osm/poi_counts.json", {})
     holidays = (load("data/raw/nager/holidays.json") or {}).get("countries", {})
+    place_regions = load("data/raw/wikidata/place_regions.json", {})
     pli = (load("data/raw/eurostat/pli.json") or {}).get("countries", {})
     country_langs = load("data/raw/wikidata/countries.json", {})
     jp_missions = load("data/raw/wikidata/jp_missions.json", [])
@@ -274,14 +275,23 @@ def main():
 
             cc = p.get("country")
 
-            # 祝日（国単位・全国区のみ）
+            # 祝日: 全国区＋この地点の州・地域に適用される地域祝日（place_regionsと突合）
             h_cc = holidays.get(cc)
-            record["holidays"] = {
-                "reference_year": h_cc["reference_year"],
-                "monthly_counts": h_cc["monthly_counts"], "total": h_cc["total"],
-                "granularity": "country",
-                "_meta": meta("nager_date", "MIT"),
-            } if h_cc else None
+            if h_cc:
+                region_codes = set(place_regions.get(pid, []))
+                counts = [0] * 12
+                for h in h_cc["holidays"]:
+                    applies = h["global"] or (h["counties"] and region_codes.intersection(h["counties"]))
+                    if applies:
+                        counts[int(h["date"][5:7]) - 1] += 1
+                record["holidays"] = {
+                    "reference_year": h_cc["reference_year"],
+                    "monthly_counts": counts, "total": sum(counts),
+                    "granularity": "region" if region_codes else "country",
+                    "_meta": meta("nager_date", "MIT"),
+                }
+            else:
+                record["holidays"] = None
 
             # 日照時間（座標からの天文計算。ソース分離のためclimateとは別ブロック）
             record["daylight"] = {

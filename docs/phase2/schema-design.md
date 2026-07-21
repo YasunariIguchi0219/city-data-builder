@@ -121,13 +121,13 @@ place
 | mofa_risk_level | int?null | 危険情報レベル 0〜4（**国・地域単位の値を割り当て**） |
 | granularity | string | "country"（粒度の明示） |
 
-**holidays**（Nager.Date。**国単位**——生データは国別に1回保存し、ビルド時に各地点へ展開）
+**holidays**（Nager.Date。全国区＋**その地点の州・地域に適用される地域祝日**）
 
 | フィールド | 型 | 内容 |
 | --- | --- | --- |
 | reference_year | int | 参照年（祝日は年ごとに日付が変わるが月別分布はほぼ安定） |
-| monthly_counts[12] | array | 月別の祝日数（**全国区のみ**。州・県単位の地方祝日は含まない） |
-| total / granularity | int / "country" | 年間合計／国単位であることの明示 |
+| monthly_counts[12] | array | 月別の祝日数。全国区に加え、地点の地域コード（Wikidata P131→P300で取得したISO 3166-2）に合致する地域祝日を含む（例：ミュンヘンはバイエルン州祝日込み） |
+| total / granularity | int / enum | 年間合計／"region"（地域込みで判定）または "country"（地域コードが取れなかった地点） |
 
 **daylight**（座標からの天文計算。ソース分離の原則によりclimate（ERA5）とは別ブロック）
 

@@ -1,0 +1,613 @@
+{
+ "einsiedeln": [
+  "CH-SZ"
+ ],
+ "assisi": [
+  "IT-55",
+  "IT-PG"
+ ],
+ "alnwick": [
+  "GB-ENG",
+  "GB-NBL",
+  "GB-UKM"
+ ],
+ "aveiro": [
+  "PT-01"
+ ],
+ "amsterdam": [
+  "NL-NH"
+ ],
+ "alberobello": [
+  "IT-75",
+  "IT-BA"
+ ],
+ "arromanches-les-bains": [
+  "FR-14",
+  "FR-NOR",
+  "FR-P"
+ ],
+ "angers": [
+  "FR-49",
+  "FR-PDL",
+  "FR-R"
+ ],
+ "amboise": [
+  "FR-37",
+  "FR-CVL",
+  "FR-F"
+ ],
+ "inverness": [
+  "GB-HLD",
+  "GB-SCT",
+  "GB-UKM"
+ ],
+ "windsor": [
+  "GB-ENG",
+  "GB-UKM",
+  "GB-WNM"
+ ],
+ "vienna": [
+  "AT-9"
+ ],
+ "edinburgh": [
+  "GB-EDH",
+  "GB-MLN",
+  "GB-SCT",
+  "GB-UKM"
+ ],
+ "evora": [
+  "PT-07"
+ ],
+ "oslo": [
+  "NO-03"
+ ],
+ "oxford": [
+  "GB-ENG",
+  "GB-OXF",
+  "GB-UKM"
+ ],
+ "opatija": [
+  "HR-08"
+ ],
+ "obidos": [
+  "PT-10"
+ ],
+ "orta-san-giulio": [
+  "IT-21",
+  "IT-NO"
+ ],
+ "orebro": [
+  "SE-18",
+  "SE-T"
+ ],
+ "odense": [
+  "DK",
+  "DK-83"
+ ],
+ "aarhus": [
+  "DK",
+  "DK-82"
+ ],
+ "calais": [
+  "FR-62",
+  "FR-HDF",
+  "FR-O"
+ ],
+ "cambados": [
+  "ES-GA",
+  "ES-PO"
+ ],
+ "caen": [
+  "FR-14",
+  "FR-NOR",
+  "FR-P"
+ ],
+ "kristiansand": [
+  "NO-10",
+  "NO-1001",
+  "NO-42"
+ ],
+ "glasgow": [
+  "GB-EDU",
+  "GB-GLG",
+  "GB-NLK",
+  "GB-SCT",
+  "GB-UKM"
+ ],
+ "granada": [
+  "ES-AN",
+  "ES-GR"
+ ],
+ "gruyeres": [
+  "CH-FR"
+ ],
+ "cologne": [
+  "DE-NW"
+ ],
+ "coimbra": [
+  "PT-06"
+ ],
+ "copenhagen": [
+  "DK",
+  "DK-84"
+ ],
+ "cordoba": [
+  "ES-AN",
+  "ES-CO"
+ ],
+ "consuegra": [
+  "ES-CM",
+  "ES-TO"
+ ],
+ "sarajevo": [
+  "BA-09",
+  "BA-BIH"
+ ],
+ "zaragoza": [
+  "ES-AR",
+  "ES-Z"
+ ],
+ "san-gimignano": [
+  "IT-52",
+  "IT-SI"
+ ],
+ "san-sebastian": [
+  "ES-PV",
+  "ES-SS"
+ ],
+ "santiago-de-compostela": [
+  "ES-C",
+  "ES-GA"
+ ],
+ "saint-malo": [
+  "FR-35",
+  "FR-BRE",
+  "FR-E"
+ ],
+ "zagreb": [
+  "HR-21"
+ ],
+ "salzburg": [
+  "AT-4",
+  "AT-5"
+ ],
+ "sankt-goar": [
+  "DE-RP"
+ ],
+ "zaanse-schans": [
+  "NL-NH"
+ ],
+ "chamonix-mont-blanc": [
+  "FR-74",
+  "FR-ARA",
+  "FR-V"
+ ],
+ "chartres": [
+  "FR-28",
+  "FR-CVL",
+  "FR-F"
+ ],
+ "chateau-de-chambord": [
+  "FR-41",
+  "FR-CVL",
+  "FR-F"
+ ],
+ "chateau-de-chenonceau": [
+  "FR-37",
+  "FR-CVL",
+  "FR-F"
+ ],
+ "chillon-castle": [
+  "CH-VD"
+ ],
+ "sirmione": [
+  "IT-25",
+  "IT-BS"
+ ],
+ "geneva": [
+  "CH-GE"
+ ],
+ "stavanger": [
+  "NO-11",
+  "NO-1103"
+ ],
+ "stow-on-the-wold": [
+  "GB-ENG",
+  "GB-GLS",
+  "GB-UKM"
+ ],
+ "stockholm": [
+  "SE-01",
+  "SE-AB"
+ ],
+ "strasbourg": [
+  "FR-67",
+  "FR-6AE",
+  "FR-A",
+  "FR-GES"
+ ],
+ "stratford-upon-avon": [
+  "GB-ENG",
+  "GB-UKM",
+  "GB-WAR"
+ ],
+ "stresa": [
+  "IT-21",
+  "IT-VB"
+ ],
+ "ston": [
+  "HR-19"
+ ],
+ "stonehenge": [
+  "GB-ENG",
+  "GB-UKM",
+  "GB-WIL"
+ ],
+ "split": [
+  "HR-17"
+ ],
+ "seville": [
+  "ES-AN",
+  "ES-SE"
+ ],
+ "sognefjord": [
+  "NO-14"
+ ],
+ "salisbury": [
+  "GB-ENG",
+  "GB-UKM",
+  "GB-WIL"
+ ],
+ "durham": [
+  "GB-DUR",
+  "GB-ENG",
+  "GB-UKM"
+ ],
+ "cesky-krumlov": [
+  "CZ-31",
+  "CZ-312",
+  "CZ-JC"
+ ],
+ "zurich": [
+  "CH-ZH"
+ ],
+ "zermatt": [
+  "CH-VS"
+ ],
+ "dinan": [
+  "FR-22",
+  "FR-BRE",
+  "FR-E"
+ ],
+ "tours": [
+  "FR-37",
+  "FR-CVL",
+  "FR-F"
+ ],
+ "trani": [
+  "IT-75",
+  "IT-BT"
+ ],
+ "dubrovnik": [
+  "HR-19"
+ ],
+ "domodossola": [
+  "IT-21",
+  "IT-VB"
+ ],
+ "nazare": [
+  "PT-10"
+ ],
+ "naples": [
+  "IT-72",
+  "IT-NA"
+ ],
+ "naantali": [
+  "FI-19",
+  "FI-LS"
+ ],
+ "nuremberg": [
+  "DE-BY"
+ ],
+ "loch-ness": [
+  "GB-HLD",
+  "GB-SCT",
+  "GB-UKM"
+ ],
+ "nerja": [
+  "ES-AN",
+  "ES-MA"
+ ],
+ "nottingham": [
+  "GB-ENG",
+  "GB-NGM",
+  "GB-NTT",
+  "GB-UKM"
+ ],
+ "heidelberg": [
+  "DE-BW"
+ ],
+ "bibury": [
+  "GB-ENG",
+  "GB-GLS",
+  "GB-UKM"
+ ],
+ "bayonne": [
+  "FR-64",
+  "FR-B",
+  "FR-NAQ"
+ ],
+ "batalha": [
+  "PT-10"
+ ],
+ "banja-luka": [
+  "BA-SRP"
+ ],
+ "barcelona": [
+  "ES-B",
+  "ES-CT"
+ ],
+ "valencia": [
+  "ES-V",
+  "ES-VC"
+ ],
+ "bath": [
+  "GB-BAS",
+  "GB-ENG",
+  "GB-UKM"
+ ],
+ "birmingham": [
+  "GB-BIR",
+  "GB-ENG",
+  "GB-UKM",
+  "GB-WAR"
+ ],
+ "paris": [
+  "FR-75C",
+  "FR-IDF",
+  "FR-J"
+ ],
+ "pamplona": [
+  "ES-NC"
+ ],
+ "vitoria-gasteiz": [
+  "ES-PV",
+  "ES-VI"
+ ],
+ "wurzburg": [
+  "DE-BY"
+ ],
+ "chateau-de-villandry": [
+  "FR-37",
+  "FR-CVL",
+  "FR-F"
+ ],
+ "bilbao": [
+  "ES-BI",
+  "ES-PV"
+ ],
+ "pisa": [
+  "IT-52",
+  "IT-PI"
+ ],
+ "florence": [
+  "IT-52",
+  "IT-FI"
+ ],
+ "fort-augustus": [
+  "GB-HLD",
+  "GB-SCT",
+  "GB-UKM"
+ ],
+ "fougeres": [
+  "FR-35",
+  "FR-BRE",
+  "FR-E"
+ ],
+ "frankfurt-am-main": [
+  "DE-HE"
+ ],
+ "bouillon": [
+  "BE-WAL",
+  "BE-WLX"
+ ],
+ "budapest": [
+  "HU-BU"
+ ],
+ "braga": [
+  "PT-03"
+ ],
+ "bratislava": [
+  "SK-BL"
+ ],
+ "brussels": [
+  "BE-BRU"
+ ],
+ "brig-glis": [
+  "CH-VS"
+ ],
+ "burgos": [
+  "ES-BU",
+  "ES-CL"
+ ],
+ "bruges": [
+  "BE-VLG",
+  "BE-VWV"
+ ],
+ "bled": [
+  "SI-003",
+  "SI-102"
+ ],
+ "prague": [
+  "CZ-10",
+  "CZ-PR"
+ ],
+ "plitvice-lakes-national-park": [
+  "HR-04",
+  "HR-09"
+ ],
+ "helsinki": [
+  "FI-18"
+ ],
+ "helsingr": [
+  "DK",
+  "DK-84"
+ ],
+ "venice": [
+  "IT-34",
+  "IT-VE"
+ ],
+ "benevento": [
+  "IT-72",
+  "IT-BN"
+ ],
+ "bergen": [
+  "NO-12",
+  "NO-46"
+ ],
+ "bern": [
+  "CH-BE"
+ ],
+ "verona": [
+  "IT-34",
+  "IT-VR"
+ ],
+ "peniscola": [
+  "ES-CS",
+  "ES-VC"
+ ],
+ "hawkshead": [
+  "GB-CMA",
+  "GB-ENG",
+  "GB-UKM"
+ ],
+ "postojna": [
+  "SI-094"
+ ],
+ "porto": [
+  "PT-13"
+ ],
+ "pompeii": [
+  "IT-72",
+  "IT-NA"
+ ],
+ "matera": [
+  "IT-77",
+  "IT-MT"
+ ],
+ "madrid": [
+  "ES-M",
+  "ES-MD"
+ ],
+ "malaga": [
+  "ES-AN",
+  "ES-MA"
+ ],
+ "maribor": [
+  "SI-070"
+ ],
+ "martigny": [
+  "CH-VS"
+ ],
+ "munich": [
+  "DE-BY"
+ ],
+ "milan": [
+  "IT-25",
+  "IT-MI"
+ ],
+ "merida": [
+  "ES-BA",
+  "ES-EX"
+ ],
+ "mostar": [
+  "BA-07",
+  "BA-BIH"
+ ],
+ "mont-saint-michel": [
+  "FR-50",
+  "FR-NOR",
+  "FR-P"
+ ],
+ "montserrat": [
+  "ES-B",
+  "ES-CT"
+ ],
+ "jajce": [
+  "BA-06",
+  "BA-BIH"
+ ],
+ "york": [
+  "GB-ENG",
+  "GB-UKM",
+  "GB-YOR"
+ ],
+ "lancaster": [
+  "GB-ENG",
+  "GB-LAN",
+  "GB-UKM"
+ ],
+ "reims": [
+  "FR-51",
+  "FR-G",
+  "FR-GES"
+ ],
+ "lisbon": [
+  "PT-11"
+ ],
+ "lichfield": [
+  "GB-ENG",
+  "GB-STS",
+  "GB-UKM"
+ ],
+ "ljubljana": [
+  "SI-061"
+ ],
+ "rudesheim-am-rhein": [
+  "DE-HE"
+ ],
+ "lugano": [
+  "CH-TI"
+ ],
+ "luxembourg-city": [
+  "LU-L",
+  "LU-LU"
+ ],
+ "rouen": [
+  "FR-76",
+  "FR-NOR",
+  "FR-Q"
+ ],
+ "levanto": [
+  "IT-42",
+  "IT-SP"
+ ],
+ "rennes": [
+  "FR-35",
+  "FR-BRE",
+  "FR-E"
+ ],
+ "roncesvalles": [
+  "ES-NC"
+ ],
+ "ronda": [
+  "ES-AN",
+  "ES-MA"
+ ],
+ "london": [
+  "GB-ENG",
+  "GB-LND",
+  "GB-UKM"
+ ],
+ "rothenburg-ob-der-tauber": [
+  "DE-BY"
+ ],
+ "rome": [
+  "IT-62",
+  "IT-RM"
+ ],
+ "vernazza": [
+  "IT-42",
+  "IT-SP"
+ ]
+}

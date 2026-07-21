@@ -264,21 +264,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     1,
-     0,
-     0,
+     2,
      0,
      1,
-     0,
-     0,
+     2,
+     2,
      1,
      0,
+     2,
+     1,
      0,
-     0,
-     1
+     1,
+     3
     ],
-    "total": 4,
-    "granularity": "country",
+    "total": 15,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -764,7 +764,7 @@
      3
     ],
     "total": 13,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -1228,21 +1228,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     0,
-     0,
-     0,
      1,
+     0,
+     0,
+     2,
      2,
      0,
      0,
-     0,
+     1,
      0,
      0,
      0,
      2
     ],
-    "total": 5,
-    "granularity": "country",
+    "total": 8,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -1731,7 +1731,7 @@
      3
     ],
     "total": 14,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -2237,7 +2237,7 @@
      2
     ],
     "total": 11,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -2713,7 +2713,7 @@
      3
     ],
     "total": 13,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -3197,7 +3197,7 @@
      1
     ],
     "total": 11,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -3674,7 +3674,7 @@
      1
     ],
     "total": 11,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -4151,7 +4151,7 @@
      1
     ],
     "total": 11,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -4620,21 +4620,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     0,
+     2,
      0,
      0,
      1,
      2,
+     1,
+     0,
+     1,
      0,
      0,
-     0,
-     0,
-     0,
-     0,
+     1,
      2
     ],
-    "total": 5,
-    "granularity": "country",
+    "total": 10,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -5103,21 +5103,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     0,
-     0,
-     0,
      1,
+     0,
+     0,
+     2,
      2,
      0,
      0,
-     0,
+     1,
      0,
      0,
      0,
      2
     ],
-    "total": 5,
-    "granularity": "country",
+    "total": 8,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -5607,11 +5607,11 @@
      1,
      0,
      1,
-     1,
+     2,
      3
     ],
-    "total": 15,
-    "granularity": "country",
+    "total": 16,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -6123,21 +6123,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     0,
+     2,
      0,
      0,
      1,
      2,
+     1,
+     0,
+     1,
      0,
      0,
-     0,
-     0,
-     0,
-     0,
+     1,
      2
     ],
-    "total": 5,
-    "granularity": "country",
+    "total": 10,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -6626,7 +6626,7 @@
      3
     ],
     "total": 14,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -7151,7 +7151,7 @@
      2
     ],
     "total": 12,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -7629,21 +7629,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     0,
-     0,
-     0,
      1,
+     0,
+     0,
+     2,
      2,
      0,
      0,
-     0,
+     1,
      0,
      0,
      0,
      2
     ],
-    "total": 5,
-    "granularity": "country",
+    "total": 8,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -8107,7 +8107,7 @@
      2
     ],
     "total": 14,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -8571,7 +8571,7 @@
      3
     ],
     "total": 14,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -9054,7 +9054,7 @@
      3
     ],
     "total": 13,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -9532,7 +9532,7 @@
      4
     ],
     "total": 16,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -10015,7 +10015,7 @@
      4
     ],
     "total": 14,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -10498,7 +10498,7 @@
      4
     ],
     "total": 14,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -10962,7 +10962,7 @@
      1
     ],
     "total": 11,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -11402,18 +11402,18 @@
      2,
      0,
      0,
-     1,
-     1,
+     2,
+     2,
      0,
-     0,
+     1,
      1,
      0,
      1,
      1,
      3
     ],
-    "total": 10,
-    "granularity": "country",
+    "total": 13,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -11891,7 +11891,7 @@
      1
     ],
     "total": 11,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -12374,7 +12374,7 @@
      2
     ],
     "total": 12,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -12864,21 +12864,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     0,
+     2,
      0,
      0,
      1,
      2,
+     1,
+     0,
+     1,
      0,
      0,
-     0,
-     0,
-     0,
-     0,
+     1,
      2
     ],
-    "total": 5,
-    "granularity": "country",
+    "total": 10,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -13360,9 +13360,9 @@
     "reference_year": 2026,
     "monthly_counts": [
      2,
-     0,
-     0,
      1,
+     0,
+     2,
      1,
      0,
      0,
@@ -13372,8 +13372,8 @@
      1,
      3
     ],
-    "total": 10,
-    "granularity": "country",
+    "total": 12,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -13824,21 +13824,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
+     2,
+     0,
+     0,
+     2,
+     2,
      1,
      0,
+     2,
      0,
      0,
      1,
-     0,
-     0,
-     1,
-     0,
-     0,
-     0,
-     1
+     3
     ],
-    "total": 4,
-    "granularity": "country",
+    "total": 13,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -14320,16 +14320,16 @@
      0,
      2,
      3,
-     0,
+     1,
      0,
      0,
      0,
      1,
-     0,
+     1,
      2
     ],
-    "total": 9,
-    "granularity": "country",
+    "total": 11,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -14829,7 +14829,7 @@
      3
     ],
     "total": 14,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -15312,7 +15312,7 @@
      4
     ],
     "total": 14,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -15805,9 +15805,9 @@
     "reference_year": 2026,
     "monthly_counts": [
      2,
-     0,
-     0,
      1,
+     0,
+     2,
      1,
      0,
      0,
@@ -15817,8 +15817,8 @@
      1,
      3
     ],
-    "total": 10,
-    "granularity": "country",
+    "total": 12,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -16285,9 +16285,9 @@
      2,
      0,
      0,
+     2,
+     2,
      1,
-     1,
-     0,
      0,
      1,
      0,
@@ -16295,8 +16295,8 @@
      1,
      3
     ],
-    "total": 10,
-    "granularity": "country",
+    "total": 13,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -16786,7 +16786,7 @@
     "monthly_counts": [
      2,
      0,
-     0,
+     1,
      0,
      2,
      0,
@@ -16794,11 +16794,11 @@
      0,
      0,
      0,
-     0,
-     0
+     1,
+     2
     ],
-    "total": 4,
-    "granularity": "country",
+    "total": 8,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -17284,7 +17284,7 @@
      2,
      0,
      0,
-     1,
+     3,
      1,
      0,
      0,
@@ -17294,8 +17294,8 @@
      1,
      3
     ],
-    "total": 10,
-    "granularity": "country",
+    "total": 12,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -17779,7 +17779,7 @@
      3
     ],
     "total": 13,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -18252,18 +18252,18 @@
      2,
      0,
      0,
-     1,
+     3,
      1,
      0,
-     0,
+     1,
      1,
      0,
      1,
      1,
      3
     ],
-    "total": 10,
-    "granularity": "country",
+    "total": 13,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -18736,18 +18736,18 @@
      2,
      0,
      0,
-     1,
-     1,
+     2,
+     2,
      0,
-     0,
+     1,
      1,
      0,
      1,
      1,
      3
     ],
-    "total": 10,
-    "granularity": "country",
+    "total": 13,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -19243,7 +19243,7 @@
      1
     ],
     "total": 11,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -19731,7 +19731,7 @@
      2
     ],
     "total": 14,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -20204,17 +20204,17 @@
      0,
      0,
      2,
-     4,
+     5,
      1,
      0,
      1,
-     0,
+     1,
      1,
      1,
      3
     ],
-    "total": 15,
-    "granularity": "country",
+    "total": 17,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -20689,16 +20689,16 @@
      0,
      2,
      3,
-     0,
+     1,
      0,
      0,
      0,
      1,
-     0,
+     1,
      2
     ],
-    "total": 9,
-    "granularity": "country",
+    "total": 11,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -21168,7 +21168,7 @@
      2
     ],
     "total": 11,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -21556,7 +21556,7 @@
      1
     ],
     "total": 11,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -22039,7 +22039,7 @@
      1
     ],
     "total": 11,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -22515,7 +22515,7 @@
      1
     ],
     "total": 11,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -22903,7 +22903,7 @@
      1
     ],
     "total": 11,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -23271,21 +23271,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
+     2,
+     0,
+     0,
+     2,
+     2,
+     0,
+     0,
      1,
-     0,
-     0,
-     0,
      1,
-     0,
-     0,
-     1,
-     0,
      0,
      0,
      1
     ],
-    "total": 4,
-    "granularity": "country",
+    "total": 9,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -23670,7 +23670,7 @@
      3
     ],
     "total": 13,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -24143,18 +24143,18 @@
      1,
      0,
      0,
+     2,
+     2,
      0,
+     0,
+     1,
      1,
      0,
      0,
-     1,
-     0,
-     0,
-     0,
-     1
+     2
     ],
-    "total": 4,
-    "granularity": "country",
+    "total": 9,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -24608,7 +24608,7 @@
      2
     ],
     "total": 12,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -25033,21 +25033,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     0,
-     0,
-     0,
      1,
+     0,
+     0,
+     2,
      2,
      0,
      0,
-     0,
+     1,
      0,
      0,
      0,
      2
     ],
-    "total": 5,
-    "granularity": "country",
+    "total": 8,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -25554,7 +25554,7 @@
      4
     ],
     "total": 16,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -26068,7 +26068,7 @@
      1
     ],
     "total": 11,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -26531,21 +26531,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     0,
-     0,
-     0,
      1,
+     0,
+     0,
+     2,
      2,
      0,
      0,
-     0,
+     1,
      0,
      0,
      0,
      2
     ],
-    "total": 5,
-    "granularity": "country",
+    "total": 8,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -27022,7 +27022,7 @@
      3
     ],
     "total": 13,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -27500,7 +27500,7 @@
      2
     ],
     "total": 14,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -27985,21 +27985,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     0,
-     0,
-     0,
      1,
+     0,
+     0,
+     2,
      2,
      0,
      0,
-     0,
+     1,
      0,
      0,
      0,
      2
     ],
-    "total": 5,
-    "granularity": "country",
+    "total": 8,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -28392,7 +28392,7 @@
      2
     ],
     "total": 14,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -28879,9 +28879,9 @@
     "reference_year": 2026,
     "monthly_counts": [
      2,
-     0,
-     0,
      1,
+     0,
+     2,
      1,
      0,
      0,
@@ -28891,8 +28891,8 @@
      1,
      3
     ],
-    "total": 10,
-    "granularity": "country",
+    "total": 12,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -29376,7 +29376,7 @@
      2
     ],
     "total": 12,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -29753,21 +29753,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     0,
-     0,
-     0,
      1,
+     0,
+     0,
+     2,
      2,
      0,
      0,
-     0,
+     1,
      0,
      0,
      0,
      2
     ],
-    "total": 5,
-    "granularity": "country",
+    "total": 8,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -30236,21 +30236,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     0,
-     0,
-     0,
      1,
+     0,
+     0,
+     2,
      2,
      0,
      0,
-     0,
+     1,
      0,
      0,
      0,
      2
     ],
-    "total": 5,
-    "granularity": "country",
+    "total": 8,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -30733,7 +30733,7 @@
      3
     ],
     "total": 13,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -31222,18 +31222,18 @@
      1,
      0,
      0,
+     2,
+     3,
      0,
+     0,
+     1,
      1,
      0,
      0,
-     1,
-     0,
-     0,
-     0,
-     1
+     2
     ],
-    "total": 4,
-    "granularity": "country",
+    "total": 10,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -31707,19 +31707,19 @@
     "monthly_counts": [
      1,
      0,
+     1,
+     0,
+     1,
+     1,
+     0,
+     2,
      0,
      0,
      1,
-     0,
-     0,
-     1,
-     0,
-     0,
-     0,
-     1
+     2
     ],
-    "total": 4,
-    "granularity": "country",
+    "total": 9,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -32211,7 +32211,7 @@
      1
     ],
     "total": 11,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -32726,7 +32726,7 @@
      1
     ],
     "total": 11,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -33209,7 +33209,7 @@
      3
     ],
     "total": 13,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -33680,7 +33680,7 @@
      2
     ],
     "total": 14,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -34157,7 +34157,7 @@
      3
     ],
     "total": 13,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -34641,7 +34641,7 @@
      3
     ],
     "total": 14,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -35124,7 +35124,7 @@
      3
     ],
     "total": 13,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -35608,7 +35608,7 @@
      4
     ],
     "total": 15,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -36102,21 +36102,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     1,
+     2,
      0,
      0,
      2,
      3,
-     0,
+     1,
      0,
      0,
      0,
      1,
-     0,
+     1,
      2
     ],
-    "total": 9,
-    "granularity": "country",
+    "total": 12,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -36566,21 +36566,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     0,
+     2,
      0,
      0,
      1,
      2,
+     1,
+     0,
+     1,
      0,
      0,
-     0,
-     0,
-     0,
-     0,
+     1,
      2
     ],
-    "total": 5,
-    "granularity": "country",
+    "total": 10,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -36949,9 +36949,9 @@
     "reference_year": 2026,
     "monthly_counts": [
      2,
-     0,
-     0,
      1,
+     0,
+     2,
      1,
      0,
      0,
@@ -36961,8 +36961,8 @@
      1,
      3
     ],
-    "total": 10,
-    "granularity": "country",
+    "total": 12,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -37426,21 +37426,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     0,
-     0,
-     0,
      1,
+     0,
+     0,
+     2,
      2,
      0,
      0,
-     0,
+     1,
      0,
      0,
      0,
      2
     ],
-    "total": 5,
-    "granularity": "country",
+    "total": 8,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -37903,21 +37903,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     1,
+     2,
      0,
      0,
      2,
      3,
-     0,
+     1,
      0,
      0,
      0,
      1,
-     0,
+     1,
      2
     ],
-    "total": 9,
-    "granularity": "country",
+    "total": 12,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -38386,21 +38386,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     0,
-     0,
-     0,
      1,
+     0,
+     0,
+     2,
      2,
      0,
      0,
-     0,
+     1,
      0,
      0,
      0,
      2
     ],
-    "total": 5,
-    "granularity": "country",
+    "total": 8,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -38864,7 +38864,7 @@
      1
     ],
     "total": 11,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -39347,7 +39347,7 @@
      3
     ],
     "total": 14,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -39816,21 +39816,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     2,
+     4,
+     0,
+     0,
+     3,
+     3,
      0,
      0,
      0,
-     2,
      0,
      0,
-     0,
-     0,
-     0,
-     0,
+     1,
      0
     ],
-    "total": 4,
-    "granularity": "country",
+    "total": 11,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -40344,18 +40344,18 @@
      2,
      0,
      0,
+     2,
      1,
      1,
      0,
-     0,
-     1,
-     0,
      1,
      1,
-     3
+     1,
+     1,
+     4
     ],
-    "total": 10,
-    "granularity": "country",
+    "total": 14,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -40834,18 +40834,18 @@
      2,
      0,
      0,
+     2,
      1,
      1,
      0,
-     0,
      1,
      0,
-     1,
+     2,
      1,
      3
     ],
-    "total": 10,
-    "granularity": "country",
+    "total": 13,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -41325,21 +41325,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     0,
-     0,
-     0,
      1,
+     0,
+     0,
+     2,
      2,
      0,
      0,
-     0,
+     1,
      0,
      0,
      0,
      2
     ],
-    "total": 5,
-    "granularity": "country",
+    "total": 8,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -41813,21 +41813,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     0,
-     0,
-     0,
      1,
+     0,
+     0,
+     2,
      2,
      0,
      0,
-     0,
+     1,
      0,
      0,
      0,
      2
     ],
-    "total": 5,
-    "granularity": "country",
+    "total": 8,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -42340,7 +42340,7 @@
      1
     ],
     "total": 11,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -42806,7 +42806,7 @@
      2,
      0,
      0,
-     1,
+     3,
      1,
      0,
      0,
@@ -42816,8 +42816,8 @@
      1,
      3
     ],
-    "total": 10,
-    "granularity": "country",
+    "total": 12,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -43290,18 +43290,18 @@
      2,
      0,
      0,
-     1,
+     3,
      1,
      0,
-     0,
+     1,
      1,
      0,
      1,
      1,
      3
     ],
-    "total": 10,
-    "granularity": "country",
+    "total": 13,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -43777,21 +43777,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     1,
+     2,
      0,
      0,
      2,
      3,
-     0,
+     1,
      0,
      0,
      0,
      1,
-     0,
+     1,
      2
     ],
-    "total": 9,
-    "granularity": "country",
+    "total": 12,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -44261,7 +44261,7 @@
      1
     ],
     "total": 11,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -44644,18 +44644,18 @@
      2,
      0,
      0,
-     1,
+     3,
      1,
      0,
-     0,
+     1,
      1,
      0,
      1,
      1,
      3
     ],
-    "total": 10,
-    "granularity": "country",
+    "total": 13,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -45139,7 +45139,7 @@
      3
     ],
     "total": 13,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -45646,7 +45646,7 @@
      3
     ],
     "total": 13,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -46116,21 +46116,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     0,
+     2,
      0,
      0,
      1,
      2,
+     1,
+     0,
+     1,
      0,
      0,
-     0,
-     0,
-     0,
-     0,
+     1,
      2
     ],
-    "total": 5,
-    "granularity": "country",
+    "total": 10,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -46607,7 +46607,7 @@
      1
     ],
     "total": 11,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -47086,7 +47086,7 @@
      0,
      2,
      3,
-     0,
+     1,
      0,
      0,
      0,
@@ -47094,8 +47094,8 @@
      0,
      2
     ],
-    "total": 9,
-    "granularity": "country",
+    "total": 10,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -47572,7 +47572,7 @@
      2
     ],
     "total": 14,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -48097,7 +48097,7 @@
      2
     ],
     "total": 13,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -48586,7 +48586,7 @@
      3
     ],
     "total": 14,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -49069,7 +49069,7 @@
      3
     ],
     "total": 15,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -49549,7 +49549,7 @@
      2
     ],
     "total": 14,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -50022,19 +50022,19 @@
     "monthly_counts": [
      1,
      0,
+     1,
+     0,
+     1,
+     1,
+     0,
+     2,
      0,
      0,
      1,
-     0,
-     0,
-     1,
-     0,
-     0,
-     0,
-     1
+     2
     ],
-    "total": 4,
-    "granularity": "country",
+    "total": 9,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -50515,7 +50515,7 @@
      2,
      0,
      0,
-     1,
+     3,
      1,
      0,
      0,
@@ -50525,8 +50525,8 @@
      1,
      3
     ],
-    "total": 10,
-    "granularity": "country",
+    "total": 12,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -51021,7 +51021,7 @@
      2
     ],
     "total": 14,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -51500,7 +51500,7 @@
      2
     ],
     "total": 21,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -52024,7 +52024,7 @@
      3
     ],
     "total": 13,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -52512,7 +52512,7 @@
      2
     ],
     "total": 14,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -52930,7 +52930,7 @@
      4
     ],
     "total": 15,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -53414,7 +53414,7 @@
      4
     ],
     "total": 14,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -53897,7 +53897,7 @@
      3
     ],
     "total": 13,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -54375,7 +54375,7 @@
      3
     ],
     "total": 13,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -54876,7 +54876,7 @@
      2
     ],
     "total": 12,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -55372,21 +55372,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
+     2,
+     0,
+     0,
+     2,
+     2,
+     0,
+     0,
+     1,
      1,
      0,
      0,
-     0,
-     1,
-     0,
-     0,
-     1,
-     0,
-     0,
-     0,
-     1
+     2
     ],
-    "total": 4,
-    "granularity": "country",
+    "total": 10,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -55889,7 +55889,7 @@
      3
     ],
     "total": 13,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -56356,18 +56356,18 @@
      2,
      0,
      0,
+     2,
      1,
      1,
      0,
-     0,
      1,
      0,
-     1,
+     2,
      1,
      3
     ],
-    "total": 10,
-    "granularity": "country",
+    "total": 13,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -56818,21 +56818,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     0,
-     0,
-     0,
      1,
+     0,
+     0,
+     2,
      2,
      0,
      0,
-     0,
+     1,
      0,
      0,
      0,
      2
     ],
-    "total": 5,
-    "granularity": "country",
+    "total": 8,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -57296,7 +57296,7 @@
      2
     ],
     "total": 21,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -57795,7 +57795,7 @@
      3
     ],
     "total": 14,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -58271,7 +58271,7 @@
      3
     ],
     "total": 13,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -58666,7 +58666,7 @@
      3
     ],
     "total": 13,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -59163,8 +59163,8 @@
      2,
      0,
      0,
-     1,
-     1,
+     2,
+     2,
      0,
      0,
      1,
@@ -59173,8 +59173,8 @@
      1,
      3
     ],
-    "total": 10,
-    "granularity": "country",
+    "total": 12,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -59657,9 +59657,9 @@
     "reference_year": 2026,
     "monthly_counts": [
      2,
-     0,
-     0,
      1,
+     0,
+     2,
      1,
      0,
      0,
@@ -59669,8 +59669,8 @@
      1,
      3
     ],
-    "total": 10,
-    "granularity": "country",
+    "total": 12,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -60148,7 +60148,7 @@
      2
     ],
     "total": 21,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -60600,19 +60600,19 @@
     "monthly_counts": [
      1,
      0,
+     1,
+     0,
+     1,
+     1,
+     0,
+     2,
      0,
      0,
      1,
-     0,
-     0,
-     1,
-     0,
-     0,
-     0,
-     1
+     2
     ],
-    "total": 4,
-    "granularity": "country",
+    "total": 9,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -61126,21 +61126,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     1,
+     2,
      0,
      0,
      2,
      3,
-     0,
+     1,
      0,
      0,
      0,
      1,
-     0,
+     1,
      2
     ],
-    "total": 9,
-    "granularity": "country",
+    "total": 12,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -61659,7 +61659,7 @@
      3
     ],
     "total": 13,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -62143,18 +62143,18 @@
      2,
      0,
      0,
-     1,
-     1,
-     0,
-     0,
+     2,
      1,
      0,
+     0,
+     1,
+     1,
      1,
      1,
      3
     ],
-    "total": 10,
-    "granularity": "country",
+    "total": 12,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -62620,7 +62620,7 @@
     "monthly_counts": [
      2,
      0,
-     0,
+     1,
      0,
      2,
      0,
@@ -62628,11 +62628,11 @@
      0,
      0,
      0,
-     0,
-     0
+     1,
+     2
     ],
-    "total": 4,
-    "granularity": "country",
+    "total": 8,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -63123,7 +63123,7 @@
      1
     ],
     "total": 11,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -63468,18 +63468,18 @@
      2,
      0,
      0,
+     2,
      1,
      1,
      0,
-     0,
-     1,
-     0,
      1,
      1,
-     3
+     1,
+     1,
+     4
     ],
-    "total": 10,
-    "granularity": "country",
+    "total": 14,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -63850,7 +63850,7 @@
     "monthly_counts": [
      2,
      0,
-     0,
+     1,
      0,
      2,
      0,
@@ -63858,11 +63858,11 @@
      0,
      0,
      0,
-     0,
-     0
+     1,
+     2
     ],
-    "total": 4,
-    "granularity": "country",
+    "total": 8,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -64333,21 +64333,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     0,
-     0,
-     0,
      1,
+     0,
+     0,
+     2,
      2,
      0,
      0,
-     0,
+     1,
      0,
      0,
      0,
      2
     ],
-    "total": 5,
-    "granularity": "country",
+    "total": 8,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -64797,21 +64797,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     0,
-     0,
-     0,
      1,
+     0,
+     0,
+     2,
      2,
      0,
      0,
-     0,
+     1,
      0,
      0,
      0,
      2
     ],
-    "total": 5,
-    "granularity": "country",
+    "total": 8,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -65299,7 +65299,7 @@
      1
     ],
     "total": 11,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -65782,7 +65782,7 @@
      3
     ],
     "total": 14,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -66217,21 +66217,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     0,
-     0,
-     0,
      1,
+     0,
+     0,
+     2,
      2,
      0,
      0,
-     0,
+     1,
      0,
      0,
      0,
      2
     ],
-    "total": 5,
-    "granularity": "country",
+    "total": 8,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -66725,7 +66725,7 @@
      2
     ],
     "total": 21,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -67193,7 +67193,7 @@
      0,
      2,
      3,
-     0,
+     1,
      0,
      0,
      0,
@@ -67201,8 +67201,8 @@
      0,
      2
     ],
-    "total": 9,
-    "granularity": "country",
+    "total": 10,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -67665,21 +67665,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     1,
-     0,
-     0,
+     2,
      0,
      1,
+     1,
+     3,
+     2,
+     0,
+     2,
      0,
      0,
      1,
-     0,
-     0,
-     0,
-     1
+     3
     ],
-    "total": 4,
-    "granularity": "country",
+    "total": 15,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -68183,7 +68183,7 @@
      2
     ],
     "total": 12,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -68668,7 +68668,7 @@
      1
     ],
     "total": 11,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -69132,7 +69132,7 @@
      3
     ],
     "total": 13,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -69610,7 +69610,7 @@
      1
     ],
     "total": 11,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -70076,7 +70076,7 @@
      2,
      0,
      0,
-     1,
+     3,
      1,
      0,
      0,
@@ -70086,8 +70086,8 @@
      1,
      3
     ],
-    "total": 10,
-    "granularity": "country",
+    "total": 12,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -70552,9 +70552,9 @@
     "reference_year": 2026,
     "monthly_counts": [
      2,
-     0,
-     0,
      1,
+     0,
+     2,
      1,
      0,
      0,
@@ -70564,8 +70564,8 @@
      1,
      3
     ],
-    "total": 10,
-    "granularity": "country",
+    "total": 12,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -71064,21 +71064,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     0,
-     0,
-     0,
      1,
+     0,
+     0,
+     2,
      2,
      0,
      0,
-     0,
+     1,
      0,
      0,
      0,
      2
     ],
-    "total": 5,
-    "granularity": "country",
+    "total": 8,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -71547,21 +71547,21 @@
    "holidays": {
     "reference_year": 2026,
     "monthly_counts": [
-     1,
+     2,
      0,
      0,
      2,
      3,
-     0,
+     1,
      0,
      0,
      0,
      1,
-     0,
+     1,
      2
     ],
-    "total": 9,
-    "granularity": "country",
+    "total": 12,
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -72054,7 +72054,7 @@
      3
     ],
     "total": 13,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",
@@ -72544,7 +72544,7 @@
      3
     ],
     "total": 13,
-    "granularity": "country",
+    "granularity": "region",
     "_meta": {
      "source": "nager_date",
      "license": "MIT",

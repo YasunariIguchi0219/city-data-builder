@@ -508,7 +508,7 @@ function renderDetail(){
     if (dl) inner += `<div><div class="chart-title">昼の長さ (時間・各月15日時点)${jp('daylight.monthly[].daylight_h')}</div>
       ${monthChart(dl.monthly.map(m=>m.daylight_h), {kind:'line', color:'var(--s1)', unit:'h'})}</div>`;
     inner += `</div>`;
-    if (hd) inner += `<div class="chart-title" style="margin-top:10px">祝日の数（月別・国単位・全国区のみ／${hd.reference_year}年）${jp('holidays.monthly_counts[]')}</div>
+    if (hd) inner += `<div class="chart-title" style="margin-top:10px">祝日の数（月別・この地点の州の祝日を含む／${hd.reference_year}年）${jp('holidays.monthly_counts[]')}</div>
       <div class="strip">` + hd.monthly_counts.map((n,i)=>{
         const bg = HOLIDAY_BG[Math.min(n, 4)];
         return `<div class="cell" style="background:${bg};color:${n>=2?'#fff':'var(--ink)'}"
@@ -521,8 +521,8 @@ function renderDetail(){
       サイン（例：クリスマスマーケットの街は12月に急増）。</p>
       <p><b>昼の長さ</b>：座標からの天文計算（各月15日時点）。欧州の冬は観光可能時間が大きく減る
       （例：ベルゲン12月は約5時間）。</p>
-      <p><b>祝日</b>：Nager.Dateによる国単位・全国区のみの祝日数。現地の連休は混雑・休業の両面がある。
-      州単位の地方祝日は含まない。</p>`});
+      <p><b>祝日</b>：Nager.Dateによる祝日数。全国区に加えて<b>この地点の州・地域に適用される地域祝日</b>を
+      含む（例：ミュンヘンはバイエルン州の祝日込み）。現地の連休は混雑・休業の両面がある。</p>`});
   }
 
   // POI
