@@ -29,6 +29,10 @@ place
 ├── access          # 空港・都市間距離        ← OurAirports (PD) + 自前計算
 ├── recognition     # 認知度                 ← Wikimedia Pageviews (CC0) + Eurostat (CC BY)
 ├── safety          # 渡航安全情報            ← 外務省オープンデータ
+├── holidays        # 祝日（月別・国単位）    ← Nager.Date (MIT)
+├── daylight        # 昼の長さ（月別）        ← 座標からの天文計算
+├── economy         # 物価水準（国単位・年次） ← Eurostat PLI (CC BY)
+├── country_info    # 公用語・日本の在外公館   ← Wikidata (CC0)
 ├── media           # 画像群（表示用）        ← Wikidata画像プロパティ経由のWikimedia Commons
 ├── indicators      # Layer 2 派生指標（§5）
 └── meta            # レコード全体のメタ（スキーマ版・生成日時）
@@ -117,6 +121,36 @@ place
 | mofa_risk_level | int?null | 危険情報レベル 0〜4（**国・地域単位の値を割り当て**） |
 | granularity | string | "country"（粒度の明示） |
 
+**holidays**（Nager.Date。**国単位**——生データは国別に1回保存し、ビルド時に各地点へ展開）
+
+| フィールド | 型 | 内容 |
+| --- | --- | --- |
+| reference_year | int | 参照年（祝日は年ごとに日付が変わるが月別分布はほぼ安定） |
+| monthly_counts[12] | array | 月別の祝日数（**全国区のみ**。州・県単位の地方祝日は含まない） |
+| total / granularity | int / "country" | 年間合計／国単位であることの明示 |
+
+**daylight**（座標からの天文計算。ソース分離の原則によりclimate（ERA5）とは別ブロック）
+
+| フィールド | 型 | 内容 |
+| --- | --- | --- |
+| monthly[12] | array | { month, daylight_h }。各月15日時点の昼の長さ（時間）。冬の欧州の観光可能時間の判断材料 |
+
+**economy**（Eurostat PLI。**国単位・年次**。相対値のため変動小・年1回更新で十分）
+
+| フィールド | 型 | 内容 |
+| --- | --- | --- |
+| pli_total | number?null | 物価水準指数・総合（実質個人消費、EU27=100） |
+| pli_restaurants_hotels | number?null | 同・外食＋宿泊（旅行者の体感物価に近い） |
+| pli_base / pli_year / granularity | string | 基準（EU27_2020=100）／データ年／"country" |
+
+**country_info**（Wikidata。公用語は国単位、最寄り公館の距離のみ地点単位）
+
+| フィールド | 型 | 内容 |
+| --- | --- | --- |
+| official_languages_ja[] | array | 公用語（日本語表記） |
+| jp_missions_in_country[] | array | 国内にある日本の在外公館の名称 |
+| nearest_jp_mission | object?null | 最寄りの日本公館 { label, city, country, distance_km（直線距離） }。国境を跨ぐ場合あり。**Wikidataに座標登録のある公館のみが距離計算の対象**（例：サラエボの日本大使館は座標未登録のため、jp_missions_in_country には載るが nearest には出ない） |
+
 **media**（Wikidataの画像プロパティ経由のWikimedia Commons画像。**表示用であり指標には使わない**）
 
 | フィールド | 型 | 内容 |
@@ -168,12 +202,13 @@ place
 | --- | --- | --- | --- |
 | 春・夏・秋・冬 | seasonal_comfort[12] | climate.monthly（4指標） | era5 |
 | おまかせ | best_months | seasonal_comfort の上位月 | era5 |
+| （時期の補助材料） | — 事実のみ提供 | holidays.monthly_counts（現地連休の混雑・休業）、daylight.monthly（観光可能時間）、recognition.wikipedia_views_*_monthly（関心の季節性：クリスマスマーケット等） | nager_date, computed, pageviews |
 
 ### 3.4 旅行経験
 
 | お客様の回答 | 指標 | 事実 | ソース |
 | --- | --- | --- | --- |
-| ビギナー寄り | ease_of_access（事実の束※3） | access.nearest_airport距離, recognition, poi.lodging_5km, safety | ourairports, pageviews, fsq, mofa |
+| ビギナー寄り | ease_of_access（事実の束※3） | access.nearest_airport距離, recognition, poi.lodging_5km, safety, country_info（公用語・最寄り日本公館距離） | ourairports, pageviews, fsq, mofa, wikidata |
 | ベテラン寄り | 同上（逆向きに使う） | 同上＋access.nearest_hub距離 | 同上 |
 
 ※3 note.mdの指示どおり「初心者向き」ラベルは付与せず、確認可能な事実（空港距離・宿泊施設数・認知度・安全情報）を並べて提供し、判断はロジック/LLM側で行う。
@@ -184,6 +219,7 @@ place
 | --- | --- |
 | パリには行きたい | identity（名称・国） |
 | 治安のよい街がいい | safety.mofa_risk_level |
+| 予算を抑えたい／物価が心配 | economy.pli_total, pli_restaurants_hotels（国単位） |
 | 移動は少なめにしたい | access.nearest_airport / nearest_hub、都市間距離行列（§7） |
 | 有名すぎない穴場 | hidden_gem（§5.3） |
 | 特になし | 追加データなし |
@@ -239,6 +275,8 @@ hidden_gem = (100 − recognition_jp) × 充実度ゲート
 | access | ✅ | ✅ | ✅ | null |
 | recognition | ✅ | ✅（Eurostatはnull） | 同左 | null |
 | safety | ✅ | ✅ | ✅ | null |
+| holidays / economy / country_info | ✅（国単位の値を展開） | ✅（同左） | ✅（同左） | null |
+| daylight | ✅ | ✅ | ✅ | null |
 | media | ✅ | ✅ | ✅ | null |
 | indicators | ✅ | 事実のみ・指標はnull | 同左 | null |
 

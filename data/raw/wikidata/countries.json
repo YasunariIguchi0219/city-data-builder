@@ -1,0 +1,142 @@
+{
+ "NO": {
+  "qid": "Q20",
+  "official_languages_ja": [
+   "ノルウェー語",
+   "ニーノシュク",
+   "ブークモール",
+   "サーミ語"
+  ]
+ },
+ "HU": {
+  "qid": "Q28",
+  "official_languages_ja": [
+   "ハンガリー語"
+  ]
+ },
+ "ES": {
+  "qid": "Q29",
+  "official_languages_ja": [
+   "スペイン語"
+  ]
+ },
+ "BE": {
+  "qid": "Q31",
+  "official_languages_ja": [
+   "フランス語",
+   "ドイツ語",
+   "オランダ語"
+  ]
+ },
+ "LU": {
+  "qid": "Q32",
+  "official_languages_ja": [
+   "フランス語",
+   "ドイツ語",
+   "ルクセンブルク語"
+  ]
+ },
+ "FI": {
+  "qid": "Q33",
+  "official_languages_ja": [
+   "フィンランド語",
+   "スウェーデン語"
+  ]
+ },
+ "SE": {
+  "qid": "Q34",
+  "official_languages_ja": [
+   "スウェーデン語"
+  ]
+ },
+ "DK": {
+  "qid": "Q35",
+  "official_languages_ja": [
+   "デンマーク語"
+  ]
+ },
+ "IT": {
+  "qid": "Q38",
+  "official_languages_ja": [
+   "イタリア語"
+  ]
+ },
+ "CH": {
+  "qid": "Q39",
+  "official_languages_ja": [
+   "フランス語",
+   "ドイツ語",
+   "イタリア語",
+   "ロマンシュ語"
+  ]
+ },
+ "AT": {
+  "qid": "Q40",
+  "official_languages_ja": [
+   "ドイツ語",
+   "オーストリア手話"
+  ]
+ },
+ "PT": {
+  "qid": "Q45",
+  "official_languages_ja": [
+   "ポルトガル語"
+  ]
+ },
+ "FR": {
+  "qid": "Q142",
+  "official_languages_ja": [
+   "フランス語"
+  ]
+ },
+ "GB": {
+  "qid": "Q145",
+  "official_languages_ja": [
+   "英語"
+  ]
+ },
+ "DE": {
+  "qid": "Q183",
+  "official_languages_ja": [
+   "ドイツ語"
+  ]
+ },
+ "CZ": {
+  "qid": "Q213",
+  "official_languages_ja": [
+   "チェコ語"
+  ]
+ },
+ "SK": {
+  "qid": "Q214",
+  "official_languages_ja": [
+   "スロバキア語"
+  ]
+ },
+ "SI": {
+  "qid": "Q215",
+  "official_languages_ja": [
+   "スロベニア語"
+  ]
+ },
+ "HR": {
+  "qid": "Q224",
+  "official_languages_ja": [
+   "クロアチア語"
+  ]
+ },
+ "BA": {
+  "qid": "Q225",
+  "official_languages_ja": [
+   "クロアチア語",
+   "セルビア語",
+   "ボスニア語"
+  ]
+ },
+ "NL": {
+  "qid": "Q29999",
+  "official_languages_ja": [
+   "オランダ語"
+  ]
+ }
+}

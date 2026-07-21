@@ -11,6 +11,11 @@
 - data/raw/mofa/risk_levels.json            … 危険情報（fetch/mofa_safety.py）
 - data/raw/osm/poi_counts.json              … POI・自然地物（fetch/osm_poi.py、ODbL）
 - data/raw/era5/climate_monthly.json        … 月別気候（fetch/climate_era5.py）
+- data/raw/nager/holidays.json              … 祝日（fetch/holidays.py、国単位）
+- data/raw/eurostat/pli.json                … 物価水準（fetch/price_levels.py、国単位）
+- data/raw/wikidata/countries.json          … 公用語（fetch/country_wikidata.py、国単位）
+- data/raw/wikidata/jp_missions.json        … 日本の在外公館（fetch/country_wikidata.py）
+- 日照時間（daylight）は座標からの天文計算（取得不要）
 
 検証: schema/place.schema.json（JSON Schema 2020-12）に全件適合しなければ失敗する。
 指標の定義: docs/phase2/schema-design.md §4
@@ -83,6 +88,15 @@ def indicator(value, depends_on, formula, cohort=None):
     return {"value": value, "cohort": cohort, "depends_on": depends_on, "formula": formula}
 
 
+def daylight_hours(lat_deg: float, month: int) -> float:
+    """各月15日時点の昼の長さ（時間）。太陽赤緯の近似式による天文計算（座標のみから求まる）。"""
+    day_of_year = [15, 46, 74, 105, 135, 166, 196, 227, 258, 288, 319, 349][month - 1]
+    decl = math.radians(23.44) * math.sin(2 * math.pi * (284 + day_of_year) / 365)
+    x = -math.tan(math.radians(lat_deg)) * math.tan(decl)
+    x = max(-1.0, min(1.0, x))  # 白夜/極夜のクランプ
+    return round(math.degrees(math.acos(x)) / 15 * 2, 1)
+
+
 def main():
     places = load("data/master/places_master.json")["places"]
     extras = load("data/raw/wikidata/extras.json", {})
@@ -92,6 +106,10 @@ def main():
     sitelinks = load("data/raw/wikidata/sitelinks.json", {})
     mofa = (load("data/raw/mofa/risk_levels.json") or {}).get("levels", {})
     osm = load("data/raw/osm/poi_counts.json", {})
+    holidays = (load("data/raw/nager/holidays.json") or {}).get("countries", {})
+    pli = (load("data/raw/eurostat/pli.json") or {}).get("countries", {})
+    country_langs = load("data/raw/wikidata/countries.json", {})
+    jp_missions = load("data/raw/wikidata/jp_missions.json", [])
     climate_all = (load("data/raw/era5/climate_monthly.json") or {})
     climate_by_id = climate_all.get("monthly", {})
     climate_period = climate_all.get("reference_period", "n/a")
@@ -158,7 +176,8 @@ def main():
 
         if is_route:
             for b in ("geography", "poi", "osm_features", "heritage", "climate",
-                      "access", "recognition", "safety", "media", "indicators"):
+                      "access", "recognition", "safety", "holidays", "daylight",
+                      "economy", "country_info", "media", "indicators"):
                 record[b] = None
         else:
             elev = (extras.get(p["qid"]) or {}).get("elevation_m")
@@ -236,9 +255,12 @@ def main():
                 "_meta": meta("ourairports", "Public-Domain"),
             }
             sl = sitelinks.get(p["qid"], {})
+            v = views.get(p["qid"], {})
             record["recognition"] = {
                 "wikipedia_views_ja_year": raw["ja"].get(pid),
                 "wikipedia_views_en_year": raw["en"].get(pid),
+                "wikipedia_views_ja_monthly": v.get("ja_monthly"),
+                "wikipedia_views_en_monthly": v.get("en_monthly"),
                 "wikipedia_sitelinks": sl.get("n_sitelinks"),
                 "views_year": "2025", "nights_spent_nuts2": None,
                 "_meta": meta("wikimedia_pageviews", "CC0-1.0"),
@@ -249,6 +271,53 @@ def main():
                 "_meta": meta("mofa", "govt-standard-terms-2.0(CC-BY-4.0互換)",
                               "出典：外務省 海外安全情報オープンデータ（https://www.ezairyu.mofa.go.jp/html/opendata/）"),
             } if mofa else None
+
+            cc = p.get("country")
+
+            # 祝日（国単位・全国区のみ）
+            h_cc = holidays.get(cc)
+            record["holidays"] = {
+                "reference_year": h_cc["reference_year"],
+                "monthly_counts": h_cc["monthly_counts"], "total": h_cc["total"],
+                "granularity": "country",
+                "_meta": meta("nager_date", "MIT"),
+            } if h_cc else None
+
+            # 日照時間（座標からの天文計算。ソース分離のためclimateとは別ブロック）
+            record["daylight"] = {
+                "monthly": [{"month": m, "daylight_h": daylight_hours(p["lat"], m)}
+                            for m in range(1, 13)],
+                "_meta": meta("computed", "n/a（座標からの天文計算）"),
+            } if p.get("lat") is not None else None
+
+            # 物価水準（Eurostat PLI・国単位・年次）
+            e_cc = pli.get(cc)
+            record["economy"] = {
+                "pli_total": e_cc["pli_total"],
+                "pli_restaurants_hotels": e_cc["pli_restaurants_hotels"],
+                "pli_base": "EU27_2020=100", "pli_year": e_cc["year"],
+                "granularity": "country",
+                "_meta": meta("eurostat", "CC-BY-4.0",
+                              "Source: Eurostat, Purchasing power parities (prc_ppp_ind)"),
+            } if e_cc else None
+
+            # 公用語（国単位）＋日本の在外公館（最寄りは地点単位の直線距離）
+            langs = (country_langs.get(cc) or {}).get("official_languages_ja", [])
+            in_country = [m["label"] for m in jp_missions if m["country"] == cc and m["label"]]
+            nearest = None
+            if p.get("lat") is not None:
+                cands = [(m, haversine_km(p["lat"], p["lon"], m["lat"], m["lon"]))
+                         for m in jp_missions if m.get("lat") is not None]
+                if cands:
+                    m, d = min(cands, key=lambda x: x[1])
+                    nearest = {"label": m["label"], "city": m.get("city"),
+                               "country": m.get("country"), "distance_km": round(d, 1)}
+            record["country_info"] = {
+                "official_languages_ja": langs,
+                "jp_missions_in_country": in_country,
+                "nearest_jp_mission": nearest,
+                "_meta": meta("wikidata", "CC0-1.0"),
+            } if (langs or in_country or nearest) else None
 
             # ---- Layer 2 指標（settlementコホートのみ。式は設計書§4） ----
             if is_settlement:

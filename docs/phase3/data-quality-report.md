@@ -16,9 +16,14 @@
 | climate.monthly | 152/152 | 100% |
 | access.nearest_airport | 152/152 | 100% |
 | recognition.wikipedia_views_ja_year | 129/152 | 85% |
-| recognition.wikipedia_views_en_year | 135/152 | 89% |
+| recognition.wikipedia_views_en_year | 134/152 | 88% |
+| recognition.wikipedia_views_ja_monthly | 129/152 | 85% |
 | safety.mofa_risk_level | 152/152 | 100% |
 | media.images | 150/152 | 99% |
+| holidays.monthly_counts | 152/152 | 100% |
+| daylight.monthly | 152/152 | 100% |
+| economy.pli_total | 152/152 | 100% |
+| country_info.official_languages_ja | 152/152 | 100% |
 
 ## 2. 妥当性スポットチェック（既知の事実との突合）
 
@@ -47,6 +52,7 @@
 6. **coastal（海岸判定）は未実装**（osm_features.coastline_10kmで代替可能）。
 7. **scenic_natureの重みは要調整**：湖沼カウントが小さな池も拾い、都市部の展望台が山岳景観と同列に効くため、上位に都市が混ざる（例：アベイロ・プラハ）。事実データは正しく、式の重み（設計書§4.2）の調整で対応可能。旅行知見でのチューニングを推奨。
 8. **画像（media.images）はライセンスが画像ごとに異なる**：Wikidata経由のWikimedia Commons画像はCC0ではない（CC BY-SA等）。表示時は image_source_url（出典ページ）へのリンクを必ず併記する（ビュワーは対応済み）。また画像・地図の表示には閲覧側ブラウザの外部接続が必要。
+9. **国単位ブロック（holidays / economy / country_info の公用語）は同一国内で同じ値**：生データは国単位で保持し、ビルド時に各地点へ展開している（granularity で明示）。祝日は全国区（global=true）のみで地方祝日は含まない。物価水準（PLI）は年次・EU27=100の相対値で変動は小さく年1回の更新で十分。日照時間は各月15日時点の天文計算値。
 
 ## 5. 判定
 

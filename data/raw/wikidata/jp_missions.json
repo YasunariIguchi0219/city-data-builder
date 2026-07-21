@@ -1,0 +1,186 @@
+[
+ {
+  "qid": "Q51781327",
+  "label": "在ラスパルマス領事事務所",
+  "country": "ES",
+  "city": "ラス・パルマス・デ・グラン・カナリア",
+  "lat": 28.123944444444,
+  "lon": -15.431
+ },
+ {
+  "qid": "Q101069514",
+  "label": "在ハンガリー日本国大使館",
+  "country": "HU",
+  "city": "Budapest District XII",
+  "lat": 47.51348,
+  "lon": 18.98615
+ },
+ {
+  "qid": "Q1683268",
+  "label": "在ドイツ日本国大使館",
+  "country": "DE",
+  "city": null,
+  "lat": null,
+  "lon": null
+ },
+ {
+  "qid": "Q2841871",
+  "label": "在フランス日本国大使館",
+  "country": "FR",
+  "city": null,
+  "lat": null,
+  "lon": null
+ },
+ {
+  "qid": "Q5369752",
+  "label": "在スロバキア日本国大使館",
+  "country": "SK",
+  "city": null,
+  "lat": null,
+  "lon": null
+ },
+ {
+  "qid": "Q5369754",
+  "label": "在英国日本国大使館",
+  "country": "GB",
+  "city": null,
+  "lat": null,
+  "lon": null
+ },
+ {
+  "qid": "Q10539627",
+  "label": "在スウェーデン日本大使館",
+  "country": "SE",
+  "city": null,
+  "lat": null,
+  "lon": null
+ },
+ {
+  "qid": "Q19376100",
+  "label": "在ノルウェー日本国大使館",
+  "country": "NO",
+  "city": null,
+  "lat": null,
+  "lon": null
+ },
+ {
+  "qid": "Q26979897",
+  "label": "在スイス日本国大使館",
+  "country": "CH",
+  "city": null,
+  "lat": null,
+  "lon": null
+ },
+ {
+  "qid": "Q44368430",
+  "label": "在クロアチア日本国大使館",
+  "country": "HR",
+  "city": null,
+  "lat": null,
+  "lon": null
+ },
+ {
+  "qid": "Q44770661",
+  "label": "在スペイン日本国大使館",
+  "country": "ES",
+  "city": null,
+  "lat": null,
+  "lon": null
+ },
+ {
+  "qid": "Q56257856",
+  "label": "在バチカン日本国大使館",
+  "country": "IT",
+  "city": null,
+  "lat": null,
+  "lon": null
+ },
+ {
+  "qid": "Q69697740",
+  "label": "在ベルギー日本国大使館",
+  "country": "BE",
+  "city": null,
+  "lat": null,
+  "lon": null
+ },
+ {
+  "qid": "Q77896244",
+  "label": "在チェコ日本国大使館",
+  "country": "CZ",
+  "city": null,
+  "lat": null,
+  "lon": null
+ },
+ {
+  "qid": "Q93108919",
+  "label": "在ボスニア・ヘルツェゴビナ日本国大使館",
+  "country": "BA",
+  "city": null,
+  "lat": null,
+  "lon": null
+ },
+ {
+  "qid": "Q100700837",
+  "label": "在ポルトガル日本国大使館",
+  "country": "PT",
+  "city": null,
+  "lat": null,
+  "lon": null
+ },
+ {
+  "qid": "Q100785802",
+  "label": "在ルクセンブルク日本国大使館",
+  "country": "LU",
+  "city": null,
+  "lat": null,
+  "lon": null
+ },
+ {
+  "qid": "Q103827726",
+  "label": "在イタリア日本国大使館",
+  "country": "IT",
+  "city": null,
+  "lat": null,
+  "lon": null
+ },
+ {
+  "qid": "Q104634852",
+  "label": "在オーストリア日本国大使館",
+  "country": "AT",
+  "city": null,
+  "lat": null,
+  "lon": null
+ },
+ {
+  "qid": "Q106202085",
+  "label": "在フィンランド日本国大使館",
+  "country": "FI",
+  "city": null,
+  "lat": null,
+  "lon": null
+ },
+ {
+  "qid": "Q107345920",
+  "label": "在スロベニア日本国大使館",
+  "country": "SI",
+  "city": null,
+  "lat": null,
+  "lon": null
+ },
+ {
+  "qid": "Q17386935",
+  "label": "在オランダ日本国大使館",
+  "country": "NL",
+  "city": null,
+  "lat": null,
+  "lon": null
+ },
+ {
+  "qid": "Q69522954",
+  "label": "在デンマーク日本国大使館",
+  "country": "DK",
+  "city": null,
+  "lat": null,
+  "lon": null
+ }
+]

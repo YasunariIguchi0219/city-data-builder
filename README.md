@@ -53,6 +53,9 @@ uv run python scripts/fetch/osm_poi.py          # OSM POI・自然地物（1〜2
 uv run python scripts/fetch/climate_era5.py fetch && uv run python scripts/fetch/climate_era5.py extract  # 気候（要.env）
 uv run python scripts/fetch/airports.py         # 最寄り空港（CSVは自動ダウンロード）
 uv run python scripts/fetch/unesco_whs.py       # 世界遺産（Wikidata SPARQL）
+uv run python scripts/fetch/holidays.py         # 祝日（Nager.Date・年1回更新）
+uv run python scripts/fetch/price_levels.py     # 物価水準（Eurostat PLI・年1回更新）
+uv run python scripts/fetch/country_wikidata.py # 公用語・日本の在外公館（Wikidata）
 
 # 2) 組み立て・検証・可視化
 uv run python scripts/build_places.py           # 全154件を統合し JSON Schema で検証

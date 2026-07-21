@@ -1,0 +1,384 @@
+{
+ "retrieved_at": "2026-07-21",
+ "source": "date.nager.at",
+ "countries": {
+  "AT": {
+   "reference_year": 2026,
+   "monthly_counts": [
+    2,
+    0,
+    0,
+    2,
+    4,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    3
+   ],
+   "total": 15
+  },
+  "BA": {
+   "reference_year": 2026,
+   "monthly_counts": [
+    2,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "total": 4
+  },
+  "BE": {
+   "reference_year": 2026,
+   "monthly_counts": [
+    1,
+    0,
+    0,
+    3,
+    4,
+    0,
+    1,
+    1,
+    0,
+    0,
+    2,
+    2
+   ],
+   "total": 14
+  },
+  "CH": {
+   "reference_year": 2026,
+   "monthly_counts": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "total": 4
+  },
+  "CZ": {
+   "reference_year": 2026,
+   "monthly_counts": [
+    1,
+    0,
+    0,
+    2,
+    2,
+    0,
+    2,
+    0,
+    1,
+    1,
+    1,
+    3
+   ],
+   "total": 13
+  },
+  "DE": {
+   "reference_year": 2026,
+   "monthly_counts": [
+    1,
+    0,
+    0,
+    2,
+    3,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2
+   ],
+   "total": 9
+  },
+  "DK": {
+   "reference_year": 2026,
+   "monthly_counts": [
+    1,
+    0,
+    0,
+    4,
+    4,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4
+   ],
+   "total": 14
+  },
+  "ES": {
+   "reference_year": 2026,
+   "monthly_counts": [
+    2,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    3
+   ],
+   "total": 10
+  },
+  "FI": {
+   "reference_year": 2026,
+   "monthly_counts": [
+    2,
+    0,
+    0,
+    3,
+    3,
+    2,
+    0,
+    0,
+    0,
+    1,
+    0,
+    4
+   ],
+   "total": 15
+  },
+  "FR": {
+   "reference_year": 2026,
+   "monthly_counts": [
+    1,
+    0,
+    0,
+    1,
+    4,
+    0,
+    1,
+    1,
+    0,
+    0,
+    2,
+    1
+   ],
+   "total": 11
+  },
+  "GB": {
+   "reference_year": 2026,
+   "monthly_counts": [
+    0,
+    0,
+    0,
+    1,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   "total": 5
+  },
+  "HR": {
+   "reference_year": 2026,
+   "monthly_counts": [
+    2,
+    0,
+    0,
+    2,
+    2,
+    2,
+    0,
+    2,
+    0,
+    0,
+    2,
+    2
+   ],
+   "total": 14
+  },
+  "HU": {
+   "reference_year": 2026,
+   "monthly_counts": [
+    1,
+    0,
+    1,
+    3,
+    3,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    2
+   ],
+   "total": 13
+  },
+  "IT": {
+   "reference_year": 2026,
+   "monthly_counts": [
+    2,
+    0,
+    0,
+    3,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    3
+   ],
+   "total": 13
+  },
+  "LU": {
+   "reference_year": 2026,
+   "monthly_counts": [
+    1,
+    0,
+    0,
+    2,
+    4,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    2
+   ],
+   "total": 12
+  },
+  "NL": {
+   "reference_year": 2026,
+   "monthly_counts": [
+    1,
+    0,
+    0,
+    4,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   "total": 11
+  },
+  "NO": {
+   "reference_year": 2026,
+   "monthly_counts": [
+    1,
+    0,
+    0,
+    4,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   "total": 12
+  },
+  "PT": {
+   "reference_year": 2026,
+   "monthly_counts": [
+    1,
+    1,
+    0,
+    3,
+    1,
+    2,
+    0,
+    1,
+    0,
+    1,
+    1,
+    3
+   ],
+   "total": 14
+  },
+  "SE": {
+   "reference_year": 2026,
+   "monthly_counts": [
+    2,
+    0,
+    0,
+    3,
+    3,
+    3,
+    0,
+    0,
+    0,
+    1,
+    0,
+    4
+   ],
+   "total": 16
+  },
+  "SI": {
+   "reference_year": 2026,
+   "monthly_counts": [
+    2,
+    1,
+    0,
+    3,
+    4,
+    1,
+    0,
+    3,
+    2,
+    1,
+    2,
+    2
+   ],
+   "total": 21
+  },
+  "SK": {
+   "reference_year": 2026,
+   "monthly_counts": [
+    2,
+    0,
+    0,
+    2,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    2,
+    3
+   ],
+   "total": 15
+  }
+ }
+}

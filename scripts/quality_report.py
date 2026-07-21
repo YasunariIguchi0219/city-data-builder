@@ -29,8 +29,10 @@ COVERAGE_FIELDS = [
     ("poi", "dining_5km"), ("osm_features", "viewpoints_5km"),
     ("heritage", "whs_within_30km"), ("climate", "monthly"),
     ("access", "nearest_airport"), ("recognition", "wikipedia_views_ja_year"),
-    ("recognition", "wikipedia_views_en_year"), ("safety", "mofa_risk_level"),
-    ("media", "images"),
+    ("recognition", "wikipedia_views_en_year"), ("recognition", "wikipedia_views_ja_monthly"),
+    ("safety", "mofa_risk_level"), ("media", "images"),
+    ("holidays", "monthly_counts"), ("daylight", "monthly"),
+    ("economy", "pli_total"), ("country_info", "official_languages_ja"),
 ]
 
 
@@ -120,6 +122,10 @@ def main():
         "8. **画像（media.images）はライセンスが画像ごとに異なる**：Wikidata経由のWikimedia Commons"
         "画像はCC0ではない（CC BY-SA等）。表示時は image_source_url（出典ページ）へのリンクを必ず併記する"
         "（ビュワーは対応済み）。また画像・地図の表示には閲覧側ブラウザの外部接続が必要。",
+        "9. **国単位ブロック（holidays / economy / country_info の公用語）は同一国内で同じ値**："
+        "生データは国単位で保持し、ビルド時に各地点へ展開している（granularity で明示）。"
+        "祝日は全国区（global=true）のみで地方祝日は含まない。物価水準（PLI）は年次・EU27=100の相対値で"
+        "変動は小さく年1回の更新で十分。日照時間は各月15日時点の天文計算値。",
         "",
         "## 5. 判定",
         "",

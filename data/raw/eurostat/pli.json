@@ -1,0 +1,111 @@
+{
+ "retrieved_at": "2026-07-21",
+ "base": "EU27_2020=100",
+ "countries": {
+  "AT": {
+   "pli_total": 119.7,
+   "pli_restaurants_hotels": 110.0,
+   "year": "2024"
+  },
+  "BA": {
+   "pli_total": 59.7,
+   "pli_restaurants_hotels": 74.6,
+   "year": "2024"
+  },
+  "BE": {
+   "pli_total": 118.7,
+   "pli_restaurants_hotels": 124.2,
+   "year": "2024"
+  },
+  "CH": {
+   "pli_total": 184.3,
+   "pli_restaurants_hotels": 170.8,
+   "year": "2024"
+  },
+  "CZ": {
+   "pli_total": 80.2,
+   "pli_restaurants_hotels": 74.1,
+   "year": "2024"
+  },
+  "DE": {
+   "pli_total": 109.1,
+   "pli_restaurants_hotels": 112.1,
+   "year": "2024"
+  },
+  "DK": {
+   "pli_total": 142.8,
+   "pli_restaurants_hotels": 147.6,
+   "year": "2024"
+  },
+  "ES": {
+   "pli_total": 90.7,
+   "pli_restaurants_hotels": 83.9,
+   "year": "2024"
+  },
+  "FI": {
+   "pli_total": 127.2,
+   "pli_restaurants_hotels": 126.8,
+   "year": "2024"
+  },
+  "FR": {
+   "pli_total": 107.9,
+   "pli_restaurants_hotels": 110.0,
+   "year": "2024"
+  },
+  "GB": {
+   "pli_total": 129.1,
+   "pli_restaurants_hotels": null,
+   "year": "2024"
+  },
+  "HR": {
+   "pli_total": 73.3,
+   "pli_restaurants_hotels": 95.4,
+   "year": "2024"
+  },
+  "HU": {
+   "pli_total": 68.3,
+   "pli_restaurants_hotels": 71.8,
+   "year": "2024"
+  },
+  "IT": {
+   "pli_total": 98.1,
+   "pli_restaurants_hotels": 106.9,
+   "year": "2024"
+  },
+  "LU": {
+   "pli_total": 150.7,
+   "pli_restaurants_hotels": 123.6,
+   "year": "2024"
+  },
+  "NL": {
+   "pli_total": 121.0,
+   "pli_restaurants_hotels": 124.6,
+   "year": "2024"
+  },
+  "NO": {
+   "pli_total": 134.1,
+   "pli_restaurants_hotels": 140.0,
+   "year": "2024"
+  },
+  "PT": {
+   "pli_total": 85.0,
+   "pli_restaurants_hotels": 75.5,
+   "year": "2024"
+  },
+  "SE": {
+   "pli_total": 123.0,
+   "pli_restaurants_hotels": 116.7,
+   "year": "2024"
+  },
+  "SI": {
+   "pli_total": 91.0,
+   "pli_restaurants_hotels": 90.1,
+   "year": "2024"
+  },
+  "SK": {
+   "pli_total": 81.1,
+   "pli_restaurants_hotels": 91.3,
+   "year": "2024"
+  }
+ }
+}
