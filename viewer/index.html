@@ -512,7 +512,7 @@ function renderDetail(){
       <div class="strip">` + hd.monthly_counts.map((n,i)=>{
         const bg = HOLIDAY_BG[Math.min(n, 4)];
         return `<div class="cell" style="background:${bg};color:${n>=2?'#fff':'var(--ink)'}"
-          data-tip="${i+1}月の祝日（全国区）: ${n}日"><div class="m">${i+1}</div><div class="v">${n||'—'}</div></div>`;
+          data-tip="${i+1}月の祝日（この地点の州の祝日を含む）: ${n}日"><div class="m">${i+1}</div><div class="v">${n||'—'}</div></div>`;
       }).join('') + `</div>`;
     html += section('シーズン情報（月別）', inner,
       `${SOURCE_LABEL.wikimedia_pageviews} ＋ ${SOURCE_LABEL.nager_date} ＋ ${SOURCE_LABEL.computed}`, {
