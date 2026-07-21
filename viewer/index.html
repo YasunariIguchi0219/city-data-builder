@@ -221,7 +221,8 @@ const IND_JA = {food_scene:'食の充実', culture_scene:'文化施設', vibranc
   walkability:'散策のしやすさ', scenic_nature:'自然・景観', outdoor_activity:'アクティビティ',
   historic_depth:'歴史の厚み', recognition_jp:'認知度(日本)', hidden_gem:'穴場度'};
 const MONTHS = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
-const SOURCE_LABEL = {wikidata:'Wikidata (CC0)', osm:'OpenStreetMap (ODbL)',
+const SOURCE_LABEL = {nager_date:'Nager.Date (MIT)', eurostat:'Eurostat (CC BY 4.0)',
+  wikidata:'Wikidata (CC0)', osm:'OpenStreetMap (ODbL)',
   era5:'Copernicus ERA5', ourairports:'OurAirports (パブリックドメイン)',
   wikimedia_pageviews:'Wikimedia Pageviews (CC0)', eurostat:'Eurostat',
   mofa:'外務省 海外安全情報オープンデータ', computed:'座標からの計算'};
@@ -495,6 +496,35 @@ function renderDetail(){
       </table></details>`);
   }
 
+  // シーズン情報（月別）: 閲覧数の季節性・昼の長さ・祝日
+  const dl = p.daylight, hd = p.holidays;
+  const vm = r ? (r.wikipedia_views_ja_monthly || r.wikipedia_views_en_monthly) : null;
+  const vmLang = r && r.wikipedia_views_ja_monthly ? '日本語版' : '英語版';
+  if (dl || hd || vm){
+    const HOLIDAY_BG = ['var(--grid)', 'var(--seq200)', 'var(--seq400)', 'var(--seq600)', 'var(--seq700)'];
+    let inner = `<div class="cols">`;
+    if (vm) inner += `<div><div class="chart-title">Wikipedia閲覧数（${vmLang}・月別）${jp('recognition.wikipedia_views_' + (vmLang === '日本語版' ? 'ja' : 'en') + '_monthly[]')}</div>
+      ${monthChart(vm, {kind:'bar', color:'var(--s3)', unit:' views', decimals:0})}</div>`;
+    if (dl) inner += `<div><div class="chart-title">昼の長さ (時間・各月15日時点)${jp('daylight.monthly[].daylight_h')}</div>
+      ${monthChart(dl.monthly.map(m=>m.daylight_h), {kind:'line', color:'var(--s1)', unit:'h'})}</div>`;
+    inner += `</div>`;
+    if (hd) inner += `<div class="chart-title" style="margin-top:10px">祝日の数（月別・国単位・全国区のみ／${hd.reference_year}年）${jp('holidays.monthly_counts[]')}</div>
+      <div class="strip">` + hd.monthly_counts.map((n,i)=>{
+        const bg = HOLIDAY_BG[Math.min(n, 4)];
+        return `<div class="cell" style="background:${bg};color:${n>=2?'#fff':'var(--ink)'}"
+          data-tip="${i+1}月の祝日（全国区）: ${n}日"><div class="m">${i+1}</div><div class="v">${n||'—'}</div></div>`;
+      }).join('') + `</div>`;
+    html += section('シーズン情報（月別）', inner,
+      `${SOURCE_LABEL.wikimedia_pageviews} ＋ ${SOURCE_LABEL.nager_date} ＋ ${SOURCE_LABEL.computed}`, {
+      q: 'これは何のデータ？', a: `
+      <p><b>Wikipedia閲覧数（月別）</b>：関心の季節性。特定の月に跳ねる街は、その時期に名物がある
+      サイン（例：クリスマスマーケットの街は12月に急増）。</p>
+      <p><b>昼の長さ</b>：座標からの天文計算（各月15日時点）。欧州の冬は観光可能時間が大きく減る
+      （例：ベルゲン12月は約5時間）。</p>
+      <p><b>祝日</b>：Nager.Dateによる国単位・全国区のみの祝日数。現地の連休は混雑・休業の両面がある。
+      州単位の地方祝日は含まない。</p>`});
+  }
+
   // POI
   if (poi){
     html += section('周辺施設・自然の数', `<div class="cols"><div><table>
@@ -552,6 +582,30 @@ function renderDetail(){
         地点の座標との<b>直線距離（大圏距離）</b>で最寄りを選んでいます。「最寄りの主要都市」は154件のうち
         人口10万以上の都市との直線距離です。</p>
         <p>⚠️ 直線距離であり、道路・鉄道での移動時間ではありません（移動時間の整備は将来課題）。</p>`});
+  }
+
+  // 実用情報: 公用語・物価水準・日本の在外公館
+  const ci = p.country_info, ec = p.economy;
+  if (ci || ec){
+    html += section('実用情報', `<table>
+      ${ci && ci.official_languages_ja.length ? `<tr><td>公用語${jp('country_info.official_languages_ja')}</td>
+        <td>${ci.official_languages_ja.map(esc).join('、')}</td></tr>` : ''}
+      ${ec ? `<tr><td>物価水準・総合${jp('economy.pli_total')}</td>
+        <td>${ec.pli_total ?? '—'}（EU平均=100・${esc(ec.pli_year || '—')}年）</td></tr>
+      <tr><td>物価水準・外食/宿泊${jp('economy.pli_restaurants_hotels')}</td>
+        <td>${ec.pli_restaurants_hotels ?? '—'}</td></tr>` : ''}
+      ${ci && ci.jp_missions_in_country.length ? `<tr><td>国内の日本公館${jp('country_info.jp_missions_in_country')}</td>
+        <td>${ci.jp_missions_in_country.map(esc).join('、')}</td></tr>` : ''}
+      ${ci && ci.nearest_jp_mission ? `<tr><td>最寄りの日本公館${jp('country_info.nearest_jp_mission')}</td>
+        <td>${esc(ci.nearest_jp_mission.label)}（${ci.nearest_jp_mission.distance_km}km・直線距離）</td></tr>` : ''}
+    </table>`,
+      `${SOURCE_LABEL.eurostat} ＋ ${SOURCE_LABEL.wikidata}`, {
+      q: '物価水準の数字はどう読む？', a: `
+      <p><b>物価水準（PLI）</b>：EU平均を100とした相対値（Eurostat・年次）。150なら「EU平均より5割高い」、
+      85なら「15%安い」。<b>国単位</b>の値のため、同じ国の都市はすべて同じ値です（パリと地方の差は出ません）。
+      外食/宿泊は旅行者の体感物価に近い費目別の値です。</p>
+      <p><b>日本公館</b>：Wikidata登録に基づくため網羅保証はありません。最寄り距離は座標登録のある公館のみが
+      対象で、国境を跨ぐことがあります（直線距離）。</p>`});
   }
 
   // 生JSON（この地点のレコード全体。出所メタデータ _meta もここで確認できる）
