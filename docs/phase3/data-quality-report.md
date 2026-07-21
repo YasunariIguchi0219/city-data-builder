@@ -18,6 +18,7 @@
 | recognition.wikipedia_views_ja_year | 129/152 | 85% |
 | recognition.wikipedia_views_en_year | 135/152 | 89% |
 | safety.mofa_risk_level | 152/152 | 100% |
+| media.images | 150/152 | 99% |
 
 ## 2. 妥当性スポットチェック（既知の事実との突合）
 
@@ -45,6 +46,7 @@
 5. **Eurostat宿泊統計（nights_spent_nuts2）は未整備**（NUTS2対応表が必要。設計書§7）。
 6. **coastal（海岸判定）は未実装**（osm_features.coastline_10kmで代替可能）。
 7. **scenic_natureの重みは要調整**：湖沼カウントが小さな池も拾い、都市部の展望台が山岳景観と同列に効くため、上位に都市が混ざる（例：アベイロ・プラハ）。事実データは正しく、式の重み（設計書§4.2）の調整で対応可能。旅行知見でのチューニングを推奨。
+8. **画像（media.images）はライセンスが画像ごとに異なる**：Wikidata経由のWikimedia Commons画像はCC0ではない（CC BY-SA等）。表示時は image_source_url（出典ページ）へのリンクを必ず併記する（ビュワーは対応済み）。また画像・地図の表示には閲覧側ブラウザの外部接続が必要。
 
 ## 5. 判定
 

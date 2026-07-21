@@ -29,6 +29,7 @@ place
 ├── access          # 空港・都市間距離        ← OurAirports (PD) + 自前計算
 ├── recognition     # 認知度                 ← Wikimedia Pageviews (CC0) + Eurostat (CC BY)
 ├── safety          # 渡航安全情報            ← 外務省オープンデータ
+├── media           # 画像群（表示用）        ← Wikidata画像プロパティ経由のWikimedia Commons
 ├── indicators      # Layer 2 派生指標（§5）
 └── meta            # レコード全体のメタ（スキーマ版・生成日時）
 ```
@@ -115,6 +116,13 @@ place
 | --- | --- | --- |
 | mofa_risk_level | int?null | 危険情報レベル 0〜4（**国・地域単位の値を割り当て**） |
 | granularity | string | "country"（粒度の明示） |
+
+**media**（Wikidataの画像プロパティ経由のWikimedia Commons画像。**表示用であり指標には使わない**）
+
+| フィールド | 型 | 内容 |
+| --- | --- | --- |
+| images[] | array | { kind, commons_file, image_url, image_source_url }。kindは main（代表）/ panorama / night / aerial / winter / collage |
+| — | — | ⚠️ **画像ファイル自体のライセンスはCC0ではなく画像ごとに異なる**（CC BY-SA等）。表示時は image_source_url（Commonsの出典ページ）へのリンクを必ず併記する |
 
 **\_meta（全ブロック共通）**
 
@@ -231,6 +239,7 @@ hidden_gem = (100 − recognition_jp) × 充実度ゲート
 | access | ✅ | ✅ | ✅ | null |
 | recognition | ✅ | ✅（Eurostatはnull） | 同左 | null |
 | safety | ✅ | ✅ | ✅ | null |
+| media | ✅ | ✅ | ✅ | null |
 | indicators | ✅ | 事実のみ・指標はnull | 同左 | null |
 
 ## 6. 検証（フェーズ3で使用）

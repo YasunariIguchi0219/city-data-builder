@@ -30,6 +30,11 @@ ALLOWED_FILES = {"/data/output/places.json"}
 class RestrictedHandler(http.server.SimpleHTTPRequestHandler):
     """許可リスト方式のハンドラ。リポジトリ内の他ファイル（シークレット等）を配信しない。"""
 
+    def end_headers(self):
+        # ブラウザに古いHTML/JSONをキャッシュさせない（毎回If-Modified-Sinceで更新確認させる）
+        self.send_header("Cache-Control", "no-cache")
+        super().end_headers()
+
     def send_head(self):
         path = self.path.split("?", 1)[0].split("#", 1)[0]
         if path in VIEWER_ALIASES:

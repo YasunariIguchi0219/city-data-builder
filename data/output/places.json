@@ -40,6 +40,34 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Einsiedeln 2021.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Einsiedeln_2021.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Einsiedeln_2021.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Trachslau, Schweiz (Unsplash).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Trachslau%2C_Schweiz_%28Unsplash%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Trachslau%2C_Schweiz_%28Unsplash%29.jpg"
+     },
+     {
+      "kind": "winter",
+      "commons_file": "Einsiedeln.ende.2017.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Einsiedeln.ende.2017.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Einsiedeln.ende.2017.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 85,
@@ -363,6 +391,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Assisi panorama.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Assisi_panorama.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Assisi_panorama.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 143,
@@ -680,6 +724,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Alnwick and Alnwick Castle - Northumberland - 140804.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alnwick_and_Alnwick_Castle_-_Northumberland_-_140804.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Alnwick_and_Alnwick_Castle_-_Northumberland_-_140804.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 59,
@@ -994,6 +1054,34 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Ria de Aveiro.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ria_de_Aveiro.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Ria_de_Aveiro.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Aveiro.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aveiro.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Aveiro.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Edifício Companhia de Seguros Ultramarina (Aveiro, Portugal), circa 1952.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edif%C3%ADcio_Companhia_de_Seguros_Ultramarina_%28Aveiro%2C_Portugal%29%2C_circa_1952.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Edif%C3%ADcio_Companhia_de_Seguros_Ultramarina_%28Aveiro%2C_Portugal%29%2C_circa_1952.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -1325,6 +1413,40 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Amsterdam Photo 2020 Copernicus Sentinel-2.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Amsterdam_Photo_2020_Copernicus_Sentinel-2.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Photo_2020_Copernicus_Sentinel-2.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Amsterdam airphoto.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Amsterdam_airphoto.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_airphoto.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Imagen de los canales concéntricos en Ámsterdam.png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Imagen_de_los_canales_conc%C3%A9ntricos_en_%C3%81msterdam.png?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Imagen_de_los_canales_conc%C3%A9ntricos_en_%C3%81msterdam.png"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Amsterdam Grachten at night.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Amsterdam_Grachten_at_night.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Grachten_at_night.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 3698,
@@ -1648,6 +1770,28 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Alberobello con il drone.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alberobello_con_il_drone.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Alberobello_con_il_drone.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Alberobello BW 2016-10-16 13-10-43.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alberobello_BW_2016-10-16_13-10-43.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Alberobello_BW_2016-10-16_13-10-43.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 63,
@@ -1962,6 +2106,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Arromanches-les-Bains port artificiel Mulberry.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arromanches-les-Bains_port_artificiel_Mulberry.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Arromanches-les-Bains_port_artificiel_Mulberry.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Arromanches-les-Bains à marée basse (juillet 2025).JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arromanches-les-Bains_%C3%A0_mar%C3%A9e_basse_%28juillet_2025%29.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Arromanches-les-Bains_%C3%A0_mar%C3%A9e_basse_%28juillet_2025%29.JPG"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -2282,6 +2448,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Angers collage.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Angers_collage.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Angers_collage.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 594,
@@ -2596,6 +2778,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "F - Amboise 016.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/F_-_Amboise_016.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:F_-_Amboise_016.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -2916,6 +3114,28 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Invernessmixed.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Invernessmixed.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Invernessmixed.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Инвернесс.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%98%D0%BD%D0%B2%D0%B5%D1%80%D0%BD%D0%B5%D1%81%D1%81.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:%D0%98%D0%BD%D0%B2%D0%B5%D1%80%D0%BD%D0%B5%D1%81%D1%81.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 205,
@@ -3230,6 +3450,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Windsor - geograph.org.uk - 1098215.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Windsor_-_geograph.org.uk_-_1098215.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Windsor_-_geograph.org.uk_-_1098215.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Windsor (England)-center.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Windsor_%28England%29-center.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Windsor_%28England%29-center.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -3556,6 +3798,46 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Wien katedra sw Szczepana widok z wiezy 6.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wien_katedra_sw_Szczepana_widok_z_wiezy_6.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Wien_katedra_sw_Szczepana_widok_z_wiezy_6.jpg"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "Wien-Stadtblick S-O.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wien-Stadtblick_S-O.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Wien-Stadtblick_S-O.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "2014 Wien 034 (13355717674).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/2014_Wien_034_%2813355717674%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:2014_Wien_034_%2813355717674%29.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Wien-Landsat001.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wien-Landsat001.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Wien-Landsat001.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Collage von Wien.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Collage_von_Wien.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Collage_von_Wien.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 4974,
@@ -3876,6 +4158,64 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Edinburgh cityscapes - aerial - 2025-04-19 20.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edinburgh_cityscapes_-_aerial_-_2025-04-19_20.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Edinburgh_cityscapes_-_aerial_-_2025-04-19_20.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "EdinburghFromCastle.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/EdinburghFromCastle.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:EdinburghFromCastle.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "00 3331 Edinburgh - Schottland.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/00_3331_Edinburgh_-_Schottland.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:00_3331_Edinburgh_-_Schottland.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": ".00 2329 Cityscapes of Edinburgh - Schottland.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/.00_2329_Cityscapes_of_Edinburgh_-_Schottland.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:.00_2329_Cityscapes_of_Edinburgh_-_Schottland.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "\"00 1426 Calton Hill - Edinburgh, Schottland.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%2200_1426_Calton_Hill_-_Edinburgh%2C_Schottland.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:%2200_1426_Calton_Hill_-_Edinburgh%2C_Schottland.jpg"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "Edinburgh Skyline (15708524145).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edinburgh_Skyline_%2815708524145%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Edinburgh_Skyline_%2815708524145%29.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Edinburgh night (2011.10.21).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edinburgh_night_%282011.10.21%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Edinburgh_night_%282011.10.21%29.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "EdinburghMontage.png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/EdinburghMontage.png?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:EdinburghMontage.png"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -4202,6 +4542,28 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Évora - Praça do Giraldo.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%89vora_-_Pra%C3%A7a_do_Giraldo.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:%C3%89vora_-_Pra%C3%A7a_do_Giraldo.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Evora-Montage.png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Evora-Montage.png?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Evora-Montage.png"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 278,
@@ -4516,6 +4878,70 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "View from siloen.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_siloen.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:View_from_siloen.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Oslo at night.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oslo_at_night.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Oslo_at_night.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "14-09-02-oslo-RalfR-236.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/14-09-02-oslo-RalfR-236.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:14-09-02-oslo-RalfR-236.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Oslo newer montage 2013.png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oslo_newer_montage_2013.png?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Oslo_newer_montage_2013.png"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "Oslo center - panorama.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oslo_center_-_panorama.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Oslo_center_-_panorama.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Oslo panorama I.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oslo_panorama_I.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Oslo_panorama_I.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Oslo 22.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oslo_22.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Oslo_22.jpg"
+     },
+     {
+      "kind": "winter",
+      "commons_file": "Oslo fra slottet 1.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oslo_fra_slottet_1.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Oslo_fra_slottet_1.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Oslo city in 10 images.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oslo_city_in_10_images.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Oslo_city_in_10_images.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -4836,6 +5262,34 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Oxford from Boars Hill.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oxford_from_Boars_Hill.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Oxford_from_Boars_Hill.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "High Street in Oxford by Night 2009 LL.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/High_Street_in_Oxford_by_Night_2009_LL.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:High_Street_in_Oxford_by_Night_2009_LL.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Oxford Montage 2012.png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oxford_Montage_2012.png?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Oxford_Montage_2012.png"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 664,
@@ -5150,6 +5604,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Opatija view.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Opatija_view.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Opatija_view.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -5470,6 +5940,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Óbidos view592.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%93bidos_view592.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:%C3%93bidos_view592.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 82,
@@ -5787,6 +6273,28 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "OrtaSanGiulioAug132024 03.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/OrtaSanGiulioAug132024_03.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:OrtaSanGiulioAug132024_03.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Vue d'une ville italienne par le général ROUEN.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vue_d%27une_ville_italienne_par_le_g%C3%A9n%C3%A9ral_ROUEN.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Vue_d%27une_ville_italienne_par_le_g%C3%A9n%C3%A9ral_ROUEN.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 98,
@@ -6101,6 +6609,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Örebro Montage.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%96rebro_Montage.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:%C3%96rebro_Montage.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -6427,6 +6951,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Odense rådhus.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Odense_r%C3%A5dhus.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Odense_r%C3%A5dhus.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 469,
@@ -6741,6 +7281,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Århus city trafikhavn.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%85rhus_city_trafikhavn.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:%C3%85rhus_city_trafikhavn.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Montage of Aarhus - view from city hall, city hall by night, isbjerget, park alle.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Montage_of_Aarhus_-_view_from_city_hall%2C_city_hall_by_night%2C_isbjerget%2C_park_alle.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Montage_of_Aarhus_-_view_from_city_hall%2C_city_hall_by_night%2C_isbjerget%2C_park_alle.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -7061,6 +7623,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Burghers of calais.jpeg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Burghers_of_calais.jpeg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Burghers_of_calais.jpeg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 187,
@@ -7375,6 +7953,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Cambados.jpeg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cambados.jpeg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Cambados.jpeg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -7695,6 +8289,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Clochers de Caen.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Clochers_de_Caen.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Clochers_de_Caen.JPG"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 641,
@@ -8012,6 +8622,28 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Kristiansand, Norway.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kristiansand%2C_Norway.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Kristiansand%2C_Norway.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Vista aérea de Kristiansand.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vista_a%C3%A9rea_de_Kristiansand.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_Kristiansand.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 129,
@@ -8326,6 +8958,46 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Glasgow - aerial - 2025-04-17 12.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Glasgow_-_aerial_-_2025-04-17_12.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Glasgow_-_aerial_-_2025-04-17_12.jpg"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "The Lighthouse - Panorama of Glasgow.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Lighthouse_-_Panorama_of_Glasgow.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:The_Lighthouse_-_Panorama_of_Glasgow.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Finnieston Bridge Glasgow at night.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Finnieston_Bridge_Glasgow_at_night.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Finnieston_Bridge_Glasgow_at_night.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Glasgow, Scotland (5460921673).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Glasgow%2C_Scotland_%285460921673%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Glasgow%2C_Scotland_%285460921673%29.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Glasgow Montage.png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Glasgow_Montage.png?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Glasgow_Montage.png"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -8652,6 +9324,34 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "\"Der Blick von der Alhambra auf Granada ist einfach atemberaubend\". 01.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%22Der_Blick_von_der_Alhambra_auf_Granada_ist_einfach_atemberaubend%22._01.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:%22Der_Blick_von_der_Alhambra_auf_Granada_ist_einfach_atemberaubend%22._01.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Night view from Alhambra de Granada, Andalusia Spain - Image Picture Photography (14875364721).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Night_view_from_Alhambra_de_Granada%2C_Andalusia_Spain_-_Image_Picture_Photography_%2814875364721%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Night_view_from_Alhambra_de_Granada%2C_Andalusia_Spain_-_Image_Picture_Photography_%2814875364721%29.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Collage de la ciudad de Granada, Andalucía, España.png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Collage_de_la_ciudad_de_Granada%2C_Andaluc%C3%ADa%2C_Espa%C3%B1a.png?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Collage_de_la_ciudad_de_Granada%2C_Andaluc%C3%ADa%2C_Espa%C3%B1a.png"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 1374,
@@ -8966,6 +9666,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Gruyères et sa cité médiévale.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gruy%C3%A8res_et_sa_cit%C3%A9_m%C3%A9di%C3%A9vale.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Gruy%C3%A8res_et_sa_cit%C3%A9_m%C3%A9di%C3%A9vale.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -9289,6 +10005,40 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Stadtbild Köln (50MP).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stadtbild_K%C3%B6ln_%2850MP%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Stadtbild_K%C3%B6ln_%2850MP%29.jpg"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "Cologne - Panoramic Image of the old town at dusk.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cologne_-_Panoramic_Image_of_the_old_town_at_dusk.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Cologne_-_Panoramic_Image_of_the_old_town_at_dusk.jpg"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "Koelnpanorama.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koelnpanorama.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Koelnpanorama.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Old town of cologne during the flood in january 2018 (27824836999).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_town_of_cologne_during_the_flood_in_january_2018_%2827824836999%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Old_town_of_cologne_during_the_flood_in_january_2018_%2827824836999%29.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -9620,6 +10370,34 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Almedina-CCBY.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Almedina-CCBY.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Almedina-CCBY.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Coimbra04.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coimbra04.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Coimbra04.JPG"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Coimbra tozu.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coimbra_tozu.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Coimbra_tozu.JPG"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 671,
@@ -9934,6 +10712,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Copenhagen - view from Christiansborg castle.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Copenhagen_-_view_from_Christiansborg_castle.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Copenhagen_-_view_from_Christiansborg_castle.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Copenhagen Collage.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Copenhagen_Collage.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Copenhagen_Collage.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -10265,6 +11065,40 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Centro Histórico, 16.9 -- 2023 -- Córdoba, España.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Centro_Hist%C3%B3rico%2C_16.9_--_2023_--_C%C3%B3rdoba%2C_Espa%C3%B1a.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Centro_Hist%C3%B3rico%2C_16.9_--_2023_--_C%C3%B3rdoba%2C_Espa%C3%B1a.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Puente sobre el Guadalquivir de noche con la Mezquita de Córdoba iluminada al fondo.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Puente_sobre_el_Guadalquivir_de_noche_con_la_Mezquita_de_C%C3%B3rdoba_iluminada_al_fondo.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Puente_sobre_el_Guadalquivir_de_noche_con_la_Mezquita_de_C%C3%B3rdoba_iluminada_al_fondo.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Córdoba aerial 9.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/C%C3%B3rdoba_aerial_9.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:C%C3%B3rdoba_aerial_9.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Collage de la ciudad de Córdoba, Andalucía, España.png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Collage_de_la_ciudad_de_C%C3%B3rdoba%2C_Andaluc%C3%ADa%2C_Espa%C3%B1a.png?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Collage_de_la_ciudad_de_C%C3%B3rdoba%2C_Andaluc%C3%ADa%2C_Espa%C3%B1a.png"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 664,
@@ -10582,6 +11416,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Town of Consuegra - 2013.07 - panoramio.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Town_of_Consuegra_-_2013.07_-_panoramio.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Town_of_Consuegra_-_2013.07_-_panoramio.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 9,
@@ -10896,6 +11746,46 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Sarajevo City Panorama.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sarajevo_City_Panorama.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Sarajevo_City_Panorama.JPG"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Sarajevo (night).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sarajevo_%28night%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Sarajevo_%28night%29.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Sarajevo SPOT 1050 (croped).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sarajevo_SPOT_1050_%28croped%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Sarajevo_SPOT_1050_%28croped%29.jpg"
+     },
+     {
+      "kind": "winter",
+      "commons_file": "View on Sarajevo from Višnjik, 2023.01.23 1.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_on_Sarajevo_from_Vi%C5%A1njik%2C_2023.01.23_1.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:View_on_Sarajevo_from_Vi%C5%A1njik%2C_2023.01.23_1.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Sarajevo.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sarajevo.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Sarajevo.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -11247,6 +12137,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Panorama of Zaragoza from the top of the cathedral (3847901093).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panorama_of_Zaragoza_from_the_top_of_the_cathedral_%283847901093%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Panorama_of_Zaragoza_from_the_top_of_the_cathedral_%283847901093%29.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 2033,
@@ -11570,6 +12476,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Panorama San Gimignano.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panorama_San_Gimignano.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Panorama_San_Gimignano.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 72,
@@ -11884,6 +12806,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Donostia Igeldotik.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Donostia_Igeldotik.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Donostia_Igeldotik.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "San Sebastian at night from Monte Urgull.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/San_Sebastian_at_night_from_Monte_Urgull.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:San_Sebastian_at_night_from_Monte_Urgull.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -12210,6 +13154,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Santiago de Compostela, Galiza (cropped).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Santiago_de_Compostela%2C_Galiza_%28cropped%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Santiago_de_Compostela%2C_Galiza_%28cropped%29.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 721,
@@ -12527,6 +13487,40 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Saint-Malo la Tour Bidouane.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint-Malo_la_Tour_Bidouane.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Saint-Malo_la_Tour_Bidouane.jpg"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "Saint-Malo panoramique depuis le Grand Bé.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint-Malo_panoramique_depuis_le_Grand_B%C3%A9.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Saint-Malo_panoramique_depuis_le_Grand_B%C3%A9.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Saint-Malo by night (16878786496).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint-Malo_by_night_%2816878786496%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Saint-Malo_by_night_%2816878786496%29.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "IMG 2935 StMalo.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/IMG_2935_StMalo.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:IMG_2935_StMalo.JPG"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 400,
@@ -12841,6 +13835,46 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Zagreb (29255640143).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zagreb_%2829255640143%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Zagreb_%2829255640143%29.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Zagreb-Night-Old-Town-AB 01.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zagreb-Night-Old-Town-AB_01.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Zagreb-Night-Old-Town-AB_01.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "19-06-16-Zagreb-DJI 0183.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/19-06-16-Zagreb-DJI_0183.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:19-06-16-Zagreb-DJI_0183.jpg"
+     },
+     {
+      "kind": "winter",
+      "commons_file": "Crkva sv. Marka zimi.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Crkva_sv._Marka_zimi.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Crkva_sv._Marka_zimi.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Montage of major Zagreb landmarks.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Montage_of_major_Zagreb_landmarks.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Montage_of_major_Zagreb_landmarks.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -13167,6 +14201,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Salzburg Altstadt vom Mönchsberg.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Salzburg_Altstadt_vom_M%C3%B6nchsberg.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Salzburg_Altstadt_vom_M%C3%B6nchsberg.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 709,
@@ -13490,6 +14540,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Sankt goarshausen.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sankt_goarshausen.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Sankt_goarshausen.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 52,
@@ -13807,6 +14873,28 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Z.Schans.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Z.Schans.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Z.Schans.JPG"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Zaanse schans - il borgo.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zaanse_schans_-_il_borgo.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Zaanse_schans_-_il_borgo.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 203,
@@ -14026,6 +15114,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Chamonix - Arve river.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chamonix_-_Arve_river.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Chamonix_-_Arve_river.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Chamonix-Mont-Blanc sunrise @ Refuge de Bellachat 01.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chamonix-Mont-Blanc_sunrise_%40_Refuge_de_Bellachat_01.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Chamonix-Mont-Blanc_sunrise_%40_Refuge_de_Bellachat_01.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -14352,6 +15462,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "France Eure et Loir Chartres Cathedrale nuit 02.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/France_Eure_et_Loir_Chartres_Cathedrale_nuit_02.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:France_Eure_et_Loir_Chartres_Cathedrale_nuit_02.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 191,
@@ -14675,6 +15801,28 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "France Loir-et-Cher Chambord Chateau 03.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/France_Loir-et-Cher_Chambord_Chateau_03.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:France_Loir-et-Cher_Chambord_Chateau_03.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "F - Schloss Chambord 017.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/F_-_Schloss_Chambord_017.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:F_-_Schloss_Chambord_017.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 10,
@@ -14894,6 +16042,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Chenonceau-20050320.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chenonceau-20050320.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Chenonceau-20050320.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Aerial image of Château de Chenonceau (view from the west).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_image_of_Ch%C3%A2teau_de_Chenonceau_%28view_from_the_west%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Ch%C3%A2teau_de_Chenonceau_%28view_from_the_west%29.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -15119,6 +16289,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "001 Chateau de Chillon and Dents du Midi Photo by Giles Laurent.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/001_Chateau_de_Chillon_and_Dents_du_Midi_Photo_by_Giles_Laurent.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:001_Chateau_de_Chillon_and_Dents_du_Midi_Photo_by_Giles_Laurent.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 128,
@@ -15338,6 +16524,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Italy - Sirmione.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Italy_-_Sirmione.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Italy_-_Sirmione.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -15658,6 +16860,28 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Geneva from Mount Salève.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Geneva_from_Mount_Sal%C3%A8ve.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Geneva_from_Mount_Sal%C3%A8ve.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Views of Geneva.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Views_of_Geneva.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Views_of_Geneva.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 1546,
@@ -15972,6 +17196,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Stavanger Sentrum-Airphoto-modf.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stavanger_Sentrum-Airphoto-modf.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Stavanger_Sentrum-Airphoto-modf.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -16292,6 +17532,7 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": null,
    "poi": {
     "radius_km": 5,
     "dining_5km": 37,
@@ -16609,6 +17850,52 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Stockholm gamlastan etc.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stockholm_gamlastan_etc.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Stockholm_gamlastan_etc.jpg"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "Saltsjön 19 juni 2020.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saltsj%C3%B6n_19_juni_2020.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Saltsj%C3%B6n_19_juni_2020.jpg"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "Skeppsbroraden 19 juni 2010.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Skeppsbroraden_19_juni_2010.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Skeppsbroraden_19_juni_2010.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Kulturhuset, Stockholm.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kulturhuset%2C_Stockholm.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Kulturhuset%2C_Stockholm.JPG"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Stockholm Montage.png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stockholm_Montage.png?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Stockholm_Montage.png"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Stockholm.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stockholm.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Stockholm.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 2800,
@@ -16915,6 +18202,7 @@
    "access": null,
    "recognition": null,
    "safety": null,
+   "media": null,
    "indicators": null,
    "meta": {
     "schema_version": "0.2.0-draft",
@@ -16962,6 +18250,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Strasburg.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Strasburg.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Strasburg.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Strasbourg seen from Esca Tower in 2014.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Strasbourg_seen_from_Esca_Tower_in_2014.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Strasbourg_seen_from_Esca_Tower_in_2014.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -17282,6 +18592,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Shakespeare's Birthplace, Stratford-upon-Avon - Sept 2012.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shakespeare%27s_Birthplace%2C_Stratford-upon-Avon_-_Sept_2012.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Shakespeare%27s_Birthplace%2C_Stratford-upon-Avon_-_Sept_2012.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 157,
@@ -17599,6 +18925,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Stresa Levo.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stresa_Levo.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Stresa_Levo.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 175,
@@ -17913,6 +19255,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Aerial image of Ston (view from the southwest).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_image_of_Ston_%28view_from_the_southwest%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Ston_%28view_from_the_southwest%29.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -18249,6 +19607,28 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Stonehenge Total.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stonehenge_Total.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Stonehenge_Total.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Magical Stonehenge - geograph.org.uk - 1628518.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Magical_Stonehenge_-_geograph.org.uk_-_1628518.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Magical_Stonehenge_-_geograph.org.uk_-_1628518.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 42,
@@ -18474,6 +19854,40 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Ferry Port of Split, Croatia (48693924822).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ferry_Port_of_Split%2C_Croatia_%2848693924822%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Ferry_Port_of_Split%2C_Croatia_%2848693924822%29.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Port of Split at night.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Port_of_Split_at_night.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Port_of_Split_at_night.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Luftbild vom Diokletianpalast in Split, Kroatien (48608754492).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Luftbild_vom_Diokletianpalast_in_Split%2C_Kroatien_%2848608754492%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Luftbild_vom_Diokletianpalast_in_Split%2C_Kroatien_%2848608754492%29.jpg"
+     },
+     {
+      "kind": "winter",
+      "commons_file": "Snow in Split.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Snow_in_Split.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Snow_in_Split.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -18805,6 +20219,34 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Sevilla Luft 120308.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sevilla_Luft_120308.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Sevilla_Luft_120308.JPG"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "(Sevilla) Seville, Spain (49104522676) (cropped).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%28Sevilla%29_Seville%2C_Spain_%2849104522676%29_%28cropped%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:%28Sevilla%29_Seville%2C_Spain_%2849104522676%29_%28cropped%29.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Collagesevilla.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Collagesevilla.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Collagesevilla.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 2107,
@@ -19122,6 +20564,28 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Sognefjord, Norway.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sognefjord%2C_Norway.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Sognefjord%2C_Norway.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Adelsteen Normann Sognefjord.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Adelsteen_Normann_Sognefjord.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Adelsteen_Normann_Sognefjord.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 1,
@@ -19341,6 +20805,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Salisbury Cathedral.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Salisbury_Cathedral.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Salisbury_Cathedral.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Choristers' Square, Salisbury.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Choristers%27_Square%2C_Salisbury.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Choristers%27_Square%2C_Salisbury.JPG"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -19667,6 +21153,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Durham Millburngate Bridge.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Durham_Millburngate_Bridge.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Durham_Millburngate_Bridge.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 312,
@@ -19990,6 +21492,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Český Krumlov, historické jádro.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C4%8Cesk%C3%BD_Krumlov%2C_historick%C3%A9_j%C3%A1dro.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:%C4%8Cesk%C3%BD_Krumlov%2C_historick%C3%A9_j%C3%A1dro.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 196,
@@ -20304,6 +21822,58 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Zuerich Fraumuenster St Peter.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zuerich_Fraumuenster_St_Peter.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Zuerich_Fraumuenster_St_Peter.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Swiss Zurich Downtown.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Swiss_Zurich_Downtown.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Swiss_Zurich_Downtown.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Zurich city center.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zurich_city_center.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Zurich_city_center.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "ETH Zürich im Abendlicht.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/ETH_Z%C3%BCrich_im_Abendlicht.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:ETH_Z%C3%BCrich_im_Abendlicht.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Aerial photograph of Zürich 02.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_photograph_of_Z%C3%BCrich_02.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Aerial_photograph_of_Z%C3%BCrich_02.jpg"
+     },
+     {
+      "kind": "winter",
+      "commons_file": "Zürich Winter.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Z%C3%BCrich_Winter.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrich_Winter.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "City of Zürich.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/City_of_Z%C3%BCrich.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:City_of_Z%C3%BCrich.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -20624,6 +22194,28 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "1 zermatt night 2012.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/1_zermatt_night_2012.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:1_zermatt_night_2012.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "00 106 0604 Zmutt - Zermatt (CH).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/00_106_0604_Zmutt_-_Zermatt_%28CH%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:00_106_0604_Zmutt_-_Zermatt_%28CH%29.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 137,
@@ -20941,6 +22533,34 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Dinan Saint-Sauveur vue des remparts.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dinan_Saint-Sauveur_vue_des_remparts.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Dinan_Saint-Sauveur_vue_des_remparts.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Dinan Panorama.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dinan_Panorama.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Dinan_Panorama.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Quaint river town (Unsplash).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Quaint_river_town_%28Unsplash%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Quaint_river_town_%28Unsplash%29.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 157,
@@ -21247,6 +22867,7 @@
    "access": null,
    "recognition": null,
    "safety": null,
+   "media": null,
    "indicators": null,
    "meta": {
     "schema_version": "0.2.0-draft",
@@ -21288,6 +22909,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Morning in September in Tours 18.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Morning_in_September_in_Tours_18.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Morning_in_September_in_Tours_18.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -21605,6 +23242,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Trani BW 2016-10-14 14-15-24 stitch.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Trani_BW_2016-10-14_14-15-24_stitch.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Trani_BW_2016-10-14_14-15-24_stitch.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Trani 061.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Trani_061.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Trani_061.JPG"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -21931,6 +23590,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "The walls of the fortress and View of the old city. panorama.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_walls_of_the_fortress_and_View_of_the_old_city._panorama.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:The_walls_of_the_fortress_and_View_of_the_old_city._panorama.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 339,
@@ -22248,6 +23923,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Panorama Domodossola da Monte Calvario.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panorama_Domodossola_da_Monte_Calvario.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Panorama_Domodossola_da_Monte_Calvario.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 102,
@@ -22562,6 +24253,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "La grande plage de Nazaré - panoramio (20).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/La_grande_plage_de_Nazar%C3%A9_-_panoramio_%2820%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:La_grande_plage_de_Nazar%C3%A9_-_panoramio_%2820%29.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Nazaré.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nazar%C3%A9.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Nazar%C3%A9.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -22888,6 +24601,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Naples from the Castello Sant Elmo with Abbazia San Martino the port and the Vesuv.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Naples_from_the_Castello_Sant_Elmo_with_Abbazia_San_Martino_the_port_and_the_Vesuv.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Naples_from_the_Castello_Sant_Elmo_with_Abbazia_San_Martino_the_port_and_the_Vesuv.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 1510,
@@ -23202,6 +24931,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Naantali church.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Naantali_church.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Naantali_church.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Kuvakollaasi Naantalista.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kuvakollaasi_Naantalista.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Kuvakollaasi_Naantalista.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -23522,6 +25273,52 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Nuremberg, view from Sinwell Tower 2012.06.16 - panoramio.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nuremberg%2C_view_from_Sinwell_Tower_2012.06.16_-_panoramio.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Nuremberg%2C_view_from_Sinwell_Tower_2012.06.16_-_panoramio.jpg"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "Nuremberg from Burg 17.04.10.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nuremberg_from_Burg_17.04.10.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Nuremberg_from_Burg_17.04.10.jpg"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "Nuernberg-pano-winter.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nuernberg-pano-winter.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Nuernberg-pano-winter.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Reformations-Gedächtnis-Kirche, Nuremberg ( 1080095).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Reformations-Ged%C3%A4chtnis-Kirche%2C_Nuremberg_%28_1080095%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Reformations-Ged%C3%A4chtnis-Kirche%2C_Nuremberg_%28_1080095%29.jpg"
+     },
+     {
+      "kind": "winter",
+      "commons_file": "Nuremberg View Old Town.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nuremberg_View_Old_Town.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Nuremberg_View_Old_Town.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Nuremberg Collage.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nuremberg_Collage.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Nuremberg_Collage.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 1568,
@@ -23839,6 +25636,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "LochNessUrquhart.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/LochNessUrquhart.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:LochNessUrquhart.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 13,
@@ -24058,6 +25871,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Nerja.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nerja.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Nerja.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -24378,6 +26207,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Nottingham skyline.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nottingham_skyline.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Nottingham_skyline.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 1292,
@@ -24692,6 +26537,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Heidelberg corr.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Heidelberg_corr.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Heidelberg_corr.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -25012,6 +26873,28 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Arlington Row Bibury.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arlington_Row_Bibury.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Arlington_Row_Bibury.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Swan Hotel Bibury.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Swan_Hotel_Bibury.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Swan_Hotel_Bibury.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 8,
@@ -25326,6 +27209,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Bayonne-Centre historique-20130811.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bayonne-Centre_historique-20130811.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Bayonne-Centre_historique-20130811.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -25652,6 +27551,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Mosteiro da Batalha (2).JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosteiro_da_Batalha_%282%29.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Mosteiro_da_Batalha_%282%29.JPG"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 55,
@@ -25966,6 +27881,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "NKD115 Saborna crkva Hrista spasitelja Banja Luka RS BiH.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/NKD115_Saborna_crkva_Hrista_spasitelja_Banja_Luka_RS_BiH.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:NKD115_Saborna_crkva_Hrista_spasitelja_Banja_Luka_RS_BiH.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Panorama Banja Luke.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panorama_Banja_Luke.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Panorama_Banja_Luke.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -26302,6 +28239,52 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Aerial view of La Sagrada Familia, Barcelona, Spain (51227006134).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_La_Sagrada_Familia%2C_Barcelona%2C_Spain_%2851227006134%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_La_Sagrada_Familia%2C_Barcelona%2C_Spain_%2851227006134%29.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Evening light over Barcelona.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Evening_light_over_Barcelona.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Evening_light_over_Barcelona.jpg"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "Barcelona. View from Tibidabo.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Barcelona._View_from_Tibidabo.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Barcelona._View_from_Tibidabo.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Barcelona desde El Carmel (1).JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Barcelona_desde_El_Carmel_%281%29.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Barcelona_desde_El_Carmel_%281%29.JPG"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Barcelona by Sentinel-2, 2020-05-22.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Barcelona_by_Sentinel-2%2C_2020-05-22.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Barcelona_by_Sentinel-2%2C_2020-05-22.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Barcelona collage.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Barcelona_collage.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Barcelona_collage.JPG"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 7038,
@@ -26622,6 +28605,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Vue sur la ville depuis la Tour du Miguelete (8277318710).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vue_sur_la_ville_depuis_la_Tour_du_Miguelete_%288277318710%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Vue_sur_la_ville_depuis_la_Tour_du_Miguelete_%288277318710%29.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Collagevalencia.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Collagevalencia.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Collagevalencia.JPG"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -26958,6 +28963,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Bath Somerset 2023 -City- by-RaBoe 055.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bath_Somerset_2023_-City-_by-RaBoe_055.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Bath_Somerset_2023_-City-_by-RaBoe_055.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 541,
@@ -27272,6 +29293,46 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Birmingham-Skyline-from-Edgbaston-crop.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Birmingham-Skyline-from-Edgbaston-crop.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Birmingham-Skyline-from-Edgbaston-crop.jpg"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "Panorama of Birmingham.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panorama_of_Birmingham.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Panorama_of_Birmingham.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Panorama Birmingham Bullring.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panorama_Birmingham_Bullring.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Panorama_Birmingham_Bullring.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Birmingham by Sentinel-2, 2020-05-29.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Birmingham_by_Sentinel-2%2C_2020-05-29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Birmingham_by_Sentinel-2%2C_2020-05-29.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "BirminghamMontage.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/BirminghamMontage.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:BirminghamMontage.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -27598,6 +29659,52 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "La Tour Eiffel vue de la Tour Saint-Jacques, Paris août 2014 (2).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "LaDefense pl.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/LaDefense_pl.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:LaDefense_pl.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Eiffel Tower from the Tour Montparnasse, 1 May 2012 N2.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eiffel_Tower_from_the_Tour_Montparnasse%2C_1_May_2012_N2.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_from_the_Tour_Montparnasse%2C_1_May_2012_N2.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Paris Night.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_Night.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Paris_Night.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Paris - Orthophotographie - 2018.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_-_Orthophotographie_-_2018.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Paris_-_Orthophotographie_-_2018.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Paris montage.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_montage.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Paris_montage.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 15961,
@@ -27915,6 +30022,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Iruñea Ortoirudia 2021.png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Iru%C3%B1ea_Ortoirudia_2021.png?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Iru%C3%B1ea_Ortoirudia_2021.png"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 831,
@@ -28229,6 +30352,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Gasteiz, Euskal Herria.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gasteiz%2C_Euskal_Herria.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Gasteiz%2C_Euskal_Herria.jpg"
+     },
+     {
+      "kind": "winter",
+      "commons_file": "Snow in Vitoria-Gasteiz february 2015 enhanced.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Snow_in_Vitoria-Gasteiz_february_2015_enhanced.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Snow_in_Vitoria-Gasteiz_february_2015_enhanced.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -28555,6 +30700,28 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Dom R1.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dom_R1.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Dom_R1.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Marienberg wuerzburg.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marienberg_wuerzburg.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Marienberg_wuerzburg.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 488,
@@ -28872,6 +31039,28 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Château de Villandry aile droite.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ch%C3%A2teau_de_Villandry_aile_droite.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Villandry_aile_droite.JPG"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Aerial image of Château de Villandry (view from the southeast).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_image_of_Ch%C3%A2teau_de_Villandry_%28view_from_the_southeast%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Ch%C3%A2teau_de_Villandry_%28view_from_the_southeast%29.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 28,
@@ -29091,6 +31280,34 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Cityscape - Bilbao, Spain - panoramio (1).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cityscape_-_Bilbao%2C_Spain_-_panoramio_%281%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Cityscape_-_Bilbao%2C_Spain_-_panoramio_%281%29.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Bilbao - Planet Imagery.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bilbao_-_Planet_Imagery.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Bilbao_-_Planet_Imagery.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Collage de Bilbao, País Vasco, España.png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Collage_de_Bilbao%2C_Pa%C3%ADs_Vasco%2C_Espa%C3%B1a.png?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Collage_de_Bilbao%2C_Pa%C3%ADs_Vasco%2C_Espa%C3%B1a.png"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -29414,6 +31631,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Pisa - veduta dall'aereo 4.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pisa_-_veduta_dall%27aereo_4.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Pisa_-_veduta_dall%27aereo_4.JPG"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -29745,6 +31978,40 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Panoramica Firenze.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panoramica_Firenze.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Panoramica_Firenze.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Florence, Italy - aerial view.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Florence%2C_Italy_-_aerial_view.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Florence%2C_Italy_-_aerial_view.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Collage Firenze.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Collage_Firenze.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Collage_Firenze.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Florence Collage.png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Florence_Collage.png?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Florence_Collage.png"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 1919,
@@ -30059,6 +32326,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "2018 07 11 Schottland (39).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/2018_07_11_Schottland_%2839%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:2018_07_11_Schottland_%2839%29.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Eclusas do canal Caledonia (6194580521).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eclusas_do_canal_Caledonia_%286194580521%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Eclusas_do_canal_Caledonia_%286194580521%29.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -30379,6 +32668,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Fougères.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Foug%C3%A8res.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Foug%C3%A8res.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 94,
@@ -30696,6 +33001,46 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Frankfurter Altstadt mit Skyline 2019 (100MP).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Frankfurter_Altstadt_mit_Skyline_2019_%28100MP%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Frankfurter_Altstadt_mit_Skyline_2019_%28100MP%29.jpg"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "Frankfurt Skyline Pano.Südwest.20130618.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Frankfurt_Skyline_Pano.S%C3%BCdwest.20130618.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Frankfurt_Skyline_Pano.S%C3%BCdwest.20130618.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Frankfurt am Main, Germany, March 25, 2018 SkySat.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Frankfurt_am_Main%2C_Germany%2C_March_25%2C_2018_SkySat.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Frankfurt_am_Main%2C_Germany%2C_March_25%2C_2018_SkySat.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Frankfurt by Sentinel-2, 2020-07-23.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Frankfurt_by_Sentinel-2%2C_2020-07-23.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Frankfurt_by_Sentinel-2%2C_2020-07-23.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Frankfurt collage.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Frankfurt_collage.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Frankfurt_collage.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 2220,
@@ -31010,6 +33355,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Bouillon - Château-fort et cité (1).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bouillon_-_Ch%C3%A2teau-fort_et_cit%C3%A9_%281%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Bouillon_-_Ch%C3%A2teau-fort_et_cit%C3%A9_%281%29.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -31346,6 +33707,52 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Budapest, Hungary (explored) (14995308504).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C_Hungary_%28explored%29_%2814995308504%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Budapest%2C_Hungary_%28explored%29_%2814995308504%29.jpg"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "Budapestpanorama2014.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapestpanorama2014.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Budapestpanorama2014.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Panoramic view of Budapest 2014.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panoramic_view_of_Budapest_2014.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Panoramic_view_of_Budapest_2014.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Budapest és a Duna madártávlatból.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_%C3%A9s_a_Duna_mad%C3%A1rt%C3%A1vlatb%C3%B3l.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Budapest_%C3%A9s_a_Duna_mad%C3%A1rt%C3%A1vlatb%C3%B3l.jpg"
+     },
+     {
+      "kind": "winter",
+      "commons_file": "Snow covered roofs and listed buildings in Krisztinaváros, 2016 Budapest.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Snow_covered_roofs_and_listed_buildings_in_Krisztinav%C3%A1ros%2C_2016_Budapest.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Snow_covered_roofs_and_listed_buildings_in_Krisztinav%C3%A1ros%2C_2016_Budapest.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Montage of Budapest.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Montage_of_Budapest.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Montage_of_Budapest.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 3586,
@@ -31669,6 +34076,28 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Arco da porta nova Braga.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arco_da_porta_nova_Braga.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Arco_da_porta_nova_Braga.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Braga Montage.png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Braga_Montage.png?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Braga_Montage.png"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 632,
@@ -31983,6 +34412,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Hlavné Namestie (35096533142).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hlavn%C3%A9_Namestie_%2835096533142%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Hlavn%C3%A9_Namestie_%2835096533142%29.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Bratislava Montage.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bratislava_Montage.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Bratislava_Montage.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -32319,6 +34770,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Brussels view from Mont des Arts, Brussels, Belgium (cropped).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brussels_view_from_Mont_des_Arts%2C_Brussels%2C_Belgium_%28cropped%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Brussels_view_from_Mont_des_Arts%2C_Brussels%2C_Belgium_%28cropped%29.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 3742,
@@ -32633,6 +35100,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Glishorn-briglina.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Glishorn-briglina.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Glishorn-briglina.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Brig Stockalperpalast.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brig_Stockalperpalast.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Brig_Stockalperpalast.JPG"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -32956,6 +35445,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Burgos city view facing south east.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Burgos_city_view_facing_south_east.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Burgos_city_view_facing_south_east.jpg"
+     },
+     {
+      "kind": "winter",
+      "commons_file": "Nieva en Burgos.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nieva_en_Burgos.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Nieva_en_Burgos.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -33287,6 +35798,28 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Brugge-CanalRozenhoedkaai.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brugge-CanalRozenhoedkaai.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Brugge-CanalRozenhoedkaai.JPG"
+     },
+     {
+      "kind": "night",
+      "commons_file": "22 10 Brügge IMG 9696.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/22_10_Br%C3%BCgge_IMG_9696.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:22_10_Br%C3%BCgge_IMG_9696.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 594,
@@ -33601,6 +36134,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Blejsko jezero.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Blejsko_jezero.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Blejsko_jezero.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -33932,6 +36481,58 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Petřín Tower View IMG 3020.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pet%C5%99%C3%ADn_Tower_View_IMG_3020.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Pet%C5%99%C3%ADn_Tower_View_IMG_3020.JPG"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Prague - 50175672531.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Prague_-_50175672531.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Prague_-_50175672531.jpg"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "Prague panorama.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Prague_panorama.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Prague_panorama.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Podvečerní Praha z Kinského zahrady.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Podve%C4%8Dern%C3%AD_Praha_z_Kinsk%C3%A9ho_zahrady.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Podve%C4%8Dern%C3%AD_Praha_z_Kinsk%C3%A9ho_zahrady.JPG"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Praha hlavní nádraží 2017-06-25 01.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Praha_hlavn%C3%AD_n%C3%A1dra%C5%BE%C3%AD_2017-06-25_01.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Praha_hlavn%C3%AD_n%C3%A1dra%C5%BE%C3%AD_2017-06-25_01.jpg"
+     },
+     {
+      "kind": "winter",
+      "commons_file": "Praha, Petřín, 2021 (30a).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Praha%2C_Pet%C5%99%C3%ADn%2C_2021_%2830a%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Praha%2C_Pet%C5%99%C3%ADn%2C_2021_%2830a%29.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Prague collage 2018.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Prague_collage_2018.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Prague_collage_2018.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 4043,
@@ -34255,6 +36856,40 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Plitvice Lakes National Park (2).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Plitvice_Lakes_National_Park_%282%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Plitvice_Lakes_National_Park_%282%29.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Duck on the lake.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Duck_on_the_lake.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Duck_on_the_lake.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Plitvicer Seen 1.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Plitvicer_Seen_1.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Plitvicer_Seen_1.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Aerial view of Plitvice Lakes in Croatia (48607790042).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_Plitvice_Lakes_in_Croatia_%2848607790042%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Plitvice_Lakes_in_Croatia_%2848607790042%29.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 19,
@@ -34480,6 +37115,52 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Helsinki Lutheran Cathedral (panoraamanäköala)-2 (säätö).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Helsinki_Lutheran_Cathedral_%28panoraaman%C3%A4k%C3%B6ala%29-2_%28s%C3%A4%C3%A4t%C3%B6%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Helsinki_Lutheran_Cathedral_%28panoraaman%C3%A4k%C3%B6ala%29-2_%28s%C3%A4%C3%A4t%C3%B6%29.jpg"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "Southern Helsinki panorama 2011-06-28 1.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Southern_Helsinki_panorama_2011-06-28_1.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Southern_Helsinki_panorama_2011-06-28_1.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Baltika floatout 20140118.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Baltika_floatout_20140118.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Baltika_floatout_20140118.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Aerial photograph of Helsinki downtown.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_photograph_of_Helsinki_downtown.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Aerial_photograph_of_Helsinki_downtown.jpg"
+     },
+     {
+      "kind": "winter",
+      "commons_file": "Winter in Helsinki (16253904195).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Winter_in_Helsinki_%2816253904195%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Winter_in_Helsinki_%2816253904195%29.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "HelsinkiMontage NoEffects.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/HelsinkiMontage_NoEffects.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:HelsinkiMontage_NoEffects.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -34806,6 +37487,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "2512-Elseneur.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/2512-Elseneur.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:2512-Elseneur.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 147,
@@ -35129,6 +37826,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Floating city.tif",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Floating_city.tif?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Floating_city.tif"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 1054,
@@ -35443,6 +38156,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Benevento (Panoramic from Taburno).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Benevento_%28Panoramic_from_Taburno%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Benevento_%28Panoramic_from_Taburno%29.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -35769,6 +38498,52 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Vista de Bergen desde la montaña Fløyen, Noruega, 2019-09-08, DD 27-31 PAN.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vista_de_Bergen_desde_la_monta%C3%B1a_Fl%C3%B8yen%2C_Noruega%2C_2019-09-08%2C_DD_27-31_PAN.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Vista_de_Bergen_desde_la_monta%C3%B1a_Fl%C3%B8yen%2C_Noruega%2C_2019-09-08%2C_DD_27-31_PAN.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "00 4400 View over the store Lungegårdsvann - Bergen (Norway).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/00_4400_View_over_the_store_Lungeg%C3%A5rdsvann_-_Bergen_%28Norway%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:00_4400_View_over_the_store_Lungeg%C3%A5rdsvann_-_Bergen_%28Norway%29.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Bergen night tunliweb.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bergen_night_tunliweb.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Bergen_night_tunliweb.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Aerial of Bergen op Zoom1.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_of_Bergen_op_Zoom1.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Aerial_of_Bergen_op_Zoom1.jpg"
+     },
+     {
+      "kind": "winter",
+      "commons_file": "View Bergen Floibanen Floyen Winter 2009.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_Bergen_Floibanen_Floyen_Winter_2009.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:View_Bergen_Floibanen_Floyen_Winter_2009.JPG"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "BergenComposite.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/BergenComposite.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:BergenComposite.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 431,
@@ -36089,6 +38864,46 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Bern luftaufnahme.png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bern_luftaufnahme.png?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Bern_luftaufnahme.png"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Bundeshaus in Bern bei Nacht.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundeshaus_in_Bern_bei_Nacht.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Bundeshaus_in_Bern_bei_Nacht.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Bern aerial view 2009.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bern_aerial_view_2009.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Bern_aerial_view_2009.jpg"
+     },
+     {
+      "kind": "winter",
+      "commons_file": "Bern in Winter 02.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bern_in_Winter_02.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Bern_in_Winter_02.JPG"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "City of Berne.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/City_of_Berne.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:City_of_Berne.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -36420,6 +39235,34 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Aerial picture of Verona.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_picture_of_Verona.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Aerial_picture_of_Verona.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Panorama notturno di Verona.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panorama_notturno_di_Verona.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Panorama_notturno_di_Verona.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Collage Verona.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Collage_Verona.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Collage_Verona.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 901,
@@ -36734,6 +39577,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Peniscola plages.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peniscola_plages.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Peniscola_plages.JPG"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -37054,6 +39913,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Ann Tyson's Cottage - geograph.org.uk - 510301.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ann_Tyson%27s_Cottage_-_geograph.org.uk_-_510301.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Ann_Tyson%27s_Cottage_-_geograph.org.uk_-_510301.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 36,
@@ -37368,6 +40243,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Postojna panorama2.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Postojna_panorama2.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Postojna_panorama2.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -37704,6 +40595,28 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "O Porto (visto da Ponte Dom Luis I).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/O_Porto_%28visto_da_Ponte_Dom_Luis_I%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:O_Porto_%28visto_da_Ponte_Dom_Luis_I%29.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Porto collage.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Porto_collage.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Porto_collage.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 2275,
@@ -38027,6 +40940,28 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Pompeii (4873744179).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pompeii_%284873744179%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Pompeii_%284873744179%29.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Aerial image of Pompeii and Mount Vesuvius (view from the southeast).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_image_of_Pompeii_and_Mount_Vesuvius_%28view_from_the_southeast%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Pompeii_and_Mount_Vesuvius_%28view_from_the_southeast%29.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 275,
@@ -38252,6 +41187,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Cittadimatera1.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cittadimatera1.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Cittadimatera1.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Aerial image of Matera (view from the west).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_image_of_Matera_%28view_from_the_west%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Matera_%28view_from_the_west%29.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -38578,6 +41535,46 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Madrid (38624991251).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Madrid_%2838624991251%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Madrid_%2838624991251%29.jpg"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "Azca-Skyline-271112.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Azca-Skyline-271112.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Azca-Skyline-271112.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Madrid - Madrid skyline - 140314 195825.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Madrid_-_Madrid_skyline_-_140314_195825.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Madrid_-_Madrid_skyline_-_140314_195825.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Madrid ESA354454.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Madrid_ESA354454.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Madrid_ESA354454.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "CollageMadrid.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/CollageMadrid.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:CollageMadrid.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 6996,
@@ -38892,6 +41889,40 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Malaga 2023.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Malaga_2023.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Malaga_2023.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Malaga Night Panorama.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Malaga_Night_Panorama.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Malaga_Night_Panorama.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Málaga vista aérea.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/M%C3%A1laga_vista_a%C3%A9rea.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:M%C3%A1laga_vista_a%C3%A9rea.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Collage de la ciudad de Málaga, Andalucía (España).png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Collage_de_la_ciudad_de_M%C3%A1laga%2C_Andaluc%C3%ADa_%28Espa%C3%B1a%29.png?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Collage_de_la_ciudad_de_M%C3%A1laga%2C_Andaluc%C3%ADa_%28Espa%C3%B1a%29.png"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -39212,6 +42243,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "19-03-03-Maribor-RalfR-DJI 0444.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/19-03-03-Maribor-RalfR-DJI_0444.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:19-03-03-Maribor-RalfR-DJI_0444.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 401,
@@ -39529,6 +42576,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Martigny rhone valley.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Martigny_rhone_valley.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Martigny_rhone_valley.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 125,
@@ -39843,6 +42906,70 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Stadtbild München.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stadtbild_M%C3%BCnchen.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Stadtbild_M%C3%BCnchen.jpg"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "Panorama olympiaturm.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panorama_olympiaturm.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Panorama_olympiaturm.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Munich (31568903).jpeg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Munich_%2831568903%29.jpeg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Munich_%2831568903%29.jpeg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "NASA Spaceborne radar image of Munich, Germany - 1994 hi res.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/NASA_Spaceborne_radar_image_of_Munich%2C_Germany_-_1994_hi_res.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:NASA_Spaceborne_radar_image_of_Munich%2C_Germany_-_1994_hi_res.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Digitales Orthofoto von München (Bayerische Vermessungsverwaltung).tif",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Digitales_Orthofoto_von_M%C3%BCnchen_%28Bayerische_Vermessungsverwaltung%29.tif?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Digitales_Orthofoto_von_M%C3%BCnchen_%28Bayerische_Vermessungsverwaltung%29.tif"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Luftbild München Innenstadt.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Luftbild_M%C3%BCnchen_Innenstadt.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Luftbild_M%C3%BCnchen_Innenstadt.jpg"
+     },
+     {
+      "kind": "winter",
+      "commons_file": "Vista de Múnich desde Fröttmaning, Alemania, 2013-02-11, DD 01.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vista_de_M%C3%BAnich_desde_Fr%C3%B6ttmaning%2C_Alemania%2C_2013-02-11%2C_DD_01.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Vista_de_M%C3%BAnich_desde_Fr%C3%B6ttmaning%2C_Alemania%2C_2013-02-11%2C_DD_01.JPG"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Munich montage.png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Munich_montage.png?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Munich_montage.png"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Munchen collage.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Munchen_collage.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Munchen_collage.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -40166,6 +43293,58 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Milano, Duomo with Milan Cathedral and Galleria Vittorio Emanuele II, 2016.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Milano%2C_Duomo_with_Milan_Cathedral_and_Galleria_Vittorio_Emanuele_II%2C_2016.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Milano%2C_Duomo_with_Milan_Cathedral_and_Galleria_Vittorio_Emanuele_II%2C_2016.jpg"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "Full Milan skyline from Duomo roof.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Full_Milan_skyline_from_Duomo_roof.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Full_Milan_skyline_from_Duomo_roof.jpg"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "Milano banner.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Milano_banner.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Milano_banner.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "North Milano WV banner.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/North_Milano_WV_banner.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:North_Milano_WV_banner.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Castello Sforzesco da alto.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Castello_Sforzesco_da_alto.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Castello_Sforzesco_da_alto.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Milan seen from the ISS in 2015 (iau1510a).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Milan_seen_from_the_ISS_in_2015_%28iau1510a%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Milan_seen_from_the_ISS_in_2015_%28iau1510a%29.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Milan.Proper.Wikipedia.Image.png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Milan.Proper.Wikipedia.Image.png?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Milan.Proper.Wikipedia.Image.png"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -40497,6 +43676,28 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Mérida. Mayor square. Badajoz. Extremadura. Spain (4923902587).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/M%C3%A9rida._Mayor_square._Badajoz._Extremadura._Spain_%284923902587%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:M%C3%A9rida._Mayor_square._Badajoz._Extremadura._Spain_%284923902587%29.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Collage de Mérida.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Collage_de_M%C3%A9rida.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Collage_de_M%C3%A9rida.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 118,
@@ -40811,6 +44012,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Mostar Old Town Panorama 2007.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mostar_Old_Town_Panorama_2007.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Mostar_Old_Town_Panorama_2007.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -41137,6 +44354,28 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Mont St Michel 3, Brittany, France - July 2011.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mont_St_Michel_3%2C_Brittany%2C_France_-_July_2011.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Mont_St_Michel_3%2C_Brittany%2C_France_-_July_2011.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "MSM sunset 02.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/MSM_sunset_02.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:MSM_sunset_02.JPG"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 44,
@@ -41359,6 +44598,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Montserrat Natural Park 4.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Montserrat_Natural_Park_4.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Montserrat_Natural_Park_4.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 41,
@@ -41578,6 +44833,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Grad Jajce.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grad_Jajce.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Grad_Jajce.JPG"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -41898,6 +45169,28 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "York (Aerial view).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/York_%28Aerial_view%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:York_%28Aerial_view%29.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "York Montage 2022.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/York_Montage_2022.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:York_Montage_2022.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 771,
@@ -42212,6 +45505,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "City of Lancaster (2).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/City_of_Lancaster_%282%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:City_of_Lancaster_%282%29.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -42543,6 +45852,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Collage Reims.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Collage_Reims.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Collage_Reims.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 452,
@@ -42857,6 +46182,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Lisboa837.png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lisboa837.png?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Lisboa837.png"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Lisbon Montage 2020.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lisbon_Montage_2020.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Lisbon_Montage_2020.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -43177,6 +46524,7 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": null,
    "poi": {
     "radius_km": 5,
     "dining_5km": 104,
@@ -43500,6 +46848,46 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "2021-07-28 Ljubljana-0881.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-07-28_Ljubljana-0881.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:2021-07-28_Ljubljana-0881.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Ljubljana in the Night (16343737505).png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ljubljana_in_the_Night_%2816343737505%29.png?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Ljubljana_in_the_Night_%2816343737505%29.png"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Center of Ljubljana from Air.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Center_of_Ljubljana_from_Air.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Center_of_Ljubljana_from_Air.jpg"
+     },
+     {
+      "kind": "winter",
+      "commons_file": "Ljubljana under the snow 1.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ljubljana_under_the_snow_1.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Ljubljana_under_the_snow_1.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Ljubljana Montage 2.png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ljubljana_Montage_2.png?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Ljubljana_Montage_2.png"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 857,
@@ -43817,6 +47205,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Panoramic View of Rüdesheim am Rhein 20140928 1.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panoramic_View_of_R%C3%BCdesheim_am_Rhein_20140928_1.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Panoramic_View_of_R%C3%BCdesheim_am_Rhein_20140928_1.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 222,
@@ -44131,6 +47535,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Lugano from Sighignola.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lugano_from_Sighignola.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Lugano_from_Sighignola.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -44457,6 +47877,40 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Luxemburg.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Luxemburg.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Luxemburg.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "City Hall of Luxembourg City 01.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/City_Hall_of_Luxembourg_City_01.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:City_Hall_of_Luxembourg_City_01.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "LUX – Kanton Luxemburg — Gemeinde Luxembourg — Oberstadt — Chemin de la Corniche (Bronzetafel UNESCO-Welterbestätte) 2024-01-27 Mattes.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/LUX_%E2%80%93_Kanton_Luxemburg_%E2%80%94_Gemeinde_Luxembourg_%E2%80%94_Oberstadt_%E2%80%94_Chemin_de_la_Corniche_%28Bronzetafel_UNESCO-Welterbest%C3%A4tte%29_2024-01-27_Mattes.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:LUX_%E2%80%93_Kanton_Luxemburg_%E2%80%94_Gemeinde_Luxembourg_%E2%80%94_Oberstadt_%E2%80%94_Chemin_de_la_Corniche_%28Bronzetafel_UNESCO-Welterbest%C3%A4tte%29_2024-01-27_Mattes.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Luxembourg City Hall (54540726309).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Luxembourg_City_Hall_%2854540726309%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Luxembourg_City_Hall_%2854540726309%29.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 821,
@@ -44771,6 +48225,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Rouen mosaique.png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rouen_mosaique.png?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Rouen_mosaique.png"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Rouen montage.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rouen_montage.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Rouen_montage.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -45091,6 +48567,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Levanto-panorama da provinciale1.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Levanto-panorama_da_provinciale1.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Levanto-panorama_da_provinciale1.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 168,
@@ -45405,6 +48897,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Vue sud-ouest de la place du parlement de Bretagne, Rennes, France.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vue_sud-ouest_de_la_place_du_parlement_de_Bretagne%2C_Rennes%2C_France.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Vue_sud-ouest_de_la_place_du_parlement_de_Bretagne%2C_Rennes%2C_France.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -45725,6 +49233,22 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Orreaga - centre.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Orreaga_-_centre.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Orreaga_-_centre.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 12,
@@ -46039,6 +49563,22 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Ronda aerial.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ronda_aerial.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Ronda_aerial.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -46370,6 +49910,46 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "London Skyline (125508655).jpeg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/London_Skyline_%28125508655%29.jpeg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:London_Skyline_%28125508655%29.jpeg"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "London (Panorama) (8162135204).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/London_%28Panorama%29_%288162135204%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:London_%28Panorama%29_%288162135204%29.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Panorama of City of London during The Shard’s opening laser show.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panorama_of_City_of_London_during_The_Shard%E2%80%99s_opening_laser_show.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Panorama_of_City_of_London_during_The_Shard%E2%80%99s_opening_laser_show.jpg"
+     },
+     {
+      "kind": "aerial",
+      "commons_file": "Aerial view of London city.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_London_city.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_London_city.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "London Montage 2016.png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/London_Montage_2016.png?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:London_Montage_2016.png"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 9634,
@@ -46684,6 +50264,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Rothenburg BW 4.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rothenburg_BW_4.JPG?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Rothenburg_BW_4.JPG"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "Rothenburg ob der Tauber, Panorama vom Burgtor zum Weißen Turm, Ansicht vom Kalkturm-20160108-001.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rothenburg_ob_der_Tauber%2C_Panorama_vom_Burgtor_zum_Wei%C3%9Fen_Turm%2C_Ansicht_vom_Kalkturm-20160108-001.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Rothenburg_ob_der_Tauber%2C_Panorama_vom_Burgtor_zum_Wei%C3%9Fen_Turm%2C_Ansicht_vom_Kalkturm-20160108-001.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
@@ -47015,6 +50617,40 @@
      "retrieved_at": "2026-07-16"
     }
    },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Rome Skyline (8012016319).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rome_Skyline_%288012016319%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Rome_Skyline_%288012016319%29.jpg"
+     },
+     {
+      "kind": "panorama",
+      "commons_file": "View from Stpeters bottomcropped.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_Stpeters_bottomcropped.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:View_from_Stpeters_bottomcropped.jpg"
+     },
+     {
+      "kind": "night",
+      "commons_file": "Sant'Angelo bridge, dusk, Rome, Italy.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sant%27Angelo_bridge%2C_dusk%2C_Rome%2C_Italy.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Sant%27Angelo_bridge%2C_dusk%2C_Rome%2C_Italy.jpg"
+     },
+     {
+      "kind": "collage",
+      "commons_file": "Rome Montage 2017.png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rome_Montage_2017.png?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Rome_Montage_2017.png"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
+     "retrieved_at": "2026-07-16"
+    }
+   },
    "poi": {
     "radius_km": 5,
     "dining_5km": 4354,
@@ -47335,6 +50971,28 @@
      "source": "wikidata",
      "license": "CC0-1.0",
      "attribution": null,
+     "retrieved_at": "2026-07-16"
+    }
+   },
+   "media": {
+    "images": [
+     {
+      "kind": "main",
+      "commons_file": "Vernazza, Cinque Terre (panorama).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vernazza%2C_Cinque_Terre_%28panorama%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Vernazza%2C_Cinque_Terre_%28panorama%29.jpg"
+     },
+     {
+      "kind": "main",
+      "commons_file": "Cinque Terre (Italy, October 2020) - 38 (50543598656).jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cinque_Terre_%28Italy%2C_October_2020%29_-_38_%2850543598656%29.jpg?width=800",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Cinque_Terre_%28Italy%2C_October_2020%29_-_38_%2850543598656%29.jpg"
+     }
+    ],
+    "_meta": {
+     "source": "wikidata",
+     "license": "per-image (Wikimedia Commons)",
+     "attribution": "画像: Wikimedia Commons（ライセンス・作者は各出典ページを参照）",
      "retrieved_at": "2026-07-16"
     }
    },
