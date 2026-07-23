@@ -15,9 +15,9 @@
 | heritage.whs_within_30km | 152/152 | 100% |
 | climate.monthly | 152/152 | 100% |
 | access.nearest_airport | 152/152 | 100% |
-| recognition.wikipedia_views_ja_year | 129/152 | 85% |
-| recognition.wikipedia_views_en_year | 134/152 | 88% |
-| recognition.wikipedia_views_ja_monthly | 129/152 | 85% |
+| recognition.wikipedia_views_ja_year | 140/152 | 92% |
+| recognition.wikipedia_views_en_year | 149/152 | 98% |
+| recognition.wikipedia_views_ja_monthly | 140/152 | 92% |
 | safety.mofa_risk_level | 152/152 | 100% |
 | media.images | 150/152 | 99% |
 | holidays.monthly_counts | 152/152 | 100% |
@@ -29,14 +29,14 @@
 
 | 項目 | 値 | 期待範囲 | 判定 |
 | --- | --- | --- | --- |
-| パリの飲食店数(5km) | 15961 | 5000〜50000 | ✅ |
+| パリの飲食店数(5km) | 34446 | 5000〜50000 | ✅ |
 | パリの7月平均気温 | 20.5 | 17〜24 | ✅ |
 | ツェルマットの標高 | 1624.0 | 1400〜1800 | ✅ |
 | セビリアの7月平均気温 | 28.1 | 25〜31 | ✅ |
 | セビリアの7月降水量 | 1.4 | 0〜15 | ✅ |
 | ロンドンのja年間閲覧数 | 164237 | 100000〜5000000 | ✅ |
 | ドブロブニクの世界遺産5km圏 | 1 | 1〜10 | ✅ |
-| バイブリー(村)の飲食店数(5km) | 8 | 1〜200 | ✅ |
+| バイブリー(村)の飲食店数(5km) | 20 | 1〜200 | ✅ |
 
 ## 3. 外れ値検出（settlementコホート）
 
@@ -46,7 +46,7 @@
 
 1. **山岳部の気温**：ERA5はグリッド（約25km四方）平均のため、山岳の町では実際より低温に出る（例：ツェルマット1月）。都市間比較には使えるが絶対値表示は注意。
 2. **日照時間は近似値**：日射量(ssrd)からの換算のため、晴天の多い地域で過大になる場合がある。
-3. **POIはOSM由来**（Foursquare保留中）。OSMの登録密度は地域差があり、小さな町では実態より少なく出る可能性。dining_categories_5kmは未取得（null）。
+3. **POIはFoursquare OS Places由来**（2026-07-09版・閉店除外済み）。OSMは自然地物・展望地点・歩行者エリア（osm_features）のみで、同ブロックには登録密度の地域差（小さな町で過少）が残る。Foursquareの月次更新への追随は再取得経路の確認が前提（調査レポート§4）。
 4. **安全情報は国単位**：都市固有のレベルではない（granularity=countryを明示済み）。
 5. **Eurostat宿泊統計（nights_spent_nuts2）は未整備**（NUTS2対応表が必要。設計書§7）。
 6. **coastal（海岸判定）は未実装**（osm_features.coastline_10kmで代替可能）。

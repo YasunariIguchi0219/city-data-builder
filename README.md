@@ -49,7 +49,8 @@ uv run python scripts/fetch/wikidata_extras.py  # 標高
 uv run python scripts/fetch/sitelinks.py        # Wikipedia記事タイトル（閲覧数取得の前提）
 uv run python scripts/fetch/pageviews.py        # Wikipedia閲覧数（約10分・中断再開可）
 uv run python scripts/fetch/mofa_safety.py      # 外務省 危険情報（21カ国）
-uv run python scripts/fetch/osm_poi.py          # OSM POI・自然地物（1〜2時間・中断再開可）
+uv run python scripts/fetch/fsq_poi.py          # POI（Foursquare。要ローカルデータ data/raw/fsq-os-places/）
+uv run python scripts/fetch/osm_poi.py          # OSM 自然地物・展望地点等（1〜2時間・中断再開可）
 uv run python scripts/fetch/climate_era5.py fetch && uv run python scripts/fetch/climate_era5.py extract  # 気候（要.env）
 uv run python scripts/fetch/airports.py         # 最寄り空港（CSVは自動ダウンロード）
 uv run python scripts/fetch/unesco_whs.py       # 世界遺産（Wikidata SPARQL）

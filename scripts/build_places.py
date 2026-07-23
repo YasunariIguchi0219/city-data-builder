@@ -9,7 +9,8 @@
 - data/raw/pageviews/views_2025.json        … 閲覧数（fetch/pageviews.py）
 - data/raw/wikidata/sitelinks.json  … sitelinks数
 - data/raw/mofa/risk_levels.json            … 危険情報（fetch/mofa_safety.py）
-- data/raw/osm/poi_counts.json              … POI・自然地物（fetch/osm_poi.py、ODbL）
+- data/raw/fsq/poi_counts.json              … POI（fetch/fsq_poi.py、Foursquare/Apache 2.0。poiブロックの第一ソース）
+- data/raw/osm/poi_counts.json              … 自然地物等（fetch/osm_poi.py、ODbL。osm_features＋poiのフォールバック）
 - data/raw/era5/climate_monthly.json        … 月別気候（fetch/climate_era5.py）
 - data/raw/nager/holidays.json              … 祝日（fetch/holidays.py、国単位）
 - data/raw/eurostat/pli.json                … 物価水準（fetch/price_levels.py、国単位）
@@ -33,6 +34,7 @@ TODAY = "2026-07-16"
 SCHEMA_VERSION = "0.2.0-draft"
 
 OSM_ATTR = "© OpenStreetMap contributors"
+FSQ_ATTR = "POI data: Foursquare Open Source Places (Apache 2.0)"
 ERA5_ATTR = "Generated using Copernicus Climate Change Service information 2026"
 COMFORT = dict(t_lo=8, t_hi=27, w_temp=0.5, w_precip=0.3, w_sun=0.2)  # 設計書§4.2（仮置き係数）
 
@@ -106,6 +108,7 @@ def main():
     sitelinks = load("data/raw/wikidata/sitelinks.json", {})
     mofa = (load("data/raw/mofa/risk_levels.json") or {}).get("levels", {})
     osm = load("data/raw/osm/poi_counts.json", {})
+    fsq = (load("data/raw/fsq/poi_counts.json") or {}).get("places", {})
     holidays = (load("data/raw/nager/holidays.json") or {}).get("countries", {})
     place_regions = load("data/raw/wikidata/place_regions.json", {})
     pli = (load("data/raw/eurostat/pli.json") or {}).get("countries", {})
@@ -119,10 +122,23 @@ def main():
     cities = [p for p in places if p["type"] == "city" and p.get("lat")]
     cohort_ids = {p["id"] for p in settlements}
 
+    def poi_values(pid):
+        """poiブロックの値と出所を返す。Foursquare優先、なければOSMフォールバック（1ブロック1ソース）。"""
+        f = fsq.get(pid)
+        if f:
+            return dict(f), "fsq_os_places"
+        o = osm.get(pid)
+        if o:
+            return {**{k: o.get(k) for k in (
+                "dining_5km", "culture_5km", "nightlife_5km", "shopping_5km",
+                "wellness_5km", "lodging_5km", "dining_1km", "culture_1km", "shopping_1km")},
+                "dining_categories_5km": None}, "osm"
+        return None, None
+
     # ---- コホート正規化用の元値を全地点分先に計算 ----
     heritage_detail, raw = {}, {k: {} for k in (
-        "heritage", "ja", "en", "dining", "culture", "nightlife", "walk", "scenic",
-        "outdoor", "lodging", "dining_pc", "lodging_pc")}
+        "heritage", "ja", "en", "dining", "dining_cats", "culture", "nightlife", "walk",
+        "scenic", "outdoor", "lodging", "dining_pc", "lodging_pc")}
     for p in places:
         if not p.get("lat"):
             continue
@@ -138,18 +154,21 @@ def main():
         raw["heritage"][pid] = 2 * len(onsite) + heritage_detail[pid]["within30"]
         v = views.get(p["qid"], {})
         raw["ja"][pid], raw["en"][pid] = v.get("ja"), v.get("en")
-        o = osm.get(pid)
-        if o:
-            raw["dining"][pid] = o["dining_5km"]
-            raw["culture"][pid] = o["culture_5km"]
-            raw["nightlife"][pid] = o["nightlife_5km"]
-            raw["lodging"][pid] = o["lodging_5km"]
+        pv, _ = poi_values(pid)
+        if pv:
+            raw["dining"][pid] = pv["dining_5km"]
+            raw["dining_cats"][pid] = pv.get("dining_categories_5km")
+            raw["culture"][pid] = pv["culture_5km"]
+            raw["nightlife"][pid] = pv["nightlife_5km"]
+            raw["lodging"][pid] = pv["lodging_5km"]
             pop = p.get("population")
             if pop:
                 # 人口あたり（充実度ゲート用）: 小規模観光地が絶対数のみだと過小評価されるため
-                raw["dining_pc"][pid] = o["dining_5km"] / pop
-                raw["lodging_pc"][pid] = o["lodging_5km"] / pop
-            raw["walk"][pid] = o["dining_1km"] + o["culture_1km"] + o["shopping_1km"]
+                raw["dining_pc"][pid] = pv["dining_5km"] / pop
+                raw["lodging_pc"][pid] = pv["lodging_5km"] / pop
+            raw["walk"][pid] = pv["dining_1km"] + pv["culture_1km"] + pv["shopping_1km"]
+        o = osm.get(pid)
+        if o:
             raw["scenic"][pid] = (o["viewpoints_5km"] + 0.5 * o["peaks_10km"]
                                   + 0.5 * o["lakes_10km"] + (5 if o["coastline_10km"] else 0)
                                   + 0.3 * o["protected_areas_10km"])
@@ -217,18 +236,25 @@ def main():
             else:
                 record["media"] = None
 
-            o = osm.get(pid)
-            if o:
+            pv, poi_src = poi_values(pid)
+            if pv:
+                poi_meta = (meta("fsq_os_places", "Apache-2.0", FSQ_ATTR)
+                            if poi_src == "fsq_os_places" else meta("osm", "ODbL-1.0", OSM_ATTR))
                 record["poi"] = {
                     "radius_km": 5,
-                    "dining_5km": o["dining_5km"], "dining_categories_5km": None,
-                    "culture_5km": o["culture_5km"], "nightlife_5km": o["nightlife_5km"],
-                    "shopping_5km": o["shopping_5km"], "wellness_5km": o["wellness_5km"],
-                    "lodging_5km": o["lodging_5km"],
-                    "dining_1km": o["dining_1km"], "culture_1km": o["culture_1km"],
-                    "shopping_1km": o["shopping_1km"],
-                    "_meta": meta("osm", "ODbL-1.0", OSM_ATTR),
+                    "dining_5km": pv["dining_5km"],
+                    "dining_categories_5km": pv.get("dining_categories_5km"),
+                    "culture_5km": pv["culture_5km"], "nightlife_5km": pv["nightlife_5km"],
+                    "shopping_5km": pv["shopping_5km"], "wellness_5km": pv["wellness_5km"],
+                    "lodging_5km": pv["lodging_5km"],
+                    "dining_1km": pv["dining_1km"], "culture_1km": pv["culture_1km"],
+                    "shopping_1km": pv["shopping_1km"],
+                    "_meta": poi_meta,
                 }
+            else:
+                record["poi"] = None
+            o = osm.get(pid)
+            if o:
                 record["osm_features"] = {
                     "viewpoints_5km": o["viewpoints_5km"], "peaks_10km": o["peaks_10km"],
                     "lakes_10km": o["lakes_10km"],
@@ -241,7 +267,6 @@ def main():
                     "_meta": meta("osm", "ODbL-1.0", OSM_ATTR),
                 }
             else:
-                record["poi"] = None
                 record["osm_features"] = None
 
             monthly = climate_by_id.get(pid)
@@ -345,31 +370,30 @@ def main():
                         ["wikimedia_pageviews"],
                         "pct(ja年間閲覧数)。ja記事なしはpct(en閲覧数)で代替", "settlement"),
                 }
-                if o:
-                    ped_bonus = 10 if o["pedestrian_area_1km"] > 0 else 0
+                pv, poi_src = poi_values(pid)
+                if pv:
+                    ped_bonus = 10 if (o and o["pedestrian_area_1km"] > 0) else 0
                     walk = pct["walk"].get(pid)
+                    # food_scene: 多様性（料理ジャンル数）があれば店数との平均（設計書§4.2の完成形）
+                    d_pct, dc_pct = pct["dining"].get(pid), pct["dining_cats"].get(pid)
+                    if dc_pct is not None and d_pct is not None:
+                        food_val, food_formula = round((d_pct + dc_pct) / 2), \
+                            "(pct(dining_5km) + pct(dining_categories_5km)) / 2"
+                    else:
+                        food_val, food_formula = d_pct, "pct(dining_5km)"
                     ind.update({
-                        "food_scene": indicator(
-                            pct["dining"].get(pid), ["osm"],
-                            "pct(dining_5km)（OSM版。カテゴリ多様性はFoursquare導入後に追加）",
-                            "settlement"),
+                        "food_scene": indicator(food_val, [poi_src], food_formula, "settlement"),
                         "lodging_scene": indicator(
-                            pct["lodging"].get(pid), ["osm"], "pct(lodging_5km)", "settlement"),
+                            pct["lodging"].get(pid), [poi_src], "pct(lodging_5km)", "settlement"),
                         "culture_scene": indicator(
-                            pct["culture"].get(pid), ["osm"], "pct(culture_5km)", "settlement"),
+                            pct["culture"].get(pid), [poi_src], "pct(culture_5km)", "settlement"),
                         "vibrancy": indicator(
-                            pct["nightlife"].get(pid), ["osm"], "pct(nightlife_5km)", "settlement"),
+                            pct["nightlife"].get(pid), [poi_src], "pct(nightlife_5km)", "settlement"),
                         "walkability": indicator(
-                            min(100, walk + ped_bonus) if walk is not None else None, ["osm"],
-                            "pct(dining_1km+culture_1km+shopping_1km) + 歩行者エリアなら+10（上限100）",
+                            min(100, walk + ped_bonus) if walk is not None else None,
+                            [poi_src, "osm"],
+                            "pct(dining_1km+culture_1km+shopping_1km) + 歩行者エリア(OSM)なら+10（上限100）",
                             "settlement"),
-                        "scenic_nature": indicator(
-                            pct["scenic"].get(pid), ["osm"],
-                            "pct(viewpoints_5km + 0.5*peaks + 0.5*lakes + 海岸+5 + 0.3*保護区)",
-                            "settlement"),
-                        "outdoor_activity": indicator(
-                            pct["outdoor"].get(pid), ["osm"],
-                            "pct(hiking_routes + ski_marina + parks_gardens)", "settlement"),
                     })
                     # 穴場: 認知度が低く、かつ最低限の充実度がある（設計書§4.3）
                     # 飲食・宿泊は絶対数と人口あたりの高い方のパーセンタイルで判定
@@ -380,10 +404,20 @@ def main():
                             and max(pct["culture"].get(pid, 0), pct["scenic"].get(pid, 0)) > 25)
                     ind["hidden_gem"] = indicator(
                         round((100 - rec) * (1 if gate else 0)) if rec is not None else None,
-                        ["wikimedia_pageviews", "osm", "wikidata"],
+                        ["wikimedia_pageviews", poi_src, "osm", "wikidata"],
                         "(100 - recognition_jp) × 充実度ゲート(飲食・宿泊が絶対数or人口あたりでP25超"
                         " かつ 文化or自然>P25)",
                         "settlement")
+                if o:
+                    ind.update({
+                        "scenic_nature": indicator(
+                            pct["scenic"].get(pid), ["osm"],
+                            "pct(viewpoints_5km + 0.5*peaks + 0.5*lakes + 海岸+5 + 0.3*保護区)",
+                            "settlement"),
+                        "outdoor_activity": indicator(
+                            pct["outdoor"].get(pid), ["osm"],
+                            "pct(hiking_routes + ski_marina + parks_gardens)", "settlement"),
+                    })
                 if monthly:
                     ind["seasonal_comfort"] = indicator(
                         seasonal_comfort(monthly), ["era5"],

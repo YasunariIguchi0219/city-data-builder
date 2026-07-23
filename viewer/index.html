@@ -223,11 +223,12 @@ const IND_JA = {food_scene:'食の充実', lodging_scene:'宿泊の充実', cult
 const MONTHS = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
 const SOURCE_LABEL = {nager_date:'Nager.Date (MIT)', eurostat:'Eurostat (CC BY 4.0)',
   wikidata:'Wikidata (CC0)', osm:'OpenStreetMap (ODbL)',
+  fsq_os_places:'Foursquare OS Places (Apache 2.0)',
   era5:'Copernicus ERA5', ourairports:'OurAirports (パブリックドメイン)',
   wikimedia_pageviews:'Wikimedia Pageviews (CC0)', eurostat:'Eurostat',
   mofa:'外務省 海外安全情報オープンデータ', computed:'座標からの計算'};
 const IND_BASIS = {
-  food_scene:'半径5kmの飲食店数',
+  food_scene:'半径5kmの飲食店数と料理ジャンル数（食の多様性）の平均',
   lodging_scene:'半径5kmのホテル・宿泊施設数',
   culture_scene:'半径5kmの美術館・ギャラリー・劇場数',
   vibrancy:'半径5kmのバー・パブ・クラブ数',
@@ -533,6 +534,7 @@ function renderDetail(){
     html += section('周辺施設・自然の数', `<div class="cols"><div><table>
         <tr><th>カテゴリ</th><th>半径5km</th><th>徒歩圏1km</th></tr>
         <tr><td>飲食店${jp('poi.dining_5km / _1km')}</td><td>${fmt(poi.dining_5km)}</td><td>${fmt(poi.dining_1km)}</td></tr>
+        <tr><td>料理ジャンル数（食の多様性）${jp('poi.dining_categories_5km')}</td><td>${fmt(poi.dining_categories_5km)}</td><td>—</td></tr>
         <tr><td>美術館・劇場${jp('poi.culture_5km / _1km')}</td><td>${fmt(poi.culture_5km)}</td><td>${fmt(poi.culture_1km)}</td></tr>
         <tr><td>ナイトライフ${jp('poi.nightlife_5km')}</td><td>${fmt(poi.nightlife_5km)}</td><td>—</td></tr>
         <tr><td>商店・市場${jp('poi.shopping_5km / _1km')}</td><td>${fmt(poi.shopping_5km)}</td><td>${fmt(poi.shopping_1km)}</td></tr>
@@ -548,13 +550,15 @@ function renderDetail(){
         <tr><td>ハイキングコース (10km)${jp('osm_features.hiking_routes_10km')}</td><td>${fmt(of.hiking_routes_10km)}</td></tr>
         <tr><td>公園・庭園 (5km)${jp('osm_features.parks_gardens_5km')}</td><td>${fmt(of.parks_gardens_5km)}</td></tr>
         <tr><td>歩行者エリア (1km)${jp('osm_features.pedestrian_area_1km')}</td><td>${of.pedestrian_area_1km?'あり':'なし'}</td></tr></table>`:''}</div></div>`,
-      SOURCE_LABEL.osm, {q:'この数はどう数えている？', a:`
-        <p>地点の代表座標を中心に、<b>半径5km（滞在中に足を伸ばせる圏）と1km（徒歩圏）の円</b>の中にある
-        OpenStreetMap登録施設を数えています。行政境界ではなく固定半径なので、
-        大都市も小さな村も同じ物差しで比較できます。</p>
-        <p>⚠️ OpenStreetMapは有志が登録する地図のため地域によって登録密度に差があり、
-        小さな町では実態より少なく出ることがあります。将来的にFoursquareの商用POIデータでの
-        補強・検証を予定しています。</p>`});
+      `${SOURCE_LABEL[(poi._meta||{}).source]||'—'}（施設） ＋ ${SOURCE_LABEL.osm}（自然・歩行者エリア）`,
+      {q:'この数はどう数えている？', a:`
+        <p>地点の代表座標を中心に、<b>半径5km（滞在中に足を伸ばせる圏）と1km（徒歩圏）の円</b>の中の
+        施設を数えています。行政境界ではなく固定半径なので、大都市も小さな村も同じ物差しで比較できます。</p>
+        <p><b>左の施設数はFoursquare OS Places</b>（世界1億件超の商用由来POI・Apache 2.0・閉店除外済み）から、
+        <b>右の自然・景観はOpenStreetMap</b>から集計しています。ソースはブロックごとに分離して管理
+        （出所は各ブロックの _meta.source）。</p>
+        <p>「料理ジャンル数」はFoursquareの分類体系で数えた5km圏内のユニークな飲食分類数で、
+        店の多さとは別の「食の多様性」を表します（例：パリ212／小さな村10前後）。</p>`});
   }
 
   // 世界遺産

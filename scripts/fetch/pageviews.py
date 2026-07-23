@@ -14,14 +14,16 @@ ROOT = Path(__file__).resolve().parents[2]
 SITELINKS = ROOT / "data/raw/wikidata/sitelinks.json"
 OUT = ROOT / "data/raw/pageviews/views_2025.json"
 UA = {"User-Agent": "city-data-builder/0.1 (fetch; batch, sequential)"}
-START, END, YEAR = "2025010100", "2025123100", "2025"
+START, END, YEAR = "20250101", "20251231", "2025"
 
 
 def yearly_views(project: str, title: str):
-    """(年間合計, 月別12要素) を返す。月別は認知度の季節性（例: クリスマスマーケット都市の12月）に使う。"""
+    """(年間合計, 月別12要素) を返す。月別は認知度の季節性（例: クリスマスマーケット都市の12月）に使う。
+    注意: monthly粒度はAPI側に欠損がある（例: ウィーン×user×2025のみ404）ため、
+    daily粒度で取得して自前で月次集計する（1記事1リクエストのまま）。"""
     t = urllib.parse.quote(title.replace(" ", "_"), safe="")
     url = (f"https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/"
-           f"{project}/all-access/user/{t}/monthly/{START}/{END}")
+           f"{project}/all-access/user/{t}/daily/{START}/{END}")
     for attempt in range(3):
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30) as r:
@@ -47,9 +49,11 @@ def main():
         cur = views.get(qid, {})
         changed = False
         for lang, key in (("ja", "jawiki"), ("en", "enwiki")):
-            if f"{lang}_monthly" in cur:  # 月別まで取得済みならスキップ
-                continue
             title = sl.get(key)
+            # 取得成功済み（または記事なし確定）のみスキップ。None（一時的な失敗）は再試行する
+            done = f"{lang}_monthly" in cur and (cur[f"{lang}_monthly"] is not None or not title)
+            if done:
+                continue
             if title:
                 total, monthly = yearly_views(f"{lang}.wikipedia", title)
             else:
