@@ -16,3 +16,6 @@ data/raw/era5/unzipped/
 # 抽出結果 risk_levels.json と国コード表 country_codes.xlsx は管理）
 data/raw/mofa/*.xml
 data/raw/mofa/index.html
+# Foursquare OS Places 生データ（11GB・Hugging Face等から再取得可。
+# 抽出・集計結果のみ管理する）
+data/raw/fsq-os-places/
