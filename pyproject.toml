@@ -5,6 +5,7 @@ description = "接客AI（β版）向け 都市提案ロジック用データの
 requires-python = ">=3.13"
 dependencies = [
     "cdsapi>=0.7.7",
+    "duckdb>=1.5.5",
     "jsonschema>=4.26.0",
     "netcdf4>=1.7.4",
     "openpyxl>=3.1.5",
